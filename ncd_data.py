@@ -14,6 +14,8 @@ from compression_algorithms import compress_with_algorithm
 
 def NCD_text(A: str,
                   B: str,
+                  A_size: int,
+                  B_size: int,
                   switched:bool = False,
                   compress_level: int = 9,
                   algo: str = "deflate") -> float:
@@ -22,9 +24,7 @@ def NCD_text(A: str,
     using compression entirely in memory (no temporary files).
     """
 
-    # Compress individually
-    A_size = compress_with_algorithm(A, compress_factor=compress_level, algorithm=algo)
-    B_size = compress_with_algorithm(B, compress_factor=compress_level, algorithm=algo)
+    # No need to compress individually
 
     # Compress concatenation
     if(switched):
@@ -34,6 +34,7 @@ def NCD_text(A: str,
 
     # Compute NCD
     return (A_n_B_size - min(A_size,B_size)) / max(A_size, B_size)
+
 
 
 def normalize_log(line: str) -> str:
@@ -111,9 +112,22 @@ def compute_ncd_distance_matrix(strings):
     n = len(strings)
     dist_matrix = np.zeros((n, n))
 
+    compressed_sizes = [0] * n
+
+    # Calculate all the compressed sizes first
+    for i in range(n):
+        compressed_sizes[i] = compress_with_algorithm(strings[i], algorithm="deflate")
+
+    # Compute NCD for each pair
     for i in range(n):
         for j in range(i + 1, n):
-            d = NCD_text(strings[i], strings[j], algo="deflate")
+            d = NCD_text(
+                strings[i],
+                strings[j],
+                compressed_sizes[i],
+                compressed_sizes[j]
+            )
+
             dist_matrix[i, j] = d
             dist_matrix[j, i] = d
 
