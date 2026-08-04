@@ -1,0 +1,24 @@
+Name: Wanda Parrish
+Gender: female
+Age: 23
+Backstories: story writer, crop farmer
+Incapable of: none
+Traits: psychopath, wimp
+Relations: Candice Roughchild (friend)
+
+Name: Candice Roughchild
+Gender: female
+Age: 20
+Backstories: core dilettante, reporter
+Incapable of: dumb labor, violence
+Traits: too smart, ascetic
+Relations: Cosme Wash (friend), Cosme Wash (mother), Wanda Parrish (friend)
+
+Name: Cosme Wash
+Gender: female
+Age: 60
+Backstories: test subject, assembler
+Incapable of: caring, socializing, firefighting
+Traits: psychopath, misandrist
+Relations: Candice Roughchild (friend), Wanda Parrish (friend)
+

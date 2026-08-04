@@ -1,0 +1,265 @@
+NV._JOB_Timestamp_615001_Location_(171, 0, 112)_ID_J17_Actors_Deer23856_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615001_Location_(172, 0, 111)_ID_J21_Actors_Deer23859_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615001_Location_(60, 0, 185)_ID_J36_Actors_Caribou23873_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615002_Location_(171, 0, 112)_ID_J18_Actors_Deer23856_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615002_Location_(172, 0, 111)_ID_J22_Actors_Deer23859_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615002_Location_(60, 0, 185)_ID_J37_Actors_Caribou23873_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615053_Location_(5, 0, 240)_ID_J4_Actors_Squirrel23843_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615053_Location_(50, 0, 132)_ID_J10_Actors_Squirrel23849_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615053_Location_(168, 0, 111)_ID_J25_Actors_Deer23862_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615053_Location_(92, 0, 191)_ID_J26_Actors_WolfArctic23863_FullInfo_A(n) arctic wolf wandering.
+NV._JOB_Timestamp_615054_Location_(5, 0, 240)_ID_J42_Actors_Squirrel23843_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615054_Location_(50, 0, 132)_ID_J43_Actors_Squirrel23849_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615054_Location_(168, 0, 111)_ID_J44_Actors_Deer23862_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615054_Location_(92, 0, 191)_ID_J45_Actors_WolfArctic23863_FullInfo_A(n) arctic wolf standing.
+NV._JOB_Timestamp_615055_Location_(236, 0, 203)_ID_J28_Actors_Turkey23865_FullInfo_A(n) turkey wandering.
+NV._JOB_Timestamp_615056_Location_(236, 0, 203)_ID_J50_Actors_Turkey23865_FullInfo_A(n) turkey standing.
+NV._JOB_Timestamp_615104_Location_(110, 0, 212)_ID_J9_Actors_Hare23848_FullInfo_A(n) hare wandering.
+NV._JOB_Timestamp_615104_Location_(99, 0, 235)_ID_J11_Actors_Horse23850_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615104_Location_(102, 0, 238)_ID_J12_Actors_Horse23851_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615104_Location_(104, 0, 242)_ID_J13_Actors_Horse23852_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615104_Location_(46, 0, 16)_ID_J27_Actors_Rat23864_FullInfo_A(n) rat wandering.
+NV._JOB_Timestamp_615104_Location_(59, 0, 191)_ID_J38_Actors_Caribou23874_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615105_Location_(110, 0, 212)_ID_J52_Actors_Hare23848_FullInfo_A(n) hare standing.
+NV._JOB_Timestamp_615105_Location_(99, 0, 235)_ID_J53_Actors_Horse23850_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615105_Location_(102, 0, 238)_ID_J54_Actors_Horse23851_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615105_Location_(104, 0, 242)_ID_J55_Actors_Horse23852_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615105_Location_(46, 0, 16)_ID_J56_Actors_Rat23864_FullInfo_A(n) rat standing.
+NV._JOB_Timestamp_615105_Location_(59, 0, 191)_ID_J57_Actors_Caribou23874_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615155_Location_(170, 0, 141)_ID_J7_Actors_Squirrel23846_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615155_Location_(173, 0, 113)_ID_J23_Actors_Deer23860_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615155_Location_(62, 0, 184)_ID_J33_Actors_Caribou23870_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615156_Location_(170, 0, 141)_ID_J64_Actors_Squirrel23846_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615156_Location_(173, 0, 113)_ID_J65_Actors_Deer23860_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615156_Location_(62, 0, 184)_ID_J66_Actors_Caribou23870_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615157_Location_(120, 0, 27)_ID_J6_Actors_Turkey23845_FullInfo_A(n) turkey wandering.
+NV._JOB_Timestamp_615158_Location_(120, 0, 27)_ID_J70_Actors_Turkey23845_FullInfo_A(n) turkey standing.
+V._JOB_Timestamp_615173_Location_(108, 0, 106)_ID_J2_Actors_Patsy_FullInfo_Patsy wandering.
+V._JOB_Timestamp_615174_Location_(108, 0, 106)_ID_J72_Actors_Patsy_FullInfo_Patsy standing.
+NV._JOB_Timestamp_615185_Location_(92, 0, 191)_ID_J49_Actors_WolfArctic23863_FullInfo_A(n) arctic wolf wandering.
+NV._JOB_Timestamp_615185_Location_(60, 0, 185)_ID_J41_Actors_Caribou23873_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615186_Location_(92, 0, 191)_ID_J74_Actors_WolfArctic23863_FullInfo_A(n) arctic wolf standing.
+NV._JOB_Timestamp_615186_Location_(60, 0, 185)_ID_J75_Actors_Caribou23873_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615188_Location_(236, 0, 203)_ID_J51_Actors_Turkey23865_FullInfo_A(n) turkey wandering.
+NV._JOB_Timestamp_615189_Location_(236, 0, 203)_ID_J78_Actors_Turkey23865_FullInfo_A(n) turkey standing.
+NV._JOB_Timestamp_615206_Location_(222, 0, 85)_ID_J8_Actors_Rat23847_FullInfo_A(n) rat wandering.
+NV._JOB_Timestamp_615206_Location_(173, 0, 114)_ID_J19_Actors_Deer23857_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615206_Location_(176, 0, 108)_ID_J20_Actors_Deer23858_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615206_Location_(169, 0, 117)_ID_J24_Actors_Deer23861_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615206_Location_(55, 0, 185)_ID_J34_Actors_Caribou23871_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615207_Location_(222, 0, 85)_ID_J80_Actors_Rat23847_FullInfo_A(n) rat standing.
+NV._JOB_Timestamp_615207_Location_(173, 0, 114)_ID_J81_Actors_Deer23857_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615207_Location_(176, 0, 108)_ID_J82_Actors_Deer23858_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615207_Location_(169, 0, 117)_ID_J83_Actors_Deer23861_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615207_Location_(55, 0, 185)_ID_J84_Actors_Caribou23871_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615210_Location_(171, 0, 112)_ID_J39_Actors_Deer23856_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615210_Location_(172, 0, 111)_ID_J40_Actors_Deer23859_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615211_Location_(171, 0, 112)_ID_J90_Actors_Deer23856_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615211_Location_(172, 0, 111)_ID_J91_Actors_Deer23859_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615221_Location_(50, 0, 132)_ID_J47_Actors_Squirrel23849_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615222_Location_(50, 0, 132)_ID_J94_Actors_Squirrel23849_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615226_Location_(102, 0, 238)_ID_J60_Actors_Horse23851_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615227_Location_(102, 0, 238)_ID_J96_Actors_Horse23851_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615227_Location_(168, 0, 111)_ID_J48_Actors_Deer23862_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615228_Location_(168, 0, 111)_ID_J98_Actors_Deer23862_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615235_Location_(5, 0, 240)_ID_J46_Actors_Squirrel23843_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615236_Location_(5, 0, 240)_ID_J100_Actors_Squirrel23843_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615255_Location_(59, 0, 191)_ID_J63_Actors_Caribou23874_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615256_Location_(59, 0, 191)_ID_J102_Actors_Caribou23874_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615256_Location_(59, 0, 191)_ID_J103_Actors_Caribou23874_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615257_Location_(92, 0, 35)_ID_J5_Actors_Raccoon23844_FullInfo_A(n) raccoon wandering.
+V._JOB_Timestamp_615257_Location_(68, 0, 101)_ID_J29_Actors_Lynx23866_FullInfo_A(n) lynx wandering.
+NV._JOB_Timestamp_615257_Location_(63, 0, 189)_ID_J35_Actors_Caribou23872_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615257_Location_(59, 0, 191)_ID_J104_Actors_Caribou23874_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615258_Location_(92, 0, 35)_ID_J105_Actors_Raccoon23844_FullInfo_A(n) raccoon standing.
+V._JOB_Timestamp_615258_Location_(68, 0, 101)_ID_J106_Actors_Lynx23866_FullInfo_A(n) lynx standing.
+NV._JOB_Timestamp_615258_Location_(63, 0, 189)_ID_J107_Actors_Caribou23872_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615265_Location_(99, 0, 235)_ID_J59_Actors_Horse23850_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615265_Location_(46, 0, 16)_ID_J62_Actors_Rat23864_FullInfo_A(n) rat wandering.
+NV._JOB_Timestamp_615266_Location_(99, 0, 235)_ID_J112_Actors_Horse23850_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615266_Location_(46, 0, 16)_ID_J113_Actors_Rat23864_FullInfo_A(n) rat standing.
+NV._JOB_Timestamp_615268_Location_(110, 0, 212)_ID_J58_Actors_Hare23848_FullInfo_A(n) hare wandering.
+NV._JOB_Timestamp_615269_Location_(110, 0, 212)_ID_J116_Actors_Hare23848_FullInfo_A(n) hare standing.
+NV._JOB_Timestamp_615307_Location_(170, 0, 141)_ID_J67_Actors_Squirrel23846_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615308_Location_(120, 0, 27)_ID_J71_Actors_Turkey23845_FullInfo_A(n) turkey wandering.
+NV._JOB_Timestamp_615308_Location_(170, 0, 141)_ID_J118_Actors_Squirrel23846_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615308_Location_(99, 0, 235)_ID_J15_Actors_Horse23854_FullInfo_A(n) stallion wandering.
+NV._JOB_Timestamp_615308_Location_(172, 0, 116)_ID_J16_Actors_Deer23855_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615308_Location_(52, 0, 31)_ID_J30_Actors_Hare23867_FullInfo_A(n) hare wandering.
+NV._JOB_Timestamp_615308_Location_(60, 0, 188)_ID_J31_Actors_Hare23868_FullInfo_A(n) hare wandering.
+NV._JOB_Timestamp_615308_Location_(205, 0, 102)_ID_J32_Actors_Rat23869_FullInfo_A(n) rat wandering.
+NV._JOB_Timestamp_615309_Location_(120, 0, 27)_ID_J119_Actors_Turkey23845_FullInfo_A(n) turkey standing.
+NV._JOB_Timestamp_615309_Location_(99, 0, 235)_ID_J121_Actors_Horse23854_FullInfo_A(n) stallion standing.
+NV._JOB_Timestamp_615309_Location_(172, 0, 116)_ID_J122_Actors_Deer23855_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615309_Location_(52, 0, 31)_ID_J123_Actors_Hare23867_FullInfo_A(n) hare standing.
+NV._JOB_Timestamp_615309_Location_(60, 0, 188)_ID_J124_Actors_Hare23868_FullInfo_A(n) hare standing.
+NV._JOB_Timestamp_615309_Location_(205, 0, 102)_ID_J125_Actors_Rat23869_FullInfo_A(n) rat standing.
+V._JOB_Timestamp_615316_Location_(108, 0, 106)_ID_J73_Actors_Patsy_FullInfo_Patsy wandering.
+V._JOB_Timestamp_615317_Location_(108, 0, 106)_ID_J132_Actors_Patsy_FullInfo_Patsy standing.
+NV._JOB_Timestamp_615335_Location_(104, 0, 242)_ID_J61_Actors_Horse23852_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615336_Location_(104, 0, 242)_ID_J134_Actors_Horse23852_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615340_Location_(57, 0, 186)_ID_J77_Actors_Caribou23873_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615341_Location_(57, 0, 186)_ID_J136_Actors_Caribou23873_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615354_Location_(176, 0, 108)_ID_J87_Actors_Deer23858_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615355_Location_(176, 0, 108)_ID_J138_Actors_Deer23858_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615359_Location_(169, 0, 117)_ID_J88_Actors_Deer23861_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615360_Location_(169, 0, 117)_ID_J140_Actors_Deer23861_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615372_Location_(108, 0, 210)_ID_J117_Actors_Hare23848_FullInfo_A(n) hare wandering.
+NV._JOB_Timestamp_615373_Location_(108, 0, 210)_ID_J142_Actors_Hare23848_FullInfo_A(n) hare standing.
+NV._JOB_Timestamp_615374_Location_(62, 0, 184)_ID_J69_Actors_Caribou23870_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615375_Location_(62, 0, 184)_ID_J144_Actors_Caribou23870_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615382_Location_(171, 0, 111)_ID_J99_Actors_Deer23862_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615383_Location_(171, 0, 111)_ID_J146_Actors_Deer23862_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615384_Location_(173, 0, 113)_ID_J68_Actors_Deer23860_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615385_Location_(173, 0, 113)_ID_J148_Actors_Deer23860_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615398_Location_(238, 0, 199)_ID_J79_Actors_Turkey23865_FullInfo_A(n) turkey wandering.
+NV._JOB_Timestamp_615399_Location_(238, 0, 199)_ID_J150_Actors_Turkey23865_FullInfo_A(n) turkey standing.
+NV._JOB_Timestamp_615410_Location_(106, 0, 232)_ID_J14_Actors_Horse23853_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615411_Location_(106, 0, 232)_ID_J152_Actors_Horse23853_FullInfo_A(n) mare standing.
+V._JOB_Timestamp_615415_Location_(103, 0, 111)_ID_J1_Actors_Ryu_FullInfo_Ryu wandering.
+V._JOB_Timestamp_615416_Location_(103, 0, 111)_ID_J154_Actors_Ryu_FullInfo_Ryu standing.
+NV._JOB_Timestamp_615416_Location_(173, 0, 114)_ID_J86_Actors_Deer23857_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615417_Location_(173, 0, 114)_ID_J156_Actors_Deer23857_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615426_Location_(222, 0, 85)_ID_J85_Actors_Rat23847_FullInfo_A(n) rat wandering.
+NV._JOB_Timestamp_615427_Location_(222, 0, 85)_ID_J158_Actors_Rat23847_FullInfo_A(n) rat standing.
+NV._JOB_Timestamp_615435_Location_(172, 0, 116)_ID_J128_Actors_Deer23855_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615436_Location_(172, 0, 116)_ID_J160_Actors_Deer23855_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615441_Location_(52, 0, 31)_ID_J129_Actors_Hare23867_FullInfo_A(n) hare wandering.
+NV._JOB_Timestamp_615442_Location_(52, 0, 31)_ID_J162_Actors_Hare23867_FullInfo_A(n) hare standing.
+NV._JOB_Timestamp_615445_Location_(55, 0, 185)_ID_J89_Actors_Caribou23871_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615446_Location_(55, 0, 185)_ID_J164_Actors_Caribou23871_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615447_Location_(63, 0, 189)_ID_J111_Actors_Caribou23872_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615448_Location_(63, 0, 189)_ID_J166_Actors_Caribou23872_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615456_Location_(60, 0, 188)_ID_J130_Actors_Hare23868_FullInfo_A(n) hare wandering.
+NV._JOB_Timestamp_615457_Location_(60, 0, 188)_ID_J168_Actors_Hare23868_FullInfo_A(n) hare standing.
+NV._JOB_Timestamp_615466_Location_(59, 0, 191)_ID_J108_Actors_Caribou23874_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615467_Location_(169, 0, 117)_ID_J92_Actors_Deer23856_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615467_Location_(172, 0, 116)_ID_J93_Actors_Deer23859_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615467_Location_(59, 0, 191)_ID_J170_Actors_Caribou23874_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615468_Location_(169, 0, 117)_ID_J171_Actors_Deer23856_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615468_Location_(172, 0, 116)_ID_J172_Actors_Deer23859_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615483_Location_(97, 0, 238)_ID_J97_Actors_Horse23851_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615484_Location_(97, 0, 238)_ID_J176_Actors_Horse23851_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615488_Location_(171, 0, 114)_ID_J149_Actors_Deer23860_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615489_Location_(171, 0, 114)_ID_J178_Actors_Deer23860_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615491_Location_(92, 0, 35)_ID_J109_Actors_Raccoon23844_FullInfo_A(n) raccoon wandering.
+NV._JOB_Timestamp_615492_Location_(92, 0, 35)_ID_J180_Actors_Raccoon23844_FullInfo_A(n) raccoon standing.
+V._JOB_Timestamp_615497_Location_(68, 0, 101)_ID_J110_Actors_Lynx23866_FullInfo_A(n) lynx wandering.
+V._JOB_Timestamp_615498_Location_(68, 0, 101)_ID_J182_Actors_Lynx23866_FullInfo_A(n) lynx standing.
+NV._JOB_Timestamp_615498_Location_(205, 0, 102)_ID_J131_Actors_Rat23869_FullInfo_A(n) rat wandering.
+NV._JOB_Timestamp_615499_Location_(205, 0, 102)_ID_J184_Actors_Rat23869_FullInfo_A(n) rat standing.
+NV._JOB_Timestamp_615499_Location_(57, 0, 186)_ID_J137_Actors_Caribou23873_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615500_Location_(57, 0, 186)_ID_J186_Actors_Caribou23873_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615504_Location_(99, 0, 235)_ID_J127_Actors_Horse23854_FullInfo_A(n) stallion wandering.
+NV._JOB_Timestamp_615505_Location_(99, 0, 235)_ID_J188_Actors_Horse23854_FullInfo_A(n) stallion standing.
+V._JOB_Timestamp_615512_Location_(104, 0, 99)_ID_J0_Actors_Shea_FullInfo_Shea wandering.
+V._JOB_Timestamp_615513_Location_(104, 0, 99)_ID_J190_Actors_Shea_FullInfo_Shea standing.
+NV._JOB_Timestamp_615520_Location_(175, 0, 114)_ID_J157_Actors_Deer23857_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615521_Location_(175, 0, 114)_ID_J192_Actors_Deer23857_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615522_Location_(47, 0, 11)_ID_J115_Actors_Rat23864_FullInfo_A(n) rat wandering.
+NV._JOB_Timestamp_615523_Location_(47, 0, 11)_ID_J194_Actors_Rat23864_FullInfo_A(n) rat standing.
+NV._JOB_Timestamp_615527_Location_(238, 0, 199)_ID_J151_Actors_Turkey23865_FullInfo_A(n) turkey wandering.
+NV._JOB_Timestamp_615528_Location_(238, 0, 199)_ID_J196_Actors_Turkey23865_FullInfo_A(n) turkey standing.
+NV._JOB_Timestamp_615529_Location_(56, 0, 132)_ID_J95_Actors_Squirrel23849_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615530_Location_(56, 0, 132)_ID_J198_Actors_Squirrel23849_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615542_Location_(106, 0, 232)_ID_J153_Actors_Horse23853_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615543_Location_(8, 0, 246)_ID_J101_Actors_Squirrel23843_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615543_Location_(106, 0, 232)_ID_J200_Actors_Horse23853_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615544_Location_(8, 0, 246)_ID_J201_Actors_Squirrel23843_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615555_Location_(171, 0, 111)_ID_J147_Actors_Deer23862_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615556_Location_(171, 0, 111)_ID_J204_Actors_Deer23862_FullInfo_A(n) buck standing.
+V._JOB_Timestamp_615558_Location_(104, 0, 103)_ID_J133_Actors_Patsy_FullInfo_Patsy wandering.
+V._JOB_Timestamp_615559_Location_(104, 0, 103)_ID_J206_Actors_Patsy_FullInfo_Patsy standing.
+NV._JOB_Timestamp_615564_Location_(165, 0, 142)_ID_J120_Actors_Squirrel23846_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615565_Location_(165, 0, 142)_ID_J208_Actors_Squirrel23846_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615592_Location_(100, 0, 237)_ID_J135_Actors_Horse23852_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615593_Location_(100, 0, 237)_ID_J210_Actors_Horse23852_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615595_Location_(86, 0, 194)_ID_J76_Actors_WolfArctic23863_FullInfo_A(n) arctic wolf wandering.
+NV._JOB_Timestamp_615596_Location_(86, 0, 194)_ID_J212_Actors_WolfArctic23863_FullInfo_A(n) arctic wolf standing.
+NV._JOB_Timestamp_615597_Location_(108, 0, 210)_ID_J143_Actors_Hare23848_FullInfo_A(n) hare wandering.
+NV._JOB_Timestamp_615598_Location_(108, 0, 210)_ID_J214_Actors_Hare23848_FullInfo_A(n) hare standing.
+V._JOB_Timestamp_615611_Location_(103, 0, 111)_ID_J155_Actors_Ryu_FullInfo_Ryu wandering.
+V._JOB_Timestamp_615612_Location_(103, 0, 111)_ID_J216_Actors_Ryu_FullInfo_Ryu standing.
+NV._JOB_Timestamp_615616_Location_(171, 0, 112)_ID_J141_Actors_Deer23861_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615617_Location_(171, 0, 112)_ID_J218_Actors_Deer23861_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615624_Location_(126, 0, 29)_ID_J126_Actors_Turkey23845_FullInfo_A(n) turkey wandering.
+NV._JOB_Timestamp_615624_Location_(106, 0, 237)_ID_J114_Actors_Horse23850_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615625_Location_(126, 0, 29)_ID_J220_Actors_Turkey23845_FullInfo_A(n) turkey standing.
+NV._JOB_Timestamp_615625_Location_(106, 0, 237)_ID_J221_Actors_Horse23850_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615631_Location_(62, 0, 189)_ID_J145_Actors_Caribou23870_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615632_Location_(62, 0, 189)_ID_J224_Actors_Caribou23870_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615640_Location_(97, 0, 238)_ID_J177_Actors_Horse23851_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615641_Location_(97, 0, 238)_ID_J226_Actors_Horse23851_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615654_Location_(175, 0, 114)_ID_J193_Actors_Deer23857_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615655_Location_(175, 0, 114)_ID_J228_Actors_Deer23857_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615657_Location_(171, 0, 114)_ID_J179_Actors_Deer23860_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615658_Location_(171, 0, 114)_ID_J230_Actors_Deer23860_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615659_Location_(169, 0, 112)_ID_J205_Actors_Deer23862_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615660_Location_(169, 0, 112)_ID_J232_Actors_Deer23862_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615667_Location_(172, 0, 116)_ID_J175_Actors_Deer23859_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615668_Location_(172, 0, 116)_ID_J234_Actors_Deer23859_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615668_Location_(172, 0, 116)_ID_J235_Actors_Deer23859_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615669_Location_(172, 0, 116)_ID_J236_Actors_Deer23859_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615672_Location_(63, 0, 188)_ID_J173_Actors_Caribou23874_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615673_Location_(63, 0, 188)_ID_J238_Actors_Caribou23874_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615687_Location_(165, 0, 142)_ID_J209_Actors_Squirrel23846_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615688_Location_(165, 0, 142)_ID_J240_Actors_Squirrel23846_FullInfo_A(n) squirrel standing.
+V._JOB_Timestamp_615692_Location_(104, 0, 99)_ID_J191_Actors_Shea_FullInfo_Shea wandering.
+V._JOB_Timestamp_615693_Location_(104, 0, 99)_ID_J242_Actors_Shea_FullInfo_Shea standing.
+NV._JOB_Timestamp_615693_Location_(169, 0, 117)_ID_J174_Actors_Deer23856_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615694_Location_(169, 0, 117)_ID_J244_Actors_Deer23856_FullInfo_A(n) buck standing.
+NV._JOB_Timestamp_615695_Location_(56, 0, 132)_ID_J199_Actors_Squirrel23849_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615696_Location_(56, 0, 132)_ID_J246_Actors_Squirrel23849_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615701_Location_(110, 0, 209)_ID_J215_Actors_Hare23848_FullInfo_A(n) hare wandering.
+NV._JOB_Timestamp_615702_Location_(110, 0, 209)_ID_J248_Actors_Hare23848_FullInfo_A(n) hare standing.
+NV._JOB_Timestamp_615702_Location_(60, 0, 189)_ID_J165_Actors_Caribou23871_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615703_Location_(60, 0, 189)_ID_J250_Actors_Caribou23871_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615704_Location_(224, 0, 90)_ID_J159_Actors_Rat23847_FullInfo_A(n) rat wandering.
+NV._JOB_Timestamp_615704_Location_(201, 0, 101)_ID_J185_Actors_Rat23869_FullInfo_A(n) rat wandering.
+NV._JOB_Timestamp_615704_Location_(58, 0, 186)_ID_J167_Actors_Caribou23872_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615705_Location_(224, 0, 90)_ID_J252_Actors_Rat23847_FullInfo_A(n) rat standing.
+NV._JOB_Timestamp_615705_Location_(201, 0, 101)_ID_J253_Actors_Rat23869_FullInfo_A(n) rat standing.
+NV._JOB_Timestamp_615705_Location_(58, 0, 186)_ID_J254_Actors_Caribou23872_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615705_Location_(61, 0, 189)_ID_J187_Actors_Caribou23873_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615706_Location_(61, 0, 189)_ID_J258_Actors_Caribou23873_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615713_Location_(174, 0, 115)_ID_J139_Actors_Deer23858_FullInfo_A(n) buck wandering.
+NV._JOB_Timestamp_615714_Location_(174, 0, 115)_ID_J260_Actors_Deer23858_FullInfo_A(n) buck standing.
+V._JOB_Timestamp_615716_Location_(102, 0, 97)_ID_J3_Actors_Gauge_FullInfo_Gauge wandering.
+V._JOB_Timestamp_615717_Location_(102, 0, 97)_ID_J262_Actors_Gauge_FullInfo_Gauge standing.
+V._JOB_Timestamp_615721_Location_(104, 0, 103)_ID_J207_Actors_Patsy_FullInfo_Patsy wandering.
+V._JOB_Timestamp_615722_Location_(104, 0, 103)_ID_J264_Actors_Patsy_FullInfo_Patsy standing.
+NV._JOB_Timestamp_615729_Location_(47, 0, 11)_ID_J195_Actors_Rat23864_FullInfo_A(n) rat wandering.
+NV._JOB_Timestamp_615730_Location_(47, 0, 11)_ID_J266_Actors_Rat23864_FullInfo_A(n) rat standing.
+NV._JOB_Timestamp_615739_Location_(241, 0, 195)_ID_J197_Actors_Turkey23865_FullInfo_A(n) turkey wandering.
+NV._JOB_Timestamp_615740_Location_(241, 0, 195)_ID_J268_Actors_Turkey23865_FullInfo_A(n) turkey standing.
+NV._JOB_Timestamp_615748_Location_(8, 0, 246)_ID_J203_Actors_Squirrel23843_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615748_Location_(102, 0, 235)_ID_J202_Actors_Horse23853_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615749_Location_(8, 0, 246)_ID_J270_Actors_Squirrel23843_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615749_Location_(102, 0, 235)_ID_J271_Actors_Horse23853_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615749_Location_(48, 0, 36)_ID_J163_Actors_Hare23867_FullInfo_A(n) hare wandering.
+NV._JOB_Timestamp_615750_Location_(48, 0, 36)_ID_J274_Actors_Hare23867_FullInfo_A(n) hare standing.
+NV._JOB_Timestamp_615755_Location_(171, 0, 112)_ID_J219_Actors_Deer23861_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615756_Location_(171, 0, 112)_ID_J276_Actors_Deer23861_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615761_Location_(104, 0, 238)_ID_J189_Actors_Horse23854_FullInfo_A(n) stallion wandering.
+NV._JOB_Timestamp_615762_Location_(104, 0, 238)_ID_J278_Actors_Horse23854_FullInfo_A(n) stallion standing.
+NV._JOB_Timestamp_615764_Location_(126, 0, 29)_ID_J222_Actors_Turkey23845_FullInfo_A(n) turkey wandering.
+NV._JOB_Timestamp_615764_Location_(66, 0, 185)_ID_J169_Actors_Hare23868_FullInfo_A(n) hare wandering.
+NV._JOB_Timestamp_615765_Location_(126, 0, 29)_ID_J280_Actors_Turkey23845_FullInfo_A(n) turkey standing.
+NV._JOB_Timestamp_615765_Location_(66, 0, 185)_ID_J281_Actors_Hare23868_FullInfo_A(n) hare standing.
+NV._JOB_Timestamp_615794_Location_(166, 0, 117)_ID_J161_Actors_Deer23855_FullInfo_A(n) doe wandering.
+NV._JOB_Timestamp_615795_Location_(166, 0, 117)_ID_J284_Actors_Deer23855_FullInfo_A(n) doe standing.
+NV._JOB_Timestamp_615799_Location_(91, 0, 41)_ID_J181_Actors_Raccoon23844_FullInfo_A(n) raccoon wandering.
+NV._JOB_Timestamp_615799_Location_(56, 0, 134)_ID_J247_Actors_Squirrel23849_FullInfo_A(n) squirrel wandering.
+NV._JOB_Timestamp_615800_Location_(91, 0, 41)_ID_J286_Actors_Raccoon23844_FullInfo_A(n) raccoon standing.
+NV._JOB_Timestamp_615800_Location_(56, 0, 134)_ID_J287_Actors_Squirrel23849_FullInfo_A(n) squirrel standing.
+NV._JOB_Timestamp_615804_Location_(100, 0, 237)_ID_J211_Actors_Horse23852_FullInfo_A(n) mare wandering.
+NV._JOB_Timestamp_615805_Location_(100, 0, 237)_ID_J290_Actors_Horse23852_FullInfo_A(n) mare standing.
+NV._JOB_Timestamp_615805_Location_(66, 0, 95)_ID_J183_Actors_Lynx23866_FullInfo_A(n) lynx wandering.
+NV._JOB_Timestamp_615806_Location_(66, 0, 95)_ID_J292_Actors_Lynx23866_FullInfo_A(n) lynx standing.
+NV._JOB_Timestamp_615809_Location_(86, 0, 194)_ID_J213_Actors_WolfArctic23863_FullInfo_A(n) arctic wolf wandering.
+NV._JOB_Timestamp_615810_Location_(86, 0, 194)_ID_J294_Actors_WolfArctic23863_FullInfo_A(n) arctic wolf standing.
+NV._JOB_Timestamp_615823_Location_(63, 0, 188)_ID_J239_Actors_Caribou23874_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615824_Location_(63, 0, 188)_ID_J296_Actors_Caribou23874_FullInfo_A(n) caribou standing.
+NV._JOB_Timestamp_615835_Location_(62, 0, 189)_ID_J225_Actors_Caribou23870_FullInfo_A(n) caribou wandering.
+NV._JOB_Timestamp_615836_Location_(62, 0, 189)_ID_J298_Actors_Caribou23870_FullInfo_A(n) caribou standing.
+NV._ARC_Timestamp_615837_Location_(0, 0, 0)_ID_L0_Actors_NoSpecifiedActor_FullInfo_F9 pressed, calling Python...

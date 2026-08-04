@@ -1,0 +1,265 @@
+A(n) buck wandering.
+A(n) doe wandering.
+A(n) caribou wandering.
+A(n) buck standing.
+A(n) doe standing.
+A(n) caribou standing.
+A(n) squirrel wandering.
+A(n) squirrel wandering.
+A(n) buck wandering.
+A(n) arctic wolf wandering.
+A(n) squirrel standing.
+A(n) squirrel standing.
+A(n) buck standing.
+A(n) arctic wolf standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) mare wandering.
+A(n) mare wandering.
+A(n) mare wandering.
+A(n) rat wandering.
+A(n) caribou wandering.
+A(n) hare standing.
+A(n) mare standing.
+A(n) mare standing.
+A(n) mare standing.
+A(n) rat standing.
+A(n) caribou standing.
+A(n) squirrel wandering.
+A(n) buck wandering.
+A(n) caribou wandering.
+A(n) squirrel standing.
+A(n) buck standing.
+A(n) caribou standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+Patsy wandering.
+Patsy standing.
+A(n) arctic wolf wandering.
+A(n) caribou wandering.
+A(n) arctic wolf standing.
+A(n) caribou standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) buck wandering.
+A(n) buck wandering.
+A(n) doe wandering.
+A(n) caribou wandering.
+A(n) rat standing.
+A(n) buck standing.
+A(n) buck standing.
+A(n) doe standing.
+A(n) caribou standing.
+A(n) buck wandering.
+A(n) doe wandering.
+A(n) buck standing.
+A(n) doe standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) mare wandering.
+A(n) mare standing.
+A(n) buck wandering.
+A(n) buck standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) caribou wandering.
+A(n) raccoon wandering.
+A(n) lynx wandering.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) raccoon standing.
+A(n) lynx standing.
+A(n) caribou standing.
+A(n) mare wandering.
+A(n) rat wandering.
+A(n) mare standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) turkey wandering.
+A(n) squirrel standing.
+A(n) stallion wandering.
+A(n) doe wandering.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) turkey standing.
+A(n) stallion standing.
+A(n) doe standing.
+A(n) hare standing.
+A(n) hare standing.
+A(n) rat standing.
+Patsy wandering.
+Patsy standing.
+A(n) mare wandering.
+A(n) mare standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) buck wandering.
+A(n) buck standing.
+A(n) doe wandering.
+A(n) doe standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) buck wandering.
+A(n) buck standing.
+A(n) buck wandering.
+A(n) buck standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) mare wandering.
+A(n) mare standing.
+Ryu wandering.
+Ryu standing.
+A(n) buck wandering.
+A(n) buck standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) doe wandering.
+A(n) doe standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) caribou wandering.
+A(n) buck wandering.
+A(n) doe wandering.
+A(n) caribou standing.
+A(n) buck standing.
+A(n) doe standing.
+A(n) mare wandering.
+A(n) mare standing.
+A(n) buck wandering.
+A(n) buck standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) lynx wandering.
+A(n) lynx standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) stallion wandering.
+A(n) stallion standing.
+Shea wandering.
+Shea standing.
+A(n) buck wandering.
+A(n) buck standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) mare wandering.
+A(n) squirrel wandering.
+A(n) mare standing.
+A(n) squirrel standing.
+A(n) buck wandering.
+A(n) buck standing.
+Patsy wandering.
+Patsy standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) mare wandering.
+A(n) mare standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+Ryu wandering.
+Ryu standing.
+A(n) doe wandering.
+A(n) doe standing.
+A(n) turkey wandering.
+A(n) mare wandering.
+A(n) turkey standing.
+A(n) mare standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) mare wandering.
+A(n) mare standing.
+A(n) buck wandering.
+A(n) buck standing.
+A(n) buck wandering.
+A(n) buck standing.
+A(n) buck wandering.
+A(n) buck standing.
+A(n) doe wandering.
+A(n) doe standing.
+A(n) doe wandering.
+A(n) doe standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+Shea wandering.
+Shea standing.
+A(n) buck wandering.
+A(n) buck standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) caribou wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) caribou standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) buck wandering.
+A(n) buck standing.
+Gauge wandering.
+Gauge standing.
+Patsy wandering.
+Patsy standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) mare wandering.
+A(n) squirrel standing.
+A(n) mare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) doe wandering.
+A(n) doe standing.
+A(n) stallion wandering.
+A(n) stallion standing.
+A(n) turkey wandering.
+A(n) hare wandering.
+A(n) turkey standing.
+A(n) hare standing.
+A(n) doe wandering.
+A(n) doe standing.
+A(n) raccoon wandering.
+A(n) squirrel wandering.
+A(n) raccoon standing.
+A(n) squirrel standing.
+A(n) mare wandering.
+A(n) mare standing.
+A(n) lynx wandering.
+A(n) lynx standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+A(n) caribou wandering.
+A(n) caribou standing.
+F9 pressed, calling Python...
