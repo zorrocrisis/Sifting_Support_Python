@@ -27,11 +27,6 @@ RUNNING_WITHIN_GAME = False # Set to True when running inside the game enabler (
 # FULL_LOG_FILE = "all_events_complete.txt"
 # CHARACTERS_BIOS_LOG_FILE = "bios.txt"
 
-# TEST SCENARIO 3 (kept for quick swapping during testing)
-SHORT_LOG_FILE = "error_descriptionsonly.txt"
-FULL_LOG_FILE = "error_complete.txt"
-CHARACTERS_BIOS_LOG_FILE = "bios.txt"
-
 # Starting point for the NCD filtering slider.
 INITIAL_NCD_THRESHOLD = 0.5
 
