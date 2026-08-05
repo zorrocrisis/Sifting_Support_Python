@@ -12,10 +12,10 @@ on the result (see main_demo.py) to actually show it.
 import panel as pn
 
 import config
-from tree_utils import build_zoomed_view, collect_frontier_with_early_leaves, path_to_leaf
-from traversal_strategies import random_leaves_after_depth, rare_logs_after_depth, compute_depth_from_target_count
+from tree_utils import build_zoomed_view
 from dendrogram_plot import create_dendrogram_new
 from story_llm import generate_story_llm
+from log_selection import select_leaf_ids, sort_leaf_ids_temporally
 
 
 def build_dashboard(pipeline_state):
@@ -241,38 +241,30 @@ def build_dashboard(pipeline_state):
         )
 
         if control == "Target Log Count":
-            depth = compute_depth_from_target_count(root, depth_map, target_count)
-            target_count_slider.name = f"Number of Target Logs (Calc. Depth {depth})"
-
-        frontier_nodes, early_leaf_nodes = collect_frontier_with_early_leaves(root, depth_map, depth)
-
-        if strategy == "Random":
-            leaf_ids, traversed_edges = random_leaves_after_depth(
-                root=root, depth_map=depth_map, target_depth=depth, seed=seed
-            )
+            control_key, target_count_for_call = "target_count", target_count
         else:
-            leaf_ids, traversed_edges = rare_logs_after_depth(
-                root=root, depth_map=depth_map, freq_map=freq_map, target_depth=depth, seed=seed
-            )
+            control_key, target_count_for_call = "fixed_depth", target_count
 
-        for leaf in early_leaf_nodes:
-            leaf_ids.append(leaf.id)
-            traversed_edges.update(path_to_leaf(root, leaf.id))
+        strategy_key = "least_frequent" if strategy == "Least Frequent" else "random"
+
+        resolved_depth, leaf_ids, traversed_edges = select_leaf_ids(
+            root, depth_map, freq_map,
+            control=control_key, strategy=strategy_key,
+            depth=depth, target_count=target_count_for_call, seed=seed
+        )
+
+        if control == "Target Log Count":
+            target_count_slider.name = f"Number of Target Logs (Calc. Depth {resolved_depth})"
 
         fig = create_dendrogram_new(root, labels, depth_map, highlighted_edges=traversed_edges, y_min=NCD_threshold)
 
-        # Deduplicate while preserving first-seen order...
-        leaf_ids = list(dict.fromkeys(leaf_ids))
-
-        # ...then reorder chronologically, using each log's real embedded
-        # timestamp (falls back to original file position for logs with no
-        # timestamp tag, so ordering stays deterministic either way). This
+        # Reorder chronologically -- real embedded timestamp, falling back
+        # to original file position for logs with no timestamp tag. This
         # is what both the "Final Log Pool" display and the story LLM
         # prompt see.
-        leaf_ids.sort(key=lambda i: (
-            log_to_temporal_key[unique_logs_after_filtering[i]],
-            log_to_temporal_index[unique_logs_after_filtering[i]],
-        ))
+        leaf_ids = sort_leaf_ids_temporally(
+            leaf_ids, unique_logs_after_filtering, log_to_temporal_key, log_to_temporal_index
+        )
 
         selected_descriptions.clear()
         selected_rows = []

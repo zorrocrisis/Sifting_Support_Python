@@ -46,7 +46,7 @@ def normalize_log(line: str) -> str:
     return line.strip()
 
 
-def load_unique_logs(log_file, max_lines=50):
+def load_unique_logs(log_file, max_lines=20000):
     """
     Load logs from `log_file`, normalize each line, and deduplicate by
     exact string match while preserving first-seen order.
@@ -59,6 +59,7 @@ def load_unique_logs(log_file, max_lines=50):
         How many times each unique log line occurred.
     """
     counts = OrderedDict()
+    visibility = OrderedDict()
 
     with open(log_file, "r", encoding="utf-8", errors="ignore") as f:
         for line in f:
@@ -66,13 +67,22 @@ def load_unique_logs(log_file, max_lines=50):
             if not line:
                 continue
 
+            # Extract visibility before the first "."
+            vis = line.split(".", 1)[0]
+
             counts[line] = counts.get(line, 0) + 1
+
+            # Store visibility, upgrading to V if any occurrence is visible
+            if line not in visibility.keys():
+                visibility[line] = vis
+            elif vis == "V":
+                visibility[line] = "V"
 
             if len(counts) >= max_lines:
                 break
 
     unique_logs = list(counts.keys())
-    return unique_logs, counts
+    return unique_logs, counts, visibility
 
 
 def load_character_bios(file):

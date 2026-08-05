@@ -74,7 +74,7 @@ def run_preprocessing(full_log=None, short_log=None, characters_bios_log=None, n
 
     characters_bios = load_character_bios(characters_bios_log)
     log_dict = log_dictionary_ids(short_log, full_log)
-    unique_logs, counts = load_unique_logs(short_log, max_lines=config.MAX_LOG_LINES)
+    unique_logs, counts, visibility = load_unique_logs(short_log, max_lines=config.MAX_LOG_LINES)
 
     # Maps each unique (short) log's text -> a chronological sort key,
     # taken from the "Timestamp_..." tag embedded in its corresponding
