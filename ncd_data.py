@@ -46,9 +46,9 @@ def normalize_log(line: str) -> str:
     return line.strip()
 
 
-def load_unique_logs(log_file, max_lines=20000):
+def load_unique_logs(full_log_file, log_dict, max_lines=20000):
     """
-    Load logs from `log_file`, normalize each line, and deduplicate by
+    Load logs from `full_log_file`, normalize each line, and deduplicate by
     exact string match while preserving first-seen order.
 
     Returns
@@ -61,7 +61,7 @@ def load_unique_logs(log_file, max_lines=20000):
     counts = OrderedDict()
     visibility = OrderedDict()
 
-    with open(log_file, "r", encoding="utf-8", errors="ignore") as f:
+    with open(full_log_file, "r", encoding="utf-8", errors="ignore") as f:
         for line in f:
             line = normalize_log(line)
             if not line:
@@ -70,13 +70,13 @@ def load_unique_logs(log_file, max_lines=20000):
             # Extract visibility before the first "."
             vis = line.split(".", 1)[0]
 
-            counts[line] = counts.get(line, 0) + 1
+            counts[log_dict[line]] = counts.get(log_dict[line], 0) + 1
 
             # Store visibility, upgrading to V if any occurrence is visible
-            if line not in visibility.keys():
-                visibility[line] = vis
+            if log_dict[line] not in visibility.keys():
+                visibility[log_dict[line]] = vis
             elif vis == "V":
-                visibility[line] = "V"
+                visibility[log_dict[line]] = "V"
 
             if len(counts) >= max_lines:
                 break
@@ -91,20 +91,20 @@ def load_character_bios(file):
         return f.read()
 
 
-def log_dictionary_ids(log_file_path, content_file_path):
+def log_dictionary_ids(log_file_path, full_log_file_path):
     """
-    Build a mapping from short log line -> full content line, assuming
+    Build a mapping from short full content line -> short log line, assuming
     the two files have the same number of lines in the same order
     (line i in log_file_path corresponds to line i in content_file_path).
     """
     log_dict = {}
 
-    with open(log_file_path, "r") as log_file, open(content_file_path, "r") as content_file:
+    with open(log_file_path, "r") as log_file, open(full_log_file_path, "r") as full_log_file:
         log_lines = log_file.readlines()
-        content_lines = content_file.readlines()
+        full_log_lines = full_log_file.readlines()
 
-        for i, log in enumerate(log_lines):
-            log_dict[log.strip()] = content_lines[i].strip()
+        for i, log in enumerate(full_log_lines):
+            log_dict[log.strip()] = log_lines[i].strip()
 
     return log_dict
 
@@ -169,6 +169,7 @@ def temporal_sort_key(long_log):
     or sent to the story LLM). Falls back to +inf -- i.e. sorts last --
     if the log has no timestamp tag, or the tag isn't numeric.
     """
+
     raw = extract_timestamp(long_log)
     if raw is None:
         return float("inf")
@@ -176,6 +177,24 @@ def temporal_sort_key(long_log):
         return float(raw)
     except ValueError:
         return float("inf")
+
+def earliest_key_for_log(log, log_dict):
+    """
+    Find all keys in log_dict whose value equals `log` and return
+    the key with the earliest timestamp.
+
+    If no matching key has a valid numeric timestamp, the first
+    matching key is returned.
+    """
+    matching_keys = [
+        key for key, value in log_dict.items()
+        if value == log
+    ]
+
+    if not matching_keys:
+        return None
+
+    return min(matching_keys, key=temporal_sort_key)
 
 
 def add_tags(short_log, long_log, add_visibility_tag=False, add_timestamp_tag=False):

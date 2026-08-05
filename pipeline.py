@@ -16,7 +16,7 @@ from scipy.cluster.hierarchy import linkage, to_tree
 from scipy.spatial.distance import squareform
 
 import config
-from ncd_data import compute_ncd_distance_matrix, load_character_bios, load_unique_logs, log_dictionary_ids, temporal_sort_key
+from ncd_data import compute_ncd_distance_matrix, earliest_key_for_log, load_character_bios, load_unique_logs, log_dictionary_ids, temporal_sort_key
 from tree_utils import build_zoomed_view
 
 
@@ -74,16 +74,19 @@ def run_preprocessing(full_log=None, short_log=None, characters_bios_log=None, n
 
     characters_bios = load_character_bios(characters_bios_log)
     log_dict = log_dictionary_ids(short_log, full_log)
-    unique_logs, counts, visibility = load_unique_logs(short_log, max_lines=config.MAX_LOG_LINES)
+    unique_logs, counts, visibility = load_unique_logs(full_log, log_dict, max_lines=config.MAX_LOG_LINES)
 
     # Maps each unique (short) log's text -> a chronological sort key,
-    # taken from the "Timestamp_..." tag embedded in its corresponding
-    # full-length log line (log_dict[log]). Used to reorder a selected
+    # taken from the "Timestamp_..." tag embedded in the earliest corresponding
+    # full-length log line. Used to reorder a selected
     # log pool back into the order events actually happened. If a log
     # has no timestamp tag, its key is +inf (see ncd_data.temporal_sort_key),
     # so it sorts after every timestamped log; log_to_temporal_index
     # breaks ties deterministically using each log's original file position.
-    log_to_temporal_key = {log: temporal_sort_key(log_dict[log]) for log in unique_logs}
+    log_to_temporal_key = {
+                        log: temporal_sort_key(earliest_key_for_log(log, log_dict))
+                        for log in unique_logs
+                        }
     log_to_temporal_index = {log: idx for idx, log in enumerate(unique_logs)}
 
     # Full NCD distance matrix + ONE canonical tree, computed once.
@@ -113,4 +116,5 @@ def run_preprocessing(full_log=None, short_log=None, characters_bios_log=None, n
         "Z_0": Z_0,
         "root_0": root_0,
         "view_data": view_data,
+        "visibility": visibility
     }

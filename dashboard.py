@@ -35,6 +35,7 @@ def build_dashboard(pipeline_state):
     distance_matrix = pipeline_state["distance_matrix"]
     root_0 = pipeline_state["root_0"]
     view_data = pipeline_state["view_data"]
+    visibility = pipeline_state["visibility"]
 
     depth_map = view_data["depth_map"]
     unique_logs_after_filtering = view_data["unique_logs_after_filtering"]

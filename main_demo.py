@@ -107,12 +107,12 @@ def run_preprocess_headless(full_log=None, short_log=None, characters_bios_log=N
     view_data = pipeline_state["view_data"]
 
     result = {
-        "unique_logs": pipeline_state["unique_logs"],
         "counts": pipeline_state["counts"],
-        "unique_logs_after_filtering": view_data["unique_logs_after_filtering"],
-        "most_anomalous_log": view_data["most_anomalous_log"],
-        "highest_ncd": view_data["highest_NCD"],
+        "unique_logs": pipeline_state["unique_logs"],
+        "visibility": pipeline_state["visibility"],
+        "unique_logs_after_filtering": view_data["unique_logs_after_filtering"]
     }
+
     print(json.dumps(result))
 
 
@@ -146,10 +146,13 @@ def run_select_headless(args):
     )
 
     result = {
-        "unique_logs": pipeline_state["unique_logs"],
         "counts": pipeline_state["counts"],
-        **selection,
+        "unique_logs": pipeline_state["unique_logs"],
+        "visibility": pipeline_state["visibility"],
+        **selection
+        
     }
+
     print(json.dumps(result))
 
 
