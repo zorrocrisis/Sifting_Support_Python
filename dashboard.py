@@ -28,14 +28,15 @@ def build_dashboard(pipeline_state):
     # -------------------------------------------------------------------
     characters_bios = pipeline_state["characters_bios"]
     log_dict = pipeline_state["log_dict"]
+    short_to_full = pipeline_state["short_to_full"]
     unique_logs = pipeline_state["unique_logs"]
     counts = pipeline_state["counts"]
+    visibility = pipeline_state["visibility"]
     log_to_temporal_key = pipeline_state["log_to_temporal_key"]
     log_to_temporal_index = pipeline_state["log_to_temporal_index"]
     distance_matrix = pipeline_state["distance_matrix"]
     root_0 = pipeline_state["root_0"]
     view_data = pipeline_state["view_data"]
-    visibility = pipeline_state["visibility"]
 
     depth_map = view_data["depth_map"]
     unique_logs_after_filtering = view_data["unique_logs_after_filtering"]
@@ -272,7 +273,13 @@ def build_dashboard(pipeline_state):
         for i in leaf_ids:
             event_text = unique_logs_after_filtering[i]
             selected_descriptions.append(labels[i])
-            selected_rows.append(f"- {log_dict[event_text]}  \n `{labels[i]}`")
+
+            # "Final Log Pool" panel format: description + [xcount] + [V/NV].
+            # Distinct from `labels[i]` ("description (xN)"), which is what's
+            # shown on the dendrogram's x-axis and sent to the story LLM.
+            vis_tag = visibility.get(event_text, "NV")
+            tagged_description = f"{event_text}[x{counts[event_text]}][{vis_tag}]"
+            selected_rows.append(f"- {short_to_full[event_text]}  \n `{tagged_description}`")
 
         details = "### Final Log Pool\n\n" + "\n".join(selected_rows)
 

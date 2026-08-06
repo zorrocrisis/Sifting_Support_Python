@@ -78,7 +78,7 @@ def parse_args():
     return parser.parse_args()
 
 
-def run_demo(full_log=None, short_log=None, characters_bios_log=None):
+def run_demo(full_log=None, characters_bios_log=None):
     """Run the full pipeline and open the interactive dashboard in a browser tab."""
     # Imported lazily so `preprocess` mode never touches Panel/Bokeh at all.
     import panel as pn
@@ -89,21 +89,21 @@ def run_demo(full_log=None, short_log=None, characters_bios_log=None):
     pn.extension("plotly")
     pn.extension(raw_css=config.DASHBOARD_CSS)
 
-    pipeline_state = pipeline.run_preprocessing(full_log, short_log, characters_bios_log)
+    pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log)
     dashboard = build_dashboard(pipeline_state)
     dashboard.servable(title="Log Dendrogram Explorer")
 
     server.serve_dashboard(dashboard)
 
 
-def run_preprocess_headless(full_log=None, short_log=None, characters_bios_log=None):
+def run_preprocess_headless(full_log=None, characters_bios_log=None):
     """
     Run only the log loading + hierarchical-clustering pipeline (no
     Panel, no browser) and print the resulting unique logs + a bit of
     metadata as a single line of JSON to stdout, for the C# mod to read
     directly from the process's standard output.
     """
-    pipeline_state = pipeline.run_preprocessing(full_log, short_log, characters_bios_log)
+    pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log)
     view_data = pipeline_state["view_data"]
 
     result = {
@@ -128,7 +128,7 @@ def run_select_headless(args):
     # their function makes it obvious at a glance which modes are heavy.
     from log_selection import select_final_log_pool
 
-    pipeline_state = pipeline.run_preprocessing(args.full_log, args.short_log, args.characters_bios_log)
+    pipeline_state = pipeline.run_preprocessing(args.full_log, args.characters_bios_log)
 
     ncd_threshold = args.ncd_threshold
     if ncd_threshold is None:
@@ -160,8 +160,8 @@ if __name__ == "__main__":
     args = parse_args()
 
     if args.mode == "preprocess":
-        run_preprocess_headless(args.full_log, args.short_log, args.characters_bios_log)
+        run_preprocess_headless(args.full_log, args.characters_bios_log)
     elif args.mode == "select":
         run_select_headless(args)
     else:
-        run_demo(args.full_log, args.short_log, args.characters_bios_log)
+        run_demo(args.full_log, args.characters_bios_log)

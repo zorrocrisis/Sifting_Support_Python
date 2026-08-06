@@ -36,6 +36,26 @@ def NCD_text(A: str,
     return (A_n_B_size - min(A_size,B_size)) / max(A_size, B_size)
 
 
+def extract_descriptions(full_log_file):
+    """
+    Extract the short/description text from a full-length log line,
+    e.g. "...FullInfo_This is the description text" -> "This is the
+    description text". Returns None if no FullInfo_ tag is present.
+    """
+    short_log_file = full_log_file.replace(".txt", "_descriptionsonly.txt")
+
+    with open(full_log_file, "r", encoding="utf-8", errors="ignore") as f, \
+            open (short_log_file, "w", encoding="utf-8", errors="ignore") as out:
+        for line in f:
+            if not line:
+                continue
+
+            match = re.search(r"FullInfo_\s*(.*)", line)
+
+            if match:
+                out.write(match.group(1) + "\n")
+    return short_log_file
+
 
 def normalize_log(line: str) -> str:
     """
@@ -48,15 +68,24 @@ def normalize_log(line: str) -> str:
 
 def load_unique_logs(full_log_file, log_dict, max_lines=20000):
     """
-    Load logs from `full_log_file`, normalize each line, and deduplicate by
-    exact string match while preserving first-seen order.
+    Load logs from `full_log_file` (the raw, full-length log lines --
+    each one containing a Timestamp_..._ tag and, per check_if_visible,
+    a "V_"/other prefix), translate each one to its short/description
+    text via `log_dict` (full_log -> short_log, see log_dictionary_ids),
+    and deduplicate by that short text while preserving first-seen order.
+
+    Also aggregates a `visibility` tag per short log: "V" if ANY
+    occurrence of that short log was witnessed by the player, "NV"
+    otherwise (upgrading to "V" as soon as one visible occurrence is seen).
 
     Returns
     -------
     unique_logs : list[str]
-        Deduplicated log lines, in first-seen order.
+        Deduplicated SHORT log lines, in first-seen order.
     counts : OrderedDict[str, int]
-        How many times each unique log line occurred.
+        How many times each unique (short) log line occurred.
+    visibility : OrderedDict[str, str]
+        "V" or "NV" per unique (short) log line.
     """
     counts = OrderedDict()
     visibility = OrderedDict()
@@ -67,16 +96,17 @@ def load_unique_logs(full_log_file, log_dict, max_lines=20000):
             if not line:
                 continue
 
-            # Extract visibility before the first "."
-            vis = line.split(".", 1)[0]
+            vis = "V" if check_if_visible(line) else "NV"
 
-            counts[log_dict[line]] = counts.get(log_dict[line], 0) + 1
+            short_log = log_dict[line]
 
-            # Store visibility, upgrading to V if any occurrence is visible
-            if log_dict[line] not in visibility.keys():
-                visibility[log_dict[line]] = vis
+            counts[short_log] = counts.get(short_log, 0) + 1
+
+            # Store visibility, upgrading to V if any occurrence is visible.
+            if short_log not in visibility:
+                visibility[short_log] = vis
             elif vis == "V":
-                visibility[log_dict[line]] = "V"
+                visibility[short_log] = "V"
 
             if len(counts) >= max_lines:
                 break
@@ -93,13 +123,28 @@ def load_character_bios(file):
 
 def log_dictionary_ids(log_file_path, full_log_file_path):
     """
-    Build a mapping from short full content line -> short log line, assuming
-    the two files have the same number of lines in the same order
-    (line i in log_file_path corresponds to line i in content_file_path).
+    Build a mapping from full-length log line -> short/description log
+    line: log_dict[full_log_lines[i]] = log_lines[i]. Since many full
+    log lines can share the same short description (they differ only
+    by timestamp/details), this is a many-to-one mapping -- multiple
+    keys can map to the same value. Assumes the two files have the same
+    number of lines in the same order (line i in log_file_path
+    corresponds to line i in full_log_file_path).
+
+    NOTE: opened with the SAME encoding/error-handling as
+    load_unique_logs() (utf-8, errors="ignore"). This matters more than
+    it used to: since load_unique_logs() looks up log_dict by the exact
+    full-log line text it reads from disk, any decoding difference
+    between the two reads (e.g. one function using the platform default
+    encoding, the other utf-8) could produce two different Python
+    strings for what's really the same line -- causing a KeyError on
+    any line with a non-ASCII character. Keep these two functions'
+    open() calls in sync if either one changes.
     """
     log_dict = {}
 
-    with open(log_file_path, "r") as log_file, open(full_log_file_path, "r") as full_log_file:
+    with open(log_file_path, "r", encoding="utf-8", errors="ignore") as log_file, \
+            open(full_log_file_path, "r", encoding="utf-8", errors="ignore") as full_log_file:
         log_lines = log_file.readlines()
         full_log_lines = full_log_file.readlines()
 
@@ -149,7 +194,7 @@ def compute_ncd_distance_matrix(strings):
 # -----------------------------------------------------------------------
 def check_if_visible(log):
     """Whether a raw (long-form) log line represents a player-visible event."""
-    return log.startswith("V_")
+    return log.startswith("V._")
 
 
 def extract_timestamp(long_log):
@@ -185,6 +230,14 @@ def earliest_key_for_log(log, log_dict):
 
     If no matching key has a valid numeric timestamp, the first
     matching key is returned.
+
+    COST WARNING: this scans the entire log_dict (all full-log lines)
+    on every call -- O(len(log_dict)). Fine for a one-off lookup, but
+    calling it once per unique log (as pipeline.py used to) makes the
+    whole pass O(len(log_dict) * len(unique_logs)), which can get slow
+    for a real game session. If you need this for EVERY unique log,
+    use build_earliest_full_log_index() instead -- it computes the same
+    result for all logs in one O(len(log_dict)) pass.
     """
     matching_keys = [
         key for key, value in log_dict.items()
@@ -195,6 +248,29 @@ def earliest_key_for_log(log, log_dict):
         return None
 
     return min(matching_keys, key=temporal_sort_key)
+
+
+def build_earliest_full_log_index(log_dict):
+    """
+    Bulk version of calling earliest_key_for_log() once per unique short
+    log: groups log_dict (full_log -> short_log) by short log in a
+    single O(len(log_dict)) pass, keeping the chronologically-earliest
+    full log line seen for each short log -- instead of re-scanning the
+    whole log_dict from scratch for every unique log.
+
+    Returns
+    -------
+    dict[str, str]
+        short_log -> the earliest full_log line that maps to it. Useful
+        both for chronological sorting (feed each value through
+        temporal_sort_key) and for display (each value is a real,
+        representative full-length log line for that short log).
+    """
+    earliest = {}
+    for full_log, short_log in log_dict.items():
+        if short_log not in earliest or temporal_sort_key(full_log) < temporal_sort_key(earliest[short_log]):
+            earliest[short_log] = full_log
+    return earliest
 
 
 def add_tags(short_log, long_log, add_visibility_tag=False, add_timestamp_tag=False):

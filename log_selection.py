@@ -122,6 +122,7 @@ def select_final_log_pool(pipeline_state, ncd_threshold, control="fixed_depth", 
     counts = pipeline_state["counts"]
     distance_matrix = pipeline_state["distance_matrix"]
     log_dict = pipeline_state["log_dict"]
+    short_to_full = pipeline_state["short_to_full"]
     log_to_temporal_key = pipeline_state["log_to_temporal_key"]
     log_to_temporal_index = pipeline_state["log_to_temporal_index"]
 
@@ -151,6 +152,7 @@ def select_final_log_pool(pipeline_state, ncd_threshold, control="fixed_depth", 
             **base_result,
             "resolved_depth": None,
             "final_log_pool_short": [],
+            "final_log_pool_full": [],
             "final_log_pool_labels": [],
             "error": "Fewer than 2 logs remain after NCD filtering at this threshold.",
         }
@@ -171,12 +173,15 @@ def select_final_log_pool(pipeline_state, ncd_threshold, control="fixed_depth", 
     leaf_ids = sort_leaf_ids_temporally(leaf_ids, unique_logs_after_filtering, log_to_temporal_key, log_to_temporal_index)
 
     final_log_pool_short = [unique_logs_after_filtering[i] for i in leaf_ids]
+    final_log_pool_full = [short_to_full[text] for text in final_log_pool_short]
     final_log_pool_labels = [labels[i] for i in leaf_ids]
+
 
     return {
         **base_result,
         "resolved_depth": resolved_depth,
         "final_log_pool_short": final_log_pool_short,
+        "final_log_pool_full": final_log_pool_full,
         "final_log_pool_labels": final_log_pool_labels,
         "error": None,
     }
