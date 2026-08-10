@@ -1,0 +1,7357 @@
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) rat standing.
+Oleg wandering.
+Stevenson wandering.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) arctic fox wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) arctic fox standing.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) arctic wolf wandering.
+A(n) ibex ram wandering.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) arctic wolf standing.
+A(n) ibex ram standing.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+Stevenson equipping revolver (normal).
+Stevenson standing.
+A(n) yak wandering.
+A(n) yak standing.
+Oleg equipping bolt-action rifle (normal).
+Oleg standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) rat standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) squirrel wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) turkey wandering.
+A(n) squirrel wandering.
+A(n) hare wandering.
+A(n) warg wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) rat standing.
+A(n) hare standing.
+A(n) turkey standing.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) warg standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) timber wolf wandering.
+A(n) raccoon wandering.
+A(n) rat wandering.
+A(n) raccoon wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) hare standing.
+A(n) rat standing.
+A(n) timber wolf standing.
+A(n) raccoon standing.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) arctic fox wandering.
+April wandering.
+A(n) arctic fox standing.
+April standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) arctic wolf wandering.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) yak wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) yak standing.
+A(n) hare standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) elk wandering.
+A(n) squirrel standing.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+Rhodes wandering.
+A(n) rat standing.
+Rhodes standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) squirrel wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) arctic fox wandering.
+A(n) hare standing.
+A(n) arctic fox standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) elk wandering.
+A(n) yak standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) turkey wandering.
+A(n) warg wandering.
+A(n) hare standing.
+A(n) turkey standing.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+Stevenson hauling medicine x25 to Stockpile zone 1.
+A(n) squirrel standing.
+Stevenson standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) yak wandering.
+A(n) squirrel standing.
+A(n) yak standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) elk wandering.
+April sowing potato plant.
+A(n) elk standing.
+April standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) turkey wandering.
+A(n) elk wandering.
+A(n) turkey standing.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) arctic fox wandering.
+A(n) raccoon wandering.
+A(n) arctic fox standing.
+A(n) hare wandering.
+A(n) raccoon standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) arctic wolf wandering.
+A(n) squirrel standing.
+A(n) arctic wolf standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) elk wandering.
+A(n) warg standing.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) ibex ram wandering.
+A(n) elk standing.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) arctic fox wandering.
+A(n) raccoon wandering.
+A(n) arctic fox standing.
+A(n) squirrel wandering.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) squirrel standing.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) timber wolf wandering.
+A(n) hare wandering.
+A(n) timber wolf standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) arctic wolf wandering.
+A(n) squirrel standing.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) warg wandering.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) warg standing.
+A(n) elk standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) ibex ram wandering.
+A(n) rat standing.
+A(n) ibex ram standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+Stevenson hauling steel x75 to Stockpile zone 1.
+A(n) elk standing.
+Stevenson standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) turkey wandering.
+A(n) elk wandering.
+A(n) turkey standing.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) hare wandering.
+A(n) turkey standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) elk wandering.
+A(n) yak standing.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) squirrel wandering.
+A(n) hare standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) raccoon wandering.
+A(n) hare standing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) arctic wolf wandering.
+A(n) elk wandering.
+A(n) arctic wolf standing.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) raccoon wandering.
+A(n) elk wandering.
+A(n) raccoon standing.
+A(n) arctic fox wandering.
+A(n) elk standing.
+A(n) arctic fox standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) rat wandering.
+A(n) arctic wolf standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) yak wandering.
+A(n) raccoon wandering.
+A(n) arctic fox wandering.
+A(n) yak standing.
+A(n) raccoon standing.
+A(n) turkey wandering.
+A(n) arctic fox standing.
+A(n) turkey standing.
+A(n) timber wolf wandering.
+A(n) rat wandering.
+A(n) timber wolf standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+April tending to Oleg.
+A(n) hare wandering.
+A(n) rat standing.
+April standing.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic wolf wandering.
+A(n) rat wandering.
+A(n) arctic wolf standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) turkey wandering.
+A(n) hare standing.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) squirrel standing.
+A(n) elk standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+Stevenson hauling steel x75 to Stockpile zone 1.
+Stevenson standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) arctic wolf wandering.
+A(n) elk standing.
+A(n) arctic wolf standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) elk wandering.
+A(n) squirrel standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) squirrel wandering.
+A(n) elk standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) yak wandering.
+A(n) raccoon standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) turkey wandering.
+A(n) rat standing.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) raccoon standing.
+A(n) elk standing.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) squirrel wandering.
+A(n) hare wandering.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+Rhodes wandering.
+A(n) hare standing.
+Rhodes standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) rat wandering.
+A(n) ibex ram standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) elk wandering.
+A(n) arctic fox wandering.
+A(n) elk standing.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+April sowing potato plant.
+April standing.
+A(n) hare wandering.
+A(n) hare standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) squirrel wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+Stevenson hauling steel x75 to Stockpile zone 1.
+Stevenson standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) yak wandering.
+A(n) squirrel standing.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) arctic fox wandering.
+A(n) elk standing.
+A(n) arctic fox standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) raccoon wandering.
+A(n) elk standing.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+April sowing potato plant.
+April standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) turkey wandering.
+A(n) raccoon wandering.
+A(n) turkey standing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) timber wolf wandering.
+A(n) squirrel standing.
+A(n) timber wolf standing.
+A(n) yak wandering.
+A(n) elk wandering.
+A(n) yak standing.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+Oleg hauling wood x12 to wooden stool (building).
+Oleg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) yak wandering.
+A(n) ibex ram standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) arctic wolf wandering.
+A(n) elk standing.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) yak wandering.
+A(n) raccoon standing.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+April sowing potato plant.
+A(n) elk wandering.
+April standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) squirrel wandering.
+A(n) rat standing.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) arctic fox wandering.
+A(n) hare standing.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) squirrel wandering.
+A(n) rat standing.
+A(n) squirrel standing.
+April hauling sandstone chunk.
+A(n) hare wandering.
+April standing.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) squirrel wandering.
+A(n) arctic wolf standing.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) ibex ram wandering.
+A(n) rat standing.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) arctic fox wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) arctic fox standing.
+A(n) hare wandering.
+A(n) hare standing.
+Oleg building area.
+Oleg standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) squirrel wandering.
+A(n) hare standing.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) timber wolf wandering.
+A(n) squirrel standing.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) squirrel wandering.
+A(n) elk standing.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+April sowing potato plant.
+April standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) ibex ram wandering.
+A(n) rat standing.
+A(n) ibex ram standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) elk wandering.
+A(n) raccoon standing.
+A(n) elk standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) timber wolf wandering.
+A(n) elk wandering.
+A(n) timber wolf standing.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) turkey standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) yak wandering.
+Stevenson hauling steel x3 to Stockpile zone 1.
+A(n) yak standing.
+Stevenson standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+April sowing potato plant.
+April standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) arctic wolf wandering.
+A(n) elk standing.
+A(n) arctic wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) raccoon wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) yak standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) hare wandering.
+A(n) warg standing.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) turkey wandering.
+A(n) ibex ram wandering.
+A(n) turkey standing.
+A(n) ibex ram standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) raccoon wandering.
+A(n) turkey standing.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) arctic wolf wandering.
+A(n) hare standing.
+A(n) arctic wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+Oleg aimed and fired at the hare.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+The hare moved aside at the last moment, Oleg's bolt-action rifle bullet flying high into the air.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) hare wandering.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) arctic fox wandering.
+A(n) elk standing.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+Oleg shot a bolt-action rifle bullet at the hare.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) warg wandering.
+A(n) squirrel standing.
+A(n) warg standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+Oleg's bolt-action rifle bullet missed by a wide margin.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) rat wandering.
+A(n) turkey standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) hare standing.
+A(n) ibex ram standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) turkey wandering.
+A(n) arctic wolf standing.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) warg standing.
+A(n) elk standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+Oleg dexterously shot at the hare.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) ibex ram wandering.
+A(n) turkey wandering.
+A(n) yak standing.
+A(n) ibex ram standing.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) squirrel wandering.
+A(n) hare standing.
+A(n) squirrel standing.
+The hare ducked aside at the last second, Oleg's bolt-action rifle bullet flying into the air.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) arctic wolf wandering.
+A(n) turkey standing.
+A(n) arctic wolf standing.
+A(n) arctic fox wandering.
+A(n) elk wandering.
+A(n) arctic fox standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare consuming grass.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) yak standing.
+A(n) yak standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) timber wolf wandering.
+A(n) squirrel standing.
+A(n) timber wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+Stevenson hauling flak pants (normal) to Stockpile zone 1.
+Stevenson standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) ibex ram wandering.
+A(n) turkey wandering.
+A(n) ibex ram standing.
+A(n) turkey standing.
+A(n) hare consuming grass.
+A(n) squirrel wandering.
+A(n) hare standing.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) arctic wolf wandering.
+A(n) yak wandering.
+A(n) arctic wolf standing.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) squirrel wandering.
+A(n) turkey standing.
+A(n) squirrel standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+April cutting area.
+April standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare fleeing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) arctic fox wandering.
+A(n) rat standing.
+A(n) arctic fox standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) rat fleeing.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) hare wandering.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+April sowing potato plant.
+April standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) warg wandering.
+A(n) hare standing.
+A(n) warg standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) raccoon wandering.
+A(n) arctic wolf standing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+April sowing potato plant.
+April standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) turkey wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) turkey standing.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) timber wolf wandering.
+A(n) turkey standing.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+April cutting area.
+April standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+Oleg dexterously shot at the hare.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+The hare jerked aside at the last instant, Oleg's bolt-action rifle bullet skipping off the ground and becoming lost.
+A(n) elk wandering.
+A(n) raccoon wandering.
+A(n) elk standing.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) timber wolf wandering.
+A(n) rat standing.
+A(n) timber wolf standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) rat wandering.
+A(n) ibex ram standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) arctic fox wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) arctic fox standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+April sowing potato plant.
+April standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+Oleg shot a bolt-action rifle bullet at the hare.
+A(n) arctic wolf standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) raccoon wandering.
+A(n) rat wandering.
+A(n) raccoon standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+Rhodes wandering.
+A(n) rat standing.
+Rhodes standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) raccoon wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) yak wandering.
+A(n) turkey standing.
+A(n) yak standing.
+The hare ducked aside at the last second, Oleg's bolt-action rifle bullet flying high into the air.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) hare wandering.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) turkey wandering.
+A(n) rat standing.
+A(n) turkey standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) elk wandering.
+A(n) yak standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+Stevenson hauling steel x3 to Stockpile zone 1.
+A(n) arctic fox wandering.
+Stevenson standing.
+A(n) hare wandering.
+A(n) arctic fox standing.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel consuming grass.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+April sowing potato plant.
+April standing.
+Oleg fired his bolt-action rifle at the hare.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) ibex ram wandering.
+A(n) timber wolf standing.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) elk wandering.
+A(n) turkey standing.
+A(n) elk standing.
+A(n) warg wandering.
+A(n) rat wandering.
+A(n) warg standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+Rhodes wandering.
+Rhodes standing.
+The hare moved aside at the last second, Oleg's bolt-action rifle bullet missing by a small margin.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) raccoon wandering.
+A(n) hare standing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) squirrel wandering.
+A(n) yak wandering.
+A(n) squirrel standing.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) elk wandering.
+A(n) squirrel standing.
+A(n) elk standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) squirrel wandering.
+A(n) yak standing.
+A(n) squirrel standing.
+April sowing potato plant.
+April standing.
+A(n) ibex ram wandering.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) ibex ram standing.
+A(n) hare standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) elk wandering.
+A(n) yak standing.
+A(n) elk standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) raccoon wandering.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) turkey wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) turkey standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+Rhodes wandering.
+A(n) warg wandering.
+Rhodes standing.
+A(n) warg standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) timber wolf wandering.
+A(n) rat standing.
+April sowing potato plant.
+A(n) timber wolf standing.
+April standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) turkey wandering.
+A(n) hare wandering.
+A(n) turkey standing.
+A(n) hare standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare fleeing.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) squirrel wandering.
+A(n) squirrel wandering.
+A(n) elk standing.
+A(n) squirrel standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) raccoon wandering.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) ibex ram wandering.
+A(n) warg wandering.
+A(n) ibex ram standing.
+A(n) warg standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) squirrel wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) squirrel standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) raccoon wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) raccoon standing.
+A(n) hare standing.
+April sowing potato plant.
+April standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+Oleg fired his bolt-action rifle at the hare.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) ibex ram wandering.
+A(n) rat standing.
+A(n) ibex ram standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+Oleg's bolt-action rifle bullet passed within centimeters of the hare.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+Oleg shot a bolt-action rifle bullet at the hare.
+April sowing potato plant.
+April standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) squirrel wandering.
+A(n) turkey standing.
+A(n) squirrel standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) arctic fox wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+Oleg's bolt-action rifle bullet went wide.
+A(n) yak wandering.
+A(n) yak standing.
+Stevenson hauling packaged survival meal x10 to Stockpile zone 1.
+Stevenson standing.
+Stevenson taking packaged survival meal to inventory.
+Stevenson standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) warg wandering.
+A(n) hare standing.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) arctic wolf wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) elk wandering.
+A(n) ibex ram wandering.
+A(n) squirrel standing.
+A(n) elk standing.
+A(n) ibex ram standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) rat wandering.
+A(n) turkey standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) hare wandering.
+A(n) raccoon standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+April cutting area.
+A(n) raccoon standing.
+April standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) rat wandering.
+A(n) warg standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) elk wandering.
+A(n) arctic fox wandering.
+A(n) elk standing.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) rat wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) turkey standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) hare fleeing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) yak wandering.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) yak standing.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) squirrel wandering.
+A(n) yak standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+April taking packaged survival meal to inventory.
+April standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) squirrel wandering.
+A(n) hare standing.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) raccoon wandering.
+A(n) elk standing.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) warg wandering.
+A(n) elk standing.
+A(n) warg standing.
+Oleg competently shot his bolt-action rifle at the hare.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) yak wandering.
+A(n) yak standing.
+Oleg narrowly missed the hare and hit the limestone chunk with a shot.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+April hauling sandstone chunk.
+April standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) raccoon wandering.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) yak wandering.
+A(n) ibex ram standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+Rhodes wandering.
+A(n) rat wandering.
+Rhodes standing.
+A(n) rat standing.
+Oleg tried to shoot at the hare with his bolt-action rifle.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+The hare crouched behind the pine tree, Oleg's bolt-action rifle bullet digging a divot out of the ground.
+A(n) ibex ram wandering.
+A(n) rat wandering.
+A(n) ibex ram standing.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) turkey standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) squirrel wandering.
+A(n) rat standing.
+A(n) squirrel standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) squirrel wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+Stevenson hauling wood x30 to Stockpile zone 1.
+April sowing potato plant.
+Stevenson standing.
+April standing.
+Rhodes wandering.
+A(n) yak wandering.
+Rhodes standing.
+A(n) timber wolf wandering.
+A(n) yak standing.
+A(n) timber wolf standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) yak standing.
+April hauling sandstone chunk.
+April standing.
+A(n) rat wandering.
+A(n) ibex ram wandering.
+A(n) rat standing.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) hare standing.
+Oleg skillfully shot his bolt-action rifle at the hare.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+Oleg hit the limestone chunk with a bolt-action rifle bullet.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) squirrel wandering.
+A(n) rat standing.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) elk wandering.
+A(n) yak standing.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) turkey wandering.
+A(n) squirrel wandering.
+A(n) turkey standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) arctic fox wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) arctic fox standing.
+A(n) elk standing.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) arctic wolf wandering.
+A(n) rat standing.
+A(n) arctic wolf standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) warg wandering.
+A(n) hare standing.
+A(n) warg standing.
+A(n) elk wandering.
+A(n) elk standing.
+April sowing potato plant.
+April standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) turkey wandering.
+A(n) timber wolf standing.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+April hauling sandstone chunk.
+April standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) hare fleeing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic fox wandering.
+A(n) hare wandering.
+A(n) arctic fox standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+Stevenson wearing flak pants (normal).
+Stevenson standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) squirrel wandering.
+A(n) hare wandering.
+A(n) squirrel standing.
+A(n) hare standing.
+Oleg hunting hare.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+April sowing potato plant.
+A(n) rat wandering.
+April standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) elk wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) rat wandering.
+A(n) turkey standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+April hauling sandstone chunk.
+A(n) elk standing.
+April standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+Oleg competently fired a bolt-action rifle bullet at the hare.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+Oleg's bolt-action rifle bullet hit the hare.
+A(n) hare was afflicted with (a) gunshot (body)
+Gunshot in the body caused the hare to die.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+Oleg hunting hare.
+Oleg standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) warg wandering.
+April sowing potato plant.
+A(n) warg standing.
+April standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) raccoon wandering.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) elk wandering.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) turkey standing.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) elk wandering.
+A(n) timber wolf wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) timber wolf standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) warg wandering.
+A(n) squirrel standing.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) elk wandering.
+A(n) squirrel standing.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) rat wandering.
+A(n) turkey standing.
+A(n) rat standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) turkey wandering.
+A(n) raccoon standing.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) hare standing.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) warg wandering.
+A(n) rat standing.
+A(n) warg standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) ibex ram wandering.
+A(n) elk standing.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) timber wolf wandering.
+A(n) elk standing.
+A(n) timber wolf standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) arctic wolf wandering.
+A(n) hare standing.
+A(n) arctic wolf standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) warg wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) warg standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) turkey wandering.
+A(n) ibex ram standing.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) yak wandering.
+A(n) squirrel standing.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) timber wolf wandering.
+A(n) rat wandering.
+A(n) timber wolf standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) squirrel wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) squirrel standing.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) hare wandering.
+Stevenson hauling steel x75 to Stockpile zone 1.
+A(n) hare standing.
+Stevenson standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) squirrel wandering.
+A(n) elk standing.
+A(n) squirrel standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A group of tribespeople from Toba Pact have arrived nearby. They will prepare for a while, then attack. Prepare a defense or attack them pre-emptively.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) yak wandering.
+A(n) elk wandering.
+A(n) yak standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+Oleg deftly shot at the turkey.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+The turkey moved aside at the last instant, Oleg's bolt-action rifle bullet digging into the ground.
+April cutting area.
+April standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+Oleg hunting turkey.
+Oleg watching for targets.
+Oleg moving.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+Oleg moving.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) raccoon wandering.
+A(n) ibex ram wandering.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) ibex ram standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+Oleg moving.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) yak standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) arctic fox wandering.
+A(n) squirrel wandering.
+A(n) turkey wandering.
+A(n) arctic fox standing.
+A(n) squirrel standing.
+A(n) turkey standing.
+April sowing potato plant.
+A(n) elk wandering.
+April standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+Stevenson hauling packaged survival meal x10 to Stockpile zone 1.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) hare wandering.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak consuming area.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) turkey wandering.
+A(n) rat standing.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) yak standing.
+Stevenson watching for targets.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+Abexada wandering.
+Abexada standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+Stevenson moving.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+April sowing potato plant.
+April standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) squirrel wandering.
+A(n) hare standing.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+April hauling sandstone chunk.
+A(n) raccoon wandering.
+April standing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+Abexada wandering.
+Abexada standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) squirrel wandering.
+A(n) elk standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) squirrel wandering.
+A(n) hare standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+Stevenson moving.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) warg wandering.
+A(n) warg standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey wandering.
+A(n) yak wandering.
+A(n) turkey standing.
+A(n) turkey standing.
+A(n) yak standing.
+Stevenson moving.
+A(n) ibex ram wandering.
+A(n) squirrel wandering.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) squirrel standing.
+A(n) hare standing.
+Stevenson watching for targets.
+Rhodes wandering.
+Rhodes standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) turkey wandering.
+A(n) hare wandering.
+A(n) turkey standing.
+A(n) hare standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+Stevenson moving.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+Oleg moving.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+Oleg moving.
+Stevenson moving.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) squirrel wandering.
+A(n) yak standing.
+A(n) squirrel standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) elk wandering.
+A(n) elk standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare consuming grass.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) squirrel wandering.
+A(n) turkey standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) squirrel wandering.
+A(n) rat standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) yak standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+April cutting area.
+April standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) yak standing.
+Abexada wandering.
+Abexada standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+April cutting area.
+A(n) elk wandering.
+A(n) rat standing.
+April standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) timber wolf wandering.
+A(n) ibex ram wandering.
+A(n) timber wolf standing.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+Oleg moving.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) arctic fox wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) arctic fox standing.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) turkey wandering.
+A(n) rat standing.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) warg wandering.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) warg standing.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+Abexada wandering.
+Abexada standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) squirrel wandering.
+A(n) elk standing.
+A(n) squirrel standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+April sowing potato plant.
+April standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) arctic wolf wandering.
+A(n) elk wandering.
+A(n) arctic wolf standing.
+A(n) elk standing.
+A(n) rat wandering.
+Stevenson watching for targets.
+Oleg watching for targets.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) arctic fox wandering.
+A(n) hare standing.
+A(n) arctic fox standing.
+A(n) hare wandering.
+A(n) hare standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) raccoon wandering.
+A(n) rat wandering.
+A(n) raccoon standing.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) hare wandering.
+A(n) warg standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) squirrel wandering.
+A(n) elk standing.
+A(n) squirrel standing.
+A(n) yak wandering.
+Stevenson moving.
+Oleg moving.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+Abexada wandering.
+April sowing potato plant.
+Abexada standing.
+April standing.
+A(n) yak wandering.
+A(n) ibex ram wandering.
+A(n) yak standing.
+A(n) ibex ram standing.
+Stevenson moving.
+Oleg moving.
+A(n) arctic wolf wandering.
+A(n) elk wandering.
+A(n) arctic wolf standing.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+April cutting area.
+April standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) elk wandering.
+A(n) raccoon standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) turkey wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) turkey standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) turkey wandering.
+A(n) yak standing.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) turkey standing.
+Abexada wandering.
+Abexada standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) ibex ram wandering.
+A(n) rat wandering.
+A(n) ibex ram standing.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) turkey wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) turkey standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) ibex ram wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) ibex ram standing.
+A(n) hare standing.
+April sowing potato plant.
+April standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) elk wandering.
+A(n) raccoon standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+Abexada wandering.
+Abexada standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) warg wandering.
+A(n) arctic wolf wandering.
+A(n) rat wandering.
+A(n) warg standing.
+A(n) arctic wolf standing.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+April sowing potato plant.
+April standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+April cutting area.
+April standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+Abexada wandering.
+Abexada standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+Stevenson moving.
+Oleg moving.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) arctic wolf wandering.
+A(n) raccoon wandering.
+A(n) arctic wolf standing.
+A(n) raccoon standing.
+Stevenson moving.
+Oleg moving.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) rat wandering.
+A(n) arctic wolf standing.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) turkey standing.
+Stevenson moving.
+Oleg moving.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+April sowing potato plant.
+April standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+Stevenson moving.
+Oleg moving.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) rat wandering.
+A(n) arctic fox standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) yak wandering.
+A(n) raccoon standing.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) arctic wolf wandering.
+A(n) rat standing.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) hare standing.
+A(n) squirrel standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+Stevenson moving.
+Oleg moving.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) squirrel wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) squirrel standing.
+A(n) elk standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+April sowing potato plant.
+April standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) yak standing.
+A(n) turkey standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) ibex ram wandering.
+A(n) squirrel wandering.
+A(n) ibex ram standing.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+Abexada wandering.
+Abexada standing.
+A(n) rat wandering.
+A(n) raccoon wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) arctic wolf wandering.
+A(n) rat standing.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) turkey wandering.
+A(n) yak standing.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+Abexada wandering.
+Abexada standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) timber wolf wandering.
+A(n) rat standing.
+A(n) timber wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+Oleg moving.
+Rhodes wandering.
+A(n) arctic wolf wandering.
+Rhodes standing.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+Oleg shot his bolt-action rifle at Abexada.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) timber wolf wandering.
+A(n) hare wandering.
+A(n) timber wolf standing.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+April cutting area.
+April standing.
+Oleg narrowly missed Abexada and hit the pine tree with a bolt-action rifle bullet.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) timber wolf wandering.
+A(n) rat standing.
+A(n) timber wolf standing.
+A(n) ibex ram wandering.
+A(n) elk wandering.
+A(n) ibex ram standing.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+Stevenson moving.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+Stevenson timidly shot a revolver bullet at Abexada.
+A(n) yak wandering.
+A(n) elk wandering.
+A(n) yak standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+Stevenson hit Abexada with a revolver bullet.
+Abexada was afflicted with (a) gunshot (right leg)
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+Oleg aptly shot at Abexada with his bolt-action rifle.
+A(n) arctic wolf wandering.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) arctic wolf standing.
+A(n) rat standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+Abexada was afflicted with (a) blood loss (minor)
+Oleg's shot hit Abexada.
+Abexada was afflicted with (a) gunshot (left leg)
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) ibex ram wandering.
+A(n) hare standing.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) hare standing.
+April sowing potato plant.
+A(n) elk wandering.
+April standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) timber wolf wandering.
+Stevenson fired a revolver bullet at Abexada.
+A(n) timber wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+Stevenson's revolver bullet dug into the ground.
+A(n) yak wandering.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) squirrel wandering.
+A(n) hare standing.
+A(n) squirrel standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak consuming area.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+Oleg cleverly aimed and fired at Abexada.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) yak standing.
+A(n) rat wandering.
+Stevenson fired at Abexada with his revolver.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) hare wandering.
+A(n) arctic wolf standing.
+A(n) hare standing.
+Oleg hit Abexada with a bolt-action rifle bullet.
+Abexada was afflicted with (a) gunshot (left tibia)
+Abexada was afflicted with (a) Shattered (left femur)
+Abexada was afflicted with (a) Shattered (left tibia)
+Abexada was afflicted with (a) Shot off (left little toe)
+Abexada was afflicted with (a) Shot off (left fourth toe)
+Abexada was afflicted with (a) Shot off (left middle toe)
+Abexada was afflicted with (a) Shot off (left second toe)
+Abexada was afflicted with (a) Shot off (left big toe)
+Stevenson's revolver bullet hit Abexada.
+Abexada was afflicted with (a) gunshot (left arm)
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+April sowing potato plant.
+A(n) elk standing.
+April standing.
+A(n) elk wandering.
+A(n) raccoon wandering.
+A(n) elk standing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) yak wandering.
+A(n) squirrel standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) arctic wolf wandering.
+A(n) rat standing.
+A(n) arctic wolf standing.
+A(n) squirrel wandering.
+A(n) hare wandering.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) arctic fox wandering.
+A(n) rat standing.
+A(n) arctic fox standing.
+Stevenson flailingly shot at Abexada.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+Stevenson hit Abexada with a shot.
+Abexada was afflicted with (a) gunshot (left arm)
+Abexada died.
+Oleg attacking Abexada.
+Oleg standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) elk wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) hare fleeing.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) turkey wandering.
+A(n) ibex ram standing.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) squirrel wandering.
+A(n) raccoon standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) warg wandering.
+A(n) warg standing.
+April sowing potato plant.
+April standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) raccoon wandering.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) ibex ram wandering.
+A(n) hare standing.
+A(n) ibex ram standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) raccoon wandering.
+A(n) turkey wandering.
+A(n) raccoon standing.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) timber wolf wandering.
+A(n) rat wandering.
+A(n) timber wolf standing.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) yak wandering.
+A(n) arctic wolf standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+April sowing potato plant.
+April standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) rat wandering.
+Oleg watching for targets.
+Stevenson watching for targets.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+April cutting area.
+April standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) elk wandering.
+A(n) turkey wandering.
+A(n) squirrel standing.
+A(n) elk standing.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) warg wandering.
+A(n) hare wandering.
+A(n) warg standing.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+Rhodes wandering.
+A(n) yak standing.
+Rhodes standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) raccoon wandering.
+A(n) squirrel standing.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) turkey wandering.
+A(n) squirrel standing.
+A(n) turkey standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+April sowing potato plant.
+April standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) arctic fox wandering.
+A(n) elk wandering.
+A(n) arctic fox standing.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) rat wandering.
+A(n) raccoon standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) warg wandering.
+A(n) rat wandering.
+A(n) warg standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) squirrel wandering.
+A(n) rat standing.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) ibex ram wandering.
+A(n) rat wandering.
+A(n) ibex ram standing.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) squirrel wandering.
+A(n) turkey standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+April sowing potato plant.
+April standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) hare wandering.
+A(n) yak wandering.
+A(n) hare standing.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) elk wandering.
+A(n) turkey standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) warg wandering.
+A(n) rat wandering.
+A(n) warg standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) elk wandering.
+A(n) yak standing.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) squirrel wandering.
+A(n) turkey standing.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) turkey wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) turkey standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) hare wandering.
+A(n) arctic fox standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) yak wandering.
+A(n) raccoon standing.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) yak wandering.
+A(n) elk standing.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) timber wolf wandering.
+A(n) arctic wolf wandering.
+A(n) timber wolf standing.
+A(n) arctic wolf standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) ibex ram wandering.
+A(n) rat standing.
+A(n) ibex ram standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) elk wandering.
+A(n) raccoon wandering.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) raccoon standing.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) elk wandering.
+A(n) yak standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) hare wandering.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) squirrel wandering.
+A(n) hare standing.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) ibex ram wandering.
+A(n) rat wandering.
+A(n) ibex ram standing.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) raccoon wandering.
+A(n) rat wandering.
+A(n) raccoon standing.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) yak wandering.
+A(n) turkey standing.
+A(n) yak standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) hare wandering.
+A(n) elk consuming area.
+A(n) hare standing.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) rat wandering.
+A(n) raccoon wandering.
+A(n) yak standing.
+A(n) rat standing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) arctic fox wandering.
+A(n) squirrel wandering.
+A(n) arctic fox standing.
+A(n) squirrel standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+Oleg aimed and fired at the turkey.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+Oleg's bolt-action rifle bullet dug into the ground.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+April cutting area.
+A(n) squirrel wandering.
+April standing.
+A(n) squirrel standing.
+A(n) timber wolf wandering.
+A(n) arctic fox wandering.
+A(n) timber wolf standing.
+A(n) arctic fox standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+Oleg aimed and fired at the turkey with his bolt-action rifle.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) rat wandering.
+A(n) ibex ram standing.
+A(n) rat standing.
+Oleg's bolt-action rifle bullet narrowly missed the turkey and hit the poplar tree.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+Stevenson hauling pemmican x28 to Stockpile zone 1.
+Stevenson standing.
+A(n) timber wolf wandering.
+A(n) elk wandering.
+A(n) timber wolf standing.
+A(n) elk standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+Oleg deftly discharged his bolt-action rifle at the turkey.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) yak wandering.
+A(n) rat standing.
+A(n) yak standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+Oleg hit the turkey with a bolt-action rifle bullet.
+A(n) turkey was afflicted with (a) gunshot (body)
+A(n) rat wandering.
+A(n) rat standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) turkey was afflicted with (a) blood loss (minor)
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) squirrel wandering.
+A(n) rat standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) arctic wolf wandering.
+A(n) timber wolf wandering.
+A(n) arctic wolf standing.
+A(n) timber wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon fleeing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) hare wandering.
+April cutting area.
+A(n) hare standing.
+April standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+Rhodes wandering.
+Rhodes standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) rat wandering.
+A(n) arctic fox wandering.
+A(n) rat standing.
+A(n) arctic fox standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) rat wandering.
+A(n) timber wolf standing.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) warg wandering.
+A(n) squirrel wandering.
+A(n) warg standing.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) hare wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) arctic wolf wandering.
+A(n) hare wandering.
+A(n) arctic wolf standing.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) hare standing.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) hare wandering.
+A(n) raccoon standing.
+A(n) hare standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) hare wandering.
+A(n) squirrel standing.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) rat wandering.
+A(n) hare standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) raccoon wandering.
+A(n) squirrel standing.
+A(n) raccoon standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) ibex ram wandering.
+A(n) yak wandering.
+A(n) elk wandering.
+A(n) ibex ram standing.
+A(n) yak standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) arctic fox wandering.
+A(n) rat standing.
+A(n) arctic fox standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) turkey fleeing.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) rat wandering.
+A(n) elk standing.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) elk wandering.
+A(n) squirrel standing.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) hare wandering.
+A(n) elk wandering.
+A(n) hare standing.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) ibex ram wandering.
+A(n) ibex ram standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+Stevenson hauling wood x30 to Stockpile zone 1.
+Stevenson standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) warg wandering.
+A(n) warg standing.
+A(n) elk wandering.
+A(n) turkey wandering.
+A(n) elk standing.
+A(n) turkey standing.
+A(n) rat wandering.
+A(n) hare wandering.
+A(n) rat standing.
+A(n) hare standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) elk wandering.
+A(n) elk standing.
+Oleg fired a bolt-action rifle bullet at the turkey.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) raccoon wandering.
+A(n) squirrel wandering.
+A(n) raccoon standing.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+The turkey jerked aside at the last second, Oleg's bolt-action rifle bullet flying high into the air.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) turkey wandering.
+A(n) yak standing.
+A(n) turkey standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) squirrel wandering.
+A(n) rat standing.
+A(n) squirrel standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) squirrel wandering.
+A(n) rat wandering.
+A(n) squirrel standing.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) turkey wandering.
+A(n) turkey standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) yak wandering.
+A(n) hare wandering.
+A(n) hare wandering.
+A(n) yak standing.
+A(n) hare standing.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+Oleg shot a bolt-action rifle bullet at the turkey.
+A(n) squirrel standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) hare wandering.
+A(n) hare standing.
+A(n) timber wolf wandering.
+A(n) timber wolf standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) rat wandering.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) rat standing.
+A(n) yak wandering.
+A(n) yak standing.
+Oleg hit the pine tree with a bolt-action rifle bullet intended for the turkey.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) elk wandering.
+A(n) elk standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) arctic wolf wandering.
+A(n) arctic wolf standing.
+A(n) arctic fox wandering.
+A(n) arctic fox standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) squirrel wandering.
+A(n) squirrel standing.
+A(n) rat wandering.
+A(n) turkey wandering.
+A(n) rat standing.
+A(n) turkey standing.
+A(n) yak wandering.
+A(n) yak standing.
+A(n) rat wandering.
+A(n) rat standing.
+A(n) raccoon wandering.
+A(n) raccoon standing.
+A(n) elk wandering.
+A(n) raccoon wandering.
+A(n) elk standing.
+A(n) raccoon standing.
+A(n) rat wandering.
+A(n) elk wandering.
+A(n) rat standing.
+A(n) elk standing.
+A(n) elk wandering.
+A(n) elk standing.

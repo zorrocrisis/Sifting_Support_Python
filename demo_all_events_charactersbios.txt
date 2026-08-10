@@ -1,0 +1,24 @@
+Name: Sora Stevenson
+Gender: male
+Age: 22
+Backstories: story writer, teacher
+Incapable of: none
+Traits: psychopath
+Relations: April Girouard (friend), Caitlin 'Cait' Stirr (lover), Oleg Glukhov (friend)
+
+Name: April Girouard
+Gender: female
+Age: 53
+Backstories: frightened child, herbalist
+Incapable of: violence
+Traits: psychically hypersensitive, chemical interest
+Relations: Oleg Glukhov (friend), Sora Stevenson (friend)
+
+Name: Oleg Glukhov
+Gender: male
+Age: 70
+Backstories: medieval slave, slaughterer
+Incapable of: none
+Traits: nudist, misandrist, pessimist
+Relations: April Girouard (friend), Rhodes (bond)
+

@@ -12,19 +12,22 @@ import sys
 # -----------------------------------------------------------------------
 # Running within game enabler
 # -----------------------------------------------------------------------
-RUNNING_WITHIN_GAME = True # Set to True when running inside the game enabler (C# host process)
+RUNNING_WITHIN_GAME = False # Set to True when running inside the game enabler (C# host process)
 
 # -----------------------------------------------------------------------
 # Input file paths
 # -----------------------------------------------------------------------
 # TEST SCENARIO 1 (active)
-FULL_LOG_FILE = "CoG10Min.txt"
-CHARACTERS_BIOS_LOG_FILE = "bios.txt"
+#FULL_LOG_FILE = "CoG10Min.txt"
+# CHARACTERS_BIOS_LOG_FILE = "bios.txt"
 
 # TEST SCENARIO 2 (kept for quick swapping during testing)
-# SHORT_LOG_FILE = "all_events_descriptionsonly.txt"
 # FULL_LOG_FILE = "all_events_complete.txt"
 # CHARACTERS_BIOS_LOG_FILE = "bios.txt"
+
+# TEST SCENARIO 3 (kept for quick swapping during testing)
+FULL_LOG_FILE = "demo_all_events_complete.txt"
+CHARACTERS_BIOS_LOG_FILE = "demo_all_events_charactersbios.txt"
 
 # Starting point for the NCD filtering slider.
 INITIAL_NCD_THRESHOLD = 0.5
@@ -44,17 +47,16 @@ def get_input_paths():
     one-line change in main_demo.py rather than a rewrite.
     """
     full_log = sys.stdin.readline().strip()
-    short_log = sys.stdin.readline().strip()
     characters_bios_log = sys.stdin.readline().strip()
 
-    if not full_log or not short_log or not characters_bios_log:
+    if not full_log or not characters_bios_log:
         raise ValueError(
-            "Expected three non-empty lines on stdin "
-            "(full_log_file, short_log_file, characters_bios_log_file), "
-            f"got: full={full_log!r}, short={short_log!r}, "
+            "Expected two non-empty lines on stdin "
+            "(full_log_file, characters_bios_log_file), "
+            f"got: full={full_log!r}, "
             f"character_bios={characters_bios_log!r}"
         )
-    return full_log, short_log, characters_bios_log
+    return full_log, characters_bios_log
 
 
 # -----------------------------------------------------------------------
