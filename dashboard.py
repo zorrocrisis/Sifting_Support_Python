@@ -110,6 +110,18 @@ def build_dashboard(pipeline_state):
         height=45
     )
 
+    # Demo fallback: shows config.BACKUP_STORY_* instantly, with zero
+    # dependency on the LLM API, the game connection, or the log
+    # pipeline -- for when something else has broken but the dashboard
+    # itself is still responsive. Always enabled, regardless of what
+    # else is happening in the app.
+    backup_story_button = pn.widgets.Button(
+        name="Show Backup Story",
+        button_type="default",
+        sizing_mode="stretch_width",
+        height=45
+    )
+
     story_pane = pn.pane.Markdown(
         "### Final Log-based Generated Story \n\nPress the button above to generate a story based on the logs.",
         sizing_mode="stretch_width",
@@ -117,7 +129,7 @@ def build_dashboard(pipeline_state):
     )
 
     story_column = pn.Column(
-        generate_story_button,
+        pn.Row(generate_story_button, backup_story_button, sizing_mode="stretch_width"),
         story_pane,
         sizing_mode="stretch_width",
         margin=(0, 0, 0, 0),
@@ -135,19 +147,19 @@ def build_dashboard(pipeline_state):
           <div style='margin-top:4px; opacity:0.9;'>Explore representative log pools from the dendrogram.</div>
         </div>
         """),
-        pn.pane.HTML(
-            "<div class='section-title'>Controls</div>"
-            "<div class='helper-text'>Choose a traversal control mode (where to start the traversal), "
-            "then a branch selection strategy (which branches are selected) and seed to explore "
-            "different representative log pools.</div>"
-        ),
         pn.Column(
-            pn.pane.HTML("<div class='section-title'>Traversal Control Mode</div>"),
+            pn.pane.HTML(
+            "<div class='section-title'>Compression-based Filtering</div>"
+            "<div class='helper-text'>How agressively similar logs are merged into a single entry (dendrogram zoom in/out).</div>"
+            ),
             NCD_slider,
+            pn.pane.HTML("<div class='section-title'>Traversal Control Mode</div>"
+                         "<div class='helper-text'>Where to start the dendrogramtraversal.</div>"),
             control_selector,
             depth_slider_panel,
             target_count_slider_panel,
-            pn.pane.HTML("<div class='section-title'>Branch Selection Strategy</div>"),
+            pn.pane.HTML("<div class='section-title'>Branch Selection Strategy</div>"
+                         "<div class='helper-text'>Which branches are selected at each bifurcation.</div>"),
             strategy_selector,
             pn.pane.HTML("<div class='section-title'>Random Seed</div>"),
             seed_input,
@@ -310,6 +322,20 @@ def build_dashboard(pipeline_state):
             generate_story_button.disabled = False
             story_pane.loading = False
 
+    def show_backup_story(event):
+        """
+        Demo fallback: instantly swap in the hardcoded backup story from
+        config.py. Deliberately does NOT call generate_story_llm, touch
+        selected_descriptions, or depend on anything else in the app
+        being in a working state -- this must keep working even if the
+        LLM call or the log pipeline is currently broken.
+        """
+        story_pane.object = (
+            f"### {config.BACKUP_STORY_TITLE}\n\n"
+            f"{config.BACKUP_STORY_BODY}\n\n"
+            f"*{config.BACKUP_STORY_CAPTION}*"
+        )
+
     # -------------------------------------------------------------------
     # Wire up widgets + build the layout
     # -------------------------------------------------------------------
@@ -322,6 +348,7 @@ def build_dashboard(pipeline_state):
         widget.param.watch(update, "value")
 
     generate_story_button.on_click(generate_story)
+    backup_story_button.on_click(show_backup_story)
 
     update()  # initial render
 

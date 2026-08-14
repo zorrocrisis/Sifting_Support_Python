@@ -68,8 +68,6 @@ def run_preprocessing(full_log=None, characters_bios_log=None, ncd_threshold=Non
         root_0 : ClusterNode                          (the ONE canonical tree)
         view_data : dict                              (see tree_utils.build_zoomed_view)
     """
-    if full_log is None or characters_bios_log is None:
-        full_log, characters_bios_log = resolve_input_paths()
 
     if ncd_threshold is None:
         ncd_threshold = config.INITIAL_NCD_THRESHOLD

@@ -18,16 +18,16 @@ RUNNING_WITHIN_GAME = False # Set to True when running inside the game enabler (
 # Input file paths
 # -----------------------------------------------------------------------
 # TEST SCENARIO 1 (active)
-#FULL_LOG_FILE = "CoG10Min.txt"
-# CHARACTERS_BIOS_LOG_FILE = "bios.txt"
+#FULL_LOG_FILE = "Test Scenarios/CoG10Min.txt"
+#CHARACTERS_BIOS_LOG_FILE = "Test Scenarios/bios.txt"
 
 # TEST SCENARIO 2 (kept for quick swapping during testing)
-# FULL_LOG_FILE = "all_events_complete.txt"
-# CHARACTERS_BIOS_LOG_FILE = "bios.txt"
+#FULL_LOG_FILE = "Test Scenarios/all_events_complete.txt"
+#CHARACTERS_BIOS_LOG_FILE = "Test Scenarios/bios.txt"
 
 # TEST SCENARIO 3 (kept for quick swapping during testing)
-FULL_LOG_FILE = "demo_all_events_complete.txt"
-CHARACTERS_BIOS_LOG_FILE = "demo_all_events_charactersbios.txt"
+FULL_LOG_FILE = "Test Scenarios/demo_all_events_complete.txt"
+CHARACTERS_BIOS_LOG_FILE = "Test Scenarios/demo_all_events_charactersbios.txt"
 
 # Starting point for the NCD filtering slider.
 INITIAL_NCD_THRESHOLD = 0.5
@@ -111,3 +111,20 @@ DASHBOARD_CSS = [
 
     ".bk-Widget { border-radius: 8px; }",
 ]
+
+
+# -----------------------------------------------------------------------
+# Demo fallback content
+# -----------------------------------------------------------------------
+# Shown instantly by the dashboard's "Show Backup Story" button, and by
+# the standalone backup_story.html page (see build_backup_page.py) --
+# with NO dependency on the LLM API, the game connection, or the log
+# pipeline. Edit this before a demo/presentation so it's a real story
+# from a real session, not placeholder text.
+BACKUP_STORY_TITLE = "Blood in the Potato Rows"
+BACKUP_STORY_BODY = (
+    "The timber wolves circled the perimeter like ghosts, their shadows long across the potato rows where April worked from dawn to dusk, her hands steady despite the psychic static that always hummed at the edge of her perception. Oleg, seventy years of scars and cynicism, moved between the workshop and the treeline—hauling timber for a stool he'd sworn he'd finish, dropping hares and a turkey with the economy of a man who'd once made killing a trade. Stevenson drifted through it all like a separate weather system, packing a survival meal into his bag with the absent focus of someone drafting a story in his head, his psychopath's calm untouched by the colony's quiet rhythm."
+    "\n\n"
+    "Then the Toba Pact crested the ridge, and the rhythm broke. Oleg didn't hesitate—he'd been watching the treeline, the bolt-action rifle already shouldered. The first raider, Abexada, dropped with a shattered femur before he could raise his weapon, the shot clean as a sentence written in blood. April abandoned her sandstone and ran—not to fight, never to fight, but to Oleg's side, her herbalist's kit open before the dust settled. The wolves fled. The yaks lowed, indifferent. And somewhere in the chaos, Stevenson simply kept moving, a ghost in his own colony, already filing the moment away for later."
+)
+BACKUP_STORY_CAPTION = "[ Generated from 7337 structured logs derived from 5 minutes of gameplay ]"

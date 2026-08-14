@@ -20,7 +20,8 @@ import os
 import requests
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_MODEL = "nvidia/nemotron-3-ultra-550b-a55b:free"
+#OPENROUTER_MODEL = "nvidia/nemotron-3-ultra-550b-a55b:free"
+OPENROUTER_MODEL = "nvidia/nemotron-3-nano-30b-a3b:free"
 REQUEST_TIMEOUT_SECONDS = 120
 
 
@@ -49,7 +50,7 @@ Traits: Trait 1; Trait 2; (...) -> the colonist's personality traits.
 Relations: Relation 1; Relation 2; (...) -> active relationships with other colonists/characters/animals.
 
 ### Instructions ###
-Your primary goal is to write a compelling narrative summary of the provided logs in 2 paragraphs (avoid going over 20 lines), prioritizing story cohesion and atmosphere over exhaustive coverage.
+Your primary goal is to write a compelling narrative summary of the provided logs in less than 200 words.
 
 Guidelines:
 - Highlight low-count events (e.g., [x1]).

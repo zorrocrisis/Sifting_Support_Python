@@ -39,6 +39,7 @@ mode imports it lazily so headless modes never touch Panel/Bokeh at all.
 
 import argparse
 import json
+from unittest import result
 
 import pipeline
 
@@ -103,6 +104,11 @@ def run_preprocess_headless(full_log=None, characters_bios_log=None):
     metadata as a single line of JSON to stdout, for the C# mod to read
     directly from the process's standard output.
     """
+
+    # If the user didn't explicitly pass paths, resolve them via config/stdin.
+    if full_log is None or characters_bios_log is None:
+        full_log, characters_bios_log = pipeline.resolve_input_paths()
+
     pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log)
     view_data = pipeline_state["view_data"]
 
@@ -113,7 +119,11 @@ def run_preprocess_headless(full_log=None, characters_bios_log=None):
         "unique_logs_after_filtering": view_data["unique_logs_after_filtering"]
     }
 
-    print(json.dumps(result))
+    json_result = json.dumps(result)
+
+    log_result(full_log, json_result)
+
+    print(json_result)
 
 
 def run_select_headless(args):
@@ -127,6 +137,10 @@ def run_select_headless(args):
     # doesn't touch Panel, but keeping headless-mode imports scoped to
     # their function makes it obvious at a glance which modes are heavy.
     from log_selection import select_final_log_pool
+
+    # If the user didn't explicitly pass paths, resolve them via config/stdin.
+    if args.full_log is None or args.characters_bios_log is None:
+        args.full_log, args.characters_bios_log = pipeline.resolve_input_paths()
 
     pipeline_state = pipeline.run_preprocessing(args.full_log, args.characters_bios_log)
 
@@ -153,7 +167,22 @@ def run_select_headless(args):
         
     }
 
-    print(json.dumps(result))
+    json_result = json.dumps(result)
+
+    log_result(args.full_log, json_result)
+
+    print(json_result)
+
+def log_result(full_log, json_result):
+    """
+    Log the result of the preprocessing or selection to a file for debugging
+    or record-keeping purposes. This function can be expanded to include more
+    detailed logging as needed.
+    """
+
+    log_result_path = full_log.replace(".txt", "_pythonFullResponse.txt")
+    with open (log_result_path, "w", encoding="utf-8", errors="ignore") as out:
+        out.write(json_result)
 
 
 if __name__ == "__main__":

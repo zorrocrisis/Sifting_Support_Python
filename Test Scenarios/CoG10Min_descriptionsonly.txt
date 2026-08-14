@@ -5620,7 +5620,6 @@ A(n) squirrel standing.
 A(n) raccoon wandering.
 Agent's bolt-action rifle bullet hit the turkey.
 A(n) turkey was afflicted with (a) Destroyed (left lung)
-A(n) turkey was afflicted with (a) Destroyed (left lung)
 A(n) turkey was afflicted with (a) gunshot (body)
 The turkey expired.
 A(n) raccoon standing.
@@ -12791,7 +12790,6 @@ A(n) hare wandering.
 A(n) hare standing.
 Agent hit the turkey with a bolt-action rifle bullet.
 A(n) turkey was afflicted with (a) Shot off (fresh) (right foot)
-A(n) turkey was afflicted with (a) Shot off (fresh) (right foot)
 A(n) ibex ram wandering.
 A(n) ibex ram standing.
 A(n) ibex ram wandering.
@@ -14220,7 +14218,6 @@ A(n) elk standing.
 Agent's shot hit the turkey.
 A(n) turkey was afflicted with (a) Shot off (fresh) (tail)
 A missing body part caused the turkey to drop.
-A(n) turkey was afflicted with (a) Shot off (fresh) (tail)
 A(n) rat wandering.
 A(n) rat standing.
 A(n) megasloth wandering.

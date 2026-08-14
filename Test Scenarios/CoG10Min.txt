@@ -5620,7 +5620,6 @@ NV._JOB_Timestamp_628743_Location_(240, 0, 54)_ID_J5964_Actors_Squirrel23047_Ful
 NV._JOB_Timestamp_628755_Location_(8, 0, 150)_ID_J5925_Actors_Raccoon23036_FullInfo_A(n) raccoon wandering.
 NV._CL_Timestamp_628755_Location_(80, 0, 213)_ID_b41_Actors_Agent, Turkey23045, Turkey23045_FullInfo_Agent's bolt-action rifle bullet hit the turkey.
 NV._HP_Timestamp_628755_Location_(85, 0, 240)_ID_H60_Actors_Turkey23045_FullInfo_A(n) turkey was afflicted with (a) Destroyed (left lung)
-NV._HP_Timestamp_628755_Location_(85, 0, 240)_ID_H60_Actors_Turkey23045_FullInfo_A(n) turkey was afflicted with (a) Destroyed (left lung)
 NV._HP_Timestamp_628755_Location_(85, 0, 240)_ID_H61_Actors_Turkey23045_FullInfo_A(n) turkey was afflicted with (a) gunshot (body)
 NV._CL_Timestamp_628755_Location_(80, 0, 213)_ID_b42_Actors_Agent, Turkey23045_FullInfo_The turkey expired.
 NV._JOB_Timestamp_628756_Location_(8, 0, 150)_ID_J5966_Actors_Raccoon23036_FullInfo_A(n) raccoon standing.
@@ -12791,7 +12790,6 @@ NV._JOB_Timestamp_646028_Location_(30, 0, 229)_ID_J14095_Actors_Hare23051_FullIn
 NV._JOB_Timestamp_646029_Location_(30, 0, 229)_ID_J14204_Actors_Hare23051_FullInfo_A(n) hare standing.
 NV._CL_Timestamp_646033_Location_(139, 0, 188)_ID_b84_Actors_Agent, Turkey23050, Turkey23050_FullInfo_Agent hit the turkey with a bolt-action rifle bullet.
 NV._HP_Timestamp_646033_Location_(148, 0, 216)_ID_H67_Actors_Turkey23050_FullInfo_A(n) turkey was afflicted with (a) Shot off (fresh) (right foot)
-NV._HP_Timestamp_646033_Location_(148, 0, 216)_ID_H67_Actors_Turkey23050_FullInfo_A(n) turkey was afflicted with (a) Shot off (fresh) (right foot)
 NV._JOB_Timestamp_646035_Location_(24, 0, 60)_ID_J14139_Actors_Ibex23024_FullInfo_A(n) ibex ram wandering.
 NV._JOB_Timestamp_646036_Location_(24, 0, 60)_ID_J14208_Actors_Ibex23024_FullInfo_A(n) ibex ram standing.
 NV._JOB_Timestamp_646036_Location_(216, 0, 232)_ID_J14144_Actors_Ibex23057_FullInfo_A(n) ibex ram wandering.
@@ -14220,7 +14218,6 @@ NV._JOB_Timestamp_649560_Location_(7, 0, 162)_ID_J16247_Actors_Elk23038_FullInfo
 NV._CL_Timestamp_649565_Location_(147, 0, 212)_ID_b110_Actors_Agent, Turkey23050, Turkey23050_FullInfo_Agent's shot hit the turkey.
 NV._HP_Timestamp_649565_Location_(125, 0, 233)_ID_H69_Actors_Turkey23050_FullInfo_A(n) turkey was afflicted with (a) Shot off (fresh) (tail)
 NV._CL_Timestamp_649565_Location_(147, 0, 212)_ID_b111_Actors_Agent, Turkey23050_FullInfo_A missing body part caused the turkey to drop.
-NV._HP_Timestamp_649565_Location_(125, 0, 233)_ID_H69_Actors_Turkey23050_FullInfo_A(n) turkey was afflicted with (a) Shot off (fresh) (tail)
 NV._JOB_Timestamp_649569_Location_(164, 0, 46)_ID_J16184_Actors_Rat23031_FullInfo_A(n) rat wandering.
 NV._JOB_Timestamp_649570_Location_(164, 0, 46)_ID_J16250_Actors_Rat23031_FullInfo_A(n) rat standing.
 NV._JOB_Timestamp_649570_Location_(178, 0, 176)_ID_J16194_Actors_Megasloth23037_FullInfo_A(n) megasloth wandering.
