@@ -2,7 +2,7 @@
 main_demo.py
 ------------
 Entry point for the Log Dendrogram Explorer.
-
+ 
   python main_demo.py             -> opens the interactive dashboard (default)
   python main_demo.py demo        -> same as above, explicit
   python main_demo.py preprocess  -> HEADLESS: runs only the log loading +
@@ -18,49 +18,97 @@ Entry point for the Log Dendrogram Explorer.
                                       printed to stdout. See --ncd-threshold,
                                       --control, --strategy, --depth,
                                       --target-count, --seed below.
-
-Both headless modes are intended for the C# RimWorld mod to call directly
-and read the results back over stdout, with no browser window ever opening.
-
+  python main_demo.py generate    -> HEADLESS: calls the LLM against an
+                                      ALREADY-SELECTED log pool (deliberately
+                                      does NOT re-run preprocessing/selection
+                                      -- see log_selection/story_llm design
+                                      note below) and prints the generated
+                                      text as JSON to stdout. Requires
+                                      --final-log-pool and --bios-log; see
+                                      --generation-mode for narrative vs.
+                                      dialogue output.
+ 
+All three headless modes are intended for the C# RimWorld mod to call
+directly and read the results back over stdout, with no browser window
+ever opening.
+ 
 Optional path overrides (any mode), useful for the C# mod to pass paths
 as plain arguments instead of relying on config.RUNNING_WITHIN_GAME's
 stdin convention:
-
+ 
   python main_demo.py preprocess --full-log X --short-log Y --bios-log Z
-
+ 
+DESIGN NOTE on why `generate` is separate from `select` rather than a
+combined "preprocess+select+generate" mode: NCD preprocessing is cheap,
+local, and deterministic, so `select` re-running it on every call is
+fine. LLM generation is a paid network call with variable latency --
+you often want to retry it, or generate BOTH narrative and dialogue
+variants from the exact same pool, without paying the NCD cost again
+each time. Keeping `generate` standalone lets the C# side call `select`
+once, then call `generate` as many times as needed against that same
+pool. `generate` also deliberately never imports pipeline.py (no
+scipy/numpy), so it starts fast -- it has nothing to do with clustering.
+ 
 The pipeline itself lives in pipeline.py (run_preprocessing), the "final
 log pool" selection logic lives in log_selection.py (select_final_log_pool
 / select_leaf_ids -- shared with the dashboard, so both always pick logs
-the same way), and the dashboard UI lives in dashboard.py (build_dashboard).
-All three are importable and callable on their own, independent of this
-CLI wrapper. Neither `preprocess` nor `select` mode imports Panel: `demo`
-mode imports it lazily so headless modes never touch Panel/Bokeh at all.
+the same way), the LLM call lives in story_llm.py (generate_story_llm),
+and the dashboard UI lives in dashboard.py (build_dashboard). All of
+these are importable and callable on their own, independent of this CLI
+wrapper. Heavy imports (panel, pipeline) are all done lazily inside the
+functions that need them, so each headless mode only pays for what it
+actually uses.
 """
-
+ 
 import argparse
 import json
-from unittest import result
+import sys
 
-import pipeline
-
-
+# Force stdout/stderr to UTF-8 regardless of the host's default console
+# codepage (Windows in particular can default to something like cp1252,
+# which would either mangle non-ASCII characters or raise
+# UnicodeEncodeError once we stop escaping them as \uXXXX below).
+# Requires the corresponding C# side to read this process's stdout/stderr
+# as UTF-8 too (ProcessStartInfo.StandardOutputEncoding/StandardErrorEncoding
+# = Encoding.UTF8) -- otherwise Python emits correct UTF-8 bytes but C#
+# decodes them with the wrong codepage, producing mojibake instead of
+# clean text.
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+ 
+ 
+def print_json(obj):
+    """
+    print(json.dumps(...)) but with ensure_ascii=False, so characters
+    like curly quotes/em dashes come through as themselves (e.g. an
+    apostrophe) instead of escaped as \\uXXXX. Used for every JSON
+    result this CLI emits, so stdout stays consistent across modes.
+    """
+    print(json.dumps(obj, ensure_ascii=False))
+ 
+ 
+ 
 def parse_args():
     parser = argparse.ArgumentParser(description="Log Dendrogram Explorer")
     parser.add_argument(
-        "mode", nargs="?", default="demo", choices=["demo", "preprocess", "select"],
+        "mode", nargs="?", default="demo", choices=["demo", "preprocess", "select", "generate"],
         help="'demo' (default): open the interactive dashboard in a browser tab. "
              "'preprocess': run only the log loading + clustering pipeline and "
              "print the results as JSON to stdout -- no browser/UI. "
              "'select': same as 'preprocess', but also selects and includes a "
-             "final log pool (see --ncd-threshold/--control/--strategy/etc below)."
+             "final log pool (see --ncd-threshold/--control/--strategy/etc below). "
+             "'generate': call the LLM against an ALREADY-SELECTED log pool "
+             "(see --final-log-pool/--bios-log/--generation-mode below) -- no "
+             "preprocessing/selection re-run, no scipy/numpy import."
     )
     parser.add_argument("--full-log", dest="full_log", default=None,
                          help="Path to the full-length log file (overrides config/stdin resolution).")
     parser.add_argument("--short-log", dest="short_log", default=None,
                          help="Path to the short-description log file (overrides config/stdin resolution).")
     parser.add_argument("--bios-log", dest="characters_bios_log", default=None,
-                         help="Path to the character bios file (overrides config/stdin resolution).")
-
+                         help="Path to the character bios file (overrides config/stdin resolution). "
+                              "Also used by 'generate' mode.")
+ 
     # 'select'-mode only: mirror the dashboard's traversal controls.
     parser.add_argument("--ncd-threshold", dest="ncd_threshold", type=float, default=None,
                          help="NCD 'zoom' threshold for log deduplication (default: config.INITIAL_NCD_THRESHOLD).")
@@ -75,20 +123,32 @@ def parse_args():
                          help="Desired final log pool size, used when --control=target_count.")
     parser.add_argument("--seed", dest="seed", type=int, default=42,
                          help="Random seed for the 'random' strategy (and tie-breaking in 'least_frequent').")
-
+ 
+    # 'generate'-mode only.
+    parser.add_argument("--final-log-pool", dest="final_log_pool", default=None,
+                         help="[generate mode] Path to a plain text file, one formatted log line per line "
+                              "(e.g. the file C#'s WriteFinalLogsToFiles already writes).")
+    parser.add_argument("--generation-mode", dest="generation_mode", choices=["narrative", "dialogue"], default="narrative",
+                         help="[generate mode] Which prompt to use (see story_llm.PROMPTS).")
+ 
     return parser.parse_args()
-
+ 
 
 def run_demo(full_log=None, characters_bios_log=None):
     """Run the full pipeline and open the interactive dashboard in a browser tab."""
-    # Imported lazily so `preprocess` mode never touches Panel/Bokeh at all.
+    # Imported lazily so headless modes never touch Panel/Bokeh/scipy at all.
     import panel as pn
     import config
+    import pipeline
     from dashboard import build_dashboard
     import server
 
     pn.extension("plotly")
     pn.extension(raw_css=config.DASHBOARD_CSS)
+
+    # If the user didn't explicitly pass paths, resolve them via config/stdin.
+    if full_log is None or characters_bios_log is None:
+        full_log, characters_bios_log = pipeline.resolve_input_paths()
 
     pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log)
     dashboard = build_dashboard(pipeline_state)
@@ -104,6 +164,7 @@ def run_preprocess_headless(full_log=None, characters_bios_log=None):
     metadata as a single line of JSON to stdout, for the C# mod to read
     directly from the process's standard output.
     """
+    import pipeline
 
     # If the user didn't explicitly pass paths, resolve them via config/stdin.
     if full_log is None or characters_bios_log is None:
@@ -119,11 +180,11 @@ def run_preprocess_headless(full_log=None, characters_bios_log=None):
         "unique_logs_after_filtering": view_data["unique_logs_after_filtering"]
     }
 
-    json_result = json.dumps(result)
+    print_json(result)
 
-    log_result(full_log, json_result)
+    # Logging
+    write_to_file(full_log, json.dumps(result, ensure_ascii=False), "preprocess_logs")
 
-    print(json_result)
 
 
 def run_select_headless(args):
@@ -137,6 +198,7 @@ def run_select_headless(args):
     # doesn't touch Panel, but keeping headless-mode imports scoped to
     # their function makes it obvious at a glance which modes are heavy.
     from log_selection import select_final_log_pool
+    import pipeline
 
     # If the user didn't explicitly pass paths, resolve them via config/stdin.
     if args.full_log is None or args.characters_bios_log is None:
@@ -167,20 +229,82 @@ def run_select_headless(args):
         
     }
 
-    json_result = json.dumps(result)
+    print_json(result)
 
-    log_result(args.full_log, json_result)
+    # Logging
+    write_to_file(args.full_log, json.dumps(result, ensure_ascii=False), "select_logs")
 
-    print(json_result)
 
-def log_result(full_log, json_result):
+def run_generate_headless(args):
+    """
+    Call the LLM against an ALREADY-SELECTED log pool and print the
+    result as JSON to stdout. Deliberately does not import pipeline.py
+    (no scipy/numpy) -- this mode has nothing to do with clustering, it
+    just reads two text files and makes one API call.
+    """
+    from story_llm import generate_story_llm, load_final_log_pool
+ 
+    if not args.final_log_pool:
+        print(json.dumps({"story": None, "mode": args.generation_mode,
+                           "error": "generate mode requires --final-log-pool <path>"}))
+        return
+    if not args.characters_bios_log:
+        print(json.dumps({"story": None, "mode": args.generation_mode,
+                           "error": "generate mode requires --bios-log <path>"}))
+        return
+ 
+    try:
+        selected_descriptions = load_final_log_pool(args.final_log_pool)
+        with open(args.characters_bios_log, "r", encoding="utf-8", errors="ignore") as f:
+            characters_bios = f.read()
+ 
+        story = generate_story_llm(characters_bios, selected_descriptions, mode=args.generation_mode)
+        result = {"story": story, "mode": args.generation_mode, "error": None}
+    except Exception as e:
+        # Mirror dashboard.py's generate_story(): never let an LLM/network
+        # failure crash the process -- report it as data instead, same as
+        # every other headless mode's error handling.
+        result = {"story": None, "mode": args.generation_mode, "error": str(e)}
+
+    print_json(result)
+
+    story_file_name = ""
+
+    if(args.generation_mode == "dialogue"):
+        story_file_name = "dialogue_file"
+    else:
+        story_file_name = "narrative_file"
+
+    # Store the generated story
+    write_to_file(args.final_log_pool, story, story_file_name)
+
+    # Logging
+    write_to_file(args.final_log_pool, json.dumps(result, ensure_ascii=False), "generate_logs")
+
+def write_to_file(log_path, content, file_name):
+    """
+
+    """
+    from pathlib import Path
+
+    path = Path(log_path)
+    story_file = str(path.parent) + "\\" + file_name + ".txt"
+
+    with open (story_file, "w", encoding="utf-8", errors="ignore") as out:
+        for line in content:
+            if not line:
+                continue
+            out.write(line)
+
+
+def log_result(log_path, json_result):
     """
     Log the result of the preprocessing or selection to a file for debugging
     or record-keeping purposes. This function can be expanded to include more
     detailed logging as needed.
     """
 
-    log_result_path = full_log.replace(".txt", "_pythonFullResponse.txt")
+    log_result_path = log_path.replace(".txt", "_pythonFullResponse.txt")
     with open (log_result_path, "w", encoding="utf-8", errors="ignore") as out:
         out.write(json_result)
 
@@ -192,5 +316,7 @@ if __name__ == "__main__":
         run_preprocess_headless(args.full_log, args.characters_bios_log)
     elif args.mode == "select":
         run_select_headless(args)
+    elif args.mode == "generate":
+        run_generate_headless(args)
     else:
         run_demo(args.full_log, args.characters_bios_log)
