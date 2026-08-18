@@ -36,7 +36,7 @@ Optional path overrides (any mode), useful for the C# mod to pass paths
 as plain arguments instead of relying on config.RUNNING_WITHIN_GAME's
 stdin convention:
  
-  python main_demo.py preprocess --full-log X --short-log Y --bios-log Z
+  python main_demo.py preprocess --full-log X --bios-log Z
  
 DESIGN NOTE on why `generate` is separate from `select` rather than a
 combined "preprocess+select+generate" mode: NCD preprocessing is cheap,
@@ -103,8 +103,6 @@ def parse_args():
     )
     parser.add_argument("--full-log", dest="full_log", default=None,
                          help="Path to the full-length log file (overrides config/stdin resolution).")
-    parser.add_argument("--short-log", dest="short_log", default=None,
-                         help="Path to the short-description log file (overrides config/stdin resolution).")
     parser.add_argument("--bios-log", dest="characters_bios_log", default=None,
                          help="Path to the character bios file (overrides config/stdin resolution). "
                               "Also used by 'generate' mode.")
@@ -260,26 +258,16 @@ def run_generate_headless(args):
  
         story = generate_story_llm(characters_bios, selected_descriptions, mode=args.generation_mode)
         result = {"story": story, "mode": args.generation_mode, "error": None}
+        
+        print_json(story)
     except Exception as e:
         # Mirror dashboard.py's generate_story(): never let an LLM/network
         # failure crash the process -- report it as data instead, same as
         # every other headless mode's error handling.
         result = {"story": None, "mode": args.generation_mode, "error": str(e)}
 
-    print_json(result)
-
-    story_file_name = ""
-
-    if(args.generation_mode == "dialogue"):
-        story_file_name = "dialogue_file"
-    else:
-        story_file_name = "narrative_file"
-
-    # Store the generated story
-    write_to_file(args.final_log_pool, story, story_file_name)
-
     # Logging
-    write_to_file(args.final_log_pool, json.dumps(result, ensure_ascii=False), "generate_logs")
+    write_to_file(args.final_log_pool, json.dumps(result, ensure_ascii=False), f"generate_{args.generation_mode}_logs")
 
 def write_to_file(log_path, content, file_name):
     """
@@ -291,22 +279,7 @@ def write_to_file(log_path, content, file_name):
     story_file = str(path.parent) + "\\" + file_name + ".txt"
 
     with open (story_file, "w", encoding="utf-8", errors="ignore") as out:
-        for line in content:
-            if not line:
-                continue
-            out.write(line)
-
-
-def log_result(log_path, json_result):
-    """
-    Log the result of the preprocessing or selection to a file for debugging
-    or record-keeping purposes. This function can be expanded to include more
-    detailed logging as needed.
-    """
-
-    log_result_path = log_path.replace(".txt", "_pythonFullResponse.txt")
-    with open (log_result_path, "w", encoding="utf-8", errors="ignore") as out:
-        out.write(json_result)
+        out.write(content)
 
 
 if __name__ == "__main__":
