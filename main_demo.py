@@ -163,14 +163,41 @@ def run_preprocess_headless(full_log=None, characters_bios_log=None):
     directly from the process's standard output.
     """
     import pipeline
+    import time
 
     # If the user didn't explicitly pass paths, resolve them via config/stdin.
     if full_log is None or characters_bios_log is None:
         full_log, characters_bios_log = pipeline.resolve_input_paths()
 
-    pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log)
-    view_data = pipeline_state["view_data"]
+    # try/finally (not try/except): a real failure here should still
+    # crash the process with a non-zero exit code, same as before this
+    # logging was added -- if the C# side checks process.ExitCode to
+    # detect failure, silently swallowing the exception into a JSON
+    # "error" field would break that. finally still lets us log timing
+    # and failure metrics before the exception propagates.
+    start = time.perf_counter()
+    pipeline_state = None
+    error = None
+    try:
+        pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log)
+    except Exception as e:
+        error = str(e)
+        raise
+    finally:
+        duration_seconds = time.perf_counter() - start
+        view_data = pipeline_state["view_data"] if pipeline_state else None
+        log_run_metrics({
+            "mode": "preprocess",
+            "full_log_path": full_log,
+            "characters_bios_log_path": characters_bios_log,
+            "duration_seconds": round(duration_seconds, 4),
+            "success": error is None,
+            "error": error,
+            "unique_log_count": len(pipeline_state["unique_logs"]) if pipeline_state else None,
+            "unique_log_count_after_filtering": len(view_data["unique_logs_after_filtering"]) if view_data else None,
+        })
 
+    view_data = pipeline_state["view_data"]
     result = {
         "counts": pipeline_state["counts"],
         "unique_logs": pipeline_state["unique_logs"],
@@ -197,27 +224,66 @@ def run_select_headless(args):
     # their function makes it obvious at a glance which modes are heavy.
     from log_selection import select_final_log_pool
     import pipeline
+    import time
 
     # If the user didn't explicitly pass paths, resolve them via config/stdin.
     if args.full_log is None or args.characters_bios_log is None:
         args.full_log, args.characters_bios_log = pipeline.resolve_input_paths()
 
-    pipeline_state = pipeline.run_preprocessing(args.full_log, args.characters_bios_log)
+    # try/finally, not try/except -- see the matching comment in
+    # run_preprocess_headless for why a real failure must still crash
+    # the process rather than being swallowed into a JSON error field.
+    overall_start = time.perf_counter()
+    pipeline_state = None
+    selection = None
+    error = None
+    preprocessing_duration = None
+    selection_duration = None
+    try:
+        t0 = time.perf_counter()
+        pipeline_state = pipeline.run_preprocessing(args.full_log, args.characters_bios_log)
+        preprocessing_duration = time.perf_counter() - t0
 
-    ncd_threshold = args.ncd_threshold
-    if ncd_threshold is None:
-        import config
-        ncd_threshold = config.INITIAL_NCD_THRESHOLD
+        ncd_threshold = args.ncd_threshold
+        if ncd_threshold is None:
+            import config
+            ncd_threshold = config.INITIAL_NCD_THRESHOLD
 
-    selection = select_final_log_pool(
-        pipeline_state,
-        ncd_threshold=ncd_threshold,
-        control=args.control,
-        strategy=args.strategy,
-        depth=args.depth,
-        target_count=args.target_count,
-        seed=args.seed,
-    )
+        t1 = time.perf_counter()
+        selection = select_final_log_pool(
+            pipeline_state,
+            ncd_threshold=ncd_threshold,
+            control=args.control,
+            strategy=args.strategy,
+            depth=args.depth,
+            target_count=args.target_count,
+            seed=args.seed,
+        )
+        selection_duration = time.perf_counter() - t1
+    except Exception as e:
+        error = str(e)
+        raise
+    finally:
+        total_duration = time.perf_counter() - overall_start
+        log_run_metrics({
+            "mode": "select",
+            "full_log_path": args.full_log,
+            "characters_bios_log_path": args.characters_bios_log,
+            "ncd_threshold": args.ncd_threshold,
+            "control": args.control,
+            "strategy": args.strategy,
+            "depth": args.depth,
+            "target_count": args.target_count,
+            "seed": args.seed,
+            "resolved_depth": selection.get("resolved_depth") if selection else None,
+            "preprocessing_duration_seconds": round(preprocessing_duration, 4) if preprocessing_duration is not None else None,
+            "selection_duration_seconds": round(selection_duration, 4) if selection_duration is not None else None,
+            "total_duration_seconds": round(total_duration, 4),
+            "success": error is None,
+            "error": error,
+            "unique_log_count": len(pipeline_state["unique_logs"]) if pipeline_state else None,
+            "final_log_pool_size": len(selection["final_log_pool_short"]) if selection else None,
+        })
 
     result = {
         "counts": pipeline_state["counts"],
@@ -241,37 +307,89 @@ def run_generate_headless(args):
     just reads two text files and makes one API call.
     """
     from story_llm import generate_story_llm, load_final_log_pool
- 
+    import time
+
     if not args.final_log_pool:
-        print(json.dumps({"story": None, "mode": args.generation_mode,
-                           "error": "generate mode requires --final-log-pool <path>"}))
+        result = {"story": None, "mode": args.generation_mode, "usage": None,
+                   "error": "generate mode requires --final-log-pool <path>"}
+        print_json(result)
+        log_run_metrics({
+            "mode": "generate",
+            "generation_mode": args.generation_mode,
+            "final_log_pool_path": args.final_log_pool,
+            "characters_bios_log_path": args.characters_bios_log,
+            "duration_seconds": 0.0,
+            "success": False,
+            "error": result["error"],
+            "final_log_pool_size": None,
+            "story_length_chars": None,
+        })
         return
     if not args.characters_bios_log:
-        print(json.dumps({"story": None, "mode": args.generation_mode,
-                           "error": "generate mode requires --bios-log <path>"}))
+        result = {"story": None, "mode": args.generation_mode, "usage": None,
+                   "error": "generate mode requires --bios-log <path>"}
+        print_json(result)
+        log_run_metrics({
+            "mode": "generate",
+            "generation_mode": args.generation_mode,
+            "final_log_pool_path": args.final_log_pool,
+            "characters_bios_log_path": args.characters_bios_log,
+            "duration_seconds": 0.0,
+            "success": False,
+            "error": result["error"],
+            "final_log_pool_size": None,
+            "story_length_chars": None,
+        })
         return
- 
+
+    start = time.perf_counter()
+    selected_descriptions = []
+    usage = None
     try:
         selected_descriptions = load_final_log_pool(args.final_log_pool)
         with open(args.characters_bios_log, "r", encoding="utf-8", errors="ignore") as f:
             characters_bios = f.read()
- 
-        story = generate_story_llm(characters_bios, selected_descriptions, mode=args.generation_mode)
-        result = {"story": story, "mode": args.generation_mode, "error": None}
-        
-        print_json(story)
+
+        story, usage = generate_story_llm(characters_bios, selected_descriptions, mode=args.generation_mode, return_usage=True)
+        result = {"story": story, "mode": args.generation_mode, "usage": usage, "error": None}
     except Exception as e:
         # Mirror dashboard.py's generate_story(): never let an LLM/network
         # failure crash the process -- report it as data instead, same as
         # every other headless mode's error handling.
-        result = {"story": None, "mode": args.generation_mode, "error": str(e)}
+        result = {"story": None, "mode": args.generation_mode, "usage": None, "error": str(e)}
+    duration_seconds = time.perf_counter() - start
 
-    # Logging
+    # `result` is built in BOTH the try and except branches above, so this
+    # must stay unconditional and outside the try/except -- printing it
+    # only from inside the try (as a previous version of this function
+    # did) means a failure prints nothing at all to stdout.
+    print_json(result)
+
     write_to_file(args.final_log_pool, json.dumps(result, ensure_ascii=False), f"generate_{args.generation_mode}_logs")
+
+    log_run_metrics({
+        "mode": "generate",
+        "generation_mode": args.generation_mode,
+        "final_log_pool_path": args.final_log_pool,
+        "characters_bios_log_path": args.characters_bios_log,
+        "duration_seconds": round(duration_seconds, 4),
+        "success": result["error"] is None,
+        "error": result["error"],
+        "final_log_pool_size": len(selected_descriptions),
+        "story_length_chars": len(result["story"]) if result["story"] else None,
+        "prompt_tokens": usage.get("prompt_tokens") if usage else None,
+        "completion_tokens": usage.get("completion_tokens") if usage else None,
+        "total_tokens": usage.get("total_tokens") if usage else None,
+        "model": usage.get("model") if usage else None,
+    })
 
 def write_to_file(log_path, content, file_name):
     """
-
+    Write `content` (a string) to <parent of log_path>/<file_name>.txt,
+    overwriting any previous file with that name -- a per-run debug
+    snapshot of the most recent result. This is great for "what did the
+    last run actually return", but since it overwrites, it can't be
+    used for analysis across many runs -- see log_run_metrics() for that.
     """
     from pathlib import Path
 
@@ -280,6 +398,47 @@ def write_to_file(log_path, content, file_name):
 
     with open (story_file, "w", encoding="utf-8", errors="ignore") as out:
         out.write(content)
+
+
+# Where log_run_metrics() appends to. Relative to the working directory
+# main_demo.exe is launched from -- C# already sets WorkingDirectory to
+# the exe's own folder, so this resolves to a stable, predictable path
+# next to the exe rather than somewhere inside a per-session RimWorld
+# log folder. Change to an absolute path if you'd rather keep it
+# elsewhere (e.g. alongside the RimWorld log folders themselves).
+RUN_METRICS_LOG_PATH = "run_metrics.jsonl"
+
+
+def log_run_metrics(metrics):
+    """
+    Append one JSON-line record to RUN_METRICS_LOG_PATH -- an
+    append-only log of every CLI invocation (any mode, success or
+    failure), meant for later data analysis (e.g.
+    `pandas.read_json(RUN_METRICS_LOG_PATH, lines=True)`) rather than
+    just "what did the last run do" debugging, which write_to_file()
+    already covers.
+
+    Never raises: a logging failure (e.g. a file permissions issue)
+    should never take down the actual demo/generation run, so any
+    error here is reported to stderr and swallowed rather than
+    propagated.
+
+    `metrics` should be a flat, JSON-serializable dict. This function
+    adds `timestamp` and `argv` itself -- don't pass those keys.
+    """
+    from datetime import datetime, timezone
+
+    record = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "argv": sys.argv[1:],
+        **metrics,
+    }
+
+    try:
+        with open(RUN_METRICS_LOG_PATH, "a", encoding="utf-8") as f:
+            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+    except Exception as e:
+        print(f"[main_demo] Warning: failed to write run metrics: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":

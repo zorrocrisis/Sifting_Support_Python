@@ -127,7 +127,7 @@ def _get_api_key():
     return api_key
 
 
-def generate_story_llm(characters_bios, selected_descriptions, mode="narrative"):
+def generate_story_llm(characters_bios, selected_descriptions, mode="narrative", return_usage=False):
     """
     Call the LLM with the current character bios + selected log
     descriptions and return the generated text.
@@ -140,6 +140,16 @@ def generate_story_llm(characters_bios, selected_descriptions, mode="narrative")
         Labels of the logs currently selected in the "Final Log Pool".
     mode : "narrative" | "dialogue"
         Which system prompt (see PROMPTS above) to use.
+    return_usage : bool
+        If False (default -- unchanged from before), returns just the
+        generated text, same as always. If True, returns a
+        (text, usage) tuple instead, where `usage` is a dict with
+        prompt_tokens/completion_tokens/total_tokens (as reported by
+        OpenRouter) plus the actual `model` that served the request --
+        useful for cost/performance logging. Kept opt-in and
+        keyword-only so existing callers (e.g. dashboard.py, which just
+        does `story = generate_story_llm(bios, descriptions)`) don't
+        need to change.
     """
     if mode not in PROMPTS:
         raise ValueError(f"Unknown generation mode {mode!r}. Valid modes: {list(PROMPTS)}")
@@ -176,7 +186,21 @@ def generate_story_llm(characters_bios, selected_descriptions, mode="narrative")
     if "choices" not in data:
         raise RuntimeError(f"OpenRouter error: {data}")
 
-    return data["choices"][0]["message"]["content"]
+    story = data["choices"][0]["message"]["content"]
+
+    if not return_usage:
+        return story
+
+    # OpenRouter follows the OpenAI-compatible schema: data["usage"] =
+    # {"prompt_tokens": ..., "completion_tokens": ..., "total_tokens": ...}.
+    # .get(..., {}) rather than indexing directly, since some providers/
+    # models routed through OpenRouter omit usage entirely -- this
+    # shouldn't ever crash the caller just because usage reporting was
+    # unavailable for a particular request.
+    usage = dict(data.get("usage", {}))
+    usage["model"] = data.get("model", OPENROUTER_MODEL)  # actual serving model, if OpenRouter reports one
+
+    return story, usage
 
 
 def load_final_log_pool(path):
