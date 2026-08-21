@@ -43,7 +43,8 @@ Event description. [xCount] [V/NV]
 
 [xCount] indicates how many times a similar event occurred.
 
-Information regarding the player's colonists is provided in the following format:
+Information regarding the colonists is provided in the following format:
+
 Name: First Name "Nickname" Last Name -> full name of the colonist.
 Gender: Male/Female -> gender of the colonist.
 Age: 0-99 -> age of the colonist
@@ -67,10 +68,6 @@ Tone:
 - Cinematic and grounded, as if recounting a chapter from a colony's history rather than a gameplay summary."""
 
 
-# PLACEHOLDER -- drop in the real dialogue-only prompt here. Kept as an
-# explicit, loud placeholder (rather than silently reusing
-# NARRATIVE_PROMPT) so it's obvious in testing if this mode is invoked
-# before the real prompt is filled in.
 DIALOGUE_PROMPT = """### Context ###
 You are a narrative chronicler that transforms raw game logs from a sci-fi colony simulator into immersive dialogues.
 
@@ -85,7 +82,7 @@ Event description. [xCount] [V/NV]
 
 [xCount] indicates how many times a similar event occurred.
 
-Information regarding the player’s colonists is provided in the following format:
+Information regarding the colonists is provided in the following format:
 
 Name: First Name 'Nickname' Last Name -> full name of the colonist.
 Gender: Male/Female - gender of the colonist.
@@ -111,9 +108,39 @@ Guidelines:
 Natural, concise, and character-driven. Each line should sound like something a real colonist would say in the moment, reflecting their personality, emotions, and recent experiences. Avoid exposition, narration, or overly poetic language."""
 
 
+DIALOGUE_FROM_NARRATIVE_PROMPT = """### Context ###
+You are a narrative chronicler that transforms a narrative from a sci-fi colony simulator into immersive dialogues.
+
+You will be given a narrative from a sci-fi game world.
+
+Information regarding the colonists is provided in the following format:
+
+Name: First Name 'Nickname' Last Name -> full name of the colonist.
+Gender: Male/Female - gender of the colonist.
+Age: 0-99 - age of the colonist
+Backstory: Backstory 1; Backstory 2; (…) - backstories from the colonist’s past as a child/teen/young adult.
+Incapable of: Type of Work 1; Type of Work 2; (...) - types of work that the colonist is incapable of doing.
+Traits: Trait 1; Trait 2; (...) - the colonist’s personality traits.
+Relations: Relation 1; Relation 2; (...) - active relationships with other colonists/characters/animals.
+
+### Instructions ###
+Output a JSON array of 2-4 short lines colonists might say referencing these events, each under 15 words. Each entry must be a JSON object with exactly two fields:
+- colonist: the full colonist name
+- line: the spoken dialogue
+
+Guidelines:
+- Avoid breaking the fourth wall: avoid mentioning logs, tags, visibility, or counts explicitly.
+- Only include colonist details when they meaningfully contribute to the narrative.
+- Use the colonist's biographical details to ground the dialogue generation.
+
+### Tone ###
+Natural, concise, and character-driven. Each line should sound like something a real colonist would say in the moment, reflecting their personality, emotions, and recent experiences. Avoid exposition, narration, or overly poetic language."""
+
+
 PROMPTS = {
     "narrative": NARRATIVE_PROMPT,
     "dialogue": DIALOGUE_PROMPT,
+    "dialogue_from_narrative": DIALOGUE_FROM_NARRATIVE_PROMPT
 }
 
 
@@ -127,7 +154,7 @@ def _get_api_key():
     return api_key
 
 
-def generate_story_llm(characters_bios, selected_descriptions, mode="narrative", return_usage=False):
+def generate_story_llm(characters_bios, supporting_content, mode="narrative", return_usage=False):
     """
     Call the LLM with the current character bios + selected log
     descriptions and return the generated text.
@@ -136,9 +163,10 @@ def generate_story_llm(characters_bios, selected_descriptions, mode="narrative",
     ----------
     characters_bios : str
         Raw character bios text.
-    selected_descriptions : list[str]
-        Labels of the logs currently selected in the "Final Log Pool".
-    mode : "narrative" | "dialogue"
+    supporting_content : str
+        Labels of the logs currently selected in the "Final Log Pool" ("narrative" and "dialogue" modes)
+        OR a narrative based on the final logs ("dialogue_from_narrative" mode)
+    mode : "narrative" | "dialogue" | "dialogue_from_narrative"
         Which system prompt (see PROMPTS above) to use.
     return_usage : bool
         If False (default -- unchanged from before), returns just the
@@ -155,14 +183,23 @@ def generate_story_llm(characters_bios, selected_descriptions, mode="narrative",
         raise ValueError(f"Unknown generation mode {mode!r}. Valid modes: {list(PROMPTS)}")
 
     system_prompt = PROMPTS[mode]
-    log_descriptions = "\n\n".join(selected_descriptions)
 
-    prompt = f"""### Player's Colonists ###
-{characters_bios}
+    if(mode == "narrative" or mode == "dialogue"):
+        log_descriptions = supporting_content
 
-### Input Logs ###
-{log_descriptions}
-"""
+        prompt = f"""### Player's Colonists ###
+                {characters_bios}
+
+                ### Input Logs ###
+                {log_descriptions}
+                """
+    elif(mode == "dialogue_from_narrative"):
+        prompt = f"""### Player's Colonists ###
+                {characters_bios}
+
+                ### Input Narrative ###
+                {supporting_content}
+                """
 
     response = requests.post(
         OPENROUTER_URL,

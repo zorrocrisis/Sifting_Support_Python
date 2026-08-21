@@ -18,7 +18,7 @@ Entry point for the Log Dendrogram Explorer.
                                       printed to stdout. See --ncd-threshold,
                                       --control, --strategy, --depth,
                                       --target-count, --seed below.
-  python main_demo.py generate    -> HEADLESS: calls the LLM against an
+  python main_demo.py generate_from_logs    -> HEADLESS: calls the LLM against an
                                       ALREADY-SELECTED log pool (deliberately
                                       does NOT re-run preprocessing/selection
                                       -- see log_selection/story_llm design
@@ -27,8 +27,17 @@ Entry point for the Log Dendrogram Explorer.
                                       --final-log-pool and --bios-log; see
                                       --generation-mode for narrative vs.
                                       dialogue output.
+   python main_demo.py generate_from_narrative
+                                  -> HEADLESS: calls the LLM against an
+                                      ALREADY-GENERATED narrative (deliberately
+                                      does NOT re-run preprocessing/selection)
+                                      and prints the generated
+                                      text as JSON to stdout. Requires
+                                      --final-log-pool and --bios-log; see
+                                      --generation-mode for narrative vs.
+                                      dialogue output.
  
-All three headless modes are intended for the C# RimWorld mod to call
+All four headless modes are intended for the C# RimWorld mod to call
 directly and read the results back over stdout, with no browser window
 ever opening.
  
@@ -91,15 +100,16 @@ def print_json(obj):
 def parse_args():
     parser = argparse.ArgumentParser(description="Log Dendrogram Explorer")
     parser.add_argument(
-        "mode", nargs="?", default="demo", choices=["demo", "preprocess", "select", "generate"],
+        "mode", nargs="?", default="demo", choices=["demo", "preprocess", "select", "generate_from_logs", "generate_from_narrative"],
         help="'demo' (default): open the interactive dashboard in a browser tab. "
              "'preprocess': run only the log loading + clustering pipeline and "
              "print the results as JSON to stdout -- no browser/UI. "
              "'select': same as 'preprocess', but also selects and includes a "
              "final log pool (see --ncd-threshold/--control/--strategy/etc below). "
-             "'generate': call the LLM against an ALREADY-SELECTED log pool "
+             "'generate_from_logs': call the LLM against an ALREADY-SELECTED log pool "
              "(see --final-log-pool/--bios-log/--generation-mode below) -- no "
              "preprocessing/selection re-run, no scipy/numpy import."
+             "'generate_from_narrative': call the LLM against an ALREADY-GENERATED narrative "
     )
     parser.add_argument("--full-log", dest="full_log", default=None,
                          help="Path to the full-length log file (overrides config/stdin resolution).")
@@ -122,12 +132,15 @@ def parse_args():
     parser.add_argument("--seed", dest="seed", type=int, default=42,
                          help="Random seed for the 'random' strategy (and tie-breaking in 'least_frequent').")
  
-    # 'generate'-mode only.
+    # 'generate' and 'generate_from_story'-mode only.
     parser.add_argument("--final-log-pool", dest="final_log_pool", default=None,
-                         help="[generate mode] Path to a plain text file, one formatted log line per line "
-                              "(e.g. the file C#'s WriteFinalLogsToFiles already writes).")
-    parser.add_argument("--generation-mode", dest="generation_mode", choices=["narrative", "dialogue"], default="narrative",
+                         help="[generate mode] Path to a plain text file, one formatted log line per line ")
+    parser.add_argument("--generation-mode", dest="generation_mode", choices=["narrative", "dialogue", "dialogue_from_narrative"], default="narrative",
                          help="[generate mode] Which prompt to use (see story_llm.PROMPTS).")
+
+    # 'generate_from_story'-mode only.
+    parser.add_argument("--input-narrative-path", dest="input_narrative_path", default=None,
+                        help="[generate mode] Path to a plain text file, one narrative.")
  
     return parser.parse_args()
  
@@ -298,20 +311,12 @@ def run_select_headless(args):
     # Logging
     write_to_file(args.full_log, json.dumps(result, ensure_ascii=False), "select_logs")
 
-
-def run_generate_headless(args):
-    """
-    Call the LLM against an ALREADY-SELECTED log pool and print the
-    result as JSON to stdout. Deliberately does not import pipeline.py
-    (no scipy/numpy) -- this mode has nothing to do with clustering, it
-    just reads two text files and makes one API call.
-    """
-    from story_llm import generate_story_llm, load_final_log_pool
-    import time
+def run_generate_from_logs(args):
+    from story_llm import load_final_log_pool
 
     if not args.final_log_pool:
         result = {"story": None, "mode": args.generation_mode, "usage": None,
-                   "error": "generate mode requires --final-log-pool <path>"}
+                    "error": "generate mode requires --final-log-pool <path>"}
         print_json(result)
         log_run_metrics({
             "mode": "generate",
@@ -325,15 +330,70 @@ def run_generate_headless(args):
             "story_length_chars": None,
         })
         return
-    if not args.characters_bios_log:
+
+    logs = load_final_log_pool(args.final_log_pool)
+
+    log_descriptions = "\n\n".join(logs)
+
+    run_generate_headless(
+        bios_path=args.characters_bios_log,
+        supporting_content=log_descriptions,
+        generation_mode=args.generation_mode
+    )
+
+def run_generate_from_narrative(args):
+
+    if not args.input_narrative_path:
         result = {"story": None, "mode": args.generation_mode, "usage": None,
-                   "error": "generate mode requires --bios-log <path>"}
+                   "error": "generate mode requires --input-narrative-path <path>"}
         print_json(result)
         log_run_metrics({
             "mode": "generate",
             "generation_mode": args.generation_mode,
-            "final_log_pool_path": args.final_log_pool,
+            "input_narrative_path": args.input_narrative_path,
             "characters_bios_log_path": args.characters_bios_log,
+            "duration_seconds": 0.0,
+            "success": False,
+            "error": result["error"],
+            "final_log_pool_size": None,
+            "story_length_chars": None,
+        })
+        return
+
+    with open(args.input_narrative_path, "r", encoding="utf-8", errors="ignore") as f:
+        input_narrative = f.read()
+
+    run_generate_headless(
+        bios_path=args.characters_bios_log,
+        supporting_content=input_narrative,
+        generation_mode="dialogue_from_narrative",
+    )
+
+def run_generate_headless(
+    *,
+    bios_path,
+    supporting_content,
+    generation_mode
+    ):
+
+    """
+    Call the LLM against an ALREADY-SELECTED log pool and print the
+    result as JSON to stdout. Deliberately does not import pipeline.py
+    (no scipy/numpy) -- this mode has nothing to do with clustering, it
+    just reads two text files and makes one API call.
+    """
+    from story_llm import generate_story_llm
+    import time
+
+    if not bios_path:
+        result = {"story": None, "mode": generation_mode, "usage": None,
+                   "error": "generate mode requires --bios-log <path>"}
+        print_json(result)
+        log_run_metrics({
+            "mode": "generate",
+            "generation_mode": generation_mode,
+            "supporting_content": supporting_content,
+            "characters_bios_log_path": bios_path,
             "duration_seconds": 0.0,
             "success": False,
             "error": result["error"],
@@ -343,20 +403,22 @@ def run_generate_headless(args):
         return
 
     start = time.perf_counter()
-    selected_descriptions = []
     usage = None
     try:
-        selected_descriptions = load_final_log_pool(args.final_log_pool)
-        with open(args.characters_bios_log, "r", encoding="utf-8", errors="ignore") as f:
+        with open(bios_path, "r", encoding="utf-8", errors="ignore") as f:
             characters_bios = f.read()
 
-        story, usage = generate_story_llm(characters_bios, selected_descriptions, mode=args.generation_mode, return_usage=True)
-        result = {"story": story, "mode": args.generation_mode, "usage": usage, "error": None}
+        story, usage = generate_story_llm(
+                        characters_bios=characters_bios,
+                        supporting_content=supporting_content,
+                        mode=generation_mode,
+                        return_usage=True)
+        result = {"story": story, "mode": generation_mode, "usage": usage, "error": None}
     except Exception as e:
         # Mirror dashboard.py's generate_story(): never let an LLM/network
         # failure crash the process -- report it as data instead, same as
         # every other headless mode's error handling.
-        result = {"story": None, "mode": args.generation_mode, "usage": None, "error": str(e)}
+        result = {"story": None, "mode": generation_mode, "usage": None, "error": str(e)}
     duration_seconds = time.perf_counter() - start
 
     # `result` is built in BOTH the try and except branches above, so this
@@ -365,23 +427,23 @@ def run_generate_headless(args):
     # did) means a failure prints nothing at all to stdout.
     print_json(result)
 
-    write_to_file(args.final_log_pool, json.dumps(result, ensure_ascii=False), f"generate_{args.generation_mode}_logs")
+    write_to_file(bios_path, json.dumps(result, ensure_ascii=False), f"PythonLogging_generate_{generation_mode}")
 
     log_run_metrics({
         "mode": "generate",
-        "generation_mode": args.generation_mode,
-        "final_log_pool_path": args.final_log_pool,
-        "characters_bios_log_path": args.characters_bios_log,
+        "generation_mode": generation_mode,
+        "supporting_content": supporting_content,
+        "characters_bios_log_path": bios_path,
         "duration_seconds": round(duration_seconds, 4),
         "success": result["error"] is None,
         "error": result["error"],
-        "final_log_pool_size": len(selected_descriptions),
         "story_length_chars": len(result["story"]) if result["story"] else None,
         "prompt_tokens": usage.get("prompt_tokens") if usage else None,
         "completion_tokens": usage.get("completion_tokens") if usage else None,
         "total_tokens": usage.get("total_tokens") if usage else None,
         "model": usage.get("model") if usage else None,
     })
+
 
 def write_to_file(log_path, content, file_name):
     """
@@ -409,6 +471,36 @@ def write_to_file(log_path, content, file_name):
 RUN_METRICS_LOG_PATH = "run_metrics.jsonl"
 
 
+def _derive_session_id(metrics):
+    """
+    Best-effort session id, derived from whichever log path is already
+    present in `metrics`. RimWorld log folders are already timestamped
+    (e.g. .../DEMOLogs/2026-08-14_16-29-05/all_events_final_logs.txt),
+    so the containing folder's name IS a natural session id -- lets you
+    group every preprocess/select/generate record from the same
+    playthrough together (`df.groupby("session_id")`) without fragile
+    full-path string matching.
+
+    Checked in this order since not every mode's metrics dict has every
+    key: full_log_path (preprocess/select), final_log_pool_path
+    (generate), characters_bios_log_path (present in all three, and
+    lives in the same session folder as the logs -- the fallback).
+    Returns None if no usable path is present (e.g. the "missing
+    --final-log-pool" validation-failure record for `generate`, which
+    has no path to derive anything from).
+    """
+    from pathlib import Path
+
+    for key in ("full_log_path", "final_log_pool_path", "characters_bios_log_path"):
+        path = metrics.get(key)
+        if path:
+            try:
+                return Path(path).parent.name
+            except Exception:
+                continue
+    return None
+
+
 def log_run_metrics(metrics):
     """
     Append one JSON-line record to RUN_METRICS_LOG_PATH -- an
@@ -424,12 +516,14 @@ def log_run_metrics(metrics):
     propagated.
 
     `metrics` should be a flat, JSON-serializable dict. This function
-    adds `timestamp` and `argv` itself -- don't pass those keys.
+    adds `timestamp`, `session_id`, and `argv` itself -- don't pass
+    those keys.
     """
     from datetime import datetime, timezone
 
     record = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
+        "session_id": _derive_session_id(metrics),
         "argv": sys.argv[1:],
         **metrics,
     }
@@ -448,7 +542,9 @@ if __name__ == "__main__":
         run_preprocess_headless(args.full_log, args.characters_bios_log)
     elif args.mode == "select":
         run_select_headless(args)
-    elif args.mode == "generate":
-        run_generate_headless(args)
+    elif args.mode == "generate_from_logs":
+        run_generate_from_logs(args)
+    elif args.mode == "generate_from_narrative":
+        run_generate_from_narrative(args)
     else:
         run_demo(args.full_log, args.characters_bios_log)

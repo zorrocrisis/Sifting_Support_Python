@@ -313,7 +313,8 @@ def build_dashboard(pipeline_state):
         generate_story_button.disabled = True
 
         try:
-            story = generate_story_llm(characters_bios, selected_descriptions)
+            merged_descriptions = "\n\n".join(selected_descriptions)
+            story = generate_story_llm(characters_bios, merged_descriptions)
             story_pane.object = "### Final Log-based Generated Story\n\n" + story
         except Exception as e:
             story_pane.object = f"**Error:**\n\n```\n{e}\n```"
