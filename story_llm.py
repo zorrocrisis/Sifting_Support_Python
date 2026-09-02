@@ -22,10 +22,22 @@ it as compromised and rotate it in your OpenRouter dashboard.
 import os
 
 import requests
+import random
+import sys
+import time
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_MODEL = "openai/gpt-oss-20b:free"
+OPENROUTER_MODEL = "poolside/laguna-xs-2.1:free"
+#OPENROUTER_MODEL = "openai/gpt-oss-20b:free"
 REQUEST_TIMEOUT_SECONDS = 120
+
+# Retry policy for 429 (rate limited) responses specifically -- see
+# _post_with_retry() below. Other HTTP errors (401 bad key, 400 bad
+# request, 5xx) are NOT retried, since retrying those wouldn't help
+# and would just delay an unavoidable failure.
+MAX_RETRIES = 5
+INITIAL_BACKOFF_SECONDS = 1.0
+MAX_BACKOFF_SECONDS = 30.0
 
 
 NARRATIVE_PROMPT = """### Context ###
@@ -154,6 +166,55 @@ def _get_api_key():
     return api_key
 
 
+def _post_with_retry(url, headers, json_payload, timeout):
+    """
+    POST with exponential backoff, specifically for 429 (rate limited)
+    responses -- other status codes (401 bad key, 400 bad request, 5xx
+    server errors) are returned immediately with no retry, since
+    retrying those wouldn't help and would just delay an unavoidable
+    failure reaching the caller.
+ 
+    Honors OpenRouter's `Retry-After` response header when present
+    (more accurate than a fixed schedule); falls back to computed
+    exponential backoff with jitter otherwise. Retries a bounded number
+    of times (MAX_RETRIES) rather than indefinitely -- an unbounded
+    retry loop could hang `generate` mode for a very long time during a
+    sustained rate-limit window, which is worse than failing fast into
+    the existing backup-story fallback.
+    """
+    response = None
+ 
+    for attempt in range(MAX_RETRIES + 1):
+        response = requests.post(url, headers=headers, json=json_payload, timeout=timeout)
+ 
+        if response.status_code != 429:
+            return response
+ 
+        if attempt == MAX_RETRIES:
+            return response  # out of retries -- let the caller's raise_for_status() handle it
+ 
+        retry_after = response.headers.get("Retry-After")
+        wait_seconds = None
+        if retry_after is not None:
+            try:
+                wait_seconds = float(retry_after)
+            except ValueError:
+                wait_seconds = None  # header present but not a plain number of seconds
+ 
+        if wait_seconds is None:
+            wait_seconds = min(INITIAL_BACKOFF_SECONDS * (2 ** attempt), MAX_BACKOFF_SECONDS)
+            wait_seconds += random.uniform(0, wait_seconds * 0.25)  # jitter, avoids retry storms
+ 
+        print(
+            f"[story_llm] 429 rate limited, retrying in {wait_seconds:.1f}s "
+            f"(attempt {attempt + 1}/{MAX_RETRIES})...",
+            file=sys.stderr,
+        )
+        time.sleep(wait_seconds)
+ 
+    return response
+ 
+
 def generate_story_llm(characters_bios, supporting_content, mode="narrative", return_usage=False):
     """
     Call the LLM with the current character bios + selected log
@@ -201,33 +262,32 @@ def generate_story_llm(characters_bios, supporting_content, mode="narrative", re
                 {supporting_content}
                 """
 
-    response = requests.post(
+    response = _post_with_retry(
         OPENROUTER_URL,
         headers={
             "Authorization": f"Bearer {_get_api_key()}",
             "Content-Type": "application/json",
         },
-        json={
+        json_payload={
             "model": OPENROUTER_MODEL,
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": prompt},
             ],
         },
-        timeout=REQUEST_TIMEOUT_SECONDS,
-    )
-
+        timeout=REQUEST_TIMEOUT_SECONDS,)
+ 
     response.raise_for_status()
     data = response.json()
-
+ 
     if "choices" not in data:
         raise RuntimeError(f"OpenRouter error: {data}")
-
+ 
     story = data["choices"][0]["message"]["content"]
-
+ 
     if not return_usage:
         return story
-
+ 
     # OpenRouter follows the OpenAI-compatible schema: data["usage"] =
     # {"prompt_tokens": ..., "completion_tokens": ..., "total_tokens": ...}.
     # .get(..., {}) rather than indexing directly, since some providers/
@@ -236,7 +296,7 @@ def generate_story_llm(characters_bios, supporting_content, mode="narrative", re
     # unavailable for a particular request.
     usage = dict(data.get("usage", {}))
     usage["model"] = data.get("model", OPENROUTER_MODEL)  # actual serving model, if OpenRouter reports one
-
+ 
     return story, usage
 
 
