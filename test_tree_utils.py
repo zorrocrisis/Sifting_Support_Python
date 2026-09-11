@@ -71,15 +71,30 @@ def counts():
 def distance_matrix():
     """
     A hand-written 6x6 NCD-like distance matrix, symmetric with zero
-    diagonal, consistent with the tree's own merge structure (small
-    within-cherry distances, larger across-cherry). Used only by
-    build_zoomed_view's "most anomalous" scoring.
+    diagonal. Deliberately asymmetric WITHIN the (A,B,C,D) cluster so
+    there's a genuine, non-tied medoid to test against (C, with total
+    distance 0.8 to the other three -- see TestRepresentativeLeaf and
+    the threshold=0.6 collapse tests below for the hand-worked sums).
+    (E,F) stay a perfect tie (0.2 each way) on purpose, to exercise
+    representative_leaf's tie-breaking path.
+
+            A     B     C     D     E     F
+        A  0.0   0.5   0.3   0.7   0.9   0.9
+        B  0.5   0.0   0.2   0.6   0.9   0.9
+        C  0.3   0.2   0.0   0.3   0.9   0.9
+        D  0.7   0.6   0.3   0.0   0.9   0.9
+        E  0.9   0.9   0.9   0.9   0.0   0.2
+        F  0.9   0.9   0.9   0.9   0.2   0.0
+
+    Within-cluster row sums for (A,B,C,D): A=1.5, B=1.3, C=0.8, D=1.6
+    -- C is the unique minimum (the medoid), clearly different from
+    "leftmost" (A).
     """
     return np.array([
-        [0.0, 0.1, 0.6, 0.6, 0.9, 0.9],
-        [0.1, 0.0, 0.6, 0.6, 0.9, 0.9],
-        [0.6, 0.6, 0.0, 0.1, 0.9, 0.9],
-        [0.6, 0.6, 0.1, 0.0, 0.9, 0.9],
+        [0.0, 0.5, 0.3, 0.7, 0.9, 0.9],
+        [0.5, 0.0, 0.2, 0.6, 0.9, 0.9],
+        [0.3, 0.2, 0.0, 0.3, 0.9, 0.9],
+        [0.7, 0.6, 0.3, 0.0, 0.9, 0.9],
         [0.9, 0.9, 0.9, 0.9, 0.0, 0.2],
         [0.9, 0.9, 0.9, 0.9, 0.2, 0.0],
     ])
@@ -258,6 +273,44 @@ class TestCollectFrontierWithEarlyLeaves:
 
 
 # -----------------------------------------------------------------------
+# representative_leaf
+# -----------------------------------------------------------------------
+class TestRepresentativeLeaf:
+    def test_single_leaf_subtree_returns_itself_trivially(self, root_0, distance_matrix):
+        leaf_e = root_0.right.left  # E, id 4
+        assert tree_utils.representative_leaf(leaf_e, distance_matrix) == 4
+
+    def test_picks_the_clear_non_tied_medoid_over_leftmost(self, root_0, distance_matrix):
+        """
+        node8's subtree (A,B,C,D): row sums A=1.5, B=1.3, C=0.8, D=1.6.
+        C is the unique minimum -- the medoid -- clearly NOT the
+        leftmost leaf (A). This is the whole point of the change.
+        """
+        node8 = root_0.left
+        assert tree_utils.representative_leaf(node8, distance_matrix) == 2  # C
+
+    def test_tie_is_broken_deterministically_for_a_fixed_seed(self, root_0, distance_matrix):
+        """
+        node9's subtree (E,F) is a perfect tie (0.2 each way) by
+        fixture design -- there's no "correct" answer, but repeated
+        calls with the SAME seed must give the SAME answer (a demo
+        rerun with the same data must reproduce the same dendrogram).
+        """
+        node9 = root_0.right
+        first = tree_utils.representative_leaf(node9, distance_matrix, seed=42)
+        second = tree_utils.representative_leaf(node9, distance_matrix, seed=42)
+        assert first == second
+        assert first in (4, 5)  # must be one of the genuinely tied leaves, not something else
+
+    def test_different_seeds_are_still_free_to_break_the_tie_differently(self, root_0, distance_matrix):
+        """Not asserting they MUST differ (a different seed could coincidentally
+        pick the same leaf) -- just that both are valid tied candidates."""
+        node9 = root_0.right
+        for seed in (1, 2, 3, 42, 100):
+            assert tree_utils.representative_leaf(node9, distance_matrix, seed=seed) in (4, 5)
+
+
+# -----------------------------------------------------------------------
 # collapse_tree_at_threshold
 # -----------------------------------------------------------------------
 class TestCollapseTreeAtThreshold:
@@ -268,13 +321,31 @@ class TestCollapseTreeAtThreshold:
 
     def test_partial_collapse_maps_leaves_to_correct_originals(self, root_0):
         """
-        threshold=0.15 collapses both dist-0.1 cherries ((A,B) and
-        (C,D)), leaving node9 (dist 0.2) and root (dist 0.8) intact.
-        leftmost_original_leaf always walks .left, so (A,B) -> A and
-        (C,D) -> C.
+        FALLBACK PATH (no distance_matrix given): threshold=0.15
+        collapses both dist-0.1 cherries ((A,B) and (C,D)), leaving
+        node9 (dist 0.2) and root (dist 0.8) intact. leftmost_original_leaf
+        always walks .left, so (A,B) -> A and (C,D) -> C.
         """
         collapsed_root, leaf_original_ids = tree_utils.collapse_tree_at_threshold(root_0, threshold=0.15)
         assert leaf_original_ids == [0, 2, 4, 5]  # A, C, E, F
+
+    def test_medoid_selection_differs_from_leftmost_when_distance_matrix_given(self, root_0, distance_matrix):
+        """
+        THE ACTUAL FIX: at threshold=0.6, node8 (dist 0.5) collapses the
+        WHOLE (A,B,C,D) cluster into one representative (and node9, dist
+        0.2, collapses (E,F) too). Leftmost-fallback would pick A;
+        medoid-based selection picks C (see TestRepresentativeLeaf).
+        This is the direct, load-bearing regression test for the
+        "arbitrary left-biased" behavior this change replaces.
+        """
+        fallback_root, fallback_ids = tree_utils.collapse_tree_at_threshold(root_0, threshold=0.6)
+        assert fallback_ids == [0, 4]  # leftmost: A, E
+
+        medoid_root, medoid_ids = tree_utils.collapse_tree_at_threshold(
+            root_0, threshold=0.6, distance_matrix=distance_matrix
+        )
+        assert medoid_ids == [2, 4]  # medoid: C (not A!), E (tie, same as before)
+        assert medoid_ids != fallback_ids
 
     def test_partial_collapse_new_leaf_ids_are_contiguous_from_zero(self, root_0):
         collapsed_root, leaf_original_ids = tree_utils.collapse_tree_at_threshold(root_0, threshold=0.15)
@@ -329,6 +400,19 @@ class TestBuildZoomedView:
     def test_unique_logs_after_filtering_matches_hand_verified_collapse(self, root_0, unique_logs, counts, distance_matrix):
         view_data = tree_utils.build_zoomed_view(root_0, unique_logs, counts, distance_matrix, threshold=0.15)
         assert view_data["unique_logs_after_filtering"] == ["A", "C", "E", "F"]
+
+    def test_uses_medoid_selection_not_leftmost_at_a_threshold_with_a_real_cluster(
+        self, root_0, unique_logs, counts, distance_matrix
+    ):
+        """
+        Integration-level version of test_medoid_selection_differs_from_leftmost:
+        confirms build_zoomed_view (the function the dashboard/log_selection
+        actually call) passes distance_matrix all the way through to
+        collapse_tree_at_threshold, rather than that plumbing silently
+        getting dropped somewhere in between.
+        """
+        view_data = tree_utils.build_zoomed_view(root_0, unique_logs, counts, distance_matrix, threshold=0.6)
+        assert view_data["unique_logs_after_filtering"] == ["C", "E"]  # not ["A", "E"]
 
     def test_freq_map_and_depth_map_share_the_same_id_space(self, root_0, unique_logs, counts, distance_matrix):
         view_data = tree_utils.build_zoomed_view(root_0, unique_logs, counts, distance_matrix, threshold=0.15)

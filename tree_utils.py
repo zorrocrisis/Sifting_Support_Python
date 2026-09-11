@@ -7,6 +7,8 @@ the "zoom" logic that lets the NCD threshold slider crop the tree
 without ever re-running linkage().
 """
 
+import random
+
 import numpy as np
 from scipy.cluster.hierarchy import ClusterNode
 
@@ -156,13 +158,82 @@ def collect_frontier_with_early_leaves(node, depth_map, target_depth, frontier=N
 # -----------------------------------------------------------------------
 # NCD-threshold "zoom" (replaces re-clustering a filtered subset)
 # -----------------------------------------------------------------------
-def collapse_tree_at_threshold(root, threshold):
+def representative_leaf(node, distance_matrix, seed=42):
+    """
+    Return a representative original leaf for `node`.
+
+    The representative is the medoid of all leaves in the subtree:
+        argmin_x sum_y d(x, y)
+
+    If multiple leaves have the same minimum total distance, one of
+    the tied leaves is chosen randomly.
+
+    Parameters
+    ----------
+    node : ClusterNode
+        Root of the subtree.
+    distance_matrix : np.ndarray
+        Full original NCD distance matrix. Leaf IDs must correspond
+        to its indices.
+    seed : int, optional
+        Random seed for tie-breaking. If None, uses NumPy's default RNG.
+
+    Returns
+    -------
+    int
+        Original leaf ID of the representative.
+    """
+
+    rng = random.Random(seed)
+
+    leaves = get_leaves(node)
+
+    if len(leaves) == 1:
+        return leaves[0]
+
+    sub_matrix = distance_matrix[np.ix_(leaves, leaves)]
+    total_distances = sub_matrix.sum(axis=1)
+
+    min_distance = total_distances.min()
+
+    # Use isclose so floating-point equality doesn't cause
+    # theoretically tied medoids to be treated differently.
+    tied = np.flatnonzero(
+        np.isclose(total_distances, min_distance)
+    )
+
+    chosen_idx = rng.choice(tied)
+
+    return leaves[chosen_idx]
+
+
+def collapse_tree_at_threshold(root, threshold, distance_matrix=None, seed=42):
     """
     Build a new tree where every subtree whose merge height is below
     `threshold` is collapsed into a single leaf. Nodes above the
     threshold keep their real, original merge heights -- nothing is
     re-clustered or re-linked, so this is a genuine "zoom" into the
     original dendrogram rather than a fresh clustering on a subset.
+
+    Parameters
+    ----------
+    distance_matrix : np.ndarray or None
+        Square (n x n) NCD distance matrix over the ORIGINAL leaves
+        (same indexing as leaf ids in `root`). When provided, each
+        collapsed cluster's representative is its MEDOID (see
+        representative_leaf) -- the original leaf minimizing total
+        distance to every other leaf in that same cluster, i.e. the
+        most centrally-located / "most representative" event, using
+        real NCD distances rather than tree structure alone. When
+        None (the default, kept for backward compatibility with any
+        caller that doesn't have a distance matrix handy), falls back
+        to the old leftmost-leaf behavior -- arbitrary, but still
+        deterministic.
+    seed : int
+        Passed through to representative_leaf() for tie-breaking when
+        a cluster has more than one leaf tied for minimum total
+        distance (e.g. a 2-leaf cherry, where both leaves are
+        necessarily "equally central" to each other).
 
     Returns
     -------
@@ -175,19 +246,21 @@ def collapse_tree_at_threshold(root, threshold):
     leaf_original_ids = []
 
     def leftmost_original_leaf(node):
-        # Which of the two leaves under a collapsed cherry becomes the
-        # representative is currently arbitrary (always .left, i.e.
-        # whatever order linkage() happened to build the pair in) --
-        # not based on frequency or content. Swap this out for a
-        # counts-aware pick if that ever matters.
+        # Fallback only, used when no distance_matrix is available.
+        # Arbitrary (always .left) -- not based on content or centrality.
         while not node.is_leaf():
             node = node.left
         return node.id
 
+    def pick_representative(node):
+        if distance_matrix is not None:
+            return representative_leaf(node, distance_matrix, seed=seed)
+        return leftmost_original_leaf(node)
+
     def build(node):
         if node.is_leaf() or node.dist < threshold:
             new_id = len(leaf_original_ids)
-            leaf_original_ids.append(leftmost_original_leaf(node))
+            leaf_original_ids.append(pick_representative(node))
             return ClusterNode(id=new_id, count=node.count)
 
         left = build(node.left)
@@ -218,7 +291,7 @@ def collapse_tree_at_threshold(root, threshold):
     return collapsed_root, leaf_original_ids
 
 
-def build_zoomed_view(root_0, unique_logs, counts, distance_matrix, threshold, log_dict=None):
+def build_zoomed_view(root_0, unique_logs, counts, distance_matrix, threshold, log_dict=None, seed=42):
     """
     Produce everything the dashboard needs to render the dendrogram
     "zoomed" to `threshold`, without ever re-running linkage() on a subset.
@@ -229,16 +302,24 @@ def build_zoomed_view(root_0, unique_logs, counts, distance_matrix, threshold, l
         The ONE canonical tree, built once from all unique_logs.
     distance_matrix : np.ndarray, shape (n, n)
         Square NCD matrix over `unique_logs` (i.e. squareform of the
-        condensed distances used to build root_0) -- used only to score
-        "most anomalous" among the surviving representatives, using
-        real original NCD values rather than a freshly recomputed matrix.
+        condensed distances used to build root_0). Used for two things:
+        scoring "most anomalous" among the surviving representatives,
+        and -- via collapse_tree_at_threshold -- picking each collapsed
+        cluster's MEDOID as its representative, instead of an arbitrary
+        leftmost leaf.
+    seed : int
+        Tie-breaking seed, passed through to collapse_tree_at_threshold
+        / representative_leaf for clusters where more than one leaf is
+        equally central (e.g. any 2-leaf cherry).
 
     Returns
     -------
     dict with keys: root, depth_map, freq_map, labels,
     unique_logs_after_filtering, most_anomalous_log, highest_NCD.
     """
-    collapsed_root, leaf_original_ids = collapse_tree_at_threshold(root_0, threshold)
+    collapsed_root, leaf_original_ids = collapse_tree_at_threshold(
+        root_0, threshold, distance_matrix=distance_matrix, seed=seed
+    )
 
     depth_map = assign_depths(collapsed_root)
 

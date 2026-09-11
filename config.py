@@ -12,7 +12,7 @@ import sys
 # -----------------------------------------------------------------------
 # Running within game enabler
 # -----------------------------------------------------------------------
-RUNNING_WITHIN_GAME = True # Set to True when running inside the game enabler (C# host process)
+RUNNING_WITHIN_GAME = False # Set to True when running inside the game enabler (C# host process)
 
 # -----------------------------------------------------------------------
 # Input file paths

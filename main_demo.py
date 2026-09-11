@@ -130,7 +130,7 @@ def parse_args():
     parser.add_argument("--target-count", dest="target_count", type=int, default=2,
                          help="Desired final log pool size, used when --control=target_count.")
     parser.add_argument("--seed", dest="seed", type=int, default=42,
-                         help="Random seed for the 'random' strategy (and tie-breaking in 'least_frequent').")
+                         help="Random seed for the 'random' strategy, tie-breaking for 'least_frequent', and tree collapsing.")
  
     # 'generate' and 'generate_from_story'-mode only.
     parser.add_argument("--final-log-pool", dest="final_log_pool", default=None,
@@ -145,7 +145,7 @@ def parse_args():
     return parser.parse_args()
  
 
-def run_demo(full_log=None, characters_bios_log=None):
+def run_demo(full_log=None, characters_bios_log=None, seed=42):
     """Run the full pipeline and open the interactive dashboard in a browser tab."""
     # Imported lazily so headless modes never touch Panel/Bokeh/scipy at all.
     import panel as pn
@@ -161,14 +161,14 @@ def run_demo(full_log=None, characters_bios_log=None):
     if full_log is None or characters_bios_log is None:
         full_log, characters_bios_log = pipeline.resolve_input_paths()
 
-    pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log)
+    pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log, seed=seed)
     dashboard = build_dashboard(pipeline_state)
     dashboard.servable(title="Log Dendrogram Explorer")
 
     server.serve_dashboard(dashboard)
 
 
-def run_preprocess_headless(full_log=None, characters_bios_log=None):
+def run_preprocess_headless(full_log=None, characters_bios_log=None, seed=42):
     """
     Run only the log loading + hierarchical-clustering pipeline (no
     Panel, no browser) and print the resulting unique logs + a bit of
@@ -192,7 +192,7 @@ def run_preprocess_headless(full_log=None, characters_bios_log=None):
     pipeline_state = None
     error = None
     try:
-        pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log)
+        pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log, seed=seed)
     except Exception as e:
         error = str(e)
         raise
@@ -254,7 +254,7 @@ def run_select_headless(args):
     selection_duration = None
     try:
         t0 = time.perf_counter()
-        pipeline_state = pipeline.run_preprocessing(args.full_log, args.characters_bios_log)
+        pipeline_state = pipeline.run_preprocessing(args.full_log, args.characters_bios_log, seed=args.seed)
         preprocessing_duration = time.perf_counter() - t0
 
         ncd_threshold = args.ncd_threshold
@@ -547,4 +547,4 @@ if __name__ == "__main__":
     elif args.mode == "generate_from_narrative":
         run_generate_from_narrative(args)
     else:
-        run_demo(args.full_log, args.characters_bios_log)
+        run_demo(args.full_log, args.characters_bios_log, seed=args.seed)

@@ -32,7 +32,7 @@ def resolve_input_paths():
     return config.FULL_LOG_FILE, config.CHARACTERS_BIOS_LOG_FILE
 
 
-def run_preprocessing(full_log=None, characters_bios_log=None, ncd_threshold=None):
+def run_preprocessing(full_log=None, characters_bios_log=None, ncd_threshold=None, seed=42):
     """
     Load + deduplicate the logs, compute the full NCD distance matrix,
     and build the ONE canonical hierarchical-clustering tree. This is
@@ -105,7 +105,8 @@ def run_preprocessing(full_log=None, characters_bios_log=None, ncd_threshold=Non
 
     view_data = build_zoomed_view(
         root_0, unique_logs, counts, distance_matrix,
-        threshold=ncd_threshold, log_dict=log_dict
+        threshold=ncd_threshold, log_dict=log_dict,
+        seed=seed
     )
 
     return {

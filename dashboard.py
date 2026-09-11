@@ -215,7 +215,8 @@ def build_dashboard(pipeline_state):
         # this does not re-cluster, so merge heights stay true to the original data.
         view_data = build_zoomed_view(
             root_0, unique_logs, counts, distance_matrix,
-            threshold=NCD_threshold, log_dict=log_dict
+            threshold=NCD_threshold, log_dict=log_dict,
+            seed=seed
         )
 
         root = view_data["root"]

@@ -128,7 +128,8 @@ def select_final_log_pool(pipeline_state, ncd_threshold, control="fixed_depth", 
 
     view_data = build_zoomed_view(
         root_0, unique_logs, counts, distance_matrix,
-        threshold=ncd_threshold, log_dict=log_dict
+        threshold=ncd_threshold, log_dict=log_dict,
+        seed=seed
     )
 
     unique_logs_after_filtering = view_data["unique_logs_after_filtering"]
