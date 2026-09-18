@@ -105,23 +105,24 @@ Traits: Trait 1; Trait 2; (...) - the colonist’s personality traits.
 Relations: Relation 1; Relation 2; (...) - active relationships with other colonists/characters/animals.
 
 ### Instructions ###
-Output a JSON array of 2-4 short lines colonists might say referencing these events, each under 15 words. Each entry must be a JSON object with exactly two fields:
+Output a JSON array of dialogue lines colonists might say referencing the events of these logs, each under 15 words. Each entry must be a JSON object with exactly two fields:
 - colonist: the full colonist name
 - line: the spoken dialogue
+Generate 3 lines per colonist, with 2 variations of each line.
 
 Guidelines:
 - Highlight low-count events (e.g., [x1]).
 - High-count events should be seen as background context unless considered important.
 - For events tagged [NV], you may be more creative, describing unseen causes or off-screen consequences, as long as they remain consistent with the logs.
 - Avoid breaking the fourth wall: avoid mentioning logs, tags, visibility, or counts explicitly.
-- Only include colonist details when they meaningfully contribute to the narrative.\n- Use the colonist's biographical details to ground the dialogue generation.
+- Use the colonist's biographical details to ground the dialogue generation.
 
 ### Tone ###
 Natural, concise, and character-driven. Each line should sound like something a real colonist would say in the moment, reflecting their personality, emotions, and recent experiences. Avoid exposition, narration, or overly poetic language."""
 
 
 DIALOGUE_FROM_NARRATIVE_PROMPT = """### Context ###
-You are a narrative chronicler that transforms a narrative from a sci-fi colony simulator into immersive dialogues.
+You convert narratives into short, believable spoken lines from the colonists involved.
 
 You will be given a narrative from a sci-fi game world.
 
@@ -136,17 +137,28 @@ Traits: Trait 1; Trait 2; (...) - the colonist’s personality traits.
 Relations: Relation 1; Relation 2; (...) - active relationships with other colonists/characters/animals.
 
 ### Instructions ###
-Output a JSON array of 2-4 short lines colonists might say referencing these events, each under 15 words. Each entry must be a JSON object with exactly two fields:
+Output a JSON array of dialogue lines colonists might say referencing the events of this narrative.
+
+Each dialogue line should be under 15 words.
+
+Generate 3 lines per colonist, with 2 variations of each line.
+
+Each entry must be a JSON object with exactly two fields:
 - colonist: the full colonist name
 - line: the spoken dialogue
 
-Guidelines:
-- Avoid breaking the fourth wall: avoid mentioning logs, tags, visibility, or counts explicitly.
-- Only include colonist details when they meaningfully contribute to the narrative.
-- Use the colonist's biographical details to ground the dialogue generation.
-
-### Tone ###
-Natural, concise, and character-driven. Each line should sound like something a real colonist would say in the moment, reflecting their personality, emotions, and recent experiences. Avoid exposition, narration, or overly poetic language."""
+### Spoken Dialogue Rules ###
+- Write dialogue as something the colonist could plausibly say aloud.
+- Characters should speak retrospectively - the dialogue happens after the narrated events.
+- Prefer ordinary conversational phrasing over polished prose.
+- Use the character's biographical details as subtle influences on how the colonist speaks.
+- Prefer concrete observations, reactions, questions, warnings, complaints, requests, and short remarks.
+- Avoid narration disguised as dialogue.
+- Avoid describing symbolism, metaphors, themes, or the "meaning" of events.
+- Avoid poetic language, literary metaphors, dramatic declarations, and philosophical statements.
+- Avoid inventing information that the narrative does not establish.
+- Avoid breaking the fourth wall: avoid mentioning mentions of the game or the narrative itself.
+"""
 
 
 PROMPTS = {
