@@ -74,7 +74,7 @@ RUNNING_WITHIN_GAME = True  # Set to True when running inside the game enabler (
 
 ### Pre-configured Example Scenarios
 
-`config.py` also defines pre-configured example scenarios and default input file paths (referencing sample datasets in `Test Scenarios/`, such as `demo_all_events_complete.txt` and `demo_all_events_charactersbios.txt`). Students can utilize these built-in scenario configurations to test pipeline execution without supplying custom log files.
+`config.py` also defines pre-configured example scenarios and default input file paths (referencing sample datasets in `Test Scenarios/`, such as `demo_all_events_complete.txt` and `demo_all_events_charactersbios.txt`). You can utilize these built-in scenario configurations to test pipeline execution without supplying custom log files.
 
 ---
 
@@ -129,7 +129,7 @@ To switch endpoints, edit `OPENROUTER_URL` to point to your target server (e.g.,
 
 ### Customizing System Prompts & Generation Modes
 
-Students can customize the LLM's output style, formatting, and behavioral constraints by editing the prompt templates in `story_llm.py`. The framework supports three distinct prompt modes:
+You can customize the LLM's output style, formatting, and behavioral constraints by editing the prompt templates in `story_llm.py`. The framework supports three distinct prompt modes:
 
 1. **Generating a Narrative from Logs (`mode="narrative"`)**:
    Synthesizes pre-selected log events and character biographies into an atmospheric prose chronicle.
@@ -228,7 +228,7 @@ server.serve_dashboard(dashboard, title="Log Dendrogram Explorer")
 
 ## Live Interactive Demo (`main_demo.py`)
 
-The primary live demo interface is implemented in `main_demo.py`. Students can use this to visually explore how compression filtering and tree traversal select representative log events.
+The primary live demo interface is implemented in `main_demo.py`. You can use this to visually explore how compression filtering and tree traversal select representative log events.
 
 ### Running the Interactive UI
 
