@@ -1,4 +1,4 @@
-# Log Dendrogram Explorer Technical Framework
+# Sifting and Support Framework
 
 A compression-based log analysis, hierarchical clustering, and LLM narrative generation framework. This repository processes raw game logs using Normalized Compression Distance (NCD), builds hierarchical dendrograms, selects representative log subsets via configurable tree-traversal strategies, and generates stories or dialogue using an LLM.
 
