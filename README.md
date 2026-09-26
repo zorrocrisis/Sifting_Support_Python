@@ -273,4 +273,4 @@ python -m PyInstaller main_demo.spec
 This will build a self-contained executable bundle inside the `dist/` directory:
 - Executable location: `dist/main_demo/main_demo.exe` (Windows) or `dist/main_demo/main_demo` (Linux/macOS)
 
-Students can distribute this executable as an isolated, zero-dependency module for external integrations.
+You can distribute this executable as an isolated, zero-dependency module for external integrations.
