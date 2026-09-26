@@ -8,15 +8,11 @@ OpenRouter, in one of two modes:
     PROMPTS["dialogue"] below; drop in the real prompt before using
     this mode).
 
-SECURITY NOTE: the original code had a live OpenRouter API key
-hardcoded in source. That's now read from the OPENROUTER_API_KEY
+SECURITY NOTE: the OpenRouter API key is read from the OPENROUTER_API_KEY
 environment variable instead -- set it before running, e.g. (PowerShell):
 
     $env:OPENROUTER_API_KEY = "sk-or-v1-..."
     python testing.py
-
-If you already committed/shared the old hardcoded key anywhere, treat
-it as compromised and rotate it in your OpenRouter dashboard.
 """
 
 import os
@@ -27,8 +23,9 @@ import sys
 import time
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_MODEL = "poolside/laguna-xs-2.1:free"
-#OPENROUTER_MODEL = "openai/gpt-oss-20b:free"
+#OPENROUTER_MODEL = "poolside/laguna-xs-2.1:free"
+#OPENROUTER_MODEL = "stealth/space-bunny-alpha"
+OPENROUTER_MODEL = "qwen/qwen3.8-27b:free"
 REQUEST_TIMEOUT_SECONDS = 120
 
 # Retry policy for 429 (rate limited) responses specifically -- see
@@ -122,9 +119,7 @@ Natural, concise, and character-driven. Each line should sound like something a 
 
 
 DIALOGUE_FROM_NARRATIVE_PROMPT = """### Context ###
-You convert narratives into short, believable spoken lines from the colonists involved.
-
-You will be given a narrative from a sci-fi game world.
+You convert narratives from a sci-fi game world into short, believable spoken lines from the colonists involved.
 
 Information regarding the colonists is provided in the following format:
 
@@ -139,19 +134,20 @@ Relations: Relation 1; Relation 2; (...) - active relationships with other colon
 ### Instructions ###
 Output a JSON array of dialogue lines colonists might say referencing the events of this narrative.
 
-Each dialogue line should be under 15 words.
+Each dialogue line should be under 20 words.
 
-Generate 3 lines per colonist, with 2 variations of each line.
+Generate 3 lines per colonist.
 
 Each entry must be a JSON object with exactly two fields:
 - colonist: the full colonist name
 - line: the spoken dialogue
 
 ### Spoken Dialogue Rules ###
+- All dialogue lines should begin with 'Hey [N],'. Example: 'Hey [N], [generated line].'. Do not replace [N] with the colonist's name; it will be replaced later in the game engine.
 - Write dialogue as something the colonist could plausibly say aloud.
 - Characters should speak retrospectively - the dialogue happens after the narrated events.
 - Prefer ordinary conversational phrasing over polished prose.
-- Use the character's biographical details as subtle influences on how the colonist speaks.
+- Use the character's biographical details as influences on how the colonist speaks.
 - Prefer concrete observations, reactions, questions, warnings, complaints, requests, and short remarks.
 - Avoid narration disguised as dialogue.
 - Avoid describing symbolism, metaphors, themes, or the "meaning" of events.
