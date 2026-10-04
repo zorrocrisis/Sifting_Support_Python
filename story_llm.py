@@ -138,22 +138,49 @@ Each dialogue line should be under 20 words.
 
 Generate 3 lines per colonist.
 
-Each entry must be a JSON object with exactly two fields:
+Each entry must be a JSON object with exactly three fields:
 - colonist: the full colonist name
 - line: the spoken dialogue
+- reported: the same line rewritten as third-person reported speech (e.g. 'I saw a wolf' → '[Nickname or First Name of speaker] said she saw a wolf')
 
-### Spoken Dialogue Rules ###
-- All dialogue lines should begin with 'Hey [N],'. Example: 'Hey [N], [generated line].'. Do not replace [N] with the colonist's name; it will be replaced later in the game engine.
+### Direct Speech Rules ###
+- All dialogue lines should begin with '[N],'. Example: '[N], [generated line].'. Do not replace [N] with the colonist's name; it will be replaced later.
+- After '[N],' begin the sentence with a lowercase letter except for proper nouns or 'I'.
+- Characters speak retrospectively - the dialogue happens after the narrated events.
+- Use the character's biographical details as influences on the dialogue.
 - Write dialogue as something the colonist could plausibly say aloud.
-- Characters should speak retrospectively - the dialogue happens after the narrated events.
 - Prefer ordinary conversational phrasing over polished prose.
-- Use the character's biographical details as influences on how the colonist speaks.
 - Prefer concrete observations, reactions, questions, warnings, complaints, requests, and short remarks.
-- Avoid narration disguised as dialogue.
+- A concrete observation should sound like something someone spontaneously says, not like a sentence extracted from a report.
 - Avoid describing symbolism, metaphors, themes, or the "meaning" of events.
-- Avoid poetic language, literary metaphors, dramatic declarations, and philosophical statements.
 - Avoid inventing information that the narrative does not establish.
-- Avoid breaking the fourth wall: avoid mentioning mentions of the game or the narrative itself.
+- Avoid mentioning the game or the narrative.
+
+### Reported Speech Rules ###
+- The reported speech lines should begin with 'Speaker said'. Example: 'Speaker said [generated line].'.
+- After 'Speaker said', begin the spoken sentence with normal English capitalization.
+- Replace 'Speaker' with the nickname of the speaker.
+- If the speaker does not have a nickname, use only their first name instead.
+
+
+### Examples of Direct Speech ###
+Bad:
+[N], I observed significant damage to the northern wall.
+
+Better:
+[N], the north wall's pretty badly damaged.
+
+Bad:
+[N], I am concerned that the megasloth may return.
+
+Better:
+[N], do you think that megasloth's coming back?
+
+Bad:
+[N], the generator malfunction caused considerable problems.
+
+Better:
+[N], that generator really screwed us over.
 """
 
 
