@@ -22,10 +22,8 @@ import random
 import sys
 import time
 
-OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-#OPENROUTER_MODEL = "poolside/laguna-xs-2.1:free"
-#OPENROUTER_MODEL = "stealth/space-bunny-alpha"
-OPENROUTER_MODEL = "qwen/qwen3.8-27b:free"
+PROVIDER_URL = ""
+MODEL_URL = ""
 REQUEST_TIMEOUT_SECONDS = 120
 
 # Retry policy for 429 (rate limited) responses specifically -- see
@@ -37,158 +35,104 @@ INITIAL_BACKOFF_SECONDS = 1.0
 MAX_BACKOFF_SECONDS = 30.0
 
 
-NARRATIVE_PROMPT = """### Context ###
-You are a narrative chronicler that transforms raw game logs from a sci-fi colony simulator into an immersive short story.
+# Example of a provider URL (see get_provider_url() below for how the actual URL is loaded from models/provider_URL.txt)
+#PROVIDER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
-You will be given logs from a sci-fi game world.
-
-The logs are ordered in a temporal sequence and follow this format:
-
-Event description. [xCount] [V/NV]
-
-[V/NV] are visibility tags:
-- [V]: Event was visible to the player.
-- [NV]: Event was not visible to the player.
-
-[xCount] indicates how many times a similar event occurred.
-
-Information regarding the colonists is provided in the following format:
-
-Name: First Name "Nickname" Last Name -> full name of the colonist.
-Gender: Male/Female -> gender of the colonist.
-Age: 0-99 -> age of the colonist
-Backstory: Backstory 1; Backstory 2; (...) -> backstories from the colonist's past as a child/teen/young adult.
-Incapable of: Type of Work 1; Type of Work 2; (...) -> types of work that the colonist is incapable of doing.
-Traits: Trait 1; Trait 2; (...) -> the colonist's personality traits.
-Relations: Relation 1; Relation 2; (...) -> active relationships with other colonists/characters/animals.
-
-### Instructions ###
-Your primary goal is to write a compelling narrative summary of the provided logs in under 120 words, prioritizing story cohesion and atmosphere over exhaustive coverage.
-
-Guidelines:
-- Highlight low-count events (e.g., [x1]).
-- High-count events should be condensed into background context unless considered important.
-- For events tagged [NV], you may be more creative, describing unseen causes or off-screen consequences, as long as they remain consistent with the logs.
-- Avoid breaking the fourth wall: avoid mentioning logs, tags, visibility or counts explicitly.
-- Only include colonist details when they meaningfully contribute to the narrative.
-- Avoid listing events; weave them into a continuous story with cause and effect.
-
-Tone:
-- Cinematic and grounded, as if recounting a chapter from a colony's history rather than a gameplay summary."""
+# Examples of model URLs (see get_model_url() below for how the actual URL is loaded from models/model_URL.txt)
+#MODEL_URL = "poolside/laguna-xs-2.1:free"
+#MODEL_URL = "stealth/space-bunny-alpha"
+#MODEL_URL = "qwen/qwen3.8-27b:free" # not free anymore
+#MODEL_URL = "google/gemma-4-31b-it:free" # not free anymore
 
 
-DIALOGUE_PROMPT = """### Context ###
-You are a narrative chronicler that transforms raw game logs from a sci-fi colony simulator into immersive dialogues.
+PROMPT_MODES = ("narrative", "dialogue", "dialogue_from_narrative")
 
-You will be given logs from a sci-fi game world.
-The logs are ordered in a temporal sequence and follow this format:
+def _models_dirs():
+    """Folders to search for model files, in priority order."""
+    dirs = []
 
-Event description. [xCount] [V/NV]
+    # 1. Explicit override, useful for A/B testing prompt versions.
+    override = os.environ.get("MODELS_DIR")
+    if override:
+        dirs.append(override)
 
-[V/NV] are visibility tags:
-- [V]: Event was visible to the player.
-- [NV]: Event was not visible to the player.
+    if getattr(sys, "frozen", False):  # running as a PyInstaller exe
+        # 2. A "models" folder next to the exe: editable without rebuilding.
+        dirs.append(os.path.join(os.path.dirname(sys.executable), "models"))
+        # 3. Copy bundled inside the exe (see --add-data below).
+        if getattr(sys, "_MEIPASS", None):
+            dirs.append(os.path.join(sys._MEIPASS, "models"))
 
-[xCount] indicates how many times a similar event occurred.
+    # 4. Plain `python main_demo.py` during development.
+    dirs.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "models"))
+    return dirs
 
-Information regarding the colonists is provided in the following format:
+def get_model_url():
+    """Load the model URL for `mode` from models/model_URL.txt."""
 
-Name: First Name 'Nickname' Last Name -> full name of the colonist.
-Gender: Male/Female - gender of the colonist.
-Age: 0-99 - age of the colonist
-Backstory: Backstory 1; Backstory 2; (…) - backstories from the colonist’s past as a child/teen/young adult.
-Incapable of: Type of Work 1; Type of Work 2; (...) - types of work that the colonist is incapable of doing.
-Traits: Trait 1; Trait 2; (...) - the colonist’s personality traits.
-Relations: Relation 1; Relation 2; (...) - active relationships with other colonists/characters/animals.
+    searched = []
+    for directory in _models_dirs():
+        path = os.path.join(directory, f"model_URL.txt")
+        searched.append(path)
+        if os.path.isfile(path):
+            # utf-8-sig tolerates the BOM that Windows Notepad adds.
+            with open(path, "r", encoding="utf-8-sig") as f:
+                return f.read().strip()
 
-### Instructions ###
-Output a JSON array of dialogue lines colonists might say referencing the events of these logs, each under 15 words. Each entry must be a JSON object with exactly two fields:
-- colonist: the full colonist name
-- line: the spoken dialogue
-Generate 3 lines per colonist, with 2 variations of each line.
+    raise FileNotFoundError(f"No model URL file found. Looked in: {searched}")
 
-Guidelines:
-- Highlight low-count events (e.g., [x1]).
-- High-count events should be seen as background context unless considered important.
-- For events tagged [NV], you may be more creative, describing unseen causes or off-screen consequences, as long as they remain consistent with the logs.
-- Avoid breaking the fourth wall: avoid mentioning logs, tags, visibility, or counts explicitly.
-- Use the colonist's biographical details to ground the dialogue generation.
+def get_provider_url():
+    """Load the provider URL for `mode` from models/provider_URL.txt."""
 
-### Tone ###
-Natural, concise, and character-driven. Each line should sound like something a real colonist would say in the moment, reflecting their personality, emotions, and recent experiences. Avoid exposition, narration, or overly poetic language."""
+    searched = []
+    for directory in _models_dirs():
+        path = os.path.join(directory, f"provider_URL.txt")
+        searched.append(path)
+        if os.path.isfile(path):
+            # utf-8-sig tolerates the BOM that Windows Notepad adds.
+            with open(path, "r", encoding="utf-8-sig") as f:
+                return f.read().strip()
 
-
-DIALOGUE_FROM_NARRATIVE_PROMPT = """### Context ###
-You convert narratives from a sci-fi game world into short, believable spoken lines from the colonists involved.
-
-Information regarding the colonists is provided in the following format:
-
-Name: First Name 'Nickname' Last Name -> full name of the colonist.
-Gender: Male/Female - gender of the colonist.
-Age: 0-99 - age of the colonist
-Backstory: Backstory 1; Backstory 2; (…) - backstories from the colonist’s past as a child/teen/young adult.
-Incapable of: Type of Work 1; Type of Work 2; (...) - types of work that the colonist is incapable of doing.
-Traits: Trait 1; Trait 2; (...) - the colonist’s personality traits.
-Relations: Relation 1; Relation 2; (...) - active relationships with other colonists/characters/animals.
-
-### Instructions ###
-Output a JSON array of dialogue lines colonists might say referencing the events of this narrative.
-
-Each dialogue line should be under 20 words.
-
-Generate 3 lines per colonist.
-
-Each entry must be a JSON object with exactly three fields:
-- colonist: the full colonist name
-- line: the spoken dialogue
-- reported: the same line rewritten as third-person reported speech (e.g. 'I saw a wolf' → '[Nickname or First Name of speaker] said she saw a wolf')
-
-### Direct Speech Rules ###
-- All dialogue lines should begin with '[N],'. Example: '[N], [generated line].'. Do not replace [N] with the colonist's name; it will be replaced later.
-- After '[N],' begin the sentence with a lowercase letter except for proper nouns or 'I'.
-- Characters speak retrospectively - the dialogue happens after the narrated events.
-- Use the character's biographical details as influences on the dialogue.
-- Write dialogue as something the colonist could plausibly say aloud.
-- Prefer ordinary conversational phrasing over polished prose.
-- Prefer concrete observations, reactions, questions, warnings, complaints, requests, and short remarks.
-- A concrete observation should sound like something someone spontaneously says, not like a sentence extracted from a report.
-- Avoid describing symbolism, metaphors, themes, or the "meaning" of events.
-- Avoid inventing information that the narrative does not establish.
-- Avoid mentioning the game or the narrative.
-
-### Reported Speech Rules ###
-- The reported speech lines should begin with 'Speaker said'. Example: 'Speaker said [generated line].'.
-- After 'Speaker said', begin the spoken sentence with normal English capitalization.
-- Replace 'Speaker' with the nickname of the speaker.
-- If the speaker does not have a nickname, use only their first name instead.
+    raise FileNotFoundError(f"No provider URL file found. Looked in: {searched}")
 
 
-### Examples of Direct Speech ###
-Bad:
-[N], I observed significant damage to the northern wall.
 
-Better:
-[N], the north wall's pretty badly damaged.
+def _prompt_dirs():
+    """Folders to search for prompt files, in priority order."""
+    dirs = []
 
-Bad:
-[N], I am concerned that the megasloth may return.
+    # 1. Explicit override, useful for A/B testing prompt versions.
+    override = os.environ.get("STORY_PROMPTS_DIR")
+    if override:
+        dirs.append(override)
 
-Better:
-[N], do you think that megasloth's coming back?
+    if getattr(sys, "frozen", False):  # running as a PyInstaller exe
+        # 2. A "prompts" folder next to the exe: editable without rebuilding.
+        dirs.append(os.path.join(os.path.dirname(sys.executable), "prompts"))
+        # 3. Copy bundled inside the exe (see --add-data below).
+        if getattr(sys, "_MEIPASS", None):
+            dirs.append(os.path.join(sys._MEIPASS, "prompts"))
 
-Bad:
-[N], the generator malfunction caused considerable problems.
-
-Better:
-[N], that generator really screwed us over.
-"""
+    # 4. Plain `python main_demo.py` during development.
+    dirs.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "prompts"))
+    return dirs
 
 
-PROMPTS = {
-    "narrative": NARRATIVE_PROMPT,
-    "dialogue": DIALOGUE_PROMPT,
-    "dialogue_from_narrative": DIALOGUE_FROM_NARRATIVE_PROMPT
-}
+def get_prompt(mode):
+    """Load the system prompt for `mode` from prompts/<mode>.txt."""
+    if mode not in PROMPT_MODES:
+        raise ValueError(f"Unknown generation mode {mode!r}. Valid modes: {list(PROMPT_MODES)}")
+
+    searched = []
+    for directory in _prompt_dirs():
+        path = os.path.join(directory, f"{mode}.txt")
+        searched.append(path)
+        if os.path.isfile(path):
+            # utf-8-sig tolerates the BOM that Windows Notepad adds.
+            with open(path, "r", encoding="utf-8-sig") as f:
+                return f.read().strip()
+
+    raise FileNotFoundError(f"No prompt file for mode {mode!r}. Looked in: {searched}")
 
 
 def _get_api_key():
@@ -275,10 +219,10 @@ def generate_story_llm(characters_bios, supporting_content, mode="narrative", re
         does `story = generate_story_llm(bios, descriptions)`) don't
         need to change.
     """
-    if mode not in PROMPTS:
-        raise ValueError(f"Unknown generation mode {mode!r}. Valid modes: {list(PROMPTS)}")
+    system_prompt = get_prompt(mode)   # also validates the mode
+    MODEL_URL = get_model_url()
+    PROVIDER_URL = get_provider_url()
 
-    system_prompt = PROMPTS[mode]
 
     if(mode == "narrative" or mode == "dialogue"):
         log_descriptions = supporting_content
@@ -298,13 +242,13 @@ def generate_story_llm(characters_bios, supporting_content, mode="narrative", re
                 """
 
     response = _post_with_retry(
-        OPENROUTER_URL,
+        PROVIDER_URL,
         headers={
             "Authorization": f"Bearer {_get_api_key()}",
             "Content-Type": "application/json",
         },
         json_payload={
-            "model": OPENROUTER_MODEL,
+            "model": MODEL_URL,
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": prompt},
@@ -330,7 +274,7 @@ def generate_story_llm(characters_bios, supporting_content, mode="narrative", re
     # shouldn't ever crash the caller just because usage reporting was
     # unavailable for a particular request.
     usage = dict(data.get("usage", {}))
-    usage["model"] = data.get("model", OPENROUTER_MODEL)  # actual serving model, if OpenRouter reports one
+    usage["model"] = data.get("model", MODEL_URL)  # actual serving model, if OpenRouter reports one
  
     return story, usage
 

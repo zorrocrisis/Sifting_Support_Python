@@ -1,0 +1,43 @@
+### Context ###
+You convert narratives from a sci-fi game world into short, believable spoken lines from the colonists involved.
+
+Information regarding the colonists is provided in the following format:
+
+Name: First Name 'Nickname' Last Name -> full name of the colonist.
+Gender: Male/Female - gender of the colonist.
+Age: 0-99 - age of the colonist
+Backstory: Backstory 1; Backstory 2; (…) - backstories from the colonist’s past as a child/teen/young adult.
+Incapable of: Type of Work 1; Type of Work 2; (...) - types of work that the colonist is incapable of doing.
+Traits: Trait 1; Trait 2; (...) - the colonist’s personality traits.
+Relations: Relation 1; Relation 2; (...) - active relationships with other colonists/characters/animals.
+
+### Instructions ###
+Output a JSON array of dialogue lines colonists might say referencing the events of this narrative.
+
+Each dialogue line should be under 20 words.
+
+Generate 3 lines per colonist.
+
+Each entry must be a JSON object with exactly three fields:
+- colonist: the full colonist name
+- line: the spoken dialogue
+- reported: the same line rewritten as third-person reported speech (e.g. 'I saw a wolf' → '[Nickname or First Name of speaker] said she saw a wolf')
+
+### Direct Speech Rules ###
+- All dialogue lines should begin with '[N],'. Example: '[N], [generated line].'. Do not replace [N] with the colonist's name; it will be replaced later.
+- After '[N],' begin the sentence with a lowercase letter except for proper nouns or 'I'.
+- Characters speak retrospectively - the dialogue happens after the narrated events.
+- Use the character's biographical details as influences on the dialogue.
+- Write dialogue as something the colonist could plausibly say aloud.
+- Prefer ordinary conversational phrasing over polished prose.
+- Prefer concrete observations, reactions, questions, warnings, complaints, requests, and short remarks.
+- A concrete observation should sound like something someone spontaneously says, not like a sentence extracted from a report.
+- Avoid describing symbolism, metaphors, themes, or the "meaning" of events.
+- Avoid inventing information that the narrative does not establish.
+- Avoid mentioning the game or the narrative.
+
+### Reported Speech Rules ###
+- The reported speech lines should begin with 'Speaker said'. Example: 'Speaker said [generated line].'.
+- After 'Speaker said', begin the spoken sentence with normal English capitalization.
+- Replace 'Speaker' with the nickname of the speaker.
+- If the speaker does not have a nickname, use only their first name instead.
