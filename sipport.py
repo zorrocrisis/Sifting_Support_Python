@@ -207,7 +207,6 @@ def run_preprocess_headless(full_log=None, characters_bios_log=None, seed=42):
             "success": error is None,
             "error": error,
             "unique_log_count": len(pipeline_state["unique_logs"]) if pipeline_state else None,
-            "unique_log_count_after_filtering": len(view_data["unique_logs_after_filtering"]) if view_data else None,
         })
 
     view_data = pipeline_state["view_data"]
@@ -215,7 +214,6 @@ def run_preprocess_headless(full_log=None, characters_bios_log=None, seed=42):
         "counts": pipeline_state["counts"],
         "unique_logs": pipeline_state["unique_logs"],
         "visibility": pipeline_state["visibility"],
-        "unique_logs_after_filtering": view_data["unique_logs_after_filtering"]
     }
 
     print_json(result)
