@@ -12,7 +12,7 @@ import sys
 # -----------------------------------------------------------------------
 # Running within game enabler
 # -----------------------------------------------------------------------
-RUNNING_WITHIN_GAME = True # Set to True when running inside the game enabler (C# host process)
+RUNNING_WITHIN_GAME = False # Set to True when running inside the game enabler (C# host process)
 
 # -----------------------------------------------------------------------
 # Input file paths
@@ -44,7 +44,7 @@ def get_input_paths():
     NOT currently called -- the app uses the hardcoded SHORT_LOG_FILE /
     FULL_LOG_FILE / CHARACTERS_BIOS_LOG_FILE constants above instead.
     Kept here so wiring it back in (for real game integration) is a
-    one-line change in main_demo.py rather than a rewrite.
+    one-line change in sipport.py rather than a rewrite.
     """
     full_log = sys.stdin.readline().strip()
     characters_bios_log = sys.stdin.readline().strip()

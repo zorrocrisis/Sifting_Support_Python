@@ -10,7 +10,7 @@ running Python process at all (frozen, crashed, whatever). Open the
 generated file in a separate browser tab (or just double-click it --
 it works via a plain file:// URL, no server needed) BEFORE you go on,
 so it's already loaded and ready regardless of what happens to
-main_demo.py during the demo.
+sipport.py during the demo.
 
 Run this again any time you update config.BACKUP_STORY_* -- it's not
 auto-synced, so regenerate the HTML after editing the story text.

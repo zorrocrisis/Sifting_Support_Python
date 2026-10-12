@@ -6,7 +6,7 @@ already-computed pipeline state (see pipeline.run_preprocessing()).
 
 Nothing in here starts a server or opens a browser -- build_dashboard()
 just constructs and returns a pn.Column. Call server.serve_dashboard()
-on the result (see main_demo.py) to actually show it.
+on the result (see sipport.py) to actually show it.
 """
 
 import panel as pn

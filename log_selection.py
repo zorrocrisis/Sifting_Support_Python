@@ -12,7 +12,7 @@ Split into two levels:
     `root`/`depth_map`/edges for rendering the figure.
   - select_final_log_pool(): a headless-friendly wrapper that also
     handles the NCD "zoom" step and temporal sorting/formatting, with
-    no dependency on Panel or any figure. Used by main_demo.py's
+    no dependency on Panel or any figure. Used by sipport.py's
     "select" CLI mode.
 
 Both entry points share the exact same traversal algorithm, so the

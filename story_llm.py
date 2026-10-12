@@ -63,7 +63,7 @@ def _models_dirs():
         if getattr(sys, "_MEIPASS", None):
             dirs.append(os.path.join(sys._MEIPASS, "models"))
 
-    # 4. Plain `python main_demo.py` during development.
+    # 4. Plain `python sipport.py` during development.
     dirs.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "models"))
     return dirs
 
@@ -113,7 +113,7 @@ def _prompt_dirs():
         if getattr(sys, "_MEIPASS", None):
             dirs.append(os.path.join(sys._MEIPASS, "prompts"))
 
-    # 4. Plain `python main_demo.py` during development.
+    # 4. Plain `python sipport.py` during development.
     dirs.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "prompts"))
     return dirs
 

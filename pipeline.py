@@ -4,7 +4,7 @@ pipeline.py
 The log-processing + hierarchical-clustering pipeline, decoupled from
 the Panel dashboard. This module does NOT import panel/plotly, so it's
 safe (and fast) to call from a headless context -- e.g. the C# RimWorld
-mod invoking `python main_demo.py preprocess` just to get the
+mod invoking `python sipport.py preprocess` just to get the
 deduplicated logs back, with no browser window ever opening.
 
 Call run_preprocessing() to get everything the dashboard (or a headless

@@ -73,7 +73,7 @@ def _watch_stdin_for_eof():
     when the pipe is closed -- at that point we know the parent is gone and
     it's safe to exit immediately.
 
-    Not used at all when running standalone via `python main_demo.py` with a
+    Not used at all when running standalone via `python sipport.py` with a
     real terminal attached -- stdin simply never hits EOF in that case, so
     this thread just sits blocked on readline() harmlessly for the life of
     the process.

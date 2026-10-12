@@ -1,16 +1,16 @@
 """
-main_demo.py
+sipport.py
 ------------
 Entry point for the Log Dendrogram Explorer.
  
-  python main_demo.py             -> opens the interactive dashboard (default)
-  python main_demo.py demo        -> same as above, explicit
-  python main_demo.py preprocess  -> HEADLESS: runs only the log loading +
+  python sipport.py             -> opens the interactive dashboard (default)
+  python sipport.py demo        -> same as above, explicit
+  python sipport.py preprocess  -> HEADLESS: runs only the log loading +
                                       hierarchical-clustering pipeline (no
                                       Panel, no browser window at all) and
                                       prints the results as one line of JSON
                                       to stdout.
-  python main_demo.py select      -> HEADLESS: runs the same preprocessing as
+  python sipport.py select      -> HEADLESS: runs the same preprocessing as
                                       `preprocess`, THEN also selects a "final
                                       log pool" (same traversal control /
                                       strategy / seed knobs the dashboard
@@ -18,7 +18,7 @@ Entry point for the Log Dendrogram Explorer.
                                       printed to stdout. See --ncd-threshold,
                                       --control, --strategy, --depth,
                                       --target-count, --seed below.
-  python main_demo.py generate_from_logs    -> HEADLESS: calls the LLM against an
+  python sipport.py generate_from_logs    -> HEADLESS: calls the LLM against an
                                       ALREADY-SELECTED log pool (deliberately
                                       does NOT re-run preprocessing/selection
                                       -- see log_selection/story_llm design
@@ -27,7 +27,7 @@ Entry point for the Log Dendrogram Explorer.
                                       --final-log-pool and --bios-log; see
                                       --generation-mode for narrative vs.
                                       dialogue output.
-   python main_demo.py generate_from_narrative
+   python sipport.py generate_from_narrative
                                   -> HEADLESS: calls the LLM against an
                                       ALREADY-GENERATED narrative (deliberately
                                       does NOT re-run preprocessing/selection)
@@ -45,7 +45,7 @@ Optional path overrides (any mode), useful for the C# mod to pass paths
 as plain arguments instead of relying on config.RUNNING_WITHIN_GAME's
 stdin convention:
  
-  python main_demo.py preprocess --full-log X --bios-log Z
+  python sipport.py preprocess --full-log X --bios-log Z
  
 DESIGN NOTE on why `generate` is separate from `select` rather than a
 combined "preprocess+select+generate" mode: NCD preprocessing is cheap,
@@ -463,7 +463,7 @@ def write_to_file(log_path, content, file_name):
 
 
 # Where log_run_metrics() appends to. Relative to the working directory
-# main_demo.exe is launched from -- C# already sets WorkingDirectory to
+# sipport.exe is launched from -- C# already sets WorkingDirectory to
 # the exe's own folder, so this resolves to a stable, predictable path
 # next to the exe rather than somewhere inside a per-session RimWorld
 # log folder. Change to an absolute path if you'd rather keep it
@@ -532,7 +532,7 @@ def log_run_metrics(metrics):
         with open(RUN_METRICS_LOG_PATH, "a", encoding="utf-8") as f:
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
     except Exception as e:
-        print(f"[main_demo] Warning: failed to write run metrics: {e}", file=sys.stderr)
+        print(f"[sipport] Warning: failed to write run metrics: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
