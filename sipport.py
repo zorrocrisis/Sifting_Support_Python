@@ -137,6 +137,8 @@ def parse_args():
                          help="[generate mode] Path to a plain text file, one formatted log line per line ")
     parser.add_argument("--generation-mode", dest="generation_mode", choices=["narrative", "dialogue", "dialogue_from_narrative"], default="narrative",
                          help="[generate mode] Which prompt to use (see story_llm.PROMPTS).")
+    parser.add_argument("--cast-block-path", dest="cast_block_path", default=None,
+                         help="[generate mode] Path to a plain text file with other characters of the cast.")
 
     # 'generate_from_story'-mode only.
     parser.add_argument("--input-narrative-path", dest="input_narrative_path", default=None,
@@ -321,6 +323,7 @@ def run_generate_from_logs(args):
             "generation_mode": args.generation_mode,
             "final_log_pool_path": args.final_log_pool,
             "characters_bios_log_path": args.characters_bios_log,
+            "cast_block_path": args.cast_block_path,
             "duration_seconds": 0.0,
             "success": False,
             "error": result["error"],
@@ -336,7 +339,8 @@ def run_generate_from_logs(args):
     run_generate_headless(
         bios_path=args.characters_bios_log,
         supporting_content=log_descriptions,
-        generation_mode=args.generation_mode
+        generation_mode=args.generation_mode,
+        cast_block_path=args.cast_block_path
     )
 
 def run_generate_from_narrative(args):
@@ -350,6 +354,7 @@ def run_generate_from_narrative(args):
             "generation_mode": args.generation_mode,
             "input_narrative_path": args.input_narrative_path,
             "characters_bios_log_path": args.characters_bios_log,
+            "cast_block_path": args.cast_block_path,
             "duration_seconds": 0.0,
             "success": False,
             "error": result["error"],
@@ -365,13 +370,15 @@ def run_generate_from_narrative(args):
         bios_path=args.characters_bios_log,
         supporting_content=input_narrative,
         generation_mode="dialogue_from_narrative",
+        cast_block_path=args.cast_block_path
     )
 
 def run_generate_headless(
     *,
     bios_path,
     supporting_content,
-    generation_mode
+    generation_mode,
+    cast_block_path=None,
     ):
 
     """
@@ -392,6 +399,7 @@ def run_generate_headless(
             "generation_mode": generation_mode,
             "supporting_content": supporting_content,
             "characters_bios_log_path": bios_path,
+            "cast_block_path": cast_block_path,
             "duration_seconds": 0.0,
             "success": False,
             "error": result["error"],
@@ -402,14 +410,20 @@ def run_generate_headless(
 
     start = time.perf_counter()
     usage = None
+    cast_block = None
     try:
         with open(bios_path, "r", encoding="utf-8", errors="ignore") as f:
             characters_bios = f.read()
+
+        if(cast_block_path):
+            with open(cast_block_path, "r", encoding="utf-8", errors="ignore") as f:
+                cast_block = f.read()
 
         story, usage = generate_story_llm(
                         characters_bios=characters_bios,
                         supporting_content=supporting_content,
                         mode=generation_mode,
+                        cast_block=cast_block,
                         return_usage=True)
         result = {"story": story, "mode": generation_mode, "usage": usage, "error": None}
     except Exception as e:
@@ -432,6 +446,7 @@ def run_generate_headless(
         "generation_mode": generation_mode,
         "supporting_content": supporting_content,
         "characters_bios_log_path": bios_path,
+        "cast_block_path": cast_block_path,
         "duration_seconds": round(duration_seconds, 4),
         "success": result["error"] is None,
         "error": result["error"],

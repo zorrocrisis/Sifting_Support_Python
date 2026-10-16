@@ -11,17 +11,20 @@ Incapable of: Type of Work 1; Type of Work 2; (...) - types of work that the col
 Traits: Trait 1; Trait 2; (...) - the colonist’s personality traits.
 Relations: Relation 1; Relation 2; (...) - active relationships with other colonists/characters/animals.
 
+Information regarding a secondary cast of characters may be provided (Cast Block).
+
 ### Instructions ###
 Output a JSON array of dialogue lines colonists might say referencing the events of this narrative.
 
 Each dialogue line should be under 20 words.
 
-Generate 3 lines per colonist.
+Generate 4 lines per colonist.
 
 Each entry must be a JSON object with exactly three fields:
 - colonist: the full colonist name
 - line: the spoken dialogue
 - reported: the same line rewritten as third-person reported speech (e.g. 'I saw a wolf' → '[Nickname or First Name of speaker] said she saw a wolf')
+- reply: a reply to the spoken dialogue
 
 ### Direct Speech Rules ###
 - All dialogue lines should begin with '[N],'. Example: '[N], [generated line].'. Do not replace [N] with the colonist's name; it will be replaced later.
@@ -41,3 +44,7 @@ Each entry must be a JSON object with exactly three fields:
 - After 'Speaker said', begin the spoken sentence with normal English capitalization.
 - Replace 'Speaker' with the nickname of the speaker.
 - If the speaker does not have a nickname, use only their first name instead.
+
+### Reply Rules ###
+- The reply should not mention the name of the speaker.
+- The reply should directly respond to the spoken line it is associated with.

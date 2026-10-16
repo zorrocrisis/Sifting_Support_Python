@@ -23,6 +23,8 @@ Incapable of: Type of Work 1; Type of Work 2; (...) -> types of work that the co
 Traits: Trait 1; Trait 2; (...) -> the colonist's personality traits.
 Relations: Relation 1; Relation 2; (...) -> active relationships with other colonists/characters/animals.
 
+Information regarding a secondary cast of characters may be provided (Cast Block).
+
 ### Instructions ###
 Your primary goal is to write a objective narrative summary of the provided logs in under 120 words, prioritizing story cohesion and coverage of events.
 

@@ -22,6 +22,8 @@ Incapable of: Type of Work 1; Type of Work 2; (...) - types of work that the col
 Traits: Trait 1; Trait 2; (...) - the colonist’s personality traits.
 Relations: Relation 1; Relation 2; (...) - active relationships with other colonists/characters/animals.
 
+Information regarding a secondary cast of characters may be provided (Cast Block).
+
 ### Instructions ###
 Output a JSON array of dialogue lines colonists might say referencing the events of these logs, each under 15 words. Each entry must be a JSON object with exactly two fields:
 - colonist: the full colonist name

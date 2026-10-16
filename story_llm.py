@@ -16,6 +16,7 @@ environment variable instead -- set it before running, e.g. (PowerShell):
 """
 
 import os
+from turtle import mode
 
 import requests
 import random
@@ -194,7 +195,7 @@ def _post_with_retry(url, headers, json_payload, timeout):
     return response
  
 
-def generate_story_llm(characters_bios, supporting_content, mode="narrative", return_usage=False):
+def generate_story_llm(characters_bios, supporting_content, mode="narrative", cast_block=None, return_usage=False):
     """
     Call the LLM with the current character bios + selected log
     descriptions and return the generated text.
@@ -223,24 +224,31 @@ def generate_story_llm(characters_bios, supporting_content, mode="narrative", re
     MODEL_URL = get_model_url()
     PROVIDER_URL = get_provider_url()
 
+    prompt_sections = [
+        "### Player's Colonists ###",
+        characters_bios,
+    ]
+
+    if cast_block:
+        prompt_sections.extend([
+            "### Cast Block ###",
+            cast_block,
+        ])
 
     if(mode == "narrative" or mode == "dialogue"):
-        log_descriptions = supporting_content
+        prompt_sections.extend([
+            "### Input Logs ###",
+            supporting_content,
+        ])
+    else:  # mode == "dialogue_from_narrative"
+        prompt_sections.extend([
+            "### Input Narrative ###",
+            supporting_content,
+        ])
 
-        prompt = f"""### Player's Colonists ###
-                {characters_bios}
+    prompt = "\n\n".join(prompt_sections)
 
-                ### Input Logs ###
-                {log_descriptions}
-                """
-    elif(mode == "dialogue_from_narrative"):
-        prompt = f"""### Player's Colonists ###
-                {characters_bios}
-
-                ### Input Narrative ###
-                {supporting_content}
-                """
-
+    print(prompt)
     response = _post_with_retry(
         PROVIDER_URL,
         headers={
