@@ -16,7 +16,6 @@ environment variable instead -- set it before running, e.g. (PowerShell):
 """
 
 import os
-from turtle import mode
 
 import requests
 import random
@@ -248,7 +247,6 @@ def generate_story_llm(characters_bios, supporting_content, mode="narrative", ca
 
     prompt = "\n\n".join(prompt_sections)
 
-    print(prompt)
     response = _post_with_retry(
         PROVIDER_URL,
         headers={
