@@ -20,19 +20,28 @@ from ncd_data import build_earliest_full_log_index, compute_ncd_distance_matrix,
 from tree_utils import build_zoomed_view
 
 
-def resolve_input_paths():
+def resolve_input_paths(need_bios=True):
     """
     Decide where to read logs/bios from:
       - config.RUNNING_WITHIN_GAME=True: paths sent over stdin by the
         game (see config.get_input_paths).
       - otherwise: the hardcoded case-study file paths in config.py.
     """
+    log_path, bios_path = None, None
+
     if config.RUNNING_WITHIN_GAME:
-        return config.get_input_paths()
-    return config.FULL_LOG_FILE, config.CHARACTERS_BIOS_LOG_FILE
+        log_path = config.get_input_log_path()
+        if(not need_bios):
+            return log_path, None
+        else:
+            bios_path = config.get_input_bios_path()
+            return log_path, bios_path
+        
+    else:
+        return config.FULL_LOG_FILE, config.CHARACTERS_BIOS_LOG_FILE
 
 
-def run_preprocessing(full_log=None, characters_bios_log=None, ncd_threshold=None, seed=42):
+def run_preprocessing(full_log=None, ncd_threshold=None, seed=42):
     """
     Load + deduplicate the logs, compute the full NCD distance matrix,
     and build the ONE canonical hierarchical-clustering tree. This is
@@ -42,8 +51,8 @@ def run_preprocessing(full_log=None, characters_bios_log=None, ncd_threshold=Non
 
     Parameters
     ----------
-    full_log, characters_bios_log : str or None
-        File paths to use. If any is omitted (None), both are
+    full_log : str or None
+        File path to use for the full log. If omitted (None), it is
         resolved via resolve_input_paths() instead (explicit paths are
         all-or-nothing, since mixing resolved + provided paths could
         silently pair mismatched files).
@@ -54,8 +63,7 @@ def run_preprocessing(full_log=None, characters_bios_log=None, ncd_threshold=Non
     Returns
     -------
     dict with keys:
-        full_log, short_log, characters_bios_log : the resolved paths used
-        characters_bios : str
+        full_log: the resolved paths used
         log_dict : dict[str, str]                    (full log -> short log text; many-to-one)
         short_to_full : dict[str, str]                (short log -> its earliest matching full log text)
         unique_logs : list[str]
@@ -72,7 +80,6 @@ def run_preprocessing(full_log=None, characters_bios_log=None, ncd_threshold=Non
     if ncd_threshold is None:
         ncd_threshold = config.INITIAL_NCD_THRESHOLD
 
-    characters_bios = load_character_bios(characters_bios_log)
     short_log = extract_descriptions(full_log)
 
     log_dict = log_dictionary_ids(short_log, full_log)
@@ -112,8 +119,6 @@ def run_preprocessing(full_log=None, characters_bios_log=None, ncd_threshold=Non
     return {
         "full_log": full_log,
         "short_log": short_log,
-        "characters_bios_log": characters_bios_log,
-        "characters_bios": characters_bios,
         "log_dict": log_dict,
         "short_to_full": short_to_full,
         "counts": counts,

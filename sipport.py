@@ -170,7 +170,7 @@ def run_demo(full_log=None, characters_bios_log=None, seed=42):
     server.serve_dashboard(dashboard)
 
 
-def run_preprocess_headless(full_log=None, characters_bios_log=None, seed=42):
+def run_preprocess_headless(full_log=None, seed=42):
     """
     Run only the log loading + hierarchical-clustering pipeline (no
     Panel, no browser) and print the resulting unique logs + a bit of
@@ -181,8 +181,8 @@ def run_preprocess_headless(full_log=None, characters_bios_log=None, seed=42):
     import time
 
     # If the user didn't explicitly pass paths, resolve them via config/stdin.
-    if full_log is None or characters_bios_log is None:
-        full_log, characters_bios_log = pipeline.resolve_input_paths()
+    if full_log is None:
+        full_log, _ = pipeline.resolve_input_paths(need_bios=False)
 
     # try/finally (not try/except): a real failure here should still
     # crash the process with a non-zero exit code, same as before this
@@ -194,7 +194,7 @@ def run_preprocess_headless(full_log=None, characters_bios_log=None, seed=42):
     pipeline_state = None
     error = None
     try:
-        pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log, seed=seed)
+        pipeline_state = pipeline.run_preprocessing(full_log, seed=seed)
     except Exception as e:
         error = str(e)
         raise
@@ -204,7 +204,6 @@ def run_preprocess_headless(full_log=None, characters_bios_log=None, seed=42):
         log_run_metrics({
             "mode": "preprocess",
             "full_log_path": full_log,
-            "characters_bios_log_path": characters_bios_log,
             "duration_seconds": round(duration_seconds, 4),
             "success": error is None,
             "error": error,
@@ -240,8 +239,8 @@ def run_select_headless(args):
     import time
 
     # If the user didn't explicitly pass paths, resolve them via config/stdin.
-    if args.full_log is None or args.characters_bios_log is None:
-        args.full_log, args.characters_bios_log = pipeline.resolve_input_paths()
+    if args.full_log is None:
+        full_log, _ = pipeline.resolve_input_paths(need_bios=False)
 
     # try/finally, not try/except -- see the matching comment in
     # run_preprocess_headless for why a real failure must still crash
@@ -254,7 +253,7 @@ def run_select_headless(args):
     selection_duration = None
     try:
         t0 = time.perf_counter()
-        pipeline_state = pipeline.run_preprocessing(args.full_log, args.characters_bios_log, seed=args.seed)
+        pipeline_state = pipeline.run_preprocessing(args.full_log, seed=args.seed)
         preprocessing_duration = time.perf_counter() - t0
 
         ncd_threshold = args.ncd_threshold
@@ -281,7 +280,6 @@ def run_select_headless(args):
         log_run_metrics({
             "mode": "select",
             "full_log_path": args.full_log,
-            "characters_bios_log_path": args.characters_bios_log,
             "ncd_threshold": args.ncd_threshold,
             "control": args.control,
             "strategy": args.strategy,

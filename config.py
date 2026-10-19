@@ -36,27 +36,44 @@ INITIAL_NCD_THRESHOLD = 0.5
 MAX_LOG_LINES = 20000
 
 
-def get_input_paths():
+def get_input_log_path():
     """
-    Reads three lines from stdin (sent by an external host process, e.g.
-    a C# game client): full log path, short log path, character bios path.
-
-    NOT currently called -- the app uses the hardcoded SHORT_LOG_FILE /
-    FULL_LOG_FILE / CHARACTERS_BIOS_LOG_FILE constants above instead.
-    Kept here so wiring it back in (for real game integration) is a
-    one-line change in sipport.py rather than a rewrite.
+    Reads one line from stdin (sent by an external host process, e.g.
+    a C# game client): full log path.
     """
     full_log = sys.stdin.readline().strip()
+
+    if not full_log:
+        raise ValueError(
+            "Expected one non-empty lines on stdin "
+            "(full_log_file, "
+            f"got: full={full_log!r}, "
+        )
+    return full_log
+
+def get_input_bios_path():
+    """
+    Reads one line from stdin (sent by an external host process, e.g.
+    a C# game client): character bios path.
+    """
     characters_bios_log = sys.stdin.readline().strip()
 
-    if not full_log or not characters_bios_log:
+    if not characters_bios_log:
         raise ValueError(
-            "Expected two non-empty lines on stdin "
-            "(full_log_file, characters_bios_log_file), "
-            f"got: full={full_log!r}, "
-            f"character_bios={characters_bios_log!r}"
+            "Expected one non-empty lines on stdin "
+            "(characters_bios_log_file, "
+            f"got: character_bios={characters_bios_log!r}, "
         )
-    return full_log, characters_bios_log
+    return characters_bios_log
+
+
+    if not full_log:
+        raise ValueError(
+            "Expected one non-empty lines on stdin "
+            "(full_log_file, "
+            f"got: full={full_log!r}, "
+        )
+    return full_log
 
 
 # -----------------------------------------------------------------------
