@@ -188,7 +188,7 @@ def select_final_log_pool(pipeline_state, ncd_threshold, control="fixed_depth", 
     }
 
 
-def select_final_dialogue_channel_pool(pipeline_state, target_number_of_pairs=2, seed=42):
+def select_final_dialogue_channel_pool(pipeline_state, target_number_of_pairs=2):
     """
     
     """
@@ -198,8 +198,8 @@ def select_final_dialogue_channel_pool(pipeline_state, target_number_of_pairs=2,
     short_to_full = pipeline_state["short_to_full"]
 
     # Get dialogue logs
-    d_unique_logs = pipeline_state["d_unique_logs"]
-    d_short_to_full = pipeline_state["d_short_to_full"]
+    r_unique_logs = pipeline_state["r_unique_logs"]
+    r_short_to_full = pipeline_state["r_short_to_full"]
 
     # Get distance matrix 
     distance_matrix = pipeline_state["distance_matrix"]    
@@ -221,11 +221,11 @@ def select_final_dialogue_channel_pool(pipeline_state, target_number_of_pairs=2,
     selected_pairs = [
         {
             "event_index": int(i),
-            "dialogue_index": int(j),
+            "r_index": int(j),
             "event_log_short": unique_logs[i],
             "event_log_full": short_to_full[unique_logs[i]],
-            "dialogue_log_short": d_unique_logs[j],
-            "dialogue_log_full": d_short_to_full[d_unique_logs[j]],
+            "r_log_short": r_unique_logs[j],
+            "r_log_full": r_short_to_full[r_unique_logs[j]],
             "ncd": float(distance_matrix[i, j]),
         }
         for i, j in zip(event_indices, dialogue_indices)

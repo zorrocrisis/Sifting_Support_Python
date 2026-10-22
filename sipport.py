@@ -102,7 +102,7 @@ def print_json(obj):
 def parse_args():
     parser = argparse.ArgumentParser(description="Log Dendrogram Explorer")
     parser.add_argument(
-        "mode", nargs="?", default="demo", choices=["demo", "preprocess", "select", "generate_from_logs", "generate_from_narrative", "two_sifting_channels"],
+        "mode", nargs="?", default="demo", choices=["demo", "preprocess", "select", "generate_from_logs", "generate_from_narrative", "reference_sifting_channel"],
         help="'demo' (default): open the interactive dashboard in a browser tab. "
              "'preprocess': run only the log loading + clustering pipeline and "
              "print the results as JSON to stdout -- no browser/UI. "
@@ -112,7 +112,7 @@ def parse_args():
              "(see --final-log-pool/--bios-log/--generation-mode below) -- no "
              "preprocessing/selection re-run, no scipy/numpy import."
              "'generate_from_narrative': call the LLM against an ALREADY-GENERATED narrative "
-             "'two_sifting_channels': run the two sifting channels pipeline "
+             "'reference_sifting_channel': run the two sifting channels pipeline "
     )
     parser.add_argument("--full-log", dest="full_log", default=None,
                          help="Path to the full-length log file (overrides config/stdin resolution).")
@@ -147,9 +147,11 @@ def parse_args():
     parser.add_argument("--input-narrative-path", dest="input_narrative_path", default=None,
                         help="[generate mode] Path to a plain text file, one narrative.")
 
-    # two_sifting_channels mode only
-    parser.add_argument("--dialogue-log-pool", dest="dialogue_log_pool", default=None,
-                         help="[two_sifting_channels mode] Path to a plain text file, one formatted log line per line ")
+    # reference_sifting_channel mode only
+    parser.add_argument("--reference-log-path", dest="reference_log_path", default=None,
+                         help="[reference_sifting_channel mode] Path to a plain text file, one log line per line")
+    parser.add_argument("--target-reference-channel-count", dest="target_reference_channel_count", type=int, default=None,
+                        help="[reference_sifting_channel mode] number of intended reference-event pairs")
     
     return parser.parse_args()
  
@@ -462,7 +464,7 @@ def run_generate_headless(
         "model": usage.get("model") if usage else None,
     })
 
-def run_two_sifting_channels(args):
+def run_reference_sifting_channel(args):
     """
     Run the two sifting channels pipeline (no Panel, no browser) and print the resulting unique logs + a bit of
     metadata as a single line of JSON to stdout, for the C# mod to read
@@ -476,11 +478,20 @@ def run_two_sifting_channels(args):
     import pipeline
     import time
 
-    run_select_headless(args)
-
     # If the user didn't explicitly pass paths, resolve them via config/stdin.
-    if args.dialogue_log_pool is None:
-        print("Something")
+    if args.reference_log_path is None or args.target_reference_channel_count is None:
+        result = {"mode": "reference_sifting_channel", "usage": None,
+                   "error": "reference_sifting_channel requires --dialogue-log-pool and --target_reference_channel_count"}
+        print_json(result)
+        log_run_metrics({
+            "mode": "reference_sifting_channel",
+            "full_log": args.full_log,
+            "reference_log_path": args.reference_log_path,
+            "target_reference_channel_count": args.target_reference_channel_count,
+            "duration_seconds": 0.0,
+            "success": False,
+            "error": result["error"],
+        })
 
     # try/finally, not try/except -- see the matching comment in
     # run_preprocess_headless for why a real failure must still crash
@@ -493,14 +504,13 @@ def run_two_sifting_channels(args):
     selection_duration = None
     try:
         t0 = time.perf_counter()
-        pipeline_state = pipeline.run_preprocessing_dialogue_channel(args.full_log, dialogue_log_pool=args.dialogue_log_pool, seed=args.seed)
+        pipeline_state = pipeline.run_preprocessing_dialogue_channel(args.full_log, reference_log_path=args.reference_log_path, seed=args.seed)
         preprocessing_duration = time.perf_counter() - t0
 
         t1 = time.perf_counter()
         selection = select_final_dialogue_channel_pool(
             pipeline_state,
-            target_number_of_pairs=args.target_count,
-            seed=args.seed)
+            target_number_of_pairs=args.target_reference_channel_count)
         
         selection_duration = time.perf_counter() - t1
     except Exception as e:
@@ -511,9 +521,9 @@ def run_two_sifting_channels(args):
 
         
         log_run_metrics({
-            "mode": "two_sifting_chanells",
+            "mode": "reference_sifting_channel",
             "full_log_path": args.full_log,
-            "dialogue_log_pool": args.dialogue_log_pool,
+            "reference_log_path": args.reference_log_path,
             "target_count": args.target_count,
             "seed": args.seed,
             "preprocessing_duration_seconds": round(preprocessing_duration, 4) if preprocessing_duration is not None else None,
@@ -521,7 +531,8 @@ def run_two_sifting_channels(args):
             "total_duration_seconds": round(total_duration, 4),
             "success": error is None,
             "error": error,
-            "distance_matrix": pipeline_state["distance_matrix"],
+            "distance_matrix": pipeline_state["distance_matrix"].tolist(),
+            "target_reference_channel_count": args.target_reference_channel_count,
             "selected_pairs": selection["selected_pairs"]
         })
 
@@ -532,7 +543,7 @@ def run_two_sifting_channels(args):
     print_json(result)
 
     # Logging
-    write_to_file(args.full_log, json.dumps(result, ensure_ascii=False), "select_logs")
+    write_to_file(args.full_log, json.dumps(result, ensure_ascii=False), "select_log_dialogue")
 
 def write_to_file(log_path, content, file_name):
     """
@@ -635,7 +646,7 @@ if __name__ == "__main__":
         run_generate_from_logs(args)
     elif args.mode == "generate_from_narrative":
         run_generate_from_narrative(args)
-    elif args.mode == "two_sifting_channels":
-        run_two_sifting_channels(args)
+    elif args.mode == "reference_sifting_channel":
+        run_reference_sifting_channel(args)
     else:
         run_demo(args.full_log, args.characters_bios_log, seed=args.seed)

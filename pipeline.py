@@ -131,7 +131,7 @@ def run_preprocessing(full_log=None, seed=42):
         "view_data": view_data
     }
 
-def run_preprocessing_dialogue_channel(full_log=None, dialogue_log_pool=None, seed=42):
+def run_preprocessing_dialogue_channel(full_log=None, reference_log_path=None, seed=42):
     """
     Load + deduplicate the logs, compute the full NCD distance matrix,
     and build the ONE canonical hierarchical-clustering tree. This is
@@ -170,14 +170,14 @@ def run_preprocessing_dialogue_channel(full_log=None, dialogue_log_pool=None, se
     ncd_threshold = config.INITIAL_NCD_THRESHOLD
 
     short_log = extract_descriptions(full_log)
-    d_short_log = extract_descriptions(dialogue_log_pool)
+    r_short_log = extract_descriptions(reference_log_path)
 
     log_dict = log_dictionary_ids(short_log, full_log)
-    d_log_dict = log_dictionary_ids(d_short_log, dialogue_log_pool)
+    r_log_dict = log_dictionary_ids(r_short_log, reference_log_path)
 
     unique_logs, counts, visibility = load_unique_logs(full_log, log_dict, max_lines=config.MAX_LOG_LINES)
 
-    d_unique_logs, d_counts, d_visibility = load_unique_logs(dialogue_log_pool, d_log_dict, max_lines=config.MAX_LOG_LINES)
+    r_unique_logs, r_counts, r_visibility = load_unique_logs(reference_log_path, r_log_dict, max_lines=config.MAX_LOG_LINES)
 
     # For each unique (short) log, find its chronologically-earliest
     # matching full-length log line -- in ONE pass over log_dict, not
@@ -196,14 +196,14 @@ def run_preprocessing_dialogue_channel(full_log=None, dialogue_log_pool=None, se
     log_to_temporal_key = {log: temporal_sort_key(short_to_full[log]) for log in unique_logs}
     log_to_temporal_index = {log: idx for idx, log in enumerate(unique_logs)}
 
-    d_short_to_full = build_earliest_full_log_index(d_log_dict)
-    d_log_to_temporal_key = {log: temporal_sort_key(d_short_to_full[log]) for log in d_unique_logs}
-    d_log_to_temporal_index = {log: idx for idx, log in enumerate(d_unique_logs)}
+    r_short_to_full = build_earliest_full_log_index(r_log_dict)
+    r_log_to_temporal_key = {log: temporal_sort_key(r_short_to_full[log]) for log in r_unique_logs}
+    r_log_to_temporal_index = {log: idx for idx, log in enumerate(r_unique_logs)}
 
     # Full NCD distance matrix
     # Any "zoom" over this tree (see tree_utils.build_zoomed_view /
     # collapse_tree_at_threshold) never rebuilds it.
-    distance_matrix = compute_ncd_distance_matrix_asymmetric(unique_logs, d_unique_logs)  # square (n x m)
+    distance_matrix = compute_ncd_distance_matrix_asymmetric(unique_logs, r_unique_logs)  # square (n x m)
 
 
     return {
@@ -217,13 +217,13 @@ def run_preprocessing_dialogue_channel(full_log=None, dialogue_log_pool=None, se
         "log_to_temporal_key": log_to_temporal_key,
         "log_to_temporal_index": log_to_temporal_index,
         "distance_matrix": distance_matrix,
-        "dialogue_log_pool": dialogue_log_pool,
-        "d_short_log": d_short_log,
-        "d_log_dict": d_log_dict,
-        "d_short_to_full": d_short_to_full,
-        "d_counts": d_counts,
-        "d_unique_logs": d_unique_logs,
-        "d_visibility": d_visibility,
-        "d_log_to_temporal_key": d_log_to_temporal_key,
-        "d_log_to_temporal_index": d_log_to_temporal_index
+        "reference_log_path": reference_log_path,
+        "r_short_log": r_short_log,
+        "r_log_dict": r_log_dict,
+        "r_short_to_full": r_short_to_full,
+        "r_counts": r_counts,
+        "r_unique_logs": r_unique_logs,
+        "r_visibility": r_visibility,
+        "r_log_to_temporal_key": r_log_to_temporal_key,
+        "r_log_to_temporal_index": r_log_to_temporal_index
     }
