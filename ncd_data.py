@@ -188,6 +188,38 @@ def compute_ncd_distance_matrix(strings):
 
     return dist_matrix
 
+def compute_ncd_distance_matrix_asymmetric(strings, reference_strings):
+    """
+    Compute the full pairwise NCD distance matrix for a list of strings with a set of reference strings.
+
+    Returns
+    -------
+    np.ndarray, shape (n, m)
+        Matrix with zero diagonal; dist_matrix[i, j] is the
+        NCD between strings[i] and reference_strings[j].
+    """
+    n = len(strings)
+    m = len(reference_strings)
+    dist_matrix = np.zeros((n, m))
+
+    compressed_sizes = [0] * m
+
+    # Calculate all the compressed sizes first
+
+    for j in range(m):
+        compressed_sizes[j] = compress_with_algorithm(reference_strings[j], algorithm="deflate")
+        for i in range(n):
+                d = NCD_text(
+                    strings[i],
+                    reference_strings[j],
+                    compress_with_algorithm(strings[i], algorithm="deflate"),
+                    compressed_sizes[j]
+                )
+
+                dist_matrix[i, j] = d
+
+    return dist_matrix
+
 
 # -----------------------------------------------------------------------
 # Log tag helpers

@@ -186,3 +186,52 @@ def select_final_log_pool(pipeline_state, ncd_threshold, control="fixed_depth", 
         "final_log_pool_labels": final_log_pool_labels,
         "error": None,
     }
+
+
+def select_final_dialogue_channel_pool(pipeline_state, target_number_of_pairs=2, seed=42):
+    """
+    
+    """
+
+    # Get event logs
+    unique_logs = pipeline_state["unique_logs"]
+    short_to_full = pipeline_state["short_to_full"]
+
+    # Get dialogue logs
+    d_unique_logs = pipeline_state["d_unique_logs"]
+    d_short_to_full = pipeline_state["d_short_to_full"]
+
+    # Get distance matrix 
+    distance_matrix = pipeline_state["distance_matrix"]    
+
+    import numpy as np
+
+    # Clamp target_count to the number of available pairs
+    target_number_of_pairs = max(1, min(target_number_of_pairs, distance_matrix.size))
+
+    # Flatten the matrix and get the indices of the X lowest NCD scores
+    flat_indices = np.argsort(distance_matrix, axis=None)[:target_number_of_pairs]
+
+    # Convert flattened indices back to (event_index, dialogue_index)
+    event_indices, dialogue_indices = np.unravel_index(
+        flat_indices, distance_matrix.shape
+    )
+
+    # Retrieve the corresponding logs and NCD scores
+    selected_pairs = [
+        {
+            "event_index": int(i),
+            "dialogue_index": int(j),
+            "event_log_short": unique_logs[i],
+            "event_log_full": short_to_full[unique_logs[i]],
+            "dialogue_log_short": d_unique_logs[j],
+            "dialogue_log_full": d_short_to_full[d_unique_logs[j]],
+            "ncd": float(distance_matrix[i, j]),
+        }
+        for i, j in zip(event_indices, dialogue_indices)
+    ]
+
+
+    return {
+        "selected_pairs": selected_pairs
+    }

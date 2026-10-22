@@ -73,6 +73,8 @@ import argparse
 import json
 import sys
 
+from log_selection import select_final_dialogue_channel_pool
+
 # Force stdout/stderr to UTF-8 regardless of the host's default console
 # codepage (Windows in particular can default to something like cp1252,
 # which would either mangle non-ASCII characters or raise
@@ -100,7 +102,7 @@ def print_json(obj):
 def parse_args():
     parser = argparse.ArgumentParser(description="Log Dendrogram Explorer")
     parser.add_argument(
-        "mode", nargs="?", default="demo", choices=["demo", "preprocess", "select", "generate_from_logs", "generate_from_narrative"],
+        "mode", nargs="?", default="demo", choices=["demo", "preprocess", "select", "generate_from_logs", "generate_from_narrative", "two_sifting_channels"],
         help="'demo' (default): open the interactive dashboard in a browser tab. "
              "'preprocess': run only the log loading + clustering pipeline and "
              "print the results as JSON to stdout -- no browser/UI. "
@@ -110,6 +112,7 @@ def parse_args():
              "(see --final-log-pool/--bios-log/--generation-mode below) -- no "
              "preprocessing/selection re-run, no scipy/numpy import."
              "'generate_from_narrative': call the LLM against an ALREADY-GENERATED narrative "
+             "'two_sifting_channels': run the two sifting channels pipeline "
     )
     parser.add_argument("--full-log", dest="full_log", default=None,
                          help="Path to the full-length log file (overrides config/stdin resolution).")
@@ -143,7 +146,11 @@ def parse_args():
     # 'generate_from_story'-mode only.
     parser.add_argument("--input-narrative-path", dest="input_narrative_path", default=None,
                         help="[generate mode] Path to a plain text file, one narrative.")
- 
+
+    # two_sifting_channels mode only
+    parser.add_argument("--dialogue-log-pool", dest="dialogue_log_pool", default=None,
+                         help="[two_sifting_channels mode] Path to a plain text file, one formatted log line per line ")
+    
     return parser.parse_args()
  
 
@@ -455,6 +462,77 @@ def run_generate_headless(
         "model": usage.get("model") if usage else None,
     })
 
+def run_two_sifting_channels(args):
+    """
+    Run the two sifting channels pipeline (no Panel, no browser) and print the resulting unique logs + a bit of
+    metadata as a single line of JSON to stdout, for the C# mod to read
+    directly from the process's standard output.
+    """
+
+    # Imported lazily (rather than at module scope) purely for symmetry
+    # with run_demo()'s lazy Panel import -- log_selection.py itself
+    # doesn't touch Panel, but keeping headless-mode imports scoped to
+    # their function makes it obvious at a glance which modes are heavy.
+    import pipeline
+    import time
+
+    run_select_headless(args)
+
+    # If the user didn't explicitly pass paths, resolve them via config/stdin.
+    if args.dialogue_log_pool is None:
+        print("Something")
+
+    # try/finally, not try/except -- see the matching comment in
+    # run_preprocess_headless for why a real failure must still crash
+    # the process rather than being swallowed into a JSON error field.
+    overall_start = time.perf_counter()
+    pipeline_state = None
+    selection = None
+    error = None
+    preprocessing_duration = None
+    selection_duration = None
+    try:
+        t0 = time.perf_counter()
+        pipeline_state = pipeline.run_preprocessing_dialogue_channel(args.full_log, dialogue_log_pool=args.dialogue_log_pool, seed=args.seed)
+        preprocessing_duration = time.perf_counter() - t0
+
+        t1 = time.perf_counter()
+        selection = select_final_dialogue_channel_pool(
+            pipeline_state,
+            target_number_of_pairs=args.target_count,
+            seed=args.seed)
+        
+        selection_duration = time.perf_counter() - t1
+    except Exception as e:
+        error = str(e)
+        raise
+    finally:
+        total_duration = time.perf_counter() - overall_start
+
+        
+        log_run_metrics({
+            "mode": "two_sifting_chanells",
+            "full_log_path": args.full_log,
+            "dialogue_log_pool": args.dialogue_log_pool,
+            "target_count": args.target_count,
+            "seed": args.seed,
+            "preprocessing_duration_seconds": round(preprocessing_duration, 4) if preprocessing_duration is not None else None,
+            "selection_duration_seconds": round(selection_duration, 4) if selection_duration is not None else None,
+            "total_duration_seconds": round(total_duration, 4),
+            "success": error is None,
+            "error": error,
+            "distance_matrix": pipeline_state["distance_matrix"],
+            "selected_pairs": selection["selected_pairs"]
+        })
+
+    result = {
+        **selection
+    }
+
+    print_json(result)
+
+    # Logging
+    write_to_file(args.full_log, json.dumps(result, ensure_ascii=False), "select_logs")
 
 def write_to_file(log_path, content, file_name):
     """
@@ -557,5 +635,7 @@ if __name__ == "__main__":
         run_generate_from_logs(args)
     elif args.mode == "generate_from_narrative":
         run_generate_from_narrative(args)
+    elif args.mode == "two_sifting_channels":
+        run_two_sifting_channels(args)
     else:
         run_demo(args.full_log, args.characters_bios_log, seed=args.seed)
