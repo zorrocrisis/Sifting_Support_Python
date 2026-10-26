@@ -19370,6 +19370,7 @@ NV._JOB_Timestamp_354430_Location_(195, 0, 6)_ID_J24190_Actors_Rat38313_FullInfo
 NV._JOB_Timestamp_354431_Location_(217, 0, 217)_ID_J24191_Actors_Deer38305_FullInfo_A(n) buck standing.
 NV._JOB_Timestamp_354431_Location_(146, 0, 10)_ID_J24056_Actors_Squirrel38340_FullInfo_A(n) squirrel wandering.
 NV._JOB_Timestamp_354432_Location_(146, 0, 10)_ID_J24194_Actors_Squirrel38340_FullInfo_A(n) squirrel standing.
+V._SL_Timestamp_36937_Location_(110, 0, 138)_ID_S104_Actors_Stench, Boyd_FullInfo_Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'
 NV._JOB_Timestamp_354438_Location_(205, 0, 200)_ID_J24042_Actors_Gazelle38321_FullInfo_A(n) gazelle wandering.
 NV._JOB_Timestamp_354439_Location_(205, 0, 200)_ID_J24196_Actors_Gazelle38321_FullInfo_A(n) gazelle standing.
 NV._JOB_Timestamp_354444_Location_(7, 0, 208)_ID_J24152_Actors_Donkey38324_FullInfo_A(n) donkey wandering.
@@ -19855,6 +19856,7 @@ NV._JOB_Timestamp_355319_Location_(212, 0, 212)_ID_J24576_Actors_Gazelle38320_Fu
 NV._JOB_Timestamp_355320_Location_(212, 0, 212)_ID_J24677_Actors_Gazelle38320_FullInfo_A(n) gazelle standing.
 NV._JOB_Timestamp_355323_Location_(211, 0, 101)_ID_J24646_Actors_Squirrel38338_FullInfo_A(n) squirrel wandering.
 NV._JOB_Timestamp_355324_Location_(211, 0, 101)_ID_J24679_Actors_Squirrel38338_FullInfo_A(n) squirrel standing.
+V._SL_Timestamp_37837_Location_(111, 0, 139)_ID_S107_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'
 NV._JOB_Timestamp_355341_Location_(202, 0, 203)_ID_J24587_Actors_Gazelle38322_FullInfo_A(n) gazelle wandering.
 NV._JOB_Timestamp_355342_Location_(202, 0, 203)_ID_J24681_Actors_Gazelle38322_FullInfo_A(n) gazelle standing.
 NV._JOB_Timestamp_355348_Location_(221, 0, 209)_ID_J24584_Actors_Deer38303_FullInfo_A(n) buck wandering.
@@ -20281,6 +20283,7 @@ NV._JOB_Timestamp_356223_Location_(220, 0, 206)_ID_J25042_Actors_Deer38303_FullI
 NV._JOB_Timestamp_356224_Location_(220, 0, 206)_ID_J25103_Actors_Deer38303_FullInfo_A(n) buck standing.
 NV._JOB_Timestamp_356226_Location_(205, 0, 201)_ID_J25018_Actors_Gazelle38317_FullInfo_A(n) gazelle wandering.
 NV._JOB_Timestamp_356227_Location_(205, 0, 201)_ID_J25105_Actors_Gazelle38317_FullInfo_A(n) gazelle standing.
+V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
 NV._JOB_Timestamp_356241_Location_(223, 0, 209)_ID_J25052_Actors_Deer38308_FullInfo_A(n) buck wandering.
 NV._JOB_Timestamp_356241_Location_(246, 0, 194)_ID_J25046_Actors_Hare38352_FullInfo_A(n) hare wandering.
 NV._JOB_Timestamp_356242_Location_(223, 0, 209)_ID_J25107_Actors_Deer38308_FullInfo_A(n) buck standing.
@@ -20661,6 +20664,7 @@ NV._JOB_Timestamp_357113_Location_(219, 0, 145)_ID_J25481_Actors_Rat38312_FullIn
 NV._JOB_Timestamp_357114_Location_(166, 0, 119)_ID_J25482_Actors_Squirrel38302_FullInfo_A(n) squirrel standing.
 NV._JOB_Timestamp_357121_Location_(224, 0, 79)_ID_J24994_Actors_Tortoise38351_FullInfo_A(n) tortoise wandering.
 NV._JOB_Timestamp_357122_Location_(224, 0, 79)_ID_J25485_Actors_Tortoise38351_FullInfo_A(n) tortoise standing.
+V._SL_Timestamp_39637_Location_(111, 0, 137)_ID_S111_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'
 NV._JOB_Timestamp_357140_Location_(187, 0, 162)_ID_J25432_Actors_Hare38301_FullInfo_A(n) hare wandering.
 NV._JOB_Timestamp_357141_Location_(187, 0, 162)_ID_J25487_Actors_Hare38301_FullInfo_A(n) hare standing.
 NV._JOB_Timestamp_357148_Location_(213, 0, 229)_ID_J25423_Actors_Squirrel38349_FullInfo_A(n) squirrel wandering.

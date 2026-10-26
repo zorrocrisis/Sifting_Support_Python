@@ -146,6 +146,7 @@ def select_final_log_pool(pipeline_state, ncd_threshold, control="fixed_depth", 
         "seed": seed,
         "most_anomalous_log": most_anomalous_log,
         "highest_ncd": highest_NCD,
+        "short_to_full": short_to_full
     }
 
     if len(unique_logs_after_filtering) < 2:

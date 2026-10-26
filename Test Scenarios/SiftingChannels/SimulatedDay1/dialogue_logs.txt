@@ -1,0 +1,3 @@
+V._SL_Timestamp_36937_Location_(110, 0, 138)_ID_S104_Actors_Stench, Boyd_FullInfo_Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'
+V._SL_Timestamp_37837_Location_(111, 0, 139)_ID_S107_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'
+V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'

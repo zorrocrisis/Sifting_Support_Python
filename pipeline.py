@@ -131,7 +131,7 @@ def run_preprocessing(full_log=None, seed=42):
         "view_data": view_data
     }
 
-def run_preprocessing_dialogue_channel(full_log=None, reference_log_path=None, seed=42):
+def run_preprocessing_reference_channel(full_log=None, reference_log_path=None, seed=42):
     """
     Load + deduplicate the logs, compute the full NCD distance matrix,
     and build the ONE canonical hierarchical-clustering tree. This is

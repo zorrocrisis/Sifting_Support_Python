@@ -504,7 +504,7 @@ def run_reference_sifting_channel(args):
     selection_duration = None
     try:
         t0 = time.perf_counter()
-        pipeline_state = pipeline.run_preprocessing_dialogue_channel(args.full_log, reference_log_path=args.reference_log_path, seed=args.seed)
+        pipeline_state = pipeline.run_preprocessing_reference_channel(args.full_log, reference_log_path=args.reference_log_path, seed=args.seed)
         preprocessing_duration = time.perf_counter() - t0
 
         t1 = time.perf_counter()
@@ -536,8 +536,13 @@ def run_reference_sifting_channel(args):
             "selected_pairs": selection["selected_pairs"]
         })
 
+    # We merge the dictionaries
+
     result = {
-        **selection
+        **selection,
+        "counts": pipeline_state["counts"] | pipeline_state["r_counts"],
+        "visibility": pipeline_state["visibility"] | pipeline_state["r_visibility"],
+        "short_to_full": pipeline_state["short_to_full"] | pipeline_state["r_short_to_full"],
     }
 
     print_json(result)
