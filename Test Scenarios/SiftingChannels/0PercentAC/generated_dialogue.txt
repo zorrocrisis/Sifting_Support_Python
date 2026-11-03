@@ -1,0 +1,74 @@
+[
+  {
+    "colonist": "Lidia 'Stench' Schmitt",
+    "line": "[N], Aunt Odette swings like a drunk muffalo, but Dad just talks walrus hunting.",
+    "reported": "Stench said Aunt Odette swings like a drunk muffalo, but Dad just talks walrus hunting.",
+    "reply": "She's got a mean right hook for an old herbalist."
+  },
+  {
+    "colonist": "Lidia 'Stench' Schmitt",
+    "line": "[N], I should've set her sleeve on fire, but Dad started yappin' about charity.",
+    "reported": "Stench said she should've set her sleeve on fire, but Dad started yappin' about charity.",
+    "reply": "Fire solves everything with you, doesn't it?"
+  },
+  {
+    "colonist": "Lidia 'Stench' Schmitt",
+    "line": "[N], she missed me twice, clumsy as a blind boar, then talked raiders.",
+    "reported": "Stench said she missed me twice, clumsy as a blind boar, then talked raiders.",
+    "reply": "Raiders are no joke, even if your aunt swings wide."
+  },
+  {
+    "colonist": "Lidia 'Stench' Schmitt",
+    "line": "[N], Dad's calm while we brawl, hunts walrus, then lectures me on givin'.",
+    "reported": "Stench said Dad's calm while we brawl, hunts walrus, then lectures me on givin'.",
+    "reply": "He's always been weirdly calm during chaos."
+  },
+  {
+    "colonist": "Dillon Boyd",
+    "line": "[N], hunted a walrus once, anteater too, Stench barely listened while swingin'.",
+    "reported": "Dillon said he hunted a walrus once, anteater too, Stench barely listened while swingin'.",
+    "reply": "Hard to listen when you're dodging punches."
+  },
+  {
+    "colonist": "Dillon Boyd",
+    "line": "[N], Odette throws punches like bad notes, I just tally the charity ledger.",
+    "reported": "Dillon said Odette throws punches like bad notes, I just tally the charity ledger.",
+    "reply": "Priorities. At least the books are balanced."
+  },
+  {
+    "colonist": "Dillon Boyd",
+    "line": "[N], told Stench give more, she'd rather burn things, typical pyromaniac daughter.",
+    "reported": "Dillon said he told Stench give more, she'd rather burn things, typical pyromaniac daughter.",
+    "reply": "She comes by the fire obsession honestly."
+  },
+  {
+    "colonist": "Dillon Boyd",
+    "line": "[N], raiders in treeline? Odette sees ghosts, I see tax returns need filin'.",
+    "reported": "Dillon said raiders in treeline? Odette sees ghosts, I see tax returns need filin'.",
+    "reply": "Better ghosts than an audit, I suppose."
+  },
+  {
+    "colonist": "Odette O'Neill",
+    "line": "[N], Stench fights like a caveworm, all flail, no bite, barely scraped me.",
+    "reported": "Odette said Stench fights like a caveworm, all flail, no bite, barely scraped me.",
+    "reply": "Caveworms have nasty venom, though."
+  },
+  {
+    "colonist": "Odette O'Neill",
+    "line": "[N], scanned treeline for raiders mid-swing, Dillon just yapped about walrus blubber.",
+    "reported": "Odette said she scanned treeline for raiders mid-swing, Dillon just yapped about walrus blubber.",
+    "reply": "Multitasking. Impressive, if pointless."
+  },
+  {
+    "colonist": "Odette O'Neill",
+    "line": "[N], niece inherits pyromania, not brains, Dad enables her, useless civil servant.",
+    "reported": "Odette said niece inherits pyromania, not brains, Dad enables her, useless civil servant.",
+    "reply": "Family dynamics are never simple."
+  },
+  {
+    "colonist": "Odette O'Neill",
+    "line": "[N], should've herb-crafted a sedative, knocked us both out, saved dignity.",
+    "reported": "Odette said she should've herb-crafted a sedative, knocked us both out, saved dignity.",
+    "reply": "Hindsight's a potent tincture."
+  }
+]

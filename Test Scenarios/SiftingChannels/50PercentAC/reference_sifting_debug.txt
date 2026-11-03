@@ -1,0 +1,24 @@
+event_index=137
+r_index=2
+event_log_short=Odette attempted to hit Stench, but hesitated at the last second.
+event_log_full=V._CL_Timestamp_396921_Location_(114, 0, 141)_ID_b146_Actors_Odette, Stench_FullInfo_Odette attempted to hit Stench, but hesitated at the last second.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.580246913580247
+
+event_index=138
+r_index=2
+event_log_short=Stench flailed at Odette with her left fist, but stumbled at the last second.
+event_log_full=V._CL_Timestamp_396922_Location_(114, 0, 142)_ID_b147_Actors_Stench, Odette_FullInfo_Stench flailed at Odette with her left fist, but stumbled at the last second.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.580246913580247
+
+event_index=118
+r_index=2
+event_log_short=Odette is no longer on an insulting spree against Stench, Hunter.
+event_log_full=V._ARC_Timestamp_396285_Location_(114, 0, 140)_ID_L21_Actors_Odette_FullInfo_Odette is no longer on an insulting spree against Stench, Hunter.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.592592592592593
+

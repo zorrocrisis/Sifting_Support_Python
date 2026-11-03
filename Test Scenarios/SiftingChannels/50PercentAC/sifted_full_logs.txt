@@ -1,0 +1,5 @@
+V._ARC_Timestamp_373142_Location_(122, 0, 139)_ID_L13_Actors_Stench_FullInfo_Stench, Hunter is fully healed.[x1][V]
+V._CL_Timestamp_376763_Location_(124, 0, 132)_ID_b127_Actors_Stench, Turkey38339_FullInfo_Stench fired at the turkey.[x1][V]
+NV._ARC_Timestamp_392840_Location_(-1000, -1000, -1000)_ID_L2_Actors_Ackmann_FullInfo_A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes.[x1][NV]
+NV._ARC_Timestamp_394516_Location_(124, 0, 139)_ID_L3_Actors_Odette_FullInfo_Odette has fixated her rage on Stench. She will follow Stench around, hurling insults. This happened because of poor mood. The final straw was: Ravenously hungry[x1][NV]
+V._JOB_Timestamp_397690_Location_(114, 0, 141)_ID_J36149_Actors_Odette_FullInfo_Odette downed.[x1][V]

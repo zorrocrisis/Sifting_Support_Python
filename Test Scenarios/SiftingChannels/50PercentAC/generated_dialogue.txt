@@ -1,0 +1,74 @@
+[  {    "colonist": "Lidia 'Stench' Schmitt",    "line": "[N], i shot at that turkey and missed clean.",    "reported": "Stench said I shot at that turkey and missed clean.",    "reply": "You're usually better than that."  },  {    "colonist": "Lidia 'Stench' Schmitt",    "line": "[N], odette followed me around calling me names.",    "reported": "Stench said Odette followed her around calling her names.",    "reply": "What did she say?"  },  {    "colonist": "Lidia 'Stench' Schmitt",    "line": "[N], i swung at her and fell flat on my face.",    "reported": "Stench said I swung at her and fell flat on my face.",    "reply": "Did she hit you back?"  },  {    "colonist": "Lidia 'Stench' Schmitt",    "line": "[N], my arm still throbs from that fall.",    "reported": "Stench said My arm still throbs from that fall.",    "reply": "I can look at it if you want."  },  {    "colonist": "Dillon Boyd",    "line": "[N], i heard odette and stench were shouting at each other.",    "reported": "Dillon said I heard Odette and Stench were shouting at each other.",    "reply": "Was anyone hurt?"  },  {    "colonist": "Dillon Boyd",    "line": "[N], women shouldn't be scuffling in the common room.",    "reported": "Dillon said Women shouldn't be scuffling in the common room.",    "reply": "It was just a disagreement."  },  {    "colonist": "Dillon Boyd",    "line": "[N], i can't relax with all this shouting going on.",    "reported": "Dillon said I can't relax with all this shouting going on.",    "reply": "Try sitting somewhere quieter."  },  {    "colonist": "Dillon Boyd",    "line": "[N], someone ought to keep stench away from odette.",    "reported": "Dillon said Someone ought to keep Stench away from Odette.",    "reply": "They're both adults."  },  {    "colonist": "Odette O'Neill",    "line": "[N], i stood at the tree line watching for raiders.",    "reported": "Odette said I stood at the tree line watching for raiders.",    "reply": "Did you see anything?"  },  {    "colonist": "Odette O'Neill",    "line": "[N], i got so hungry i started snapping at stench.",    "reported": "Odette said I got so hungry I started snapping at Stench.",    "reply": "Hunger makes anyone irritable."  },  {    "colonist": "Odette O'Neill",    "line": "[N], i lunged at her but stopped before i hit anything.",    "reported": "Odette said I lunged at her but stopped before I hit anything.",    "reply": "Glad you held back."  },  {    "colonist": "Odette O'Neill",    "line": "[N], stench threw a punch and i went down hard.",    "reported": "Odette said Stench threw a punch and I went down hard.",    "reply": "Are you all right now?"  },{    "colonist": "Lidia 'Stench' Schmitt",    "line": "[N], that turkey didn't stand a chance while Odette screamed at me.",    "reported": "Stench said that turkey didn't stand a chance while Odette screamed at her.",    "reply": "You still got hit, though."  },  {    "colonist": "Lidia 'Stench' Schmitt",    "line": "[N], she lunged like a predator but froze. I just swung wild.",    "reported": "Stench said she lunged like a predator but froze. Stench just swung wild.",    "reply": "Lucky she stopped, then."  },  {    "colonist": "Lidia 'Stench' Schmitt",    "line": "[N], hunger makes her vicious. Remind me to lock the pantry.",    "reported": "Stench said hunger makes her vicious. Remind Stench to lock the pantry.",    "reply": "We're all hungry, Stench."  },  {    "colonist": "Lidia 'Stench' Schmitt",    "line": "[N], my knuckles still sting from her jaw. Worth it.",    "reported": "Stench said her knuckles still sting from her jaw. Worth it.",    "reply": "You're bleeding on the floor."  },  {    "colonist": "Dillon Boyd",    "line": "[N], heard the shouting from the kitchen. Sounded ugly.",    "reported": "Dillon said he heard the shouting from the kitchen. Sounded ugly.",    "reply": "They're both stubborn."  },  {    "colonist": "Dillon Boyd",    "line": "[N], women and empty stomachs. Dangerous combination, trust me.",    "reported": "Dillon said women and empty stomachs. Dangerous combination, trust him.",    "reply": "That's not fair, Dillon."  },  {    "colonist": "Dillon Boyd",    "line": "[N], Odette usually keeps her head. Something snapped in her.",    "reported": "Dillon said Odette usually keeps her head. Something snapped in her.",    "reply": "We all snap eventually."  },  {    "colonist": "Dillon Boyd",    "line": "[N], Stench packs a punch for a pyromaniac. Didn't expect that.",    "reported": "Dillon said Stench packs a punch for a pyromaniac. Didn't expect that.",    "reply": "She's full of surprises."  },  {    "colonist": "Odette O'Neill",    "line": "[N], I scanned the trees for raiders while my stomach ate itself.",    "reported": "Odette said she scanned the trees for raiders while her stomach ate itself.",    "reply": "We all missed that pod."  },  {    "colonist": "Odette O'Neill",    "line": "[N], the things I said to Stench... hunger's no excuse.",    "reported": "Odette said the things she said to Stench... hunger's no excuse.",    "reply": "Apologize when you're ready."  },  {    "colonist": "Odette O'Neill",    "line": "[N], I lunged and my body just... refused. She hit me anyway.",    "reported": "Odette said she lunged and her body just refused. She hit her anyway.",    "reply": "Your body knew better."  },  {    "colonist": "Odette O'Neill",    "line": "[N], lying there on the floor, I understood. We're breaking.",    "reported": "Odette said lying there on the floor, she understood. They're breaking.",    "reply": "Then we fix it."  },
+{
+    "colonist": "Lidia 'Stench' Schmitt",
+    "line": "[N], that turkey never stood a chance before Odette lost it.",
+    "reported": "Stench said that turkey never stood a chance before Odette lost it.",
+    "reply": "Priorities were definitely mixed up that day."
+  },
+  {
+    "colonist": "Lidia 'Stench' Schmitt",
+    "line": "[N], auntie's insults hit harder than any raider's bullet.",
+    "reported": "Stench said auntie's insults hit harder than any raider's bullet.",
+    "reply": "Words can cut deep when you're already starving."
+  },
+  {
+    "colonist": "Lidia 'Stench' Schmitt",
+    "line": "[N], my fist connected but my footing didn't - story of my life.",
+    "reported": "Stench said her fist connected but her footing didn't - story of her life.",
+    "reply": "At least you didn't go down first."
+  },
+  {
+    "colonist": "Lidia 'Stench' Schmitt",
+    "line": "[N], dad just watched while she collapsed from hunger. Useless.",
+    "reported": "Stench said dad just watched while she collapsed from hunger. Useless.",
+    "reply": "He's never been good in a crisis."
+  },
+  {
+    "colonist": "Dillon Boyd",
+    "line": "[N], sisters shouldn't brawl like that - mother would've been ashamed.",
+    "reported": "Dillon said sisters shouldn't brawl like that - mother would've been ashamed.",
+    "reply": "Marina always did hate conflict."
+  },
+  {
+    "colonist": "Dillon Boyd",
+    "line": "[N], Stench's punch was sloppy, but Odette dropped like a stone.",
+    "reported": "Dillon said Stench's punch was sloppy, but Odette dropped like a stone.",
+    "reply": "Starvation takes the fight out of anyone."
+  },
+  {
+    "colonist": "Dillon Boyd",
+    "line": "[N], I froze up. Couldn't move, couldn't speak. Just... watched.",
+    "reported": "Dillon said he froze up. Couldn't move, couldn't speak. Just watched.",
+    "reply": "Your nerves get the better of you sometimes."
+  },
+  {
+    "colonist": "Dillon Boyd",
+    "line": "[N], the pod crash went unnoticed while we tore into each other.",
+    "reported": "Dillon said the pod crash went unnoticed while we tore into each other.",
+    "reply": "We were too busy falling apart to notice."
+  },
+  {
+    "colonist": "Odette O'Neill",
+    "line": "[N], the hunger clawed at me until I saw red instead of family.",
+    "reported": "Odette said the hunger clawed at me until I saw red instead of family.",
+    "reply": "Starvation makes monsters of us all."
+  },
+  {
+    "colonist": "Odette O'Neill",
+    "line": "[N], I lunged at Stench but something stopped me mid-swing.",
+    "reported": "Odette said she lunged at Stench but something stopped her mid-swing.",
+    "reply": "Maybe some part of you remembered who she was."
+  },
+  {
+    "colonist": "Odette O'Neill",
+    "line": "[N], hitting the dirt reminded me of cave-ins back home.",
+    "reported": "Odette said hitting the dirt reminded her of cave-ins back home.",
+    "reply": "At least this time the ceiling held."
+  },
+  {
+    "colonist": "Odette O'Neill",
+    "line": "[N], that transport pod crashed while I was busy starving. Failed everyone.",
+    "reported": "Odette said that transport pod crashed while she was busy starving. Failed everyone.",
+    "reply": "You can't watch the sky and your own gut at once."
+  }
+]

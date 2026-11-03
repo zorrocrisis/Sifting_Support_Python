@@ -172,7 +172,8 @@ def run_demo(full_log=None, characters_bios_log=None, seed=42):
     if full_log is None or characters_bios_log is None:
         full_log, characters_bios_log = pipeline.resolve_input_paths()
 
-    pipeline_state = pipeline.run_preprocessing(full_log, characters_bios_log, seed=seed)
+    pipeline_state = pipeline.run_preprocessing(full_log, seed=seed)
+    pipeline_state["characters_bios"] = characters_bios_log
     dashboard = build_dashboard(pipeline_state)
     dashboard.servable(title="Log Dendrogram Explorer")
 

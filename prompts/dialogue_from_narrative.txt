@@ -18,7 +18,7 @@ Output a JSON array of dialogue lines colonists might say referencing the events
 
 Each dialogue line should be under 20 words.
 
-Generate 4 lines per colonist.
+Generate 3 lines per colonist.
 
 Each entry must be a JSON object with exactly three fields:
 - colonist: the full colonist name

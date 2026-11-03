@@ -1,0 +1,10 @@
+5 AC + 6 CC => 9 final (of which, 5 are contributed by AC, other 4 are contributed by CC) - no logs were common to both channels
+
+ncdThreshold:0.5
+control:target_count
+strategy:least_frequent
+depth:1
+target_count:6
+seed:42
+
+nvidia/nemotron-3-ultra-550b-a55b:free

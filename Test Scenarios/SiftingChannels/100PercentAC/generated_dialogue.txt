@@ -1,74 +1,73 @@
-[
-  {
+{
     "colonist": "Lidia 'Stench' Schmitt",
-    "line": "[N], that boar Papyrus nearly took my bad leg off during the move.",
-    "reported": "Stench said that boar Papyrus nearly took my bad leg off during the move.",
-    "reply": "Should've let me handle the herding, firebug."
-  },
-  {
-    "colonist": "Lidia 'Stench' Schmitt",
-    "line": "[N], missed the tortoise clean. Waste of a good bolt.",
-    "reported": "Stench said missed the tortoise clean. Waste of a good bolt.",
-    "reply": "Meat's meat. Silver haul matters more."
+    "line": "[N], those wolves kept pacing all night, close enough to smell.",
+    "reported": "Stench said those wolves kept pacing all night, close enough to smell.",
+    "reply": "Did they test the fence?"
   },
   {
     "colonist": "Lidia 'Stench' Schmitt",
-    "line": "[N], hauled that silver stack myself. Back's screaming but vault's full.",
-    "reported": "Stench said hauled that silver stack myself. Back's screaming but vault's full.",
-    "reply": "Good. We'll need it for the pod survivor."
+    "line": "[N], Dad just... stopped making sense. Walked like he was sleepwalking.",
+    "reported": "Stench said Dad just... stopped making sense. Walked like he was sleepwalking.",
+    "reply": "He's been on edge for weeks."
   },
   {
     "colonist": "Lidia 'Stench' Schmitt",
-    "line": "[N], found those dead turkeys by the crash. Poison? Sickness? Smelled wrong.",
-    "reported": "Stench said found those dead turkeys by the crash. Poison? Sickness? Smelled wrong.",
-    "reply": "Don't touch them. Let Odette check first."
+    "line": "[N], pod came down hard. That farmhand's lucky to be breathing.",
+    "reported": "Stench said pod came down hard. That farmhand's lucky to be breathing.",
+    "reply": "Alyona's Rockets again?"
+  },
+  {
+    "colonist": "Lidia 'Stench' Schmitt",
+    "line": "[N], Papyrus nearly trampled me, and the tortoise still won't come out.",
+    "reported": "Stench said Papyrus nearly trampled me, and the tortoise still won't come out.",
+    "reply": "Leave it. It'll show up hungry."
   },
   {
     "colonist": "Dillon Boyd",
-    "line": "[N], the walls were closing in. Filth in every corner. Had to walk.",
-    "reported": "Dillon said the walls were closing in. Filth in every corner. Had to walk.",
-    "reply": "You scared us, old man. Stay put next time."
+    "line": "[N], the walls were closing in. Couldn't breathe in that barracks.",
+    "reported": "Dillon said the walls were closing in. Couldn't breathe in that barracks.",
+    "reply": "We need better quarters."
   },
   {
     "colonist": "Dillon Boyd",
-    "line": "[N], heard Lidia's boots hauling silver while I wandered. Steady. Reliable.",
-    "reported": "Dillon said heard Lidia's boots hauling silver while I wandered. Steady. Reliable.",
-    "reply": "She's tougher than both of us combined."
+    "line": "[N], wolves at the gate, and I'm the one falling apart. Pathetic.",
+    "reported": "Dillon said wolves at the gate, and I'm the one falling apart. Pathetic.",
+    "reply": "You held it together long enough."
   },
   {
     "colonist": "Dillon Boyd",
-    "line": "[N], that pod crash shook the ground. More outsiders. Always more outsiders.",
-    "reported": "Dillon said that pod crash shook the ground. More outsiders. Always more outsiders.",
-    "reply": "This one's hurt bad. Might not wake up."
+    "line": "[N], that crash shook the whole compound. Thought we were under attack.",
+    "reported": "Dillon said that crash shook the whole compound. Thought we were under attack.",
+    "reply": "Just a pod. No raiders."
   },
   {
     "colonist": "Dillon Boyd",
-    "line": "[N], my hands still shake from the barracks. Mother would've hated the smell.",
-    "reported": "Dillon said my hands still shake from the barracks. Mother would've hated the smell.",
-    "reply": "Your mother's not here. Focus on now."
+    "line": "[N], twenty people sharing one room. No privacy. No quiet. Ever.",
+    "reported": "Dillon said twenty people sharing one room. No privacy. No quiet. Ever.",
+    "reply": "New barracks are on the list."
   },
   {
     "colonist": "Odette O'Neill",
-    "line": "[N], Dillon's mind snapped in those barracks. Seen it underground before.",
-    "reported": "Odette said Dillon's mind snapped in those barracks. Seen it underground before.",
-    "reply": "He's calm now. Meds helping?"
+    "line": "[N], surface predators don't worry me. It's the open sky that gets you.",
+    "reported": "Odette said surface predators don't worry me. It's the open sky that gets you.",
+    "reply": "You've been topside long enough."
   },
   {
     "colonist": "Odette O'Neill",
-    "line": "[N], Lidia dragged that silver like a mule. Girl's got grit beneath the burns.",
-    "reported": "Odette said Lidia dragged that silver like a mule. Girl's got grit beneath the burns.",
-    "reply": "She's healing fast. Scars fading."
+    "line": "[N], Dillon's mind snapped. Seen it before in the caves. Pressure does that.",
+    "reported": "Odette said Dillon's mind snapped. Seen it before in the caves. Pressure does that.",
+    "reply": "He'll stabilize. He always does."
   },
   {
     "colonist": "Odette O'Neill",
-    "line": "[N], pod survivor's medieval. No tech immunity. Fever's rising fast.",
-    "reported": "Odette said pod survivor's medieval. No tech immunity. Fever's rising fast.",
-    "reply": "Can you treat him with what we have?"
+    "line": "[N], that farmhand's bleeding internal. Need glitterworld meds, not herbal paste.",
+    "reported": "Odette said that farmhand's bleeding internal. Need glitterworld meds, not herbal paste.",
+    "reply": "We have nothing better."
   },
   {
     "colonist": "Odette O'Neill",
-    "line": "[N], those turkeys didn't die natural. Toxin in the crops? Water table?",
-    "reported": "Odette said those turkeys didn't die natural. Toxin in the crops? Water table?",
-    "reply": "I'll test the well tomorrow. First light."
+    "line": "[N], turkeys falling from the sky? Only on this rimworld.",
+    "reported": "Odette said turkeys falling from the sky? Only on this rimworld.",
+    "reply": "Free meat. Don't question it."
   }
 ]

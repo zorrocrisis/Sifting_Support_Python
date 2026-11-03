@@ -1,1 +1,1 @@
-poolside/laguna-xs-2.1:free
+gemini-3.5-flash-lite

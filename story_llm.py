@@ -136,10 +136,11 @@ def get_prompt(mode):
 
 
 def _get_api_key():
-    api_key = os.environ.get("OPENROUTER_API_KEY")
+    #api_key = os.environ.get("OPENROUTER_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError(
-            "OPENROUTER_API_KEY is not set. Set it as an environment variable "
+            "API key is not set. Set it as an environment variable "
             "before running the app (see story_llm.py for details)."
         )
     return api_key
