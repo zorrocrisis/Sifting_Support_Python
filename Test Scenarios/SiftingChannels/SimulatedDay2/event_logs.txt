@@ -7236,7 +7236,6 @@ NV._JOB_Timestamp_393089_Location_(84, 0, 24)_ID_J33898_Actors_Boomrat38311_Full
 NV._JOB_Timestamp_393090_Location_(84, 0, 24)_ID_J33973_Actors_Boomrat38311_FullInfo_A(n) boomrat standing.
 NV._JOB_Timestamp_393093_Location_(181, 0, 163)_ID_J33855_Actors_Tortoise38309_FullInfo_A(n) tortoise wandering.
 NV._JOB_Timestamp_393094_Location_(181, 0, 163)_ID_J33975_Actors_Tortoise38309_FullInfo_A(n) tortoise standing.
-NV._JOB_Timestamp_393095_Location_(226, 0, 136)_ID_J33833_Actors_Ackmann_FullInfo_Ackmann 
 NV._JOB_Timestamp_393096_Location_(90, 0, 14)_ID_J33895_Actors_Raccoon38310_FullInfo_A(n) raccoon wandering.
 NV._JOB_Timestamp_393096_Location_(226, 0, 136)_ID_J33977_Actors_Ackmann_FullInfo_Ackmann standing.
 NV._JOB_Timestamp_393097_Location_(90, 0, 14)_ID_J33978_Actors_Raccoon38310_FullInfo_A(n) raccoon standing.
