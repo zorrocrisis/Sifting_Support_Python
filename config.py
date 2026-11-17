@@ -26,8 +26,8 @@ RUNNING_WITHIN_GAME = False # Set to True when running inside the game enabler (
 #CHARACTERS_BIOS_LOG_FILE = "Test Scenarios/bios.txt"
 
 # TEST SCENARIO 3 (kept for quick swapping during testing)
-FULL_LOG_FILE = "Test Scenarios/demo_all_events_complete.txt"
-CHARACTERS_BIOS_LOG_FILE = "Test Scenarios/demo_all_events_charactersbios.txt"
+FULL_LOG_FILE = "Test Scenarios/all_events_complete_C3Adjusted.txt"
+CHARACTERS_BIOS_LOG_FILE = "Test Scenarios/events_charactersbios_CS3Adjusted.txt"
 
 # Starting point for the NCD filtering slider.
 INITIAL_NCD_THRESHOLD = 0.5

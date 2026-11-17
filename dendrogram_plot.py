@@ -226,7 +226,7 @@ def create_dendrogram_new(
 
     n = len(labels)
     fig_width = max(750, min(1000, 50 * n))
-    fig_height = 1560
+    fig_height = max(2000, y_map[root.id] * 1.05)  # tall enough to avoid cutting off labels
 
     # Pad the x-axis range a bit wider than the data to avoid cutting off labels.
     tick_interval = (x_map[1] - x_map[0]) if n > 1 else 1
