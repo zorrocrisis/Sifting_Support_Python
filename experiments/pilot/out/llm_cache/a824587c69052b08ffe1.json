@@ -1,0 +1,12 @@
+{
+  "story": "Life in the frontier colony wore heavily on its inhabitants. As the wilderness teemed with wildlife, the grinding psychological strain reached a critical tipping point. Pushed to the brink by wretched living conditions, the weary civil servant Dillon Boyd succumbed to a psychotic break, wandering aimlessly through the settlement in a daze. \n\nMeanwhile, recovery and routine offered brief reprieves from the despair. The pyromaniac hunter Lidia Schmitt fully healed from her injuries, returning to her duties of herding livestock and hauling valuable silver. Yet, her aim proved fallible out in the wild. High above the struggling outpost, an ominous development unfolded in secret as an enemy transport pod plummeted from the sky, leaving a battered medieval farm oaf broken in the dirt.",
+  "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 937,
+    "total_tokens": 1089,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "repeat": 0,
+  "key": "a824587c69052b08ffe1"
+}

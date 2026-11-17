@@ -1,0 +1,16 @@
+{
+  "test": "A5",
+  "variant": "mmr",
+  "seed": 42,
+  "model": "gemini-3.5-flash-lite",
+  "n_pairs": 3,
+  "status": "pending",
+  "status_reason": "awaiting reader answers in a5_answers.csv",
+  "api_calls": 0,
+  "answers": 0,
+  "bad_rows": 0,
+  "wins": {
+    "q1": {},
+    "q2": {}
+  }
+}

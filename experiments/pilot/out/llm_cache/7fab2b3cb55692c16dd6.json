@@ -1,0 +1,12 @@
+{
+  "story": "Following a sudden raider attack that left the nervous Dillon Boyd shaken, the colony's fragile stability began to fracture. Weary from poor living conditions in the awful barracks, Dillon succumbed to a psychotic wandering state. Meanwhile, tensions boiled over when Odette insulted Lidia \"Stench\" Schmitt, abruptly sparking a violent brawl between the two friends. Despite Odette throwing punches at Stench—who was already distracted by missed hunts and local wildlife encounters—the fight quickly dissolved as hesitation set in. Amidst the chaos, routine chores continued with Stench hauling supplies, while shared conversations about aiding the downtrodden offered brief glimmers of enduring camaraderie.",
+  "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 1025,
+    "total_tokens": 1156,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "repeat": 0,
+  "key": "7fab2b3cb55692c16dd6"
+}

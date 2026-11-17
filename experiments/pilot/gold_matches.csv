@@ -1,0 +1,9 @@
+dialogue_id,expected_event_id,note,dialogue_text
+S104,E069/E070/E153/E088,,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+S107,E045 [WEAK CONNECTION - Boyd's poor mental state],,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'"
+S110,E000/E001 [WEAK CONNECTION - watching for more targets],,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'"
+S111,E007/E008/E071/E095 [GAZELLES, REFUGEE POD CRASH],,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+S105,E085/E051/E055 [STENCH HUNTING],,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'"
+S108,E085/E084/E135/E137/E141/E143 [WALRUS/ANTEATER BEING BURRIED, FIGHT BETWEEN BOYD AND STENCH],,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'"
+S112,E069/E070/E153,,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'"
+S106,E086/E088/E089/E090/E091/E159/E050 [STOCKPILE 1 AND PAPYRUS FOLLOWING STENCH],,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"

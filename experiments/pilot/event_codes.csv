@@ -1,0 +1,164 @@
+code,first_id,description
+E000,J23858,Boyd watching for targets.
+E001,J24202,Odette tending to Odette.
+E002,J23800,Stench watching for targets.
+E003,J25557,A(n) rat wandering.
+E004,J25641,A(n) rat standing.
+E005,J25544,A(n) buck wandering.
+E006,J25643,A(n) buck standing.
+E007,J25594,A(n) gazelle wandering.
+E008,J25645,A(n) gazelle standing.
+E009,J25597,A(n) ibex ram wandering.
+E010,J25573,Papyrus wandering.
+E011,J25581,A(n) squirrel wandering.
+E012,J25647,A(n) ibex ram standing.
+E013,J25648,Papyrus standing.
+E014,J25649,A(n) squirrel standing.
+E015,J25508,A(n) ibex doe wandering.
+E016,J25653,A(n) ibex doe standing.
+E017,J25555,A(n) raccoon wandering.
+E018,J25655,A(n) raccoon standing.
+E019,J25580,A(n) alpaca wandering.
+E020,J25659,A(n) alpaca standing.
+E021,J25571,A(n) tortoise wandering.
+E022,J25607,A(n) hare wandering.
+E023,J25661,A(n) tortoise standing.
+E024,J25662,A(n) hare standing.
+E025,J25592,A(n) boomrat wandering.
+E026,J25673,A(n) boomrat standing.
+E027,J25475,A(n) rat consuming grass.
+E028,J25600,A(n) doe wandering.
+E029,J25686,A(n) doe standing.
+E030,J25613,A(n) rhinoceros wandering.
+E031,J25688,A(n) rhinoceros standing.
+E032,J25616,A(n) donkey wandering.
+E033,J25692,A(n) donkey standing.
+E034,J25601,A(n) timber wolf wandering.
+E035,J25706,A(n) timber wolf standing.
+E036,J25621,A(n) turkey wandering.
+E037,J25712,A(n) turkey standing.
+E038,J25577,A(n) hare consuming bush.
+E039,J25722,Boyd standing.
+E040,J25732,Odette standing.
+E041,S120,Stench chatted about fighting tapirs with Odette.
+E042,L12,Critical alert (UI notification): Major break risk
+E043,L13,"Stench, Hunter is fully healed."
+E044,H83,Stench healed from (a) bruise (human fist) (right leg)
+E045,L1,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+E046,J25790,Boyd wandering.
+E047,J25800,Stench standing.
+E048,J25651,Papyrus resting.
+E049,J25812,Papyrus following Stench.
+E050,J25802,Stench leading Papyrus to wooden pen marker.
+E051,b123,Stench shot at the turkey.
+E052,b124,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse."
+E053,b125,Stench fired her bolt-action rifle at the turkey.
+E054,b126,Stench hit the turkey with a bolt-action rifle bullet.
+E055,H96,A(n) turkey was afflicted with (a) gunshot (body)
+E056,H97,A(n) turkey was afflicted with (a) blood loss (minor)
+E057,b127,Stench fired at the turkey.
+E058,b128,Stench's bolt-action rifle bullet missed by a small margin.
+E059,J25826,Stench hunting turkey.
+E060,b129,Stench fired her bolt-action rifle at the tortoise.
+E061,J25663,A(n) tortoise resting.
+E062,b130,Stench missed the tortoise.
+E063,J25848,Stench hunting tortoise.
+E064,J25843,A(n) turkey fleeing.
+E065,J25864,Stench building grave (building).
+E066,J25866,A(n) turkey consuming area.
+E067,J25905,A(n) rhinoceros consuming area.
+E068,J25918,A(n) squirrel consuming grass.
+E069,J25951,A(n) grizzly bear wandering.
+E070,J25992,A(n) grizzly bear standing.
+E071,J25937,A(n) gazelle consuming grass.
+E072,J25949,A(n) hare consuming grass.
+E073,J25960,A(n) donkey consuming area.
+E074,J25983,A(n) turkey consuming grass.
+E075,J26015,A(n) hare consuming area.
+E076,J26072,A(n) raccoon consuming grass.
+E077,J26175,A(n) raccoon consuming tall grass.
+E078,J26380,A(n) ibex doe consuming area.
+E079,J26669,A(n) boomrat consuming grass.
+E080,J25876,Stench cloudwatching.
+E081,J27282,Stench milking Papyrus.
+E082,S131,Stench shared views on aiding the downtrodden with Boyd.
+E083,J27707,Stench building area.
+E084,J29265,"Stench burying Anteater, Shaman (dead) in grave."
+E085,J29710,"Stench burying Walrus, Treehouse builder (dead) in grave."
+E086,J30178,Stench hauling wooden club to Stockpile zone 1.
+E087,J30545,A(n) squirrel consuming berry bush.
+E088,J30640,Stench hauling steel x18 to Stockpile zone 1.
+E089,J30945,Stench hauling synthread pants (normal 97%) to Stockpile zone 1.
+E090,J31142,Stench hauling silver x500 to Stockpile zone 1.
+E091,J31345,Stench hauling component x30 to Stockpile zone 1.
+E092,J31401,A(n) squirrel consuming bush.
+E093,J31505,Stench hauling.
+E094,J31903,A(n) buck consuming area.
+E095,L2,"A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes."
+E096,J32029,Stench harvesting area.
+E097,J33842,Stench hauling wood x7 to wooden stool (building).
+E098,J33833,Ackmann
+E099,J33977,Ackmann standing.
+E100,b132,The timber wolf bit the rat.
+E101,H109,A(n) rat was afflicted with (a) Destroyed (brain)
+E102,H110,A(n) rat was afflicted with (a) Bitten out (left eye)
+E103,H111,A(n) rat was afflicted with (a) Bitten out (right eye)
+E104,H112,A(n) rat was afflicted with (a) Bitten off (left ear)
+E105,H113,A(n) rat was afflicted with (a) Bitten off (right ear)
+E106,H114,A(n) rat was afflicted with (a) Bitten off (nose)
+E107,H115,A(n) rat was afflicted with (a) Bitten off (jaw)
+E108,b133,Missing a neck caused the rat to expire.
+E109,H116,A(n) rat was afflicted with (a) bite (timber wolf teeth) (body)
+E110,J34409,A(n) hare consuming tall grass.
+E111,L3,"Odette has fixated her rage on Stench. She will follow Stench around, hurling insults. This happened because of poor mood. The final straw was: Ravenously hungry"
+E112,J34649,A(n) rat consuming dandelions.
+E113,J34349,A(n) timber wolf consuming .
+E114,S134,Odette flagrantly insulted Stench's leg hair.
+E115,J34720,Odette insulting Stench.
+E116,J33979,Ackmann downed.
+E117,L20,Stench started a social fight with Odette.
+E118,L21,"Odette is no longer on an insulting spree against Stench, Hunter."
+E119,S135,Odette called Stench a salamander. This drove Stench into a rage and she began a fight!
+E120,b136,"Odette attempted to bash Stench, but missed."
+E121,J35621,Odette fighting with Stench.
+E122,b137,Stench smashed Odette with her left fist.
+E123,H117,Odette was afflicted with (a) bruise (human fist) (torso)
+E124,J35623,Stench fighting with Odette.
+E125,b138,"Odette flailed at Stench, but stumbled at the last second."
+E126,b139,Stench slammed Odette with her left fist.
+E127,H118,Odette was afflicted with (a) bruise (human fist) (right leg)
+E128,b140,Odette missed Stench with a beat from her left fist.
+E129,b141,Stench missed Odette with a smash from her left fist.
+E130,b142,Odette stumbled while trying to strike Stench.
+E131,b143,"Stench tried to smash Odette, but missed."
+E132,b144,Odette ineptly bashed Stench with her left fist.
+E133,H119,Stench was afflicted with (a) bruise (human fist) (left arm)
+E134,H120,Stench was afflicted with (a) crack (human fist) (left radius)
+E135,b145,Stench missed Odette with a hit from her left fist.
+E136,J35648,A(n) alpaca consuming area.
+E137,b146,"Odette attempted to hit Stench, but hesitated at the last second."
+E138,b147,"Stench flailed at Odette with her left fist, but stumbled at the last second."
+E139,b148,"Odette tried to use her right fist to hit Stench, but stumbled at the last second."
+E140,b149,Stench missed while trying to bash Odette with her left fist.
+E141,b150,Odette hit Stench with her left fist.
+E142,H121,Stench was afflicted with (a) bruise (human fist) (torso)
+E143,b151,"Stench tried to hit Odette, but missed."
+E144,b152,"Odette attempted to use her right fist to beat Stench, but missed."
+E145,H122,Odette was afflicted with (a) bruise (human fist) (left leg)
+E146,L22,Stench and Odette are no longer social fighting.
+E147,b154,Odette collapsed due to a bruise.
+E148,H123,Odette was afflicted with (a) crack (human fist) (left femur)
+E149,L23,Critical alert (UI notification): Colonist needs rescue
+E150,b155,The turkey dropped.
+E151,H124,Odette was afflicted with (a) malnutrition (trivial)
+E152,J36149,Odette downed.
+E153,J36503,A(n) grizzly bear consuming area.
+E154,J36345,"A(n) turkey downed, unconscious."
+E155,B6,Battle: The turkey's report
+E156,J38148,"Ackmann downed, unconscious."
+E157,J36147,Stench resting.
+E158,J41374,A(n) doe consuming area.
+E159,J41760,Stench hauling packaged survival meal x10 to Stockpile zone 1.
+E160,J43245,Stench tending to Odette.
+E161,H125,Ackmann was afflicted with (a) infection (minor) (left leg)
+E162,J43259,Stench feeding area to Odette.
