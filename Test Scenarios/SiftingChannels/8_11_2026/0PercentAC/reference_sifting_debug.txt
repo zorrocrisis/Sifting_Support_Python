@@ -1,0 +1,208 @@
+event_index=136
+r_index=2
+event_log_short=Odette attempted to hit Stench, but hesitated at the last second.
+event_log_full=V._CL_Timestamp_396921_Location_(114, 0, 141)_ID_b146_Actors_Odette, Stench_FullInfo_Odette attempted to hit Stench, but hesitated at the last second.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.580246913580247
+
+event_index=137
+r_index=2
+event_log_short=Stench flailed at Odette with her left fist, but stumbled at the last second.
+event_log_full=V._CL_Timestamp_396922_Location_(114, 0, 142)_ID_b147_Actors_Stench, Odette_FullInfo_Stench flailed at Odette with her left fist, but stumbled at the last second.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.580246913580247
+
+event_index=127
+r_index=2
+event_log_short=Odette missed Stench with a beat from her left fist.
+event_log_full=V._CL_Timestamp_396558_Location_(114, 0, 141)_ID_b140_Actors_Odette, Stench_FullInfo_Odette missed Stench with a beat from her left fist.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.592592592592593
+
+event_index=117
+r_index=2
+event_log_short=Odette is no longer on an insulting spree against Stench, Hunter.
+event_log_full=V._ARC_Timestamp_396285_Location_(114, 0, 140)_ID_L21_Actors_Odette_FullInfo_Odette is no longer on an insulting spree against Stench, Hunter.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.592592592592593
+
+event_index=82
+r_index=5
+event_log_short=Stench shared views on aiding the downtrodden with Boyd.
+event_log_full=V._SL_Timestamp_384362_Location_(130, 0, 145)_ID_S131_Actors_Stench, Boyd_FullInfo_Stench shared views on aiding the downtrodden with Boyd.
+r_log_short=Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'
+r_log_full=V._SL_Timestamp_42337_Location_(120, 0, 139)_ID_S108_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'
+ncd=0.6
+
+event_index=143
+r_index=2
+event_log_short=Odette attempted to use her right fist to beat Stench, but missed.
+event_log_full=V._CL_Timestamp_397284_Location_(114, 0, 141)_ID_b152_Actors_Odette, Stench_FullInfo_Odette attempted to use her right fist to beat Stench, but missed.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.604938271604938
+
+event_index=128
+r_index=2
+event_log_short=Stench missed Odette with a smash from her left fist.
+event_log_full=V._CL_Timestamp_396559_Location_(114, 0, 142)_ID_b141_Actors_Stench, Odette_FullInfo_Stench missed Odette with a smash from her left fist.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.604938271604938
+
+event_index=89
+r_index=8
+event_log_short=Stench hauling synthread pants (normal 97%) to Stockpile zone 1.
+event_log_full=V._JOB_Timestamp_389488_Location_(107, 0, 127)_ID_J30945_Actors_Stench_FullInfo_Stench hauling synthread pants (normal 97%) to Stockpile zone 1.
+r_log_short=Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'
+r_log_full=V._SL_Timestamp_45037_Location_(122, 0, 139)_ID_S106_Actors_Stench, Boyd_FullInfo_Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'
+ncd=0.607142857142857
+
+event_index=82
+r_index=1
+event_log_short=Stench shared views on aiding the downtrodden with Boyd.
+event_log_full=V._SL_Timestamp_384362_Location_(130, 0, 145)_ID_S131_Actors_Stench, Boyd_FullInfo_Stench shared views on aiding the downtrodden with Boyd.
+r_log_short=Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'
+r_log_full=V._SL_Timestamp_37837_Location_(111, 0, 139)_ID_S107_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'
+ncd=0.609195402298851
+
+event_index=117
+r_index=5
+event_log_short=Odette is no longer on an insulting spree against Stench, Hunter.
+event_log_full=V._ARC_Timestamp_396285_Location_(114, 0, 140)_ID_L21_Actors_Odette_FullInfo_Odette is no longer on an insulting spree against Stench, Hunter.
+r_log_short=Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'
+r_log_full=V._SL_Timestamp_42337_Location_(120, 0, 139)_ID_S108_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'
+ncd=0.6125
+
+event_index=139
+r_index=2
+event_log_short=Stench missed while trying to bash Odette with her left fist.
+event_log_full=V._CL_Timestamp_397043_Location_(114, 0, 142)_ID_b149_Actors_Stench, Odette_FullInfo_Stench missed while trying to bash Odette with her left fist.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.617283950617284
+
+event_index=138
+r_index=2
+event_log_short=Odette tried to use her right fist to hit Stench, but stumbled at the last second.
+event_log_full=V._CL_Timestamp_397042_Location_(114, 0, 141)_ID_b148_Actors_Odette, Stench_FullInfo_Odette tried to use her right fist to hit Stench, but stumbled at the last second.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.617283950617284
+
+event_index=118
+r_index=2
+event_log_short=Odette called Stench a salamander. This drove Stench into a rage and she began a fight!
+event_log_full=V._SL_Timestamp_396285_Location_(114, 0, 140)_ID_S135_Actors_Odette, Stench_FullInfo_Odette called Stench a salamander. This drove Stench into a rage and she began a fight!
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.617283950617284
+
+event_index=131
+r_index=2
+event_log_short=Odette ineptly bashed Stench with her left fist.
+event_log_full=V._CL_Timestamp_396800_Location_(114, 0, 141)_ID_b144_Actors_Odette, Stench_FullInfo_Odette ineptly bashed Stench with her left fist.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.617283950617284
+
+event_index=134
+r_index=2
+event_log_short=Stench missed Odette with a hit from her left fist.
+event_log_full=V._CL_Timestamp_396801_Location_(114, 0, 142)_ID_b145_Actors_Stench, Odette_FullInfo_Stench missed Odette with a hit from her left fist.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.617283950617284
+
+event_index=124
+r_index=2
+event_log_short=Odette flailed at Stench, but stumbled at the last second.
+event_log_full=V._CL_Timestamp_396437_Location_(114, 0, 141)_ID_b138_Actors_Odette, Stench_FullInfo_Odette flailed at Stench, but stumbled at the last second.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.617283950617284
+
+event_index=136
+r_index=5
+event_log_short=Odette attempted to hit Stench, but hesitated at the last second.
+event_log_full=V._CL_Timestamp_396921_Location_(114, 0, 141)_ID_b146_Actors_Odette, Stench_FullInfo_Odette attempted to hit Stench, but hesitated at the last second.
+r_log_short=Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'
+r_log_full=V._SL_Timestamp_42337_Location_(120, 0, 139)_ID_S108_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'
+ncd=0.625
+
+event_index=82
+r_index=8
+event_log_short=Stench shared views on aiding the downtrodden with Boyd.
+event_log_full=V._SL_Timestamp_384362_Location_(130, 0, 145)_ID_S131_Actors_Stench, Boyd_FullInfo_Stench shared views on aiding the downtrodden with Boyd.
+r_log_short=Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'
+r_log_full=V._SL_Timestamp_45037_Location_(122, 0, 139)_ID_S106_Actors_Stench, Boyd_FullInfo_Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'
+ncd=0.630952380952381
+
+event_index=137
+r_index=8
+event_log_short=Stench flailed at Odette with her left fist, but stumbled at the last second.
+event_log_full=V._CL_Timestamp_396922_Location_(114, 0, 142)_ID_b147_Actors_Stench, Odette_FullInfo_Stench flailed at Odette with her left fist, but stumbled at the last second.
+r_log_short=Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'
+r_log_full=V._SL_Timestamp_45037_Location_(122, 0, 139)_ID_S106_Actors_Stench, Boyd_FullInfo_Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'
+ncd=0.630952380952381
+
+event_index=158
+r_index=8
+event_log_short=Stench hauling packaged survival meal x10 to Stockpile zone 1.
+event_log_full=V._JOB_Timestamp_406973_Location_(104, 0, 133)_ID_J41760_Actors_Stench_FullInfo_Stench hauling packaged survival meal x10 to Stockpile zone 1.
+r_log_short=Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'
+r_log_full=V._SL_Timestamp_45037_Location_(122, 0, 139)_ID_S106_Actors_Stench, Boyd_FullInfo_Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'
+ncd=0.630952380952381
+
+event_index=117
+r_index=1
+event_log_short=Odette is no longer on an insulting spree against Stench, Hunter.
+event_log_full=V._ARC_Timestamp_396285_Location_(114, 0, 140)_ID_L21_Actors_Odette_FullInfo_Odette is no longer on an insulting spree against Stench, Hunter.
+r_log_short=Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'
+r_log_full=V._SL_Timestamp_37837_Location_(111, 0, 139)_ID_S107_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'
+ncd=0.632183908045977
+
+event_index=52
+r_index=1
+event_log_short=The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse.
+event_log_full=V._CL_Timestamp_376411_Location_(124, 0, 132)_ID_b124_Actors_Stench, Turkey38339_FullInfo_The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse.
+r_log_short=Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'
+r_log_full=V._SL_Timestamp_37837_Location_(111, 0, 139)_ID_S107_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'
+ncd=0.633333333333333
+
+event_index=52
+r_index=2
+event_log_short=The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse.
+event_log_full=V._CL_Timestamp_376411_Location_(124, 0, 132)_ID_b124_Actors_Stench, Turkey38339_FullInfo_The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse.
+r_log_short=Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+r_log_full=V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+ncd=0.633333333333333
+
+event_index=82
+r_index=4
+event_log_short=Stench shared views on aiding the downtrodden with Boyd.
+event_log_full=V._SL_Timestamp_384362_Location_(130, 0, 145)_ID_S131_Actors_Stench, Boyd_FullInfo_Stench shared views on aiding the downtrodden with Boyd.
+r_log_short=Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'
+r_log_full=V._SL_Timestamp_41437_Location_(122, 0, 139)_ID_S105_Actors_Stench, Boyd_FullInfo_Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'
+ncd=0.634146341463415
+
+event_index=118
+r_index=5
+event_log_short=Odette called Stench a salamander. This drove Stench into a rage and she began a fight!
+event_log_full=V._SL_Timestamp_396285_Location_(114, 0, 140)_ID_S135_Actors_Odette, Stench_FullInfo_Odette called Stench a salamander. This drove Stench into a rage and she began a fight!
+r_log_short=Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'
+r_log_full=V._SL_Timestamp_42337_Location_(120, 0, 139)_ID_S108_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'
+ncd=0.6375
+
+event_index=137
+r_index=5
+event_log_short=Stench flailed at Odette with her left fist, but stumbled at the last second.
+event_log_full=V._CL_Timestamp_396922_Location_(114, 0, 142)_ID_b147_Actors_Stench, Odette_FullInfo_Stench flailed at Odette with her left fist, but stumbled at the last second.
+r_log_short=Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'
+r_log_full=V._SL_Timestamp_42337_Location_(120, 0, 139)_ID_S108_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'
+ncd=0.6375
+

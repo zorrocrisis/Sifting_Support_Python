@@ -1,0 +1,26 @@
+Name: Lidia 'Stench' Schmitt
+Gender: female
+Age: 22
+Backstories: pyromaniac, hunter
+Incapable of: firefighting
+Traits: pyromaniac
+Relations: Dillon Boyd (father), Dillon Boyd (friend), Odette O'Neill (friend)
+
+Name: Dillon Boyd
+Gender: male
+Age: 52
+Backstories: musical kid, civil servant
+Incapable of: none
+Traits: nervous, misogynist
+Relations: Lidia 'Stench' Schmitt (friend), Marina 'Sappy' Boyd (mother), Odette O'Neill (friend), Pesea Cervexa (father)
+
+Name: Odette O'Neill
+Gender: female
+Age: 51
+Backstories: caveworld tender, herbalist
+Incapable of: none
+Traits: undergrounder, gay
+Relations: Dillon Boyd (friend), Lidia 'Stench' Schmitt (friend), Marina 'Sappy' Boyd (mother), Pesea Cervexa (father)
+
+
+

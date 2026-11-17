@@ -1,0 +1,62 @@
+```json
+[
+  
+    {
+      "colonist": "Lidia Schmitt",
+      "line": "[N], odette can barely throw a punch without tripping over her own boots.",
+      "reported": "Stench said Odette can barely throw a punch without tripping over her own boots.",
+      "reply": "It looked more like a clumsy dance than a real fight."
+    },
+    {
+      "colonist": "Lidia Schmitt",
+      "line": "[N], watching us flail at each other was just pathetic.",
+      "reported": "Stench said watching them flail at each other was just pathetic.",
+      "reply": "At least nobody got seriously hurt in the mess."
+    },
+    {
+      "colonist": "Lidia Schmitt",
+      "line": "[N], all that running around out there has me itching to set something ablaze.",
+      "reported": "Stench said all that running around out there had her itching to set something ablaze.",
+      "reply": "Let's keep the fires in the stove where they belong, alright?"
+    },
+  
+    {
+      "colonist": "Dillon Boyd",
+      "line": "[N], my hands wouldn't stop shaking after the raid hit us.",
+      "reported": "Dillon said his hands wouldn't stop shaking after the raid hit them.",
+      "reply": "Take a deep breath and sit down for a minute."
+    },
+    {
+      "colonist": "Dillon Boyd",
+      "line": "[N], I just wanted to talk about hunting wildlife in peace.",
+      "reported": "Dillon said he just wanted to talk about hunting wildlife in peace.",
+      "reply": "It's hard to find any peace around here lately."
+    },
+    {
+      "colonist": "Dillon Boyd",
+      "line": "[N], these women are driving me insane with all their bickering.",
+      "reported": "Dillon said those women were driving him insane with all their bickering.",
+      "reply": "Just stay out of their way when they start yelling."
+    },
+  
+    {
+      "colonist": "Odette O'Neill",
+      "line": "[N], I shouldn't have insulted her over and over like that.",
+      "reported": "Odette said she shouldn't have insulted her over and over like that.",
+      "reply": "You definitely crossed a line before it turned physical."
+    },
+    {
+      "colonist": "Odette O'Neill",
+      "line": "[N], neither of us could land a single clean hit.",
+      "reported": "Odette said neither of them could land a single clean hit.",
+      "reply": "It's probably for the best that you both missed."
+    },
+    {
+      "colonist": "Odette O'Neill",
+      "line": "[N], living underground doesn't prepare you for clumsy colony brawls.",
+      "reported": "Odette said living underground doesn't prepare you for clumsy colony brawls.",
+      "reply": "Let's stick to gathering herbs and leave the fighting alone."
+    }
+  
+]
+```
