@@ -16,6 +16,7 @@
       "cc_redundancy": 0.4966296646506018,
       "ac_cc_overlap": 0,
       "distinct_topics": null,
+      "distinct_topics_primary": null,
       "untagged": null,
       "contributing_dialogue_ids": [
         "S110"
@@ -33,6 +34,7 @@
       "cc_redundancy": 0.4468251674134027,
       "ac_cc_overlap": 0,
       "distinct_topics": null,
+      "distinct_topics_primary": null,
       "untagged": null,
       "contributing_dialogue_ids": [
         "S108",
@@ -51,6 +53,7 @@
       "cc_redundancy": 0.3771043771043771,
       "ac_cc_overlap": 1,
       "distinct_topics": null,
+      "distinct_topics_primary": null,
       "untagged": null,
       "contributing_dialogue_ids": [
         "S106",
@@ -70,6 +73,7 @@
       "cc_redundancy": 0.3771043771043771,
       "ac_cc_overlap": 2,
       "distinct_topics": null,
+      "distinct_topics_primary": null,
       "untagged": null,
       "contributing_dialogue_ids": [
         "S106",

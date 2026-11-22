@@ -1,0 +1,81 @@
+dialogue_id,method,rank,event,score,dialogue,event_description
+S104,index,1,E082,0.5574,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench shared views on aiding the downtrodden with Boyd.
+S104,index,2,E000,0.5578,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Boyd watching for targets.
+S104,index,3,E045,0.5859,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+S104,index,4,E042,0.6023,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Critical alert (UI notification): Major break risk
+S104,index,5,E002,0.6357,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench watching for targets.
+S104,index,6,E046,0.636,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Boyd wandering.
+S104,index,7,E097,0.6493,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench hauling wood x7 to wooden stool (building).
+S104,index,8,E119,0.6527,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Odette called Stench a salamander. This drove Stench into a rage and she began a fight!
+S104,index,9,E039,0.6549,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Boyd standing.
+S104,index,10,E118,0.6561,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'","Odette is no longer on an insulting spree against Stench, Hunter."
+S107,index,1,E082,0.3251,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench shared views on aiding the downtrodden with Boyd.
+S107,index,2,E000,0.3958,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Boyd watching for targets.
+S107,index,3,E045,0.4328,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+S107,index,4,E042,0.4553,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Critical alert (UI notification): Major break risk
+S107,index,5,E046,0.4745,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Boyd wandering.
+S107,index,6,E039,0.496,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Boyd standing.
+S107,index,7,E097,0.559,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench hauling wood x7 to wooden stool (building).
+S107,index,8,E002,0.5705,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench watching for targets.
+S107,index,9,E142,0.5738,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench was afflicted with (a) bruise (human fist) (torso)
+S107,index,10,E134,0.5776,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench was afflicted with (a) crack (human fist) (left radius)
+S110,index,1,E118,0.2322,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'","Odette is no longer on an insulting spree against Stench, Hunter."
+S110,index,2,E137,0.2337,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'","Odette attempted to hit Stench, but hesitated at the last second."
+S110,index,3,E128,0.2378,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Odette missed Stench with a beat from her left fist.
+S110,index,4,E138,0.2396,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'","Stench flailed at Odette with her left fist, but stumbled at the last second."
+S110,index,5,E119,0.2404,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Odette called Stench a salamander. This drove Stench into a rage and she began a fight!
+S110,index,6,E144,0.2419,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'","Odette attempted to use her right fist to beat Stench, but missed."
+S110,index,7,E125,0.246,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'","Odette flailed at Stench, but stumbled at the last second."
+S110,index,8,E132,0.246,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Odette ineptly bashed Stench with her left fist.
+S110,index,9,E139,0.246,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'","Odette tried to use her right fist to hit Stench, but stumbled at the last second."
+S110,index,10,E129,0.2479,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench missed Odette with a smash from her left fist.
+S111,index,1,E118,0.4836,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'","Odette is no longer on an insulting spree against Stench, Hunter."
+S111,index,2,E119,0.487,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Odette called Stench a salamander. This drove Stench into a rage and she began a fight!
+S111,index,3,E138,0.4917,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'","Stench flailed at Odette with her left fist, but stumbled at the last second."
+S111,index,4,E137,0.4926,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'","Odette attempted to hit Stench, but hesitated at the last second."
+S111,index,5,E144,0.4926,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'","Odette attempted to use her right fist to beat Stench, but missed."
+S111,index,6,E128,0.4961,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Odette missed Stench with a beat from her left fist.
+S111,index,7,E139,0.4961,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'","Odette tried to use her right fist to hit Stench, but stumbled at the last second."
+S111,index,8,E114,0.4974,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Odette flagrantly insulted Stench's leg hair.
+S111,index,9,E125,0.4995,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'","Odette flailed at Stench, but stumbled at the last second."
+S111,index,10,E132,0.4995,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Odette ineptly bashed Stench with her left fist.
+S105,index,1,E085,0.4697,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'","Stench burying Walrus, Treehouse builder (dead) in grave."
+S105,index,2,E082,0.4945,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench shared views on aiding the downtrodden with Boyd.
+S105,index,3,E045,0.5366,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+S105,index,4,E042,0.5524,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Critical alert (UI notification): Major break risk
+S105,index,5,E046,0.5808,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Boyd wandering.
+S105,index,6,E044,0.6027,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench healed from (a) bruise (human fist) (right leg)
+S105,index,7,E041,0.6196,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench chatted about fighting tapirs with Odette.
+S105,index,8,E000,0.6307,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Boyd watching for targets.
+S105,index,9,E043,0.6312,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'","Stench, Hunter is fully healed."
+S105,index,10,E039,0.6339,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Boyd standing.
+S108,index,1,E084,0.5497,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'","Stench burying Anteater, Shaman (dead) in grave."
+S108,index,2,E085,0.5612,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'","Stench burying Walrus, Treehouse builder (dead) in grave."
+S108,index,3,E045,0.5647,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+S108,index,4,E082,0.5679,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench shared views on aiding the downtrodden with Boyd.
+S108,index,5,E042,0.5766,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Critical alert (UI notification): Major break risk
+S108,index,6,E046,0.6058,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Boyd wandering.
+S108,index,7,E044,0.6367,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench healed from (a) bruise (human fist) (right leg)
+S108,index,8,E041,0.6471,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench chatted about fighting tapirs with Odette.
+S108,index,9,E118,0.653,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'","Odette is no longer on an insulting spree against Stench, Hunter."
+S108,index,10,E000,0.6563,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Boyd watching for targets.
+S112,index,1,E045,0.5531,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+S112,index,2,E042,0.5733,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Critical alert (UI notification): Major break risk
+S112,index,3,E046,0.5965,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Boyd wandering.
+S112,index,4,E082,0.6008,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Stench shared views on aiding the downtrodden with Boyd.
+S112,index,5,E041,0.6089,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Stench chatted about fighting tapirs with Odette.
+S112,index,6,E111,0.6138,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'","Odette has fixated her rage on Stench. She will follow Stench around, hurling insults. This happened because of poor mood. The final straw was: Ravenously hungry"
+S112,index,7,E162,0.6316,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Stench feeding area to Odette.
+S112,index,8,E000,0.6383,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Boyd watching for targets.
+S112,index,9,E039,0.6387,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Boyd standing.
+S112,index,10,E123,0.6488,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Odette was afflicted with (a) bruise (human fist) (torso)
+S106,index,1,E082,0.4646,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench shared views on aiding the downtrodden with Boyd.
+S106,index,2,E050,0.4713,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench leading Papyrus to wooden pen marker.
+S106,index,3,E049,0.4897,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Papyrus following Stench.
+S106,index,4,E081,0.4962,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench milking Papyrus.
+S106,index,5,E045,0.52,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+S106,index,6,E042,0.5345,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Critical alert (UI notification): Major break risk
+S106,index,7,E046,0.5623,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Boyd wandering.
+S106,index,8,E013,0.5661,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Papyrus standing.
+S106,index,9,E010,0.5701,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Papyrus wandering.
+S106,index,10,E048,0.5701,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Papyrus resting.

@@ -12,8 +12,13 @@
     "global_pair_overlap": 0.7857142857142857,
     "max_abs_ncd_diff": 0.05813953488372092
   },
+  "cc_method": "ncd",
   "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
   "pass_rule": "NCD mean Recall@5 >= 0.5",
+  "cc_candidates": "all",
+  "n_candidates": 162,
+  "n_gold_pairs_original": 30,
+  "n_gold_events_that_are_candidates": 30,
   "metrics": {
     "ncd": {
       "mrr": 0.2049309940376555,
@@ -30,6 +35,7 @@
       "n_gold_pairs": 30
     }
   },
+  "n_exact_repeat_gold_pairs": 0,
   "status": "fail",
   "embedding_passes": false
 }

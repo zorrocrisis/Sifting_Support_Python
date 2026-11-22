@@ -1,0 +1,31 @@
+dialogue_id,event,represented_by,index_rank,embedding_rank,dialogue,event_description
+S104,E069,,2,,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",A(n) grizzly bear wandering.
+S104,E070,E069,2,,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",A(n) grizzly bear standing.
+S104,E088,E090,1,,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench hauling steel x18 to Stockpile zone 1.
+S104,E153,E069,2,,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",A(n) grizzly bear consuming area.
+S107,E045,,4,,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+S110,E000,,3,,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Boyd watching for targets.
+S110,E001,E124,2,,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Odette tending to Odette.
+S111,E007,E003,12,,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) gazelle wandering.
+S111,E008,E003,12,,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) gazelle standing.
+S111,E071,E072,1,,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) gazelle consuming grass.
+S111,E095,,23,,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'","A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes."
+S105,E051,,2,,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench shot at the turkey.
+S105,E055,E123,32,,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",A(n) turkey was afflicted with (a) gunshot (body)
+S105,E085,E084,21,,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'","Stench burying Walrus, Treehouse builder (dead) in grave."
+S108,E084,,1,,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'","Stench burying Anteater, Shaman (dead) in grave."
+S108,E085,E084,1,,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'","Stench burying Walrus, Treehouse builder (dead) in grave."
+S108,E135,,6,,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench missed Odette with a hit from her left fist.
+S108,E137,E139,11,,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'","Odette attempted to hit Stench, but hesitated at the last second."
+S108,E141,E135,6,,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Odette hit Stench with her left fist.
+S108,E143,E131,7,,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'","Stench tried to hit Odette, but missed."
+S112,E069,,1,,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) grizzly bear wandering.
+S112,E070,E069,1,,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) grizzly bear standing.
+S112,E153,E069,1,,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) grizzly bear consuming area.
+S106,E050,,3,,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench leading Papyrus to wooden pen marker.
+S106,E086,E090,2,,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling wooden club to Stockpile zone 1.
+S106,E088,E090,2,,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling steel x18 to Stockpile zone 1.
+S106,E089,E090,2,,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling synthread pants (normal 97%) to Stockpile zone 1.
+S106,E090,,2,,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling silver x500 to Stockpile zone 1.
+S106,E091,E090,2,,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling component x30 to Stockpile zone 1.
+S106,E159,E090,2,,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling packaged survival meal x10 to Stockpile zone 1.

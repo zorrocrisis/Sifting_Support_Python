@@ -57,6 +57,16 @@ def read_gold(path, ctx):
     return gold, problems
 
 
+def map_to_candidates(gold, ctx):
+    """
+    When the CC may only pick cluster representatives, a gold event that was folded into a
+    cluster is represented by that cluster's representative: retrieving the representative
+    counts as finding it. Several gold events in one cluster become a single target.
+    Unchanged when every event is a candidate.
+    """
+    return {d: {ctx.representative(e) for e in t} for d, t in gold.items()}
+
+
 def ranks_of(order, targets):
     """1-based rank of each target event in `order` (a best-first list of event indices)."""
     pos = {e: r + 1 for r, e in enumerate(order)}

@@ -1,0 +1,13 @@
+variant,event,dialogue_id,ncd,event_description,dialogue
+nearest,E071,J19592,0.0811,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+nearest,E070,J197,0.0857,A(n) grizzly bear standing.,A(n) grizzly bear standing.
+nearest,E049,J6248,0.0909,Papyrus following Stench.,Papyrus following Stench.
+cap,E071,J19592,0.0811,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+cap,E070,J197,0.0857,A(n) grizzly bear standing.,A(n) grizzly bear standing.
+cap,E049,J6248,0.0909,Papyrus following Stench.,Papyrus following Stench.
+mmr,E071,J19592,0.0811,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+mmr,E049,J6248,0.0909,Papyrus following Stench.,Papyrus following Stench.
+mmr,E070,J197,0.0857,A(n) grizzly bear standing.,A(n) grizzly bear standing.
+cap+mmr,E071,J19592,0.0811,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+cap+mmr,E049,J6248,0.0909,Papyrus following Stench.,Papyrus following Stench.
+cap+mmr,E070,J197,0.0857,A(n) grizzly bear standing.,A(n) grizzly bear standing.

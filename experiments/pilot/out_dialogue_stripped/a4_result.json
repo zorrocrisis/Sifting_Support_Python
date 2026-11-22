@@ -1,0 +1,264 @@
+{
+  "test": "A4",
+  "variants": [
+    "nearest",
+    "mmr"
+  ],
+  "seeds": [
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "shares": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "total": 12,
+  "status": "pass",
+  "pass_rule": "Spearman rho(share, distinct topics) <= -0.7",
+  "untagged_descriptions": 0,
+  "unknown_topic_labels": [],
+  "summary": {
+    "nearest": {
+      "per_share": {
+        "0.0": {
+          "distinct_topics": {
+            "mean": 8.0,
+            "std": 0.0
+          },
+          "distinct_topics_primary": {
+            "mean": 6.0,
+            "std": 0.0
+          },
+          "redundancy": {
+            "mean": 0.21015478701684284,
+            "std": 0.003876743974486308
+          },
+          "dialogue_lines": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "ac_cc_overlap": {
+            "mean": 0.0,
+            "std": 0.0
+          }
+        },
+        "0.25": {
+          "distinct_topics": {
+            "mean": 8.0,
+            "std": 0.0
+          },
+          "distinct_topics_primary": {
+            "mean": 6.0,
+            "std": 0.0
+          },
+          "redundancy": {
+            "mean": 0.25937272635032166,
+            "std": 0.006341692120631643
+          },
+          "dialogue_lines": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "ac_cc_overlap": {
+            "mean": 0.0,
+            "std": 0.0
+          }
+        },
+        "0.5": {
+          "distinct_topics": {
+            "mean": 8.0,
+            "std": 0.0
+          },
+          "distinct_topics_primary": {
+            "mean": 8.0,
+            "std": 0.0
+          },
+          "redundancy": {
+            "mean": 0.30817777714031824,
+            "std": 0.0028106434269592937
+          },
+          "dialogue_lines": {
+            "mean": 2.0,
+            "std": 0.0
+          },
+          "ac_cc_overlap": {
+            "mean": 1.0,
+            "std": 0.0
+          }
+        },
+        "0.75": {
+          "distinct_topics": {
+            "mean": 7.4,
+            "std": 0.48989794855663565
+          },
+          "distinct_topics_primary": {
+            "mean": 7.4,
+            "std": 0.48989794855663565
+          },
+          "redundancy": {
+            "mean": 0.346744877550636,
+            "std": 0.00799626514202752
+          },
+          "dialogue_lines": {
+            "mean": 3.0,
+            "std": 0.0
+          },
+          "ac_cc_overlap": {
+            "mean": 1.0,
+            "std": 0.0
+          }
+        },
+        "1.0": {
+          "distinct_topics": {
+            "mean": 7.0,
+            "std": 0.0
+          },
+          "distinct_topics_primary": {
+            "mean": 7.0,
+            "std": 0.0
+          },
+          "redundancy": {
+            "mean": 0.3950105058578982,
+            "std": 0.0
+          },
+          "dialogue_lines": {
+            "mean": 3.0,
+            "std": 0.0
+          },
+          "ac_cc_overlap": {
+            "mean": 1.0,
+            "std": 0.0
+          }
+        }
+      },
+      "spearman_share_topics": -0.7882407813680821,
+      "spearman_share_topics_primary": 0.6262242910851495,
+      "passes": true,
+      "spearman_share_redundancy": 0.986671297454823
+    },
+    "mmr": {
+      "per_share": {
+        "0.0": {
+          "distinct_topics": {
+            "mean": 8.0,
+            "std": 0.0
+          },
+          "distinct_topics_primary": {
+            "mean": 6.0,
+            "std": 0.0
+          },
+          "redundancy": {
+            "mean": 0.21015478701684284,
+            "std": 0.003876743974486308
+          },
+          "dialogue_lines": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "ac_cc_overlap": {
+            "mean": 0.0,
+            "std": 0.0
+          }
+        },
+        "0.25": {
+          "distinct_topics": {
+            "mean": 8.0,
+            "std": 0.0
+          },
+          "distinct_topics_primary": {
+            "mean": 6.0,
+            "std": 0.0
+          },
+          "redundancy": {
+            "mean": 0.2375695771956908,
+            "std": 0.005744004609213625
+          },
+          "dialogue_lines": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "ac_cc_overlap": {
+            "mean": 0.4,
+            "std": 0.48989794855663565
+          }
+        },
+        "0.5": {
+          "distinct_topics": {
+            "mean": 8.0,
+            "std": 0.0
+          },
+          "distinct_topics_primary": {
+            "mean": 7.0,
+            "std": 0.0
+          },
+          "redundancy": {
+            "mean": 0.28802933348129356,
+            "std": 0.005553977230147508
+          },
+          "dialogue_lines": {
+            "mean": 3.0,
+            "std": 0.0
+          },
+          "ac_cc_overlap": {
+            "mean": 2.6,
+            "std": 0.4898979485566356
+          }
+        },
+        "0.75": {
+          "distinct_topics": {
+            "mean": 7.4,
+            "std": 0.48989794855663565
+          },
+          "distinct_topics_primary": {
+            "mean": 6.4,
+            "std": 0.48989794855663565
+          },
+          "redundancy": {
+            "mean": 0.32932248588123647,
+            "std": 0.006396481236453585
+          },
+          "dialogue_lines": {
+            "mean": 3.0,
+            "std": 0.0
+          },
+          "ac_cc_overlap": {
+            "mean": 3.0,
+            "std": 0.0
+          }
+        },
+        "1.0": {
+          "distinct_topics": {
+            "mean": 7.0,
+            "std": 0.0
+          },
+          "distinct_topics_primary": {
+            "mean": 7.0,
+            "std": 0.0
+          },
+          "redundancy": {
+            "mean": 0.38332090017006254,
+            "std": 0.0
+          },
+          "dialogue_lines": {
+            "mean": 3.0,
+            "std": 0.0
+          },
+          "ac_cc_overlap": {
+            "mean": 4.0,
+            "std": 0.0
+          }
+        }
+      },
+      "spearman_share_topics": -0.7882407813680821,
+      "spearman_share_topics_primary": 0.6793662204867575,
+      "passes": true,
+      "spearman_share_redundancy": 0.986671297454823
+    }
+  }
+}

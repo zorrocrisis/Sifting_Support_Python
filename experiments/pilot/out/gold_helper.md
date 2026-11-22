@@ -1,11 +1,11 @@
 # Gold helper for pilot test A1
 
-Session events: `Test Scenarios\SiftingChannels\SimulatedDay2\formatted_event_logs.txt` (163 distinct descriptions, dialogue lines excluded).
-Past dialogue: `Test Scenarios\SiftingChannels\SimulatedDay2\dialogue_logs.txt` (9 lines).
+Session events: `Test Scenarios\SiftingChannels\SimulatedDay2\formatted_event_logs.txt` (162 distinct descriptions, dialogue lines excluded).
+Reference set `dialogue` (dialogue): `Test Scenarios\SiftingChannels\SimulatedDay2\dialogue_logs.txt` (8 lines).
 
-For each dialogue line, write the codes of the events that continue it into `experiments/pilot/gold_matches.csv` (`expected_event_id`, `;`-separated, or one row each). Leave it empty if nothing in this session relates to the line.
+For each reference line, write the codes of the events that continue it into `experiments/pilot/gold_matches.csv` (`expected_event_id`, `/`- or `;`-separated; `[notes]` allowed). The `dialogue_id` column holds the reference line's _ID_ whatever the reference kind. Leave it empty if nothing in this session relates to the line.
 
-## Past dialogue
+## Reference lines
 
 | dialogue_id | tick | line |
 |---|---|---|
@@ -15,7 +15,6 @@ For each dialogue line, write the codes of the events that continue it into `exp
 | S111 | 39637 | Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.' |
 | S105 | 41437 | Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.' |
 | S108 | 42337 | Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.' |
-| S116 | 43237 | Dillon 'Boyd' Boyd said 'Odette said those gazelles were grazing amid the chunks of the downed spacecraft.' |
 | S112 | 44137 | Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.' |
 | S106 | 45037 | Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.' |
 
@@ -121,7 +120,6 @@ For each dialogue line, write the codes of the events that continue it into `exp
 | E095 | 392840 | L2 | 1 | NV | A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes. |
 | E096 | 392859 | J32029 | 1 | V | Stench harvesting area. |
 | E097 | 392969 | J33842 | 1 | V | Stench hauling wood x7 to wooden stool (building). |
-| E098 | 393095 | J33833 | 1 | NV | Ackmann |
 | E099 | 393096 | J33977 | 8 | NV | Ackmann standing. |
 | E100 | 394302 | b132 | 1 | NV | The timber wolf bit the rat. |
 | E101 | 394302 | H109 | 1 | NV | A(n) rat was afflicted with (a) Destroyed (brain) |

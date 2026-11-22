@@ -1,0 +1,13 @@
+variant,event,dialogue_id,ncd,event_description,dialogue
+nearest,E049,S106,0.0909,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+nearest,E000,S110,0.2222,Boyd watching for targets.,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'"
+nearest,E069,S104,0.25,A(n) grizzly bear wandering.,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+cap,E049,S106,0.0909,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+cap,E000,S110,0.2222,Boyd watching for targets.,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'"
+cap,E069,S104,0.25,A(n) grizzly bear wandering.,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+mmr,E049,S106,0.0909,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+mmr,E069,S104,0.25,A(n) grizzly bear wandering.,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+mmr,E000,S110,0.2222,Boyd watching for targets.,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'"
+cap+mmr,E049,S106,0.0909,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+cap+mmr,E069,S104,0.25,A(n) grizzly bear wandering.,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+cap+mmr,E000,S110,0.2222,Boyd watching for targets.,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'"

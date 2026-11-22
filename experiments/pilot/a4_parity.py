@@ -80,7 +80,7 @@ def check_compose(run_dir):
 def check_channels(run_dir):
     params = json.loads((run_dir / "select_logs.txt").read_text(encoding="utf-8"))
     ac_params = {"ncd_threshold": params["ncd_threshold"], "strategy": params["strategy"], "depth": params["depth"]}
-    ctx = PilotContext(events_path=run_dir / "formatted_event_logs.txt",
+    ctx = PilotContext(events_path=run_dir / "formatted_event_logs.txt", cc_candidates="all",
                        dialogue_path=run_dir / "dialogue_logs.txt",
                        session_name=f"nov8_{run_dir.name}")
     _, cs_ac = read_candidates(run_dir / "pipeline_anomaly_candidates.txt")

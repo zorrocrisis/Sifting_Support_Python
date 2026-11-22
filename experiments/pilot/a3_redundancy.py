@@ -33,11 +33,13 @@ from experiments.common.data import description_of
 from experiments.common.gold import read_gold
 from experiments.common.report import md_table, short, write_csv, write_json
 from experiments.common.simulate import build_pool, pool_metrics
-from experiments.pilot.make_gold_helper import GOLD_PATH
+
+
+LAMBDA_SWEEP = (0.7, 0.5, 0.3)
 
 
 def pick_best(by_variant):
-    candidates = [v for v in ("cap", "mmr", "cap+mmr") if v in by_variant]
+    candidates = [v for v in ("cap", "mmr", "cap+mmr") + cc.INDEX_VARIANTS if v in by_variant]
     return max(candidates, key=lambda v: (by_variant[v]["dialogue_lines"],
                                           -(by_variant[v]["cc_redundancy"] or 0.0),
                                           -candidates.index(v)))
@@ -46,15 +48,16 @@ def pick_best(by_variant):
 def run(cap=2, lam=0.7, seed=42, total=12, share=0.5):
     paths.ensure_out()
     ctx = PilotContext()
-    gold, _ = read_gold(GOLD_PATH, ctx)
+    gold, _ = read_gold(paths.GOLD_PATH, ctx)
     relevant = set(gold)
 
     by_variant, rows, built_by = {}, [], {}
-    for v in cc.VARIANTS:
+    variants = cc.variants_for(ctx.similarity_mode)
+    for v in variants:
         built = build_pool(ctx, share, total, variant=v, seed=seed, cap=cap, lam=lam)
         built_by[v] = built
         m = pool_metrics(ctx, built)
-        contributing = {e["d"] for e in built["entries"] if e["kind"] == "dialogue"}
+        contributing = {e["d"] for e in built["entries"] if e["kind"] == "reference"}
         m["contributing_dialogue_ids"] = sorted(ctx.dialogue_id(d) for d in contributing)
         m["requested_pairs_distinct_dialogue"] = len({p["d"] for p in built["pairs"]})
         if relevant:
@@ -70,6 +73,18 @@ def run(cap=2, lam=0.7, seed=42, total=12, share=0.5):
                          "dialogue": ctx.dialogue.unique[e["paired_d"]] if e["paired_d"] is not None else ""})
 
     best = pick_best(by_variant)
+
+    # Sensitivity to MMR's lambda (relevance vs diversity), for the MMR variants. Recorded only;
+    # the pass rule and the best variant use --lam.
+    lambda_sweep = {}
+    for v in [x for x in variants if "mmr" in x]:
+        for lam_ in LAMBDA_SWEEP:
+            b_ = build_pool(ctx, share, total, variant=v, seed=seed, cap=cap, lam=lam_)
+            m_ = pool_metrics(ctx, b_)
+            contrib = {e["d"] for e in b_["entries"] if e["kind"] == "reference"}
+            lambda_sweep.setdefault(v, {})[str(lam_)] = {
+                "dialogue_lines": m_["dialogue_lines"], "cc_redundancy": m_["cc_redundancy"],
+                "relevant_contributing": len(contrib & relevant) if relevant else None}
     need = 3
     if relevant:
         ok = {v: by_variant[v]["relevant_contributing"] >= min(need, len(relevant)) for v in by_variant}
@@ -77,11 +92,12 @@ def run(cap=2, lam=0.7, seed=42, total=12, share=0.5):
     else:
         ok = {v: by_variant[v]["dialogue_lines"] >= need for v in by_variant}
         provisional = True
-    status = "pass" if any(ok[v] for v in ("cap", "mmr", "cap+mmr")) else "fail"
+    status = "pass" if any(ok[v] for v in variants if v != "nearest") else "fail"
 
     result = {"test": "A3", "cap": cap, "lambda": lam, "seed": seed, "total": total, "share": share,
               "variants": by_variant, "passes": ok, "best_variant": best,
               "relevant_dialogue_ids": sorted(ctx.dialogue_id(d) for d in relevant),
+              "lambda_sweep": lambda_sweep,
               "status": status + (" (provisional: no gold yet)" if provisional else ""),
               "pass_rule": f">= {need} relevant dialogue lines contribute (relevant = lines with gold matches)"}
     write_csv(paths.OUT_DIR / "a3_pairs.csv", rows)
@@ -98,7 +114,7 @@ def run(cap=2, lam=0.7, seed=42, total=12, share=0.5):
                   [[v, m["dialogue_lines"], m["n_cc_events"], m["cc_redundancy"], m["redundancy"],
                     m["requested_pairs_distinct_dialogue"], "yes" if ok[v] else "no"] for v, m in by_variant.items()]),
          ""]
-    for v in cc.VARIANTS:
+    for v in variants:
         L += [f"## `{v}` — CC events in the pool", "",
               md_table(["dialogue", "NCD", "event"],
                        [[r["dialogue_id"], r["ncd"], f"{r['event']} {short(r['event_description'], 70)}"]

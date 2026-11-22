@@ -161,6 +161,20 @@ def load_past_dialogue(src=None, name="dialogue"):
     return load_logset(src or paths.PAST_DIALOGUE, name=name, keep=only_dialogue)
 
 
+def load_reference(src=None, kind=None, name=None):
+    """
+    The CC reference set. kind "dialogue": past dialogue lines only; kind "events":
+    earlier-session event logs (dialogue lines dropped).
+    """
+    kind = kind or paths.REFERENCE_KIND
+    src = src or paths.REFERENCE_PATH
+    if kind == "dialogue":
+        return load_past_dialogue(src, name=name or "dialogue")
+    if kind == "events":
+        return load_logset(src, name=name or "reference_events", keep=not_dialogue)
+    raise ValueError(f"unknown reference kind {kind!r}")
+
+
 # ---------------------------------------------------------------------------
 # Character bios
 # ---------------------------------------------------------------------------

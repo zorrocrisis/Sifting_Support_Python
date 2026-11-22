@@ -20,7 +20,6 @@ from experiments.common import paths
 from experiments.common.context import PilotContext
 from experiments.common.gold import GOLD_COLUMNS
 
-GOLD_PATH = paths.PILOT_DIR / "gold_matches.csv"
 
 
 def main():
@@ -28,25 +27,28 @@ def main():
     ctx = PilotContext()
     ev, dl = ctx.events, ctx.dialogue
 
-    if GOLD_PATH.exists():
-        print(f"{GOLD_PATH} already exists, left unchanged.")
+    if paths.GOLD_PATH.exists():
+        print(f"{paths.GOLD_PATH} already exists, left unchanged.")
     else:
-        with open(GOLD_PATH, "w", newline="", encoding="utf-8") as f:
+        with open(paths.GOLD_PATH, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=GOLD_COLUMNS)
             w.writeheader()
             for d, text in enumerate(dl.unique):
                 w.writerow({"dialogue_id": ctx.dialogue_id(d), "expected_event_id": "",
                             "note": "", "dialogue_text": text})
-        print(f"Wrote {GOLD_PATH}")
+        print(f"Wrote {paths.GOLD_PATH}")
 
     lines = ["# Gold helper for pilot test A1", "",
              f"Session events: `{paths.SESSION2_EVENTS.relative_to(paths.REPO_ROOT)}` "
              f"({len(ev)} distinct descriptions, dialogue lines excluded).",
-             f"Past dialogue: `{paths.PAST_DIALOGUE.relative_to(paths.REPO_ROOT)}` ({len(dl)} lines).", "",
-             "For each dialogue line, write the codes of the events that continue it into "
-             "`experiments/pilot/gold_matches.csv` (`expected_event_id`, `;`-separated, or one row each). "
+             f"Reference set `{paths.REFERENCE}` ({paths.REFERENCE_KIND}): "
+             f"`{paths.REFERENCE_PATH.relative_to(paths.REPO_ROOT)}` ({len(dl)} lines).", "",
+             "For each reference line, write the codes of the events that continue it into "
+             f"`{paths.GOLD_PATH.relative_to(paths.REPO_ROOT).as_posix()}` (`expected_event_id`, "
+             "`/`- or `;`-separated; `[notes]` allowed). The `dialogue_id` column holds the reference "
+             "line's _ID_ whatever the reference kind. "
              "Leave it empty if nothing in this session relates to the line.", "",
-             "## Past dialogue", "", "| dialogue_id | tick | line |", "|---|---|---|"]
+             "## Reference lines", "", "| dialogue_id | tick | line |", "|---|---|---|"]
     for d, text in enumerate(dl.unique):
         lines.append(f"| {ctx.dialogue_id(d)} | {dl.timestamp(text):.0f} | {text} |")
 

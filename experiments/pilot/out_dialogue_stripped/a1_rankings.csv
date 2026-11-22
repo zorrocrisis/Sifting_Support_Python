@@ -1,0 +1,81 @@
+dialogue_id,method,rank,event,score,dialogue,event_description
+S104,ncd,1,E058,0.6111,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench's bolt-action rifle bullet missed by a small margin.
+S104,ncd,2,E138,0.6216,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'","Stench flailed at Odette with her left fist, but stumbled at the last second."
+S104,ncd,3,E118,0.625,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'","Odette is no longer on an insulting spree against Stench, Hunter."
+S104,ncd,4,E128,0.625,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Odette missed Stench with a beat from her left fist.
+S104,ncd,5,E140,0.625,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench missed while trying to bash Odette with her left fist.
+S104,ncd,6,E053,0.6389,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench fired her bolt-action rifle at the turkey.
+S104,ncd,7,E129,0.6389,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench missed Odette with a smash from her left fist.
+S104,ncd,8,E137,0.6389,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'","Odette attempted to hit Stench, but hesitated at the last second."
+S104,ncd,9,E054,0.6528,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench hit the turkey with a bolt-action rifle bullet.
+S104,ncd,10,E056,0.6528,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",A(n) turkey was afflicted with (a) blood loss (minor)
+S107,ncd,1,E082,0.5484,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench shared views on aiding the downtrodden with Boyd.
+S107,ncd,2,E053,0.5667,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench fired her bolt-action rifle at the turkey.
+S107,ncd,3,E146,0.5667,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench and Odette are no longer social fighting.
+S107,ncd,4,E041,0.5833,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench chatted about fighting tapirs with Odette.
+S107,ncd,5,E060,0.5833,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench fired her bolt-action rifle at the tortoise.
+S107,ncd,6,E108,0.5833,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Missing a neck caused the rat to expire.
+S107,ncd,7,E054,0.6,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench hit the turkey with a bolt-action rifle bullet.
+S107,ncd,8,E058,0.6,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench's bolt-action rifle bullet missed by a small margin.
+S107,ncd,9,E129,0.6,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench missed Odette with a smash from her left fist.
+S107,ncd,10,E132,0.6,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Odette ineptly bashed Stench with her left fist.
+S110,ncd,1,E135,0.5789,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench missed Odette with a hit from her left fist.
+S110,ncd,2,E128,0.5862,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Odette missed Stench with a beat from her left fist.
+S110,ncd,3,E132,0.5893,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Odette ineptly bashed Stench with her left fist.
+S110,ncd,4,E146,0.5893,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench and Odette are no longer social fighting.
+S110,ncd,5,E129,0.5932,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench missed Odette with a smash from her left fist.
+S110,ncd,6,E053,0.5965,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench fired her bolt-action rifle at the turkey.
+S110,ncd,7,E117,0.6,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench started a social fight with Odette.
+S110,ncd,8,E122,0.6,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench smashed Odette with her left fist.
+S110,ncd,9,E126,0.6,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench slammed Odette with her left fist.
+S110,ncd,10,E141,0.6,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Odette hit Stench with her left fist.
+S111,ncd,1,E082,0.6,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Stench shared views on aiding the downtrodden with Boyd.
+S111,ncd,2,E159,0.6,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Stench hauling packaged survival meal x10 to Stockpile zone 1.
+S111,ncd,3,E054,0.6143,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Stench hit the turkey with a bolt-action rifle bullet.
+S111,ncd,4,E118,0.6143,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'","Odette is no longer on an insulting spree against Stench, Hunter."
+S111,ncd,5,E138,0.6216,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'","Stench flailed at Odette with her left fist, but stumbled at the last second."
+S111,ncd,6,E053,0.6286,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Stench fired her bolt-action rifle at the turkey.
+S111,ncd,7,E058,0.6286,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Stench's bolt-action rifle bullet missed by a small margin.
+S111,ncd,8,E128,0.6286,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Odette missed Stench with a beat from her left fist.
+S111,ncd,9,E129,0.6286,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Stench missed Odette with a smash from her left fist.
+S111,ncd,10,E135,0.6286,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",Stench missed Odette with a hit from her left fist.
+S105,ncd,1,E146,0.5357,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench and Odette are no longer social fighting.
+S105,ncd,2,E053,0.5439,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench fired her bolt-action rifle at the turkey.
+S105,ncd,3,E041,0.5536,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench chatted about fighting tapirs with Odette.
+S105,ncd,4,E132,0.5536,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Odette ineptly bashed Stench with her left fist.
+S105,ncd,5,E056,0.5574,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",A(n) turkey was afflicted with (a) blood loss (minor)
+S105,ncd,6,E106,0.5614,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",A(n) rat was afflicted with (a) Bitten off (nose)
+S105,ncd,7,E135,0.5614,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench missed Odette with a hit from her left fist.
+S105,ncd,8,E107,0.5714,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",A(n) rat was afflicted with (a) Bitten off (jaw)
+S105,ncd,9,E129,0.5763,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench missed Odette with a smash from her left fist.
+S105,ncd,10,E082,0.5806,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench shared views on aiding the downtrodden with Boyd.
+S108,ncd,1,E122,0.6122,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench smashed Odette with her left fist.
+S108,ncd,2,E126,0.6122,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench slammed Odette with her left fist.
+S108,ncd,3,E135,0.614,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench missed Odette with a hit from her left fist.
+S108,ncd,4,E132,0.625,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Odette ineptly bashed Stench with her left fist.
+S108,ncd,5,E054,0.6271,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench hit the turkey with a bolt-action rifle bullet.
+S108,ncd,6,E129,0.6271,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench missed Odette with a smash from her left fist.
+S108,ncd,7,E053,0.6316,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench fired her bolt-action rifle at the turkey.
+S108,ncd,8,E108,0.6327,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Missing a neck caused the rat to expire.
+S108,ncd,9,E131,0.6327,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'","Stench tried to smash Odette, but missed."
+S108,ncd,10,E141,0.6327,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Odette hit Stench with her left fist.
+S112,ncd,1,E056,0.5902,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) turkey was afflicted with (a) blood loss (minor)
+S112,ncd,2,E103,0.6066,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) rat was afflicted with (a) Bitten out (right eye)
+S112,ncd,3,E055,0.6167,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) turkey was afflicted with (a) gunshot (body)
+S112,ncd,4,E102,0.6167,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) rat was afflicted with (a) Bitten out (left eye)
+S112,ncd,5,E107,0.6167,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) rat was afflicted with (a) Bitten off (jaw)
+S112,ncd,6,E146,0.6167,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Stench and Odette are no longer social fighting.
+S112,ncd,7,E053,0.6333,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Stench fired her bolt-action rifle at the turkey.
+S112,ncd,8,E054,0.6333,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Stench hit the turkey with a bolt-action rifle bullet.
+S112,ncd,9,E106,0.6333,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) rat was afflicted with (a) Bitten off (nose)
+S112,ncd,10,E161,0.6349,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",Ackmann was afflicted with (a) infection (minor) (left leg)
+S106,ncd,1,E086,0.5273,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling wooden club to Stockpile zone 1.
+S106,ncd,2,E091,0.5536,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling component x30 to Stockpile zone 1.
+S106,ncd,3,E132,0.5536,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Odette ineptly bashed Stench with her left fist.
+S106,ncd,4,E129,0.5593,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench missed Odette with a smash from her left fist.
+S106,ncd,5,E088,0.5636,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling steel x18 to Stockpile zone 1.
+S106,ncd,6,E090,0.5636,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling silver x500 to Stockpile zone 1.
+S106,ncd,7,E146,0.5714,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench and Odette are no longer social fighting.
+S106,ncd,8,E159,0.5735,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling packaged survival meal x10 to Stockpile zone 1.
+S106,ncd,9,E053,0.5789,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench fired her bolt-action rifle at the turkey.
+S106,ncd,10,E135,0.5789,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench missed Odette with a hit from her left fist.

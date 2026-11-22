@@ -1,0 +1,143 @@
+{
+  "test": "A3",
+  "cap": 2,
+  "lambda": 0.7,
+  "seed": 42,
+  "total": 12,
+  "share": 0.5,
+  "variants": {
+    "nearest": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 3,
+      "dialogue_lines": 3,
+      "redundancy": 0.25750297046758563,
+      "cc_redundancy": 0.2917427470075066,
+      "ac_cc_overlap": 0,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "S110",
+        "S111",
+        "S112"
+      ],
+      "requested_pairs_distinct_dialogue": 5,
+      "relevant_contributing": 3
+    },
+    "cap": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 3,
+      "dialogue_lines": 3,
+      "redundancy": 0.25750297046758563,
+      "cc_redundancy": 0.2917427470075066,
+      "ac_cc_overlap": 2,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "S110",
+        "S111",
+        "S112"
+      ],
+      "requested_pairs_distinct_dialogue": 7,
+      "relevant_contributing": 3
+    },
+    "mmr": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 4,
+      "dialogue_lines": 2,
+      "redundancy": 0.24561201155178372,
+      "cc_redundancy": 0.22648450727968208,
+      "ac_cc_overlap": 1,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "S111",
+        "S112"
+      ],
+      "requested_pairs_distinct_dialogue": 5,
+      "relevant_contributing": 2
+    },
+    "cap+mmr": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 4,
+      "dialogue_lines": 2,
+      "redundancy": 0.22285585845420747,
+      "cc_redundancy": 0.22161852893856093,
+      "ac_cc_overlap": 3,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "S111",
+        "S112"
+      ],
+      "requested_pairs_distinct_dialogue": 7,
+      "relevant_contributing": 2
+    }
+  },
+  "passes": {
+    "nearest": true,
+    "cap": true,
+    "mmr": false,
+    "cap+mmr": false
+  },
+  "best_variant": "cap",
+  "relevant_dialogue_ids": [
+    "S104",
+    "S105",
+    "S106",
+    "S107",
+    "S108",
+    "S110",
+    "S111",
+    "S112"
+  ],
+  "lambda_sweep": {
+    "mmr": {
+      "0.7": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.22648450727968208,
+        "relevant_contributing": 2
+      },
+      "0.5": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.22648450727968208,
+        "relevant_contributing": 2
+      },
+      "0.3": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.15999297224214012,
+        "relevant_contributing": 2
+      }
+    },
+    "cap+mmr": {
+      "0.7": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.22161852893856093,
+        "relevant_contributing": 2
+      },
+      "0.5": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.22161852893856093,
+        "relevant_contributing": 2
+      },
+      "0.3": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.15999297224214012,
+        "relevant_contributing": 2
+      }
+    }
+  },
+  "status": "pass",
+  "pass_rule": ">= 3 relevant dialogue lines contribute (relevant = lines with gold matches)"
+}

@@ -9,7 +9,7 @@ every topic already filled in.
 import csv
 
 TOPICS = ("raid", "fight", "hunting", "hauling", "mental_break", "health", "social", "animals", "visitor", "other",
-          "refugee")   # "refugee" added by the author while tagging the pilot
+          "refugee", "farming", "building")   # added by the author while tagging the pilot
 COLUMNS = ["description", "topic", "n_pools"]
 
 
@@ -64,7 +64,15 @@ def write_topic_template(path, description_counts, missing_path):
 
 
 def read_all_topics(path, missing_path):
-    """Tags from the author's file plus any filled in in the missing file (the main file wins)."""
-    extra, unknown_extra = read_topics(missing_path)
-    main, unknown_main = read_topics(path)
-    return {**extra, **main}, sorted(set(unknown_main) | set(unknown_extra))
+    """
+    Tags from the author's file plus any filled in in a missing file: this run's and every
+    other run folder's (pilot/out*/topic_tags_missing.csv), since descriptions are shared
+    between runs. The main file wins over missing files; this run's missing file wins over others.
+    """
+    tags, unknown = {}, set()
+    others = sorted(p for p in path.parent.glob("out*/topic_tags_missing.csv") if p != missing_path)
+    for p in others + [missing_path, path]:
+        t, u = read_topics(p)
+        tags.update(t)
+        unknown |= set(u)
+    return tags, sorted(unknown)

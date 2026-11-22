@@ -13,7 +13,7 @@
 
 ## Rank of each expected event
 
-| dialogue | event | NCD rank | embedding rank | event description |
+| dialogue | event | ncd rank | embedding rank | event description |
 |---|---|---|---|---|
 | S104 | E069 | 82 | 71 | A(n) grizzly bear wandering. |
 | S104 | E070 | 83 | 88 | A(n) grizzly bear standing. |

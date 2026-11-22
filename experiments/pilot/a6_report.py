@@ -52,12 +52,24 @@ def run():
     parity = read_json(paths.OUT_DIR / "a4_parity.json")
     nd, ne = (a1 or {}).get("n_dialogue", "?"), (a1 or {}).get("n_events", "?")
 
-    L = [f"# Pilot report — two-channel sifting (Week 0)", "",
-         f"Generated {date.today().isoformat()} by `python -m experiments.pilot.run_all`. "
+    if paths.REFERENCE == "dialogue":
+        ref_text = f"past dialogue = `dialogue_logs.txt` ({nd} lines spoken in session 1, S116 removed)"
+    else:
+        ref_text = (f"reference set `{paths.REFERENCE}` = "
+                    f"`{paths.REFERENCE_PATH.relative_to(paths.REPO_ROOT).as_posix()}` ({nd} {paths.REFERENCE_KIND} lines)")
+    L = [f"# Pilot report — two-channel sifting (Week 0, reference: {paths.REFERENCE})", "",
+         f"Generated {date.today().isoformat()} by "
+         f"`python -m experiments.pilot.run_all --reference {paths.REFERENCE} --cc-candidates {paths.CC_CANDIDATES} "
+         f"--cc-similarity {paths.CC_SIMILARITY}`. "
          "Corpus: one colony; session 2 = `SimulatedDay2/formatted_event_logs.txt` (truncated `Ackmann` line "
-         "removed), past dialogue = "
-         f"`dialogue_logs.txt` ({nd} lines spoken in session 1, S116 removed). "
-         "NCD concatenation order: event first, as in the game.", "",
+         f"removed), {ref_text}. "
+         "NCD concatenation order: event first, as in the game. CC candidates: "
+         + ("all session-2 events." if paths.CC_CANDIDATES == "all" else
+            f"only session 2's cluster representatives at NCD threshold {paths.CC_FILTER_THRESHOLD} "
+            "(the AC's logs after filtering, before traversal).")
+         + {"index": " CC similarity: event indexing (entities, place, log type, NCD text).",
+            "embed": " CC similarity: sentence embeddings (all-MiniLM-L6-v2 cosine; comparison only)."}
+           .get(paths.CC_SIMILARITY, ""), "",
          "## Decision", "", f"**{decision(a1, a4, a5)}**", "",
          "## Results", ""]
 
@@ -66,12 +78,16 @@ def run():
         m = a1.get("metrics", {})
         det = ("; ".join(f"{k}: R@5 {v['recall@5']:.2f}, R@10 {v['recall@10']:.2f}, MRR {v['mrr']:.2f}"
                          for k, v in m.items()) or a1.get("status_reason", ""))
-        rows.append(["A1 NCD finds continuity", _status(a1), det])
+        rows.append([f"A1 CC ({(a1 or {}).get('cc_method', 'ncd')}) finds continuity", _status(a1), det])
     if a2:
+        def r5(m):
+            return "–" if not m else f"{m['recall@5']:.2f}"
         det = "; ".join(f"{mode}: {v['pct_topk_pairs_changed']:.0%} of top-{a2['k']} pairs changed, "
-                        f"actor match {a2['actor_match_unmasked']:.0%}→{v['actor_match_masked']:.0%}"
+                        f"actor match {a2['actor_match_unmasked']:.0%}→{v['actor_match_masked']:.0%}, "
+                        f"NCD R@5 {r5(a2.get('a1_metrics_unmasked'))}→{r5(v.get('a1_metrics_masked'))}"
                         for mode, v in a2["modes"].items())
-        rows.append(["A2 name masking", "on hold" if "A2" in ON_HOLD else _status(a2), det])
+        rows.append(["A2 name masking",
+                     "done (interpretation on hold)" if "A2" in ON_HOLD else _status(a2), det])
     if a3:
         det = ", ".join(f"{v}: {m['dialogue_lines']} lines, CC red. {m['cc_redundancy']:.2f}"
                         for v, m in a3["variants"].items()) + f"; best `{a3['best_variant']}`"
@@ -105,7 +121,7 @@ def run():
         todo.append("Fill `experiments/pilot/gold_matches.csv` using `out/gold_helper.md`, then rerun.")
     if _status(a4) == "pending":
         todo.append(f"Add topics for the {a4.get('untagged_descriptions')} descriptions listed in "
-                    "`out/topic_tags_missing.csv` to `experiments/pilot/topic_tags.csv`, then rerun A4.")
+                    f"`{(paths.OUT_DIR / 'topic_tags_missing.csv').relative_to(paths.PILOT_DIR).as_posix()}` (fill the topic column there), then rerun A4.")
     if a2 and "A2" not in ON_HOLD:
         todo.append("Read the A2 pair lists and decide which interpretation applies (on-topic / nonsense / unchanged).")
     if "A5" in ON_HOLD:
@@ -125,19 +141,29 @@ def run():
           "- Test 4 fails: find a different main claim before writing hypotheses.",
           "- Test 5 fails but tests 1–4 pass: sifting works; the problem is in generation.", ""]
 
-    L += ["## Caveats", "",
-          "- A4's pass depends on multi-topic tags: the two 'watching for targets' lines are tagged "
-          "`hunting/fight/raid` and appear mostly in AC-heavy pools. Counting only each tag's first topic, "
-          "ρ(share, topics) is much weaker for `nearest` and positive for `mmr`, so A4 fails on that reading. "
-          "Topic counts are also flat from share 0 to 0.5 and drop only at 0.75–1.",
-          f"- One colony, two sessions, {nd} dialogue lines, {ne} distinct session-2 events: every number here is "
-          "from a very small corpus.",
-          "- Seeds only affect the AC, and with `least_frequent` the AC barely changes across seeds 41–45, "
-          "so the ± over seeds in A4 understates real variability.",
-          "- NCD concatenation order matters more than expected (see A1): rankings differ noticeably between "
-          "event-first and dialogue-first.",
-          "- The game's composer counts each paired dialogue line against the CC quota, so at share 0.5 / total 12 "
-          "at most 3 dialogue lines can contribute.", ""]
+    caveats = [f"One colony, two sessions, {nd} reference lines, {ne} distinct session-2 events: every number "
+               "here is from a very small corpus.",
+               "Seeds only affect the AC, and with `least_frequent` the AC barely changes across seeds 41–45, "
+               "so the ± over seeds in A4 understates real variability.",
+               "The game's composer counts each paired reference line against the CC quota, so at share 0.5 / "
+               "total 12 at most 3 reference lines can contribute."]
+    if a4 and a4.get("summary"):
+        fragile = [v for v, s in a4["summary"].items()
+                   if s.get("passes") and (s.get("spearman_share_topics_primary") or 0) > -0.7]
+        if fragile:
+            caveats.insert(0, "A4's pass depends on multi-topic tags (e.g. `hunting/fight/raid`): counting only "
+                              f"each tag's first topic, ρ(share, topics) misses the threshold for {', '.join(fragile)}.")
+    if a1 and a1.get("metrics_without_exact_repeats"):
+        caveats.insert(0, f"{a1['n_exact_repeat_gold_pairs']} A1 gold pairs are the reference line's exact description "
+                          "repeated in session 2; see `a1_report.md` for the metrics without them.")
+    sens = (a1 or {}).get("order_sensitivity")
+    if sens and sens["mean_topk_overlap_per_dialogue"] < 0.8:
+        caveats.append(f"NCD concatenation order matters: only {sens['mean_topk_overlap_per_dialogue']:.0%} top-5 "
+                       "overlap per reference line between event-first and dialogue-first.")
+    if paths.REFERENCE_KIND == "events":
+        caveats.append("Reference lines are event logs with their own _ID_s, and the composer removes duplicates by "
+                       "_ID_, so a session-1 log and its exact session-2 repeat can both enter the pool (same text twice).")
+    L += ["## Caveats", ""] + [f"- {c}" for c in caveats] + [""]
     (paths.OUT_DIR / "PILOT_REPORT.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
 

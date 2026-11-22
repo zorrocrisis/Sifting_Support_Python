@@ -30,7 +30,9 @@ class NameMasker:
         """
         single_token: if set (e.g. "C"), every colonist is replaced by this same
         token in mask(), so NCD can't even match on *which* colonist is
-        involved. colonists_in() still tells colonists apart.
+        involved. "" removes the names altogether (plus the punctuation they
+        leave behind), so NCD can't see *how many* colonists a line names either.
+        colonists_in() still tells colonists apart.
         """
         self.colonists = parse_colonists(bios_text)
         self.tokens = {c.full_name: f"C{i + 1}" for i, c in enumerate(self.colonists)}
@@ -96,6 +98,8 @@ class NameMasker:
 
     def mask(self, text):
         out = self._regex.sub(self._sub, text)
+        if self.single_token == "":
+            out = _tidy_removed(out)
         if self.mask_pawn_ids:
             out = _PAWN_ID_RE.sub(self._pawn_sub, out)
         return out
@@ -103,6 +107,19 @@ class NameMasker:
     def colonists_in(self, text):
         """Set of colonist tokens mentioned in `text` (used for the actor-match rate)."""
         return {self._pattern_tokens[int(m.lastgroup[1:])] for m in self._regex.finditer(text)}
+
+
+def _tidy_removed(text):
+    """
+    Clean up after names were deleted (single_token=""): drop a dangling possessive
+    ("'s rifle" -> "rifle"), a comma left right after an opening quote or at the start
+    ("said ', I" -> "said 'I"), spaces before punctuation, and doubled spaces.
+    """
+    text = re.sub(r"(^|[\s(])'s\b\s*", r"\1", text)          # possessive of a removed name
+    text = re.sub(r"(^|['(])\s*,\s*", r"\1", text)          # comma right after a removed name
+    text = re.sub(r"\s+([,.;:!?])", r"\1", text)
+    text = re.sub(r"\s{2,}", " ", text)
+    return text.strip()
 
 
 def mask_names(text, bios, mask_pawn_ids=False):

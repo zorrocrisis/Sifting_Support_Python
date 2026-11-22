@@ -1,0 +1,19 @@
+variant,event,dialogue_id,ncd,event_description,dialogue
+nearest,E088,J784,0.0708,Stench hauling steel x18 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+nearest,E071,J19592,0.0795,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+nearest,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.
+cap,E088,J784,0.0708,Stench hauling steel x18 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+cap,E071,J19592,0.0795,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+cap,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.
+mmr,E088,J784,0.0708,Stench hauling steel x18 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+mmr,E071,J19592,0.0795,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+mmr,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.
+cap+mmr,E088,J784,0.0708,Stench hauling steel x18 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+cap+mmr,E071,J19592,0.0795,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+cap+mmr,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.
+mmr_ix,E088,J784,0.0708,Stench hauling steel x18 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+mmr_ix,E071,J19592,0.0795,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+mmr_ix,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.
+cap+mmr_ix,E088,J784,0.0708,Stench hauling steel x18 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+cap+mmr_ix,E071,J19592,0.0795,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+cap+mmr_ix,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.

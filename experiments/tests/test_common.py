@@ -58,6 +58,16 @@ def test_masking_single_token_and_pawn_ids():
     assert m.colonists_in("Stench and Odette") == {"C1", "C3"}
 
 
+def test_masking_removed_names_and_tidy():
+    m = NameMasker(BIOS, single_token="")
+    assert m.mask("Odette 'Odette' O'Neill said 'Stench, I watched the treeline.'") == \
+        "said 'I watched the treeline.'"
+    assert m.mask("Stench's rifle missed Boyd.") == "rifle missed."
+    assert m.mask("Stench, Hunter is fully healed.") == "Hunter is fully healed."
+    assert m.mask("A(n) grizzly bear standing.") == "A(n) grizzly bear standing."
+    assert m.colonists_in("Stench hit Odette") == {"C1", "C3"}
+
+
 # --- NCD ----------------------------------------------------------------------
 
 def test_ncd_rect_shape_and_order():
@@ -81,6 +91,20 @@ def test_selectors():
     assert [(p["d"], p["e"]) for p in capped] == [(0, 0), (0, 1), (1, 3)]
     mmr = cc.select_mmr(M, S, 2, lam=0.5)
     assert mmr[0]["e"] == 0 and mmr[1]["e"] != 1   # the near-duplicate is penalised
+
+
+def test_mmr_index_variant_uses_its_own_redundancy():
+    import pytest
+    M = np.array([[0.1, 0.15, 0.5]])
+    S_ncd = np.eye(3)                                  # NCD sees no redundancy
+    S_ix = np.eye(3)
+    S_ix[0, 1] = S_ix[1, 0] = 0.95                     # event indexing: events 0 and 1 are near-duplicates
+    assert [p["e"] for p in cc.select_pairs("mmr", M, 2, S_ee=S_ncd, lam=0.5)] == [0, 1]
+    assert [p["e"] for p in cc.select_pairs("mmr_ix", M, 2, S_ee=S_ncd, lam=0.5, S_ee_index=S_ix)] == [0, 2]
+    with pytest.raises(ValueError):
+        cc.select_pairs("mmr_ix", M, 2, S_ee=S_ncd)
+    assert cc.variants_for("ncd") == cc.VARIANTS
+    assert set(cc.INDEX_VARIANTS) <= set(cc.variants_for("index"))
 
 
 # --- pool composition (port of FinalPoolComposer) ---------------------------------

@@ -1,0 +1,21 @@
+dialogue_id,event,represented_by,index_rank,embedding_rank,dialogue,event_description
+J197,E070,,1,,A(n) grizzly bear standing.,A(n) grizzly bear standing.
+J784,E086,,4,,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling wooden club to Stockpile zone 1.
+J784,E088,,1,,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling steel x18 to Stockpile zone 1.
+J784,E089,,6,,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling synthread pants (normal 97%) to Stockpile zone 1.
+J784,E090,,2,,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling silver x500 to Stockpile zone 1.
+J784,E091,,3,,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling component x30 to Stockpile zone 1.
+J6248,E049,,1,,Papyrus following Stench.,Papyrus following Stench.
+J6248,E050,,3,,Papyrus following Stench.,Stench leading Papyrus to wooden pen marker.
+J23595,E002,,5,,Stench moving.,Stench watching for targets.
+L0,E085,,1,,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"Stench burying Walrus, Treehouse builder (dead) in grave."
+L0,E086,,53,,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Stench hauling wooden club to Stockpile zone 1.
+J11087,E082,,6,,Boyd relaxing socially.,Stench shared views on aiding the downtrodden with Boyd.
+J11165,E000,,16,,Odette watching for targets.,Boyd watching for targets.
+J11165,E002,,15,,Odette watching for targets.,Stench watching for targets.
+b57,E085,,1,,Boyd fired timidly at Walrus.,"Stench burying Walrus, Treehouse builder (dead) in grave."
+b74,E085,,1,,Stench hit Walrus with a shot.,"Stench burying Walrus, Treehouse builder (dead) in grave."
+b81,E085,,1,,Walrus died.,"Stench burying Walrus, Treehouse builder (dead) in grave."
+b88,E084,,3,,Boyd's shot hit Anteater.,"Stench burying Anteater, Shaman (dead) in grave."
+J19592,E071,,1,,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+L5,E095,,9,,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,"A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes."

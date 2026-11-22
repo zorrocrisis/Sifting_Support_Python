@@ -1,0 +1,13 @@
+variant,event,dialogue_id,ncd,event_description,dialogue
+nearest,E049,J6248,0.0909,Papyrus following Stench.,Papyrus following Stench.
+nearest,E000,J11165,0.2222,Boyd watching for targets.,Odette watching for targets.
+nearest,E069,J197,0.25,A(n) grizzly bear wandering.,A(n) grizzly bear standing.
+cap,E049,J6248,0.0909,Papyrus following Stench.,Papyrus following Stench.
+cap,E000,J11165,0.2222,Boyd watching for targets.,Odette watching for targets.
+cap,E069,J197,0.25,A(n) grizzly bear wandering.,A(n) grizzly bear standing.
+mmr,E049,J6248,0.0909,Papyrus following Stench.,Papyrus following Stench.
+mmr,E069,J197,0.25,A(n) grizzly bear wandering.,A(n) grizzly bear standing.
+mmr,E000,J11165,0.2222,Boyd watching for targets.,Odette watching for targets.
+cap+mmr,E049,J6248,0.0909,Papyrus following Stench.,Papyrus following Stench.
+cap+mmr,E069,J197,0.25,A(n) grizzly bear wandering.,A(n) grizzly bear standing.
+cap+mmr,E000,J11165,0.2222,Boyd watching for targets.,Odette watching for targets.

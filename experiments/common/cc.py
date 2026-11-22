@@ -81,7 +81,17 @@ def select_mmr(M, S_ee, n_pairs, lam=0.7, cap=None):
     return picked
 
 
-def select_pairs(variant, M, n_pairs, S_ee=None, cap=2, lam=0.7):
+# MMR whose redundancy term uses event-indexing similarity between events (shared entities, place,
+# log type, NCD text) instead of 1 - NCD. Only offered when the CC itself scores with event indexing,
+# so relevance and redundancy are measured the same way.
+INDEX_VARIANTS = ("mmr_ix", "cap+mmr_ix")
+
+
+def variants_for(similarity_mode):
+    return VARIANTS + (INDEX_VARIANTS if similarity_mode == "index" else ())
+
+
+def select_pairs(variant, M, n_pairs, S_ee=None, cap=2, lam=0.7, S_ee_index=None):
     if variant == "nearest":
         return select_nearest(M, n_pairs)
     if variant == "cap":
@@ -90,7 +100,11 @@ def select_pairs(variant, M, n_pairs, S_ee=None, cap=2, lam=0.7):
         return select_mmr(M, S_ee, n_pairs, lam=lam)
     if variant == "cap+mmr":
         return select_mmr(M, S_ee, n_pairs, lam=lam, cap=cap)
-    raise ValueError(f"unknown CC variant {variant!r}; expected one of {VARIANTS}")
+    if variant in INDEX_VARIANTS:
+        if S_ee_index is None:
+            raise ValueError(f"{variant} needs the event-indexing event x event similarity")
+        return select_mmr(M, S_ee_index, n_pairs, lam=lam, cap=cap if variant.startswith("cap") else None)
+    raise ValueError(f"unknown CC variant {variant!r}; expected one of {VARIANTS + INDEX_VARIANTS}")
 
 
 def rank_events(M_row, higher_is_better=False):

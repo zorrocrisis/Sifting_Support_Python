@@ -1,0 +1,73 @@
+# A3 — Redundancy control in CC
+
+**Status: FAIL** — best variant by rule: `cap+mmr`
+
+Share 0.5, total 12, AC seed 42, cap 2, λ 0.7. Pass rule: >= 3 relevant dialogue lines contribute (relevant = lines with gold matches).
+
+The game's composer counts each paired dialogue line against the CC quota, so a new dialogue line costs two slots. At quota 6, at most 3 distinct dialogue lines can contribute, whatever the selector.
+
+| variant | dialogue lines in pool | CC events | CC redundancy | pool redundancy | distinct dialogue in requested pairs | passes |
+|---|---|---|---|---|---|---|
+| nearest | 1 | 5 | 0.579 | 0.339 | 1 | no |
+| cap | 2 | 4 | 0.385 | 0.277 | 8 | no |
+| mmr | 1 | 5 | 0.328 | 0.285 | 1 | no |
+| cap+mmr | 2 | 4 | 0.299 | 0.260 | 8 | no |
+| mmr_ix | 2 | 4 | 0.445 | 0.306 | 4 | no |
+| cap+mmr_ix | 2 | 4 | 0.364 | 0.276 | 8 | no |
+
+## `nearest` — CC events in the pool
+
+| dialogue | NCD | event |
+|---|---|---|
+| S110 | 0.236 | E128 Odette missed Stench with a beat from her left fist. |
+| S110 | 0.237 | E132 Odette ineptly bashed Stench with her left fist. |
+| S110 | 0.239 | E135 Stench missed Odette with a hit from her left fist. |
+| S110 | 0.240 | E141 Odette hit Stench with her left fist. |
+| S110 | 0.243 | E146 Stench and Odette are no longer social fighting. |
+
+## `cap` — CC events in the pool
+
+| dialogue | NCD | event |
+|---|---|---|
+| S110 | 0.236 | E128 Odette missed Stench with a beat from her left fist. |
+| S110 | 0.237 | E132 Odette ineptly bashed Stench with her left fist. |
+| S107 | 0.305 | E082 Stench shared views on aiding the downtrodden with Boyd. |
+| S107 | 0.378 | E000 Boyd watching for targets. |
+
+## `mmr` — CC events in the pool
+
+| dialogue | NCD | event |
+|---|---|---|
+| S110 | 0.236 | E128 Odette missed Stench with a beat from her left fist. |
+| S110 | 0.300 | E160 Stench tending to Odette. |
+| S110 | 0.266 | E147 Odette collapsed due to a bruise. |
+| S110 | 0.255 | E118 Odette is no longer on an insulting spree against Stench, Hunter. |
+| S110 | 0.267 | E119 Odette called Stench a salamander. This drove Stench into a rage and … |
+
+## `cap+mmr` — CC events in the pool
+
+| dialogue | NCD | event |
+|---|---|---|
+| S110 | 0.236 | E128 Odette missed Stench with a beat from her left fist. |
+| S110 | 0.300 | E160 Stench tending to Odette. |
+| S107 | 0.305 | E082 Stench shared views on aiding the downtrodden with Boyd. |
+| S107 | 0.378 | E000 Boyd watching for targets. |
+
+## `mmr_ix` — CC events in the pool
+
+| dialogue | NCD | event |
+|---|---|---|
+| S110 | 0.236 | E128 Odette missed Stench with a beat from her left fist. |
+| S107 | 0.305 | E082 Stench shared views on aiding the downtrodden with Boyd. |
+| S110 | 0.243 | E146 Stench and Odette are no longer social fighting. |
+| S110 | 0.255 | E114 Odette flagrantly insulted Stench's leg hair. |
+
+## `cap+mmr_ix` — CC events in the pool
+
+| dialogue | NCD | event |
+|---|---|---|
+| S110 | 0.236 | E128 Odette missed Stench with a beat from her left fist. |
+| S107 | 0.305 | E082 Stench shared views on aiding the downtrodden with Boyd. |
+| S110 | 0.243 | E146 Stench and Odette are no longer social fighting. |
+| S107 | 0.378 | E000 Boyd watching for targets. |
+

@@ -1,0 +1,261 @@
+dialogue_id,method,rank,event,score,dialogue,event_description
+J197,ncd,1,E069,0.25,A(n) grizzly bear standing.,A(n) grizzly bear wandering.
+J197,ncd,2,E023,0.4571,A(n) grizzly bear standing.,A(n) tortoise standing.
+J197,ncd,3,E029,0.4571,A(n) grizzly bear standing.,A(n) doe standing.
+J197,ncd,4,E003,0.6,A(n) grizzly bear standing.,A(n) rat wandering.
+J197,ncd,5,E030,0.6,A(n) grizzly bear standing.,A(n) rhinoceros wandering.
+J197,ncd,6,E034,0.6,A(n) grizzly bear standing.,A(n) timber wolf wandering.
+J197,ncd,7,E064,0.6286,A(n) grizzly bear standing.,A(n) turkey fleeing.
+J197,ncd,8,E065,0.6857,A(n) grizzly bear standing.,Stench building grave (building).
+J197,ncd,9,E072,0.6857,A(n) grizzly bear standing.,A(n) hare consuming grass.
+J197,ncd,10,E080,0.7143,A(n) grizzly bear standing.,Stench cloudwatching.
+J197,embedding,1,E069,0.79,A(n) grizzly bear standing.,A(n) grizzly bear wandering.
+J197,embedding,2,E029,0.6777,A(n) grizzly bear standing.,A(n) doe standing.
+J197,embedding,3,E034,0.4487,A(n) grizzly bear standing.,A(n) timber wolf wandering.
+J197,embedding,4,E023,0.4401,A(n) grizzly bear standing.,A(n) tortoise standing.
+J197,embedding,5,E030,0.3378,A(n) grizzly bear standing.,A(n) rhinoceros wandering.
+J197,embedding,6,E003,0.3091,A(n) grizzly bear standing.,A(n) rat wandering.
+J197,embedding,7,E072,0.3067,A(n) grizzly bear standing.,A(n) hare consuming grass.
+J197,embedding,8,E154,0.2282,A(n) grizzly bear standing.,"A(n) turkey downed, unconscious."
+J197,embedding,9,E064,0.2102,A(n) grizzly bear standing.,A(n) turkey fleeing.
+J197,embedding,10,E052,0.1796,A(n) grizzly bear standing.,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse."
+J784,ncd,1,E090,0.2545,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling silver x500 to Stockpile zone 1.
+J784,ncd,2,E097,0.6038,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling wood x7 to wooden stool (building).
+J784,ncd,3,E053,0.614,Stench hauling steel x56 to Stockpile zone 1.,Stench fired her bolt-action rifle at the turkey.
+J784,ncd,4,E130,0.6226,Stench hauling steel x56 to Stockpile zone 1.,Odette stumbled while trying to strike Stench.
+J784,ncd,5,E041,0.625,Stench hauling steel x56 to Stockpile zone 1.,Stench chatted about fighting tapirs with Odette.
+J784,ncd,6,E135,0.6316,Stench hauling steel x56 to Stockpile zone 1.,Stench missed Odette with a hit from her left fist.
+J784,ncd,7,E108,0.6415,Stench hauling steel x56 to Stockpile zone 1.,Missing a neck caused the rat to expire.
+J784,ncd,8,E084,0.6429,Stench hauling steel x56 to Stockpile zone 1.,"Stench burying Anteater, Shaman (dead) in grave."
+J784,ncd,9,E114,0.6604,Stench hauling steel x56 to Stockpile zone 1.,Odette flagrantly insulted Stench's leg hair.
+J784,ncd,10,E131,0.6604,Stench hauling steel x56 to Stockpile zone 1.,"Stench tried to smash Odette, but missed."
+J784,embedding,1,E090,0.8656,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling silver x500 to Stockpile zone 1.
+J784,embedding,2,E097,0.5954,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling wood x7 to wooden stool (building).
+J784,embedding,3,E096,0.5338,Stench hauling steel x56 to Stockpile zone 1.,Stench harvesting area.
+J784,embedding,4,E065,0.5005,Stench hauling steel x56 to Stockpile zone 1.,Stench building grave (building).
+J784,embedding,5,E157,0.4214,Stench hauling steel x56 to Stockpile zone 1.,Stench resting.
+J784,embedding,6,E080,0.409,Stench hauling steel x56 to Stockpile zone 1.,Stench cloudwatching.
+J784,embedding,7,E084,0.3771,Stench hauling steel x56 to Stockpile zone 1.,"Stench burying Anteater, Shaman (dead) in grave."
+J784,embedding,8,E051,0.3707,Stench hauling steel x56 to Stockpile zone 1.,Stench shot at the turkey.
+J784,embedding,9,E082,0.369,Stench hauling steel x56 to Stockpile zone 1.,Stench shared views on aiding the downtrodden with Boyd.
+J784,embedding,10,E053,0.3689,Stench hauling steel x56 to Stockpile zone 1.,Stench fired her bolt-action rifle at the turkey.
+J6248,ncd,1,E049,0.0909,Papyrus following Stench.,Papyrus following Stench.
+J6248,ncd,2,E096,0.6061,Papyrus following Stench.,Stench harvesting area.
+J6248,ncd,3,E065,0.6176,Papyrus following Stench.,Stench building grave (building).
+J6248,ncd,4,E050,0.62,Papyrus following Stench.,Stench leading Papyrus to wooden pen marker.
+J6248,ncd,5,E080,0.6364,Papyrus following Stench.,Stench cloudwatching.
+J6248,ncd,6,E157,0.6364,Papyrus following Stench.,Stench resting.
+J6248,ncd,7,E124,0.6389,Papyrus following Stench.,Stench fighting with Odette.
+J6248,ncd,8,E000,0.6471,Papyrus following Stench.,Boyd watching for targets.
+J6248,ncd,9,E051,0.6765,Papyrus following Stench.,Stench shot at the turkey.
+J6248,ncd,10,E062,0.6857,Papyrus following Stench.,Stench missed the tortoise.
+J6248,embedding,1,E049,1.0,Papyrus following Stench.,Papyrus following Stench.
+J6248,embedding,2,E050,0.8566,Papyrus following Stench.,Stench leading Papyrus to wooden pen marker.
+J6248,embedding,3,E084,0.5617,Papyrus following Stench.,"Stench burying Anteater, Shaman (dead) in grave."
+J6248,embedding,4,E157,0.547,Papyrus following Stench.,Stench resting.
+J6248,embedding,5,E065,0.5435,Papyrus following Stench.,Stench building grave (building).
+J6248,embedding,6,E080,0.5297,Papyrus following Stench.,Stench cloudwatching.
+J6248,embedding,7,E096,0.5189,Papyrus following Stench.,Stench harvesting area.
+J6248,embedding,8,E062,0.5155,Papyrus following Stench.,Stench missed the tortoise.
+J6248,embedding,9,E124,0.4932,Papyrus following Stench.,Stench fighting with Odette.
+J6248,embedding,10,E130,0.4806,Papyrus following Stench.,Odette stumbled while trying to strike Stench.
+J23595,ncd,1,E157,0.3478,Stench moving.,Stench resting.
+J23595,ncd,2,E080,0.4828,Stench moving.,Stench cloudwatching.
+J23595,ncd,3,E096,0.5484,Stench moving.,Stench harvesting area.
+J23595,ncd,4,E049,0.5758,Stench moving.,Papyrus following Stench.
+J23595,ncd,5,E029,0.5769,Stench moving.,A(n) doe standing.
+J23595,ncd,6,E003,0.5926,Stench moving.,A(n) rat wandering.
+J23595,ncd,7,E064,0.6071,Stench moving.,A(n) turkey fleeing.
+J23595,ncd,8,E124,0.6111,Stench moving.,Stench fighting with Odette.
+J23595,ncd,9,E065,0.6176,Stench moving.,Stench building grave (building).
+J23595,ncd,10,E062,0.6286,Stench moving.,Stench missed the tortoise.
+J23595,embedding,1,E157,0.8109,Stench moving.,Stench resting.
+J23595,embedding,2,E080,0.6936,Stench moving.,Stench cloudwatching.
+J23595,embedding,3,E096,0.678,Stench moving.,Stench harvesting area.
+J23595,embedding,4,E065,0.6334,Stench moving.,Stench building grave (building).
+J23595,embedding,5,E062,0.6138,Stench moving.,Stench missed the tortoise.
+J23595,embedding,6,E124,0.6127,Stench moving.,Stench fighting with Odette.
+J23595,embedding,7,E051,0.6073,Stench moving.,Stench shot at the turkey.
+J23595,embedding,8,E097,0.5792,Stench moving.,Stench hauling wood x7 to wooden stool (building).
+J23595,embedding,9,E084,0.5759,Stench moving.,"Stench burying Anteater, Shaman (dead) in grave."
+J23595,embedding,10,E043,0.5707,Stench moving.,"Stench, Hunter is fully healed."
+L0,ncd,1,E045,0.6505,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+L0,ncd,2,E052,0.6869,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse."
+L0,ncd,3,E082,0.7071,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Stench shared views on aiding the downtrodden with Boyd.
+L0,ncd,4,E053,0.7172,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Stench fired her bolt-action rifle at the turkey.
+L0,ncd,5,E119,0.7172,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Odette called Stench a salamander. This drove Stench into a rage and she began a fight!
+L0,ncd,6,E139,0.7172,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"Odette tried to use her right fist to hit Stench, but stumbled at the last second."
+L0,ncd,7,E118,0.7273,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"Odette is no longer on an insulting spree against Stench, Hunter."
+L0,ncd,8,E041,0.7374,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Stench chatted about fighting tapirs with Odette.
+L0,ncd,9,E135,0.7374,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Stench missed Odette with a hit from her left fist.
+L0,ncd,10,E084,0.7576,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"Stench burying Anteater, Shaman (dead) in grave."
+L0,embedding,1,E064,0.2994,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,A(n) turkey fleeing.
+L0,embedding,2,E030,0.2802,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,A(n) rhinoceros wandering.
+L0,embedding,3,E095,0.2665,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes."
+L0,embedding,4,E034,0.2638,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,A(n) timber wolf wandering.
+L0,embedding,5,E155,0.252,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Battle: The turkey's report
+L0,embedding,6,E069,0.2175,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,A(n) grizzly bear wandering.
+L0,embedding,7,E023,0.1985,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,A(n) tortoise standing.
+L0,embedding,8,E052,0.1983,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse."
+L0,embedding,9,E029,0.1857,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,A(n) doe standing.
+L0,embedding,10,E003,0.1595,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,A(n) rat wandering.
+J11087,ncd,1,E000,0.6176,Boyd relaxing socially.,Boyd watching for targets.
+J11087,ncd,2,E157,0.6452,Boyd relaxing socially.,Stench resting.
+J11087,ncd,3,E003,0.6774,Boyd relaxing socially.,A(n) rat wandering.
+J11087,ncd,4,E023,0.6774,Boyd relaxing socially.,A(n) tortoise standing.
+J11087,ncd,5,E029,0.6774,Boyd relaxing socially.,A(n) doe standing.
+J11087,ncd,6,E064,0.6774,Boyd relaxing socially.,A(n) turkey fleeing.
+J11087,ncd,7,E080,0.6774,Boyd relaxing socially.,Stench cloudwatching.
+J11087,ncd,8,E096,0.6774,Boyd relaxing socially.,Stench harvesting area.
+J11087,ncd,9,E049,0.697,Boyd relaxing socially.,Papyrus following Stench.
+J11087,ncd,10,E030,0.7059,Boyd relaxing socially.,A(n) rhinoceros wandering.
+J11087,embedding,1,E045,0.623,Boyd relaxing socially.,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+J11087,embedding,2,E000,0.5318,Boyd relaxing socially.,Boyd watching for targets.
+J11087,embedding,3,E082,0.5268,Boyd relaxing socially.,Stench shared views on aiding the downtrodden with Boyd.
+J11087,embedding,4,E154,0.3035,Boyd relaxing socially.,"A(n) turkey downed, unconscious."
+J11087,embedding,5,E157,0.2926,Boyd relaxing socially.,Stench resting.
+J11087,embedding,6,E147,0.281,Boyd relaxing socially.,Odette collapsed due to a bruise.
+J11087,embedding,7,E041,0.2673,Boyd relaxing socially.,Stench chatted about fighting tapirs with Odette.
+J11087,embedding,8,E051,0.2426,Boyd relaxing socially.,Stench shot at the turkey.
+J11087,embedding,9,E124,0.2361,Boyd relaxing socially.,Stench fighting with Odette.
+J11087,embedding,10,E034,0.236,Boyd relaxing socially.,A(n) timber wolf wandering.
+J11165,ncd,1,E000,0.2222,Odette watching for targets.,Boyd watching for targets.
+J11165,ncd,2,E080,0.5833,Odette watching for targets.,Stench cloudwatching.
+J11165,ncd,3,E124,0.5833,Odette watching for targets.,Stench fighting with Odette.
+J11165,ncd,4,E041,0.6607,Odette watching for targets.,Stench chatted about fighting tapirs with Odette.
+J11165,ncd,5,E053,0.6667,Odette watching for targets.,Stench fired her bolt-action rifle at the turkey.
+J11165,ncd,6,E135,0.6667,Odette watching for targets.,Stench missed Odette with a hit from her left fist.
+J11165,ncd,7,E123,0.6774,Odette watching for targets.,Odette was afflicted with (a) bruise (human fist) (torso)
+J11165,ncd,8,E108,0.6875,Odette watching for targets.,Missing a neck caused the rat to expire.
+J11165,ncd,9,E131,0.6939,Odette watching for targets.,"Stench tried to smash Odette, but missed."
+J11165,ncd,10,E003,0.6944,Odette watching for targets.,A(n) rat wandering.
+J11165,embedding,1,E000,0.6541,Odette watching for targets.,Boyd watching for targets.
+J11165,embedding,2,E124,0.564,Odette watching for targets.,Stench fighting with Odette.
+J11165,embedding,3,E147,0.5438,Odette watching for targets.,Odette collapsed due to a bruise.
+J11165,embedding,4,E130,0.5397,Odette watching for targets.,Odette stumbled while trying to strike Stench.
+J11165,embedding,5,E135,0.5302,Odette watching for targets.,Stench missed Odette with a hit from her left fist.
+J11165,embedding,6,E131,0.5292,Odette watching for targets.,"Stench tried to smash Odette, but missed."
+J11165,embedding,7,E118,0.4865,Odette watching for targets.,"Odette is no longer on an insulting spree against Stench, Hunter."
+J11165,embedding,8,E139,0.4573,Odette watching for targets.,"Odette tried to use her right fist to hit Stench, but stumbled at the last second."
+J11165,embedding,9,E123,0.4428,Odette watching for targets.,Odette was afflicted with (a) bruise (human fist) (torso)
+J11165,embedding,10,E041,0.4387,Odette watching for targets.,Stench chatted about fighting tapirs with Odette.
+b57,ncd,1,E053,0.7018,Boyd fired timidly at Walrus.,Stench fired her bolt-action rifle at the turkey.
+b57,ncd,2,E082,0.7097,Boyd fired timidly at Walrus.,Stench shared views on aiding the downtrodden with Boyd.
+b57,ncd,3,E000,0.7297,Boyd fired timidly at Walrus.,Boyd watching for targets.
+b57,ncd,4,E034,0.7297,Boyd fired timidly at Walrus.,A(n) timber wolf wandering.
+b57,ncd,5,E051,0.7297,Boyd fired timidly at Walrus.,Stench shot at the turkey.
+b57,ncd,6,E062,0.7297,Boyd fired timidly at Walrus.,Stench missed the tortoise.
+b57,ncd,7,E041,0.75,Boyd fired timidly at Walrus.,Stench chatted about fighting tapirs with Odette.
+b57,ncd,8,E084,0.75,Boyd fired timidly at Walrus.,"Stench burying Anteater, Shaman (dead) in grave."
+b57,ncd,9,E108,0.75,Boyd fired timidly at Walrus.,Missing a neck caused the rat to expire.
+b57,ncd,10,E118,0.75,Boyd fired timidly at Walrus.,"Odette is no longer on an insulting spree against Stench, Hunter."
+b57,embedding,1,E000,0.5792,Boyd fired timidly at Walrus.,Boyd watching for targets.
+b57,embedding,2,E045,0.5035,Boyd fired timidly at Walrus.,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+b57,embedding,3,E053,0.4637,Boyd fired timidly at Walrus.,Stench fired her bolt-action rifle at the turkey.
+b57,embedding,4,E082,0.4289,Boyd fired timidly at Walrus.,Stench shared views on aiding the downtrodden with Boyd.
+b57,embedding,5,E052,0.4158,Boyd fired timidly at Walrus.,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse."
+b57,embedding,6,E051,0.3416,Boyd fired timidly at Walrus.,Stench shot at the turkey.
+b57,embedding,7,E154,0.2897,Boyd fired timidly at Walrus.,"A(n) turkey downed, unconscious."
+b57,embedding,8,E150,0.2876,Boyd fired timidly at Walrus.,The turkey dropped.
+b57,embedding,9,E155,0.2815,Boyd fired timidly at Walrus.,Battle: The turkey's report
+b57,embedding,10,E116,0.2667,Boyd fired timidly at Walrus.,Ackmann downed.
+b74,ncd,1,E124,0.5526,Stench hit Walrus with a shot.,Stench fighting with Odette.
+b74,ncd,2,E049,0.6053,Stench hit Walrus with a shot.,Papyrus following Stench.
+b74,ncd,3,E051,0.6053,Stench hit Walrus with a shot.,Stench shot at the turkey.
+b74,ncd,4,E135,0.6491,Stench hit Walrus with a shot.,Stench missed Odette with a hit from her left fist.
+b74,ncd,5,E096,0.6579,Stench hit Walrus with a shot.,Stench harvesting area.
+b74,ncd,6,E157,0.6579,Stench hit Walrus with a shot.,Stench resting.
+b74,ncd,7,E041,0.6607,Stench hit Walrus with a shot.,Stench chatted about fighting tapirs with Odette.
+b74,ncd,8,E053,0.6667,Stench hit Walrus with a shot.,Stench fired her bolt-action rifle at the turkey.
+b74,ncd,9,E082,0.6774,Stench hit Walrus with a shot.,Stench shared views on aiding the downtrodden with Boyd.
+b74,ncd,10,E062,0.6842,Stench hit Walrus with a shot.,Stench missed the tortoise.
+b74,embedding,1,E051,0.6445,Stench hit Walrus with a shot.,Stench shot at the turkey.
+b74,embedding,2,E053,0.6241,Stench hit Walrus with a shot.,Stench fired her bolt-action rifle at the turkey.
+b74,embedding,3,E052,0.5975,Stench hit Walrus with a shot.,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse."
+b74,embedding,4,E157,0.5856,Stench hit Walrus with a shot.,Stench resting.
+b74,embedding,5,E043,0.5762,Stench hit Walrus with a shot.,"Stench, Hunter is fully healed."
+b74,embedding,6,E131,0.5463,Stench hit Walrus with a shot.,"Stench tried to smash Odette, but missed."
+b74,embedding,7,E135,0.5354,Stench hit Walrus with a shot.,Stench missed Odette with a hit from her left fist.
+b74,embedding,8,E080,0.5306,Stench hit Walrus with a shot.,Stench cloudwatching.
+b74,embedding,9,E130,0.5303,Stench hit Walrus with a shot.,Odette stumbled while trying to strike Stench.
+b74,embedding,10,E062,0.5299,Stench hit Walrus with a shot.,Stench missed the tortoise.
+b81,ncd,1,E116,0.6522,Walrus died.,Ackmann downed.
+b81,ncd,2,E157,0.6522,Walrus died.,Stench resting.
+b81,ncd,3,E029,0.6923,Walrus died.,A(n) doe standing.
+b81,ncd,4,E049,0.697,Walrus died.,Papyrus following Stench.
+b81,ncd,5,E003,0.7037,Walrus died.,A(n) rat wandering.
+b81,ncd,6,E150,0.7037,Walrus died.,The turkey dropped.
+b81,ncd,7,E064,0.7143,Walrus died.,A(n) turkey fleeing.
+b81,ncd,8,E080,0.7241,Walrus died.,Stench cloudwatching.
+b81,ncd,9,E023,0.7419,Walrus died.,A(n) tortoise standing.
+b81,ncd,10,E096,0.7419,Walrus died.,Stench harvesting area.
+b81,embedding,1,E052,0.3516,Walrus died.,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse."
+b81,embedding,2,E154,0.3469,Walrus died.,"A(n) turkey downed, unconscious."
+b81,embedding,3,E069,0.3332,Walrus died.,A(n) grizzly bear wandering.
+b81,embedding,4,E084,0.3317,Walrus died.,"Stench burying Anteater, Shaman (dead) in grave."
+b81,embedding,5,E053,0.3276,Walrus died.,Stench fired her bolt-action rifle at the turkey.
+b81,embedding,6,E150,0.3207,Walrus died.,The turkey dropped.
+b81,embedding,7,E043,0.3079,Walrus died.,"Stench, Hunter is fully healed."
+b81,embedding,8,E116,0.2971,Walrus died.,Ackmann downed.
+b81,embedding,9,E108,0.2836,Walrus died.,Missing a neck caused the rat to expire.
+b81,embedding,10,E051,0.2829,Walrus died.,Stench shot at the turkey.
+b88,ncd,1,E051,0.6471,Boyd's shot hit Anteater.,Stench shot at the turkey.
+b88,ncd,2,E082,0.7097,Boyd's shot hit Anteater.,Stench shared views on aiding the downtrodden with Boyd.
+b88,ncd,3,E155,0.7143,Boyd's shot hit Anteater.,Battle: The turkey's report
+b88,ncd,4,E053,0.7193,Boyd's shot hit Anteater.,Stench fired her bolt-action rifle at the turkey.
+b88,ncd,5,E084,0.7321,Boyd's shot hit Anteater.,"Stench burying Anteater, Shaman (dead) in grave."
+b88,ncd,6,E000,0.7353,Boyd's shot hit Anteater.,Boyd watching for targets.
+b88,ncd,7,E043,0.7436,Boyd's shot hit Anteater.,"Stench, Hunter is fully healed."
+b88,ncd,8,E108,0.75,Boyd's shot hit Anteater.,Missing a neck caused the rat to expire.
+b88,ncd,9,E003,0.7576,Boyd's shot hit Anteater.,A(n) rat wandering.
+b88,ncd,10,E023,0.7576,Boyd's shot hit Anteater.,A(n) tortoise standing.
+b88,embedding,1,E000,0.6881,Boyd's shot hit Anteater.,Boyd watching for targets.
+b88,embedding,2,E052,0.4114,Boyd's shot hit Anteater.,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse."
+b88,embedding,3,E082,0.4098,Boyd's shot hit Anteater.,Stench shared views on aiding the downtrodden with Boyd.
+b88,embedding,4,E045,0.4035,Boyd's shot hit Anteater.,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+b88,embedding,5,E053,0.3767,Boyd's shot hit Anteater.,Stench fired her bolt-action rifle at the turkey.
+b88,embedding,6,E147,0.3332,Boyd's shot hit Anteater.,Odette collapsed due to a bruise.
+b88,embedding,7,E051,0.3308,Boyd's shot hit Anteater.,Stench shot at the turkey.
+b88,embedding,8,E135,0.3244,Boyd's shot hit Anteater.,Stench missed Odette with a hit from her left fist.
+b88,embedding,9,E123,0.3089,Boyd's shot hit Anteater.,Odette was afflicted with (a) bruise (human fist) (torso)
+b88,embedding,10,E154,0.2997,Boyd's shot hit Anteater.,"A(n) turkey downed, unconscious."
+J19592,ncd,1,E072,0.2973,A(n) gazelle consuming grass.,A(n) hare consuming grass.
+J19592,ncd,2,E069,0.6216,A(n) gazelle consuming grass.,A(n) grizzly bear wandering.
+J19592,ncd,3,E065,0.6486,A(n) gazelle consuming grass.,Stench building grave (building).
+J19592,ncd,4,E154,0.675,A(n) gazelle consuming grass.,"A(n) turkey downed, unconscious."
+J19592,ncd,5,E003,0.6757,A(n) gazelle consuming grass.,A(n) rat wandering.
+J19592,ncd,6,E023,0.6757,A(n) gazelle consuming grass.,A(n) tortoise standing.
+J19592,ncd,7,E029,0.6757,A(n) gazelle consuming grass.,A(n) doe standing.
+J19592,ncd,8,E030,0.6757,A(n) gazelle consuming grass.,A(n) rhinoceros wandering.
+J19592,ncd,9,E034,0.6757,A(n) gazelle consuming grass.,A(n) timber wolf wandering.
+J19592,ncd,10,E064,0.6757,A(n) gazelle consuming grass.,A(n) turkey fleeing.
+J19592,embedding,1,E072,0.6273,A(n) gazelle consuming grass.,A(n) hare consuming grass.
+J19592,embedding,2,E003,0.3645,A(n) gazelle consuming grass.,A(n) rat wandering.
+J19592,embedding,3,E034,0.3595,A(n) gazelle consuming grass.,A(n) timber wolf wandering.
+J19592,embedding,4,E069,0.3554,A(n) gazelle consuming grass.,A(n) grizzly bear wandering.
+J19592,embedding,5,E023,0.3426,A(n) gazelle consuming grass.,A(n) tortoise standing.
+J19592,embedding,6,E030,0.3327,A(n) gazelle consuming grass.,A(n) rhinoceros wandering.
+J19592,embedding,7,E029,0.3061,A(n) gazelle consuming grass.,A(n) doe standing.
+J19592,embedding,8,E154,0.2975,A(n) gazelle consuming grass.,"A(n) turkey downed, unconscious."
+J19592,embedding,9,E064,0.2565,A(n) gazelle consuming grass.,A(n) turkey fleeing.
+J19592,embedding,10,E000,0.2197,A(n) gazelle consuming grass.,Boyd watching for targets.
+L5,ncd,1,E052,0.6667,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse."
+L5,ncd,2,E053,0.6829,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Stench fired her bolt-action rifle at the turkey.
+L5,ncd,3,E082,0.6829,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Stench shared views on aiding the downtrodden with Boyd.
+L5,ncd,4,E118,0.6829,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,"Odette is no longer on an insulting spree against Stench, Hunter."
+L5,ncd,5,E139,0.6829,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,"Odette tried to use her right fist to hit Stench, but stumbled at the last second."
+L5,ncd,6,E045,0.6893,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+L5,ncd,7,E119,0.6951,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Odette called Stench a salamander. This drove Stench into a rage and she began a fight!
+L5,ncd,8,E123,0.6951,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Odette was afflicted with (a) bruise (human fist) (torso)
+L5,ncd,9,E135,0.6951,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Stench missed Odette with a hit from her left fist.
+L5,ncd,10,E041,0.7195,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Stench chatted about fighting tapirs with Odette.
+L5,embedding,1,E150,0.2434,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,The turkey dropped.
+L5,embedding,2,E097,0.2041,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Stench hauling wood x7 to wooden stool (building).
+L5,embedding,3,E090,0.2027,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Stench hauling silver x500 to Stockpile zone 1.
+L5,embedding,4,E096,0.1884,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Stench harvesting area.
+L5,embedding,5,E052,0.1876,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse."
+L5,embedding,6,E080,0.1755,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Stench cloudwatching.
+L5,embedding,7,E095,0.1548,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,"A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes."
+L5,embedding,8,E053,0.1471,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Stench fired her bolt-action rifle at the turkey.
+L5,embedding,9,E147,0.1414,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Odette collapsed due to a bruise.
+L5,embedding,10,E064,0.1375,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,A(n) turkey fleeing.

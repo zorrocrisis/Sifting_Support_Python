@@ -1,0 +1,81 @@
+dialogue_id,method,rank,event,score,dialogue,event_description
+S104,ncd,1,E070,0.0857,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",A(n) grizzly bear standing.
+S104,ncd,2,E088,0.1321,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench hauling steel x18 to Stockpile zone 1.
+S104,ncd,3,E069,0.25,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",A(n) grizzly bear wandering.
+S104,ncd,4,E090,0.2545,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench hauling silver x500 to Stockpile zone 1.
+S104,ncd,5,E086,0.2909,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench hauling wooden club to Stockpile zone 1.
+S104,ncd,6,E091,0.3036,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench hauling component x30 to Stockpile zone 1.
+S104,ncd,7,E153,0.4146,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",A(n) grizzly bear consuming area.
+S104,ncd,8,E159,0.4265,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench hauling packaged survival meal x10 to Stockpile zone 1.
+S104,ncd,9,E008,0.4286,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",A(n) gazelle standing.
+S104,ncd,10,E089,0.4444,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",Stench hauling synthread pants (normal 97%) to Stockpile zone 1.
+S107,ncd,1,E057,0.5946,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench fired at the turkey.
+S107,ncd,2,E045,0.6505,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+S107,ncd,3,E052,0.6869,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'","The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse."
+S107,ncd,4,E053,0.7018,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench fired her bolt-action rifle at the turkey.
+S107,ncd,5,E039,0.7027,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Boyd standing.
+S107,ncd,6,E046,0.7027,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Boyd wandering.
+S107,ncd,7,E058,0.7071,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench's bolt-action rifle bullet missed by a small margin.
+S107,ncd,8,E082,0.7071,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",Stench shared views on aiding the downtrodden with Boyd.
+S107,ncd,9,E138,0.7071,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'","Stench flailed at Odette with her left fist, but stumbled at the last second."
+S107,ncd,10,E102,0.7172,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'",A(n) rat was afflicted with (a) Bitten out (left eye)
+S110,ncd,1,E000,0.2222,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Boyd watching for targets.
+S110,ncd,2,E002,0.2222,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench watching for targets.
+S110,ncd,3,E001,0.5833,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Odette tending to Odette.
+S110,ncd,4,E080,0.5833,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench cloudwatching.
+S110,ncd,5,E115,0.5833,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Odette insulting Stench.
+S110,ncd,6,E121,0.5833,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Odette fighting with Stench.
+S110,ncd,7,E124,0.5833,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench fighting with Odette.
+S110,ncd,8,E162,0.6053,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench feeding area to Odette.
+S110,ncd,9,E040,0.6111,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Odette standing.
+S110,ncd,10,E160,0.6111,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'",Stench tending to Odette.
+S111,ncd,1,E071,0.0811,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) gazelle consuming grass.
+S111,ncd,2,E072,0.2973,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) hare consuming grass.
+S111,ncd,3,E027,0.3243,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) rat consuming grass.
+S111,ncd,4,E074,0.3243,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) turkey consuming grass.
+S111,ncd,5,E076,0.3243,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) raccoon consuming grass.
+S111,ncd,6,E079,0.3243,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) boomrat consuming grass.
+S111,ncd,7,E068,0.3421,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) squirrel consuming grass.
+S111,ncd,8,E110,0.3846,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) hare consuming tall grass.
+S111,ncd,9,E077,0.4524,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) raccoon consuming tall grass.
+S111,ncd,10,E038,0.4595,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",A(n) hare consuming bush.
+S105,ncd,1,E048,0.5417,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Papyrus resting.
+S105,ncd,2,E121,0.5526,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Odette fighting with Stench.
+S105,ncd,3,E124,0.5526,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench fighting with Odette.
+S105,ncd,4,E013,0.56,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Papyrus standing.
+S105,ncd,5,E141,0.5778,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Odette hit Stench with her left fist.
+S105,ncd,6,E049,0.6053,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Papyrus following Stench.
+S105,ncd,7,E051,0.6053,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench shot at the turkey.
+S105,ncd,8,E054,0.6102,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Stench hit the turkey with a bolt-action rifle bullet.
+S105,ncd,9,E010,0.6154,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Papyrus wandering.
+S105,ncd,10,E132,0.625,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'",Odette ineptly bashed Stench with her left fist.
+S108,ncd,1,E057,0.5946,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench fired at the turkey.
+S108,ncd,2,E051,0.6471,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench shot at the turkey.
+S108,ncd,3,E013,0.697,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Papyrus standing.
+S108,ncd,4,E031,0.697,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",A(n) rhinoceros standing.
+S108,ncd,5,E039,0.697,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Boyd standing.
+S108,ncd,6,E046,0.697,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Boyd wandering.
+S108,ncd,7,E102,0.7,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",A(n) rat was afflicted with (a) Bitten out (left eye)
+S108,ncd,8,E053,0.7018,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",Stench fired her bolt-action rifle at the turkey.
+S108,ncd,9,E106,0.7018,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",A(n) rat was afflicted with (a) Bitten off (nose)
+S108,ncd,10,E103,0.7049,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'",A(n) rat was afflicted with (a) Bitten out (right eye)
+S112,ncd,1,E070,0.0857,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) grizzly bear standing.
+S112,ncd,2,E069,0.25,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) grizzly bear wandering.
+S112,ncd,3,E153,0.4146,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) grizzly bear consuming area.
+S112,ncd,4,E008,0.4286,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) gazelle standing.
+S112,ncd,5,E004,0.4571,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) rat standing.
+S112,ncd,6,E006,0.4571,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) buck standing.
+S112,ncd,7,E012,0.4571,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) ibex ram standing.
+S112,ncd,8,E014,0.4571,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) squirrel standing.
+S112,ncd,9,E016,0.4571,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) ibex doe standing.
+S112,ncd,10,E018,0.4571,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",A(n) raccoon standing.
+S106,ncd,1,E049,0.0909,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Papyrus following Stench.
+S106,ncd,2,E088,0.1321,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling steel x18 to Stockpile zone 1.
+S106,ncd,3,E090,0.2545,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling silver x500 to Stockpile zone 1.
+S106,ncd,4,E086,0.2909,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling wooden club to Stockpile zone 1.
+S106,ncd,5,E091,0.3036,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling component x30 to Stockpile zone 1.
+S106,ncd,6,E081,0.4242,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench milking Papyrus.
+S106,ncd,7,E159,0.4265,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling packaged survival meal x10 to Stockpile zone 1.
+S106,ncd,8,E089,0.4444,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Stench hauling synthread pants (normal 97%) to Stockpile zone 1.
+S106,ncd,9,E115,0.4848,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Odette insulting Stench.
+S106,ncd,10,E010,0.5455,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'",Papyrus wandering.

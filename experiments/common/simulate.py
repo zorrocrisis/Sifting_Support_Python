@@ -4,7 +4,7 @@ with the CC variant, masking and share as parameters.
 """
 
 from experiments.common import cc, ncd
-from experiments.common.data import dedup_key, description_of, is_dialogue
+from experiments.common.data import dedup_key, description_of
 from experiments.common.pool import (cc_pair_request, compose_pool, merge_pool,
                                      pipeline_targets, run_ac)
 
@@ -15,7 +15,8 @@ def build_pool(ctx, share, total=12, variant="nearest", seed=42, masked=False,
     n_pairs = cc_pair_request(quota)
     M = ctx.M_masked if masked else ctx.M
 
-    pairs = cc.select_pairs(variant, M, n_pairs, S_ee=ctx.S_ee, cap=cap, lam=lam) if n_pairs else []
+    S_ix = ctx.S_ee_index if variant in cc.INDEX_VARIANTS else None
+    pairs = cc.select_pairs(variant, M, n_pairs, S_ee=ctx.S_ee, cap=cap, lam=lam, S_ee_index=S_ix) if n_pairs else []
     pair_lines = ctx.pair_lines(pairs)
 
     ac = run_ac(ctx.events, total, seed, ac_params)
@@ -30,11 +31,15 @@ def build_pool(ctx, share, total=12, variant="nearest", seed=42, masked=False,
     for p, (ev_line, _) in zip(pairs, pair_lines):
         first_pair.setdefault(dedup_key(ev_line), p)
 
+    # A CC line is a reference line if it came in as the reference half of a pair (past dialogue,
+    # or an earlier-session event when the reference set is events), otherwise a session-2 event.
+    reference_lines = {ref for _, ref in pair_lines}
+
     entries = []
     for line in ref_logs:
         desc = description_of(line)
-        if is_dialogue(line):
-            entries.append({"channel": "CC", "kind": "dialogue", "full": line, "d": dl_index.get(desc)})
+        if line in reference_lines:
+            entries.append({"channel": "CC", "kind": "reference", "full": line, "d": dl_index.get(desc)})
         else:
             p = first_pair.get(dedup_key(line))
             entries.append({"channel": "CC", "kind": "event", "full": line, "e": ev_index.get(desc),
@@ -71,7 +76,7 @@ def pool_metrics(ctx, built, topic_of=None):
     cc_events = [e["e"] for e in entries if e["channel"] == "CC" and e["kind"] == "event" and e["e"] is not None]
     cc_red = ncd.mean_pairwise_sim(cc_events, ctx.S_ee)
 
-    contributing = {e["d"] for e in entries if e["kind"] == "dialogue"}
+    contributing = {e["d"] for e in entries if e["kind"] == "reference"}
     out = {
         "pool_size": len(entries),
         "n_cc": sum(e["channel"] == "CC" for e in entries),

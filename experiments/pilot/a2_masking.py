@@ -9,6 +9,8 @@ it with the unmasked ranking. Two masking modes:
                   token (C1, C2, ...). Removes spelling differences (full name vs
                   nickname) but NCD can still match on *which* colonist is involved.
   single       -- every colonist -> "C". NCD can no longer match on identity at all.
+  removed      -- names deleted outright. NCD can no longer see how many colonists a line names
+                  (the "C ... C" shape that `single` keeps).
 
 Per mode:
   - % of the top-k pairs that changed, k = CC slots at (share, total) = round(total*share)
@@ -29,12 +31,11 @@ import argparse
 
 from experiments.common import cc, paths
 from experiments.common.context import PilotContext
-from experiments.common.gold import read_gold, retrieval_metrics
+from experiments.common.gold import map_to_candidates, read_gold, retrieval_metrics
 from experiments.common.pool import pipeline_targets
 from experiments.common.report import md_table, short, write_csv, write_json
-from experiments.pilot.make_gold_helper import GOLD_PATH
 
-MODES = {"per_colonist": None, "single": "C"}
+MODES = {"per_colonist": None, "single": "C", "removed": ""}
 
 
 def actor_match_rate(ctx, pairs):
@@ -57,7 +58,7 @@ def run(total=12, share=0.5, mask_pawn_ids=False, per_dialogue_k=5):
     _, k = pipeline_targets(total, share)
     base = PilotContext()
     before = cc.select_nearest(base.M, k)
-    gold, _ = read_gold(GOLD_PATH, base)
+    gold = map_to_candidates(read_gold(paths.GOLD_PATH, base)[0], base)
 
     def orders(M):
         return {d: cc.rank_events(M[d]) for d in range(M.shape[0])}
@@ -113,7 +114,8 @@ def write_report(base, result, before, after_by_mode, per_dialogue_k, gold):
          "Names masked on both sides" + (", pawn IDs too" if result["mask_pawn_ids"] else "") + ".", "",
          "- `per_colonist`: each colonist gets their own token (C1, C2, …), as specified in the handoff. "
          "NCD can still match on which colonist is involved.",
-         "- `single`: every colonist becomes `C`. NCD can't match on identity at all.", ""]
+         "- `single`: every colonist becomes `C`. NCD can't match on identity at all.",
+         "- `removed`: names are deleted. NCD can't see how many colonists a line names either.", ""]
     hdr = ["metric", "unmasked"] + list(result["modes"])
     m = result["modes"]
     L += [md_table(hdr, [

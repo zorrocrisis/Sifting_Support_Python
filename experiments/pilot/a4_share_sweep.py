@@ -113,7 +113,7 @@ def run(variant=None, seeds=SEEDS, shares=SHARES, total=12, pass_rho=-0.7):
               "summary": summary}
     if status == "pending":
         result["status_reason"] = (f"{untagged_total} pooled descriptions have no topic in topic_tags.csv "
-                                   "(listed in out/topic_tags_missing.csv)")
+                                   f"(listed in {missing_path.relative_to(paths.PILOT_DIR).as_posix()})")
     write_json(paths.OUT_DIR / "a4_result.json", result)
     plot(rows, variants, shares)
     write_report(result)

@@ -1,0 +1,14 @@
+dialogue_id,expected_event_id,note,dialogue_text
+J197,E070,Same description. But this is what continuity is all about right?,A(n) grizzly bear standing.
+J784,E090/E086/E088/E089/E090/E091,,Stench hauling steel x56 to Stockpile zone 1.
+J6248,E049/E050,,Papyrus following Stench.
+J23595,E002,WEAK CORRESPONDENCE,Stench moving.
+L0,E085/E086,REALLY WEAK,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.
+J11087,E082,,Boyd relaxing socially.
+J11165,E000/E002,,Odette watching for targets.
+b57,E085,Boyd fired timidly at Walrus.
+b74,E085,,Stench hit Walrus with a shot.
+b81,E085,,Walrus died.
+b88,E084,,Boyd's shot hit Anteater.
+J19592,E071,,A(n) gazelle consuming grass.
+L5,E095,,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.
