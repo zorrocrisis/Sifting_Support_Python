@@ -1,0 +1,13 @@
+variant,event,dialogue_id,ncd,event_description,dialogue
+nearest,E130,S111,0.3649,Odette stumbled while trying to strike Stench.,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+nearest,E124,S110,0.3929,Stench fighting with Odette.,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'"
+nearest,E049,S106,0.4078,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+cap,E130,S111,0.3649,Odette stumbled while trying to strike Stench.,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+cap,E124,S110,0.3929,Stench fighting with Odette.,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'"
+cap,E049,S106,0.4078,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+mmr,E130,S111,0.3649,Odette stumbled while trying to strike Stench.,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+mmr,E049,S106,0.4078,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+mmr,E052,S105,0.4316,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse.","Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'"
+cap+mmr,E130,S111,0.3649,Odette stumbled while trying to strike Stench.,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+cap+mmr,E049,S106,0.4078,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+cap+mmr,E052,S105,0.4316,"The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse.","Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'"

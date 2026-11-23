@@ -1,0 +1,9 @@
+dialogue_id,source_ids,suggested_source_ids,suggestion_reason,dialogue_text
+S104,J784;J197,J784;J197,steel beams x56 stashed -> hauling steel x56; grizzly,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+S107,L0;b57,L0;b57,raiders struck -> tribal raid; hands shook -> Boyd fired timidly,"Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'"
+S110,J11165;L0,J11165;L0,watched for raiders -> Odette watching for targets; raid,"Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'"
+S111,J19592;L5,J19592;L5,gazelles grazing -> gazelle consuming grass; spacecraft chunks,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+S105,b74;b81,b74;b81,my shot dropped that walrus -> Stench hit Walrus; Walrus died,"Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'"
+S108,b57;b88,b57;b88,I hit that walrus -> Boyd fired at Walrus; stung the anteater -> Boyd's shot hit Anteater,"Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'"
+S112,J197,J197,grizzly at camp's edge -> grizzly bear standing,"Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'"
+S106,J6248;J784,J6248;J784,Papyrus trailed me -> Papyrus following Stench; Stockpile One -> hauling to Stockpile zone 1,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"

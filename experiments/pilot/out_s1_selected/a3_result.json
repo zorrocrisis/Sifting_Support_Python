@@ -1,0 +1,114 @@
+{
+  "test": "A3",
+  "cap": 2,
+  "lambda": 0.7,
+  "seed": 42,
+  "total": 12,
+  "share": 0.5,
+  "variants": {
+    "nearest": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 3,
+      "dialogue_lines": 3,
+      "redundancy": 0.27938722342751204,
+      "cc_redundancy": 0.3019305019305019,
+      "ac_cc_overlap": 4,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "J19592",
+        "J197",
+        "J6248"
+      ],
+      "requested_pairs_distinct_dialogue": 5,
+      "relevant_contributing": 3
+    },
+    "cap": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 3,
+      "dialogue_lines": 3,
+      "redundancy": 0.27938722342751204,
+      "cc_redundancy": 0.3019305019305019,
+      "ac_cc_overlap": 4,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "J19592",
+        "J197",
+        "J6248"
+      ],
+      "requested_pairs_distinct_dialogue": 8,
+      "relevant_contributing": 3
+    },
+    "mmr": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 3,
+      "dialogue_lines": 3,
+      "redundancy": 0.27938722342751204,
+      "cc_redundancy": 0.3019305019305019,
+      "ac_cc_overlap": 4,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "J19592",
+        "J197",
+        "J6248"
+      ],
+      "requested_pairs_distinct_dialogue": 6,
+      "relevant_contributing": 3
+    },
+    "cap+mmr": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 3,
+      "dialogue_lines": 3,
+      "redundancy": 0.27938722342751204,
+      "cc_redundancy": 0.3019305019305019,
+      "ac_cc_overlap": 5,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "J19592",
+        "J197",
+        "J6248"
+      ],
+      "requested_pairs_distinct_dialogue": 8,
+      "relevant_contributing": 3
+    }
+  },
+  "passes": {
+    "nearest": true,
+    "cap": true,
+    "mmr": true,
+    "cap+mmr": true
+  },
+  "best_variant": "cap",
+  "relevant_dialogue_ids": [
+    "J11087",
+    "J11165",
+    "J19592",
+    "J197",
+    "J23595",
+    "J6248",
+    "J784",
+    "L0",
+    "L5",
+    "b57",
+    "b74",
+    "b81",
+    "b88"
+  ],
+  "status": "pass",
+  "pass_rule": ">= 3 relevant dialogue lines contribute (relevant = lines with gold matches)"
+}

@@ -1,0 +1,75 @@
+{
+  "test": "A2",
+  "k": 6,
+  "total": 12,
+  "share": 0.5,
+  "mask_pawn_ids": false,
+  "masking_variants": {
+    "Lidia 'Stench' Schmitt": "C1",
+    "Lidia Schmitt": "C1",
+    "Stench": "C1",
+    "Lidia": "C1",
+    "Schmitt": "C1",
+    "Dillon Boyd": "C2",
+    "Dillon": "C2",
+    "Boyd": "C2",
+    "Odette O'Neill": "C3",
+    "Odette": "C3",
+    "O'Neill": "C3"
+  },
+  "masking_ambiguous": [],
+  "actor_match_unmasked": 0.5,
+  "distinct_dialogue_lines_unmasked": 6,
+  "a1_metrics_unmasked": {
+    "mrr": 0.434904830820525,
+    "recall@5": 0.46153846153846156,
+    "recall@10": 0.5769230769230769,
+    "n_dialogue_with_gold": 13,
+    "n_gold_pairs": 15
+  },
+  "modes": {
+    "per_colonist": {
+      "pct_topk_pairs_changed": 0.0,
+      "actor_match_masked": 0.5,
+      "mean_top5_overlap_per_dialogue": 0.7076923076923076,
+      "distinct_dialogue_lines_masked": 6,
+      "a1_metrics_masked": {
+        "mrr": 0.4481794487075247,
+        "recall@5": 0.46153846153846156,
+        "recall@10": 0.46153846153846156,
+        "n_dialogue_with_gold": 13,
+        "n_gold_pairs": 15
+      },
+      "example_masked": "A(n) grizzly bear standing."
+    },
+    "single": {
+      "pct_topk_pairs_changed": 0.0,
+      "actor_match_masked": 0.5,
+      "mean_top5_overlap_per_dialogue": 0.6923076923076923,
+      "distinct_dialogue_lines_masked": 6,
+      "a1_metrics_masked": {
+        "mrr": 0.4336936078731744,
+        "recall@5": 0.46153846153846156,
+        "recall@10": 0.46153846153846156,
+        "n_dialogue_with_gold": 13,
+        "n_gold_pairs": 15
+      },
+      "example_masked": "A(n) grizzly bear standing."
+    },
+    "removed": {
+      "pct_topk_pairs_changed": 0.0,
+      "actor_match_masked": 0.5,
+      "mean_top5_overlap_per_dialogue": 0.6,
+      "distinct_dialogue_lines_masked": 6,
+      "a1_metrics_masked": {
+        "mrr": 0.41816790604416015,
+        "recall@5": 0.34615384615384615,
+        "recall@10": 0.46153846153846156,
+        "n_dialogue_with_gold": 13,
+        "n_gold_pairs": 15
+      },
+      "example_masked": "A(n) grizzly bear standing."
+    }
+  },
+  "status": "done (interpretation by author)"
+}

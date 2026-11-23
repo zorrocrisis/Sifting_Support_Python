@@ -1,0 +1,13 @@
+V._JOB_Timestamp_317824_Location_(173, 0, 154)_ID_J197_Actors_BearGrizzly38350_FullInfo_A(n) grizzly bear standing.
+V._JOB_Timestamp_319227_Location_(103, 0, 129)_ID_J784_Actors_Stench_FullInfo_Stench hauling steel x56 to Stockpile zone 1.
+V._JOB_Timestamp_328956_Location_(117, 0, 137)_ID_J6248_Actors_Papyrus_FullInfo_Papyrus following Stench.
+V._JOB_Timestamp_353689_Location_(110, 0, 138)_ID_J23595_Actors_Stench_FullInfo_Stench moving.
+NV._ARC_Timestamp_335568_Location_(166, 0, 245)_ID_L0_Actors_Walrus, Anteater_FullInfo_A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.
+V._JOB_Timestamp_335779_Location_(110, 0, 137)_ID_J11087_Actors_Boyd_FullInfo_Boyd relaxing socially.
+V._JOB_Timestamp_335810_Location_(102, 0, 140)_ID_J11165_Actors_Odette_FullInfo_Odette watching for targets.
+V._CL_Timestamp_337794_Location_(140, 0, 152)_ID_b57_Actors_Boyd, Walrus_FullInfo_Boyd fired timidly at Walrus.
+V._CL_Timestamp_338170_Location_(141, 0, 150)_ID_b74_Actors_Stench, Walrus, Walrus_FullInfo_Stench hit Walrus with a shot.
+V._CL_Timestamp_338305_Location_(139, 0, 154)_ID_b81_Actors_Boyd, Walrus_FullInfo_Walrus died.
+V._CL_Timestamp_338888_Location_(119, 0, 146)_ID_b88_Actors_Boyd, Anteater, Anteater_FullInfo_Boyd's shot hit Anteater.
+NV._JOB_Timestamp_349632_Location_(202, 0, 205)_ID_J19592_Actors_Gazelle38318_FullInfo_A(n) gazelle consuming grass.
+NV._ARC_Timestamp_351500_Location_(102, 0, 69)_ID_L5_Actors_NoSpecifiedActor_FullInfo_Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.

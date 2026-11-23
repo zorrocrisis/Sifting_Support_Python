@@ -1,0 +1,8 @@
+V._SL_Timestamp_36937_Location_(110, 0, 138)_ID_S104_Actors_Stench, Boyd_FullInfo_Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'
+V._SL_Timestamp_37837_Location_(111, 0, 139)_ID_S107_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'
+V._SL_Timestamp_38737_Location_(111, 0, 137)_ID_S110_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'
+V._SL_Timestamp_39637_Location_(111, 0, 137)_ID_S111_Actors_Odette, Stench_FullInfo_Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'
+V._SL_Timestamp_41437_Location_(122, 0, 139)_ID_S105_Actors_Stench, Boyd_FullInfo_Lidia 'Stench' Schmitt said 'Boyd, my shot dropped that walrus in a spray of blood.'
+V._SL_Timestamp_42337_Location_(120, 0, 139)_ID_S108_Actors_Boyd, Stench_FullInfo_Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'
+V._SL_Timestamp_44137_Location_(124, 0, 139)_ID_S112_Actors_Odette, Boyd_FullInfo_Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'
+V._SL_Timestamp_45037_Location_(122, 0, 139)_ID_S106_Actors_Stench, Boyd_FullInfo_Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'

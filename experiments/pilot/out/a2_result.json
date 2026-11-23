@@ -1,0 +1,75 @@
+{
+  "test": "A2",
+  "k": 6,
+  "total": 12,
+  "share": 0.5,
+  "mask_pawn_ids": false,
+  "masking_variants": {
+    "Lidia 'Stench' Schmitt": "C1",
+    "Lidia Schmitt": "C1",
+    "Stench": "C1",
+    "Lidia": "C1",
+    "Schmitt": "C1",
+    "Dillon Boyd": "C2",
+    "Dillon": "C2",
+    "Boyd": "C2",
+    "Odette O'Neill": "C3",
+    "Odette": "C3",
+    "O'Neill": "C3"
+  },
+  "masking_ambiguous": [],
+  "actor_match_unmasked": 1.0,
+  "distinct_dialogue_lines_unmasked": 2,
+  "a1_metrics_unmasked": {
+    "mrr": 0.2049309940376555,
+    "recall@5": 0.09821428571428571,
+    "recall@10": 0.1369047619047619,
+    "n_dialogue_with_gold": 8,
+    "n_gold_pairs": 30
+  },
+  "modes": {
+    "per_colonist": {
+      "pct_topk_pairs_changed": 0.6666666666666667,
+      "actor_match_masked": 1.0,
+      "mean_top5_overlap_per_dialogue": 0.5,
+      "distinct_dialogue_lines_masked": 3,
+      "a1_metrics_masked": {
+        "mrr": 0.20225055102536146,
+        "recall@5": 0.0744047619047619,
+        "recall@10": 0.12797619047619047,
+        "n_dialogue_with_gold": 8,
+        "n_gold_pairs": 30
+      },
+      "example_masked": "C1 said 'C2, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+    },
+    "single": {
+      "pct_topk_pairs_changed": 0.8333333333333334,
+      "actor_match_masked": 1.0,
+      "mean_top5_overlap_per_dialogue": 0.425,
+      "distinct_dialogue_lines_masked": 3,
+      "a1_metrics_masked": {
+        "mrr": 0.20307437216440044,
+        "recall@5": 0.0744047619047619,
+        "recall@10": 0.0744047619047619,
+        "n_dialogue_with_gold": 8,
+        "n_gold_pairs": 30
+      },
+      "example_masked": "C said 'C, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+    },
+    "removed": {
+      "pct_topk_pairs_changed": 0.8333333333333334,
+      "actor_match_masked": 1.0,
+      "mean_top5_overlap_per_dialogue": 0.45,
+      "distinct_dialogue_lines_masked": 4,
+      "a1_metrics_masked": {
+        "mrr": 0.21667240715149122,
+        "recall@5": 0.05654761904761904,
+        "recall@10": 0.11607142857142858,
+        "n_dialogue_with_gold": 8,
+        "n_gold_pairs": 30
+      },
+      "example_masked": "said 'I had those fifty-six steel beams stashed before the grizzly settled in.'"
+    }
+  },
+  "status": "done (interpretation by author)"
+}

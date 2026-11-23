@@ -26,13 +26,19 @@ PROVIDER_URL = ""
 MODEL_URL = ""
 REQUEST_TIMEOUT_SECONDS = 120
 
-# Retry policy for 429 (rate limited) responses specifically -- see
-# _post_with_retry() below. Other HTTP errors (401 bad key, 400 bad
-# request, 5xx) are NOT retried, since retrying those wouldn't help
-# and would just delay an unavoidable failure.
+# Retry policy -- see _post_with_retry() below. Retried: 429 (rate
+# limited) and the temporary server errors (500/502/503/504; Gemini
+# answers 503 when the model is overloaded). Other HTTP errors (401 bad
+# key, 400 bad request, 404 unknown model) are NOT retried, since
+# retrying those wouldn't help and would just delay an unavoidable
+# failure. All the waiting between attempts together never exceeds
+# MAX_TOTAL_BACKOFF_SECONDS (jitter and Retry-After included): with the
+# 1, 2, 4, 8s schedule that's about 4 retries.
+RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
 MAX_RETRIES = 5
 INITIAL_BACKOFF_SECONDS = 1.0
 MAX_BACKOFF_SECONDS = 30.0
+MAX_TOTAL_BACKOFF_SECONDS = 15.0
 
 
 # Example of a provider URL (see get_provider_url() below for how the actual URL is loaded from models/provider_URL.txt)
@@ -148,29 +154,31 @@ def _get_api_key():
 
 def _post_with_retry(url, headers, json_payload, timeout):
     """
-    POST with exponential backoff, specifically for 429 (rate limited)
-    responses -- other status codes (401 bad key, 400 bad request, 5xx
-    server errors) are returned immediately with no retry, since
-    retrying those wouldn't help and would just delay an unavoidable
-    failure reaching the caller.
+    POST with exponential backoff for 429 (rate limited) and temporary
+    server errors (RETRYABLE_STATUS_CODES: 500/502/503/504) -- other
+    status codes (401 bad key, 400 bad request, 404 unknown model) are
+    returned immediately with no retry, since retrying those wouldn't
+    help and would just delay an unavoidable failure reaching the caller.
  
     Honors OpenRouter's `Retry-After` response header when present
     (more accurate than a fixed schedule); falls back to computed
     exponential backoff with jitter otherwise. Retries a bounded number
-    of times (MAX_RETRIES) rather than indefinitely -- an unbounded
-    retry loop could hang `generate` mode for a very long time during a
-    sustained rate-limit window, which is worse than failing fast into
-    the existing backup-story fallback.
+    of times (MAX_RETRIES) and waits at most MAX_TOTAL_BACKOFF_SECONDS in
+    total rather than indefinitely -- an unbounded retry loop could hang
+    `generate` mode for a very long time during a sustained outage, which
+    is worse than failing fast into the existing backup-story fallback.
     """
     response = None
- 
+    waited_seconds = 0.0
+
     for attempt in range(MAX_RETRIES + 1):
         response = requests.post(url, headers=headers, json=json_payload, timeout=timeout)
- 
-        if response.status_code != 429:
+
+        if response.status_code not in RETRYABLE_STATUS_CODES:
             return response
- 
-        if attempt == MAX_RETRIES:
+
+        budget_left = MAX_TOTAL_BACKOFF_SECONDS - waited_seconds
+        if attempt == MAX_RETRIES or budget_left <= 0:
             return response  # out of retries -- let the caller's raise_for_status() handle it
  
         retry_after = response.headers.get("Retry-After")
@@ -184,9 +192,12 @@ def _post_with_retry(url, headers, json_payload, timeout):
         if wait_seconds is None:
             wait_seconds = min(INITIAL_BACKOFF_SECONDS * (2 ** attempt), MAX_BACKOFF_SECONDS)
             wait_seconds += random.uniform(0, wait_seconds * 0.25)  # jitter, avoids retry storms
- 
+
+        wait_seconds = min(wait_seconds, budget_left)  # never past the total backoff budget
+        waited_seconds += wait_seconds
+
         print(
-            f"[story_llm] 429 rate limited, retrying in {wait_seconds:.1f}s "
+            f"[story_llm] {response.status_code} {response.reason}, retrying in {wait_seconds:.1f}s "
             f"(attempt {attempt + 1}/{MAX_RETRIES})...",
             file=sys.stderr,
         )

@@ -1,0 +1,102 @@
+{
+  "compose_parity": true,
+  "channel_parity": true,
+  "runs": {
+    "0PercentAC": {
+      "compose": {
+        "quota": 12,
+        "n_pairs": 26,
+        "match": true,
+        "same_set": true,
+        "only_python": [],
+        "only_csharp": [],
+        "python_pool": [
+          "Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'[x1][V]",
+          "Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'[x1][V]",
+          "Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'[x1][V]",
+          "Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'[x1][V]",
+          "Stench shared views on aiding the downtrodden with Boyd.[x1][V]",
+          "Stench hauling synthread pants (normal 97%) to Stockpile zone 1.[x1][V]",
+          "Odette is no longer on an insulting spree against Stench, Hunter.[x1][V]",
+          "Odette missed Stench with a beat from her left fist.[x1][V]",
+          "Stench missed Odette with a smash from her left fist.[x1][V]",
+          "Odette attempted to hit Stench, but hesitated at the last second.[x1][V]",
+          "Stench flailed at Odette with her left fist, but stumbled at the last second.[x1][V]",
+          "Odette attempted to use her right fist to beat Stench, but missed.[x1][V]"
+        ]
+      },
+      "channels": {
+        "ac_match": true,
+        "ac_same_set": true,
+        "ac_only_python": [],
+        "ac_only_csharp": [],
+        "cc_match": true,
+        "cc_same_set": true,
+        "cc_first_mismatch": null
+      }
+    },
+    "50PercentAC": {
+      "compose": {
+        "quota": 6,
+        "n_pairs": 14,
+        "match": true,
+        "same_set": true,
+        "only_python": [],
+        "only_csharp": [],
+        "python_pool": [
+          "Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'[x1][V]",
+          "Stench watching for targets.[x1][V]",
+          "Stench, Hunter is fully healed.[x1][V]",
+          "Stench leading Papyrus to wooden pen marker.[x1][V]",
+          "Stench fired at the turkey.[x1][V]",
+          "Stench hauling silver x500 to Stockpile zone 1.[x1][V]",
+          "A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes.[x1][NV]",
+          "Odette is no longer on an insulting spree against Stench, Hunter.[x1][V]",
+          "Odette missed Stench with a beat from her left fist.[x1][V]",
+          "Odette attempted to hit Stench, but hesitated at the last second.[x1][V]",
+          "Stench flailed at Odette with her left fist, but stumbled at the last second.[x1][V]",
+          "Odette attempted to use her right fist to beat Stench, but missed.[x1][V]"
+        ]
+      },
+      "channels": {
+        "ac_match": true,
+        "ac_same_set": true,
+        "ac_only_python": [],
+        "ac_only_csharp": [],
+        "cc_match": true,
+        "cc_same_set": true,
+        "cc_first_mismatch": null
+      }
+    },
+    "100PercentAC": {
+      "compose": {
+        "quota": 0,
+        "n_pairs": 0,
+        "match": true,
+        "same_set": true,
+        "only_python": [],
+        "only_csharp": [],
+        "python_pool": [
+          "Stench watching for targets.[x1][V]",
+          "Stench, Hunter is fully healed.[x1][V]",
+          "Stench leading Papyrus to wooden pen marker.[x1][V]",
+          "Stench fired at the turkey.[x1][V]",
+          "A(n) hare consuming grass.[x2][NV]",
+          "Stench hauling silver x500 to Stockpile zone 1.[x1][V]",
+          "A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes.[x1][NV]",
+          "Odette has fixated her rage on Stench. She will follow Stench around, hurling insults. This happened because of poor mood. The final straw was: Ravenously hungry[x1][NV]",
+          "Odette collapsed due to a bruise.[x1][V]",
+          "Critical alert (UI notification): Colonist needs rescue[x1][V]",
+          "Battle: The turkey's report[x1][NV]",
+          "Odette downed.[x1][V]"
+        ]
+      },
+      "channels": {
+        "ac_match": true,
+        "ac_same_set": true,
+        "ac_only_python": [],
+        "ac_only_csharp": []
+      }
+    }
+  }
+}

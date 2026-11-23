@@ -1,0 +1,33 @@
+{
+  "test": "A1",
+  "gold_file": "experiments\\pilot\\gold_matches.csv",
+  "n_events": 162,
+  "n_dialogue": 8,
+  "gold_problems": [],
+  "ncd_order": "event_first",
+  "order_sensitivity": {
+    "k": 5,
+    "mean_topk_overlap_per_dialogue": 0.15,
+    "global_pairs": 14,
+    "global_pair_overlap": 0.0,
+    "max_abs_ncd_diff": 0.7333519086096405
+  },
+  "cc_method": "ncd",
+  "embedding_model": null,
+  "pass_rule": "NCD mean Recall@5 >= 0.5",
+  "cc_candidates": "filtered",
+  "n_candidates": 43,
+  "n_gold_pairs_original": 30,
+  "n_gold_events_that_are_candidates": 10,
+  "metrics": {
+    "ncd": {
+      "mrr": 0.7447916666666666,
+      "recall@5": 0.6458333333333333,
+      "recall@10": 0.78125,
+      "n_dialogue_with_gold": 8,
+      "n_gold_pairs": 18
+    }
+  },
+  "n_exact_repeat_gold_pairs": 0,
+  "status": "pass"
+}

@@ -1,0 +1,12 @@
+{
+  "story": "Life at the colony tested its inhabitants' resilience. While Lidia \"Stench\" Schmitt managed local wildlife—shepherding a wandering pet named Papyrus and occasionally missing her marks on tortoises—the psychological toll mounted. Discontent over abysmal living quarters plunged Dillon Boyd into a nervous, wandering psychotic state. \n\nAmidst the domestic strain, underlying tensions briefly surfaced when Odette O'Neill raised a hand toward Stench, only to hesitate at the final second. Meanwhile, the frontier continued its unpredictable churn: a transport pod carrying a wounded medieval farm oaf from a hostile faction crashed nearby, leaving the strained colonists to weigh their next move.",
+  "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 1017,
+    "total_tokens": 1148,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "repeat": 0,
+  "key": "9285d0862e4904c8ea39"
+}

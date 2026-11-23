@@ -7224,7 +7224,6 @@ A(n) boomrat wandering.
 A(n) boomrat standing.
 A(n) tortoise wandering.
 A(n) tortoise standing.
-Ackmann 
 A(n) raccoon wandering.
 Ackmann standing.
 A(n) raccoon standing.

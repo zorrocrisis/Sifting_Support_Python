@@ -1,0 +1,131 @@
+dialogue_id,method,rank,event,score,dialogue,event_description
+J197,index,1,E070,0.2091,A(n) grizzly bear standing.,A(n) grizzly bear standing.
+J197,index,2,E153,0.2364,A(n) grizzly bear standing.,A(n) grizzly bear consuming area.
+J197,index,3,E069,0.2584,A(n) grizzly bear standing.,A(n) grizzly bear wandering.
+J197,index,4,E023,0.5798,A(n) grizzly bear standing.,A(n) tortoise standing.
+J197,index,5,E021,0.6227,A(n) grizzly bear standing.,A(n) tortoise wandering.
+J197,index,6,E061,0.6312,A(n) grizzly bear standing.,A(n) tortoise resting.
+J197,index,7,E031,0.647,A(n) grizzly bear standing.,A(n) rhinoceros standing.
+J197,index,8,E037,0.6862,A(n) grizzly bear standing.,A(n) turkey standing.
+J197,index,9,E030,0.6899,A(n) grizzly bear standing.,A(n) rhinoceros wandering.
+J197,index,10,E075,0.7072,A(n) grizzly bear standing.,A(n) hare consuming area.
+J784,index,1,E088,0.0708,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling steel x18 to Stockpile zone 1.
+J784,index,2,E090,0.1169,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling silver x500 to Stockpile zone 1.
+J784,index,3,E091,0.1179,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling component x30 to Stockpile zone 1.
+J784,index,4,E086,0.1235,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling wooden club to Stockpile zone 1.
+J784,index,5,E159,0.1583,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling packaged survival meal x10 to Stockpile zone 1.
+J784,index,6,E089,0.1661,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling synthread pants (normal 97%) to Stockpile zone 1.
+J784,index,7,E093,0.2237,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling.
+J784,index,8,E097,0.2679,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling wood x7 to wooden stool (building).
+J784,index,9,E080,0.27,Stench hauling steel x56 to Stockpile zone 1.,Stench cloudwatching.
+J784,index,10,E096,0.274,Stench hauling steel x56 to Stockpile zone 1.,Stench harvesting area.
+J6248,index,1,E049,0.0809,Papyrus following Stench.,Papyrus following Stench.
+J6248,index,2,E081,0.1848,Papyrus following Stench.,Stench milking Papyrus.
+J6248,index,3,E050,0.2442,Papyrus following Stench.,Stench leading Papyrus to wooden pen marker.
+J6248,index,4,E010,0.3059,Papyrus following Stench.,Papyrus wandering.
+J6248,index,5,E013,0.3059,Papyrus following Stench.,Papyrus standing.
+J6248,index,6,E048,0.3059,Papyrus following Stench.,Papyrus resting.
+J6248,index,7,E115,0.4872,Papyrus following Stench.,Odette insulting Stench.
+J6248,index,8,E096,0.4954,Papyrus following Stench.,Stench harvesting area.
+J6248,index,9,E002,0.4991,Papyrus following Stench.,Stench watching for targets.
+J6248,index,10,E157,0.5045,Papyrus following Stench.,Stench resting.
+J23595,index,1,E093,0.1545,Stench moving.,Stench hauling.
+J23595,index,2,E080,0.1776,Stench moving.,Stench cloudwatching.
+J23595,index,3,E047,0.18,Stench moving.,Stench standing.
+J23595,index,4,E157,0.1808,Stench moving.,Stench resting.
+J23595,index,5,E002,0.1833,Stench moving.,Stench watching for targets.
+J23595,index,6,E096,0.1914,Stench moving.,Stench harvesting area.
+J23595,index,7,E097,0.2478,Stench moving.,Stench hauling wood x7 to wooden stool (building).
+J23595,index,8,E083,0.2695,Stench moving.,Stench building area.
+J23595,index,9,E090,0.2707,Stench moving.,Stench hauling silver x500 to Stockpile zone 1.
+J23595,index,10,E088,0.2765,Stench moving.,Stench hauling steel x18 to Stockpile zone 1.
+L0,index,1,E085,0.7478,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"Stench burying Walrus, Treehouse builder (dead) in grave."
+L0,index,2,E084,0.7542,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"Stench burying Anteater, Shaman (dead) in grave."
+L0,index,3,E045,0.7932,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+L0,index,4,E146,0.8162,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Stench and Odette are no longer social fighting.
+L0,index,5,E118,0.8163,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"Odette is no longer on an insulting spree against Stench, Hunter."
+L0,index,6,E149,0.8223,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Critical alert (UI notification): Colonist needs rescue
+L0,index,7,E117,0.8252,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Stench started a social fight with Odette.
+L0,index,8,E111,0.8258,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"Odette has fixated her rage on Stench. She will follow Stench around, hurling insults. This happened because of poor mood. The final straw was: Ravenously hungry"
+L0,index,9,E042,0.8314,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,Critical alert (UI notification): Major break risk
+L0,index,10,E095,0.836,A group of tribespeople from Confederacy of Loucó have arrived nearby. They are attacking immediately.,"A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes."
+J11087,index,1,E000,0.2024,Boyd relaxing socially.,Boyd watching for targets.
+J11087,index,2,E046,0.2509,Boyd relaxing socially.,Boyd wandering.
+J11087,index,3,E039,0.2706,Boyd relaxing socially.,Boyd standing.
+J11087,index,4,E045,0.4146,Boyd relaxing socially.,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+J11087,index,5,E042,0.4196,Boyd relaxing socially.,Critical alert (UI notification): Major break risk
+J11087,index,6,E082,0.5584,Boyd relaxing socially.,Stench shared views on aiding the downtrodden with Boyd.
+J11087,index,7,E001,0.6014,Boyd relaxing socially.,Odette tending to Odette.
+J11087,index,8,E002,0.6245,Boyd relaxing socially.,Stench watching for targets.
+J11087,index,9,E096,0.6246,Boyd relaxing socially.,Stench harvesting area.
+J11087,index,10,E080,0.6301,Boyd relaxing socially.,Stench cloudwatching.
+J11165,index,1,E001,0.2382,Odette watching for targets.,Odette tending to Odette.
+J11165,index,2,E152,0.2681,Odette watching for targets.,Odette downed.
+J11165,index,3,E040,0.2927,Odette watching for targets.,Odette standing.
+J11165,index,4,E123,0.3797,Odette watching for targets.,Odette was afflicted with (a) bruise (human fist) (torso)
+J11165,index,5,E145,0.3812,Odette watching for targets.,Odette was afflicted with (a) bruise (human fist) (left leg)
+J11165,index,6,E127,0.3827,Odette watching for targets.,Odette was afflicted with (a) bruise (human fist) (right leg)
+J11165,index,7,E151,0.3833,Odette watching for targets.,Odette was afflicted with (a) malnutrition (trivial)
+J11165,index,8,E148,0.386,Odette watching for targets.,Odette was afflicted with (a) crack (human fist) (left femur)
+J11165,index,9,E149,0.4039,Odette watching for targets.,Critical alert (UI notification): Colonist needs rescue
+J11165,index,10,E160,0.421,Odette watching for targets.,Stench tending to Odette.
+b57,index,1,E085,0.6014,Boyd fired timidly at Walrus.,"Stench burying Walrus, Treehouse builder (dead) in grave."
+b57,index,2,E082,0.6451,Boyd fired timidly at Walrus.,Stench shared views on aiding the downtrodden with Boyd.
+b57,index,3,E039,0.652,Boyd fired timidly at Walrus.,Boyd standing.
+b57,index,4,E046,0.66,Boyd fired timidly at Walrus.,Boyd wandering.
+b57,index,5,E042,0.6861,Boyd fired timidly at Walrus.,Critical alert (UI notification): Major break risk
+b57,index,6,E000,0.6891,Boyd fired timidly at Walrus.,Boyd watching for targets.
+b57,index,7,E045,0.6939,Boyd fired timidly at Walrus.,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+b57,index,8,E057,0.7066,Boyd fired timidly at Walrus.,Stench fired at the turkey.
+b57,index,9,E062,0.7092,Boyd fired timidly at Walrus.,Stench missed the tortoise.
+b57,index,10,E060,0.7099,Boyd fired timidly at Walrus.,Stench fired her bolt-action rifle at the tortoise.
+b74,index,1,E085,0.3737,Stench hit Walrus with a shot.,"Stench burying Walrus, Treehouse builder (dead) in grave."
+b74,index,2,E060,0.6134,Stench hit Walrus with a shot.,Stench fired her bolt-action rifle at the tortoise.
+b74,index,3,E062,0.6205,Stench hit Walrus with a shot.,Stench missed the tortoise.
+b74,index,4,E141,0.6313,Stench hit Walrus with a shot.,Odette hit Stench with her left fist.
+b74,index,5,E051,0.6353,Stench hit Walrus with a shot.,Stench shot at the turkey.
+b74,index,6,E054,0.6367,Stench hit Walrus with a shot.,Stench hit the turkey with a bolt-action rifle bullet.
+b74,index,7,E129,0.6454,Stench hit Walrus with a shot.,Stench missed Odette with a smash from her left fist.
+b74,index,8,E132,0.6455,Stench hit Walrus with a shot.,Odette ineptly bashed Stench with her left fist.
+b74,index,9,E122,0.647,Stench hit Walrus with a shot.,Stench smashed Odette with her left fist.
+b74,index,10,E126,0.647,Stench hit Walrus with a shot.,Stench slammed Odette with her left fist.
+b81,index,1,E085,0.6251,Walrus died.,"Stench burying Walrus, Treehouse builder (dead) in grave."
+b81,index,2,E039,0.6304,Walrus died.,Boyd standing.
+b81,index,3,E046,0.6459,Walrus died.,Boyd wandering.
+b81,index,4,E082,0.6767,Walrus died.,Stench shared views on aiding the downtrodden with Boyd.
+b81,index,5,E000,0.6995,Walrus died.,Boyd watching for targets.
+b81,index,6,E042,0.7082,Walrus died.,Critical alert (UI notification): Major break risk
+b81,index,7,E045,0.7124,Walrus died.,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+b81,index,8,E062,0.7302,Walrus died.,Stench missed the tortoise.
+b81,index,9,E060,0.7399,Walrus died.,Stench fired her bolt-action rifle at the tortoise.
+b81,index,10,E051,0.7605,Walrus died.,Stench shot at the turkey.
+b88,index,1,E039,0.5507,Boyd's shot hit Anteater.,Boyd standing.
+b88,index,2,E046,0.5846,Boyd's shot hit Anteater.,Boyd wandering.
+b88,index,3,E084,0.5855,Boyd's shot hit Anteater.,"Stench burying Anteater, Shaman (dead) in grave."
+b88,index,4,E000,0.6161,Boyd's shot hit Anteater.,Boyd watching for targets.
+b88,index,5,E042,0.6229,Boyd's shot hit Anteater.,Critical alert (UI notification): Major break risk
+b88,index,6,E045,0.6231,Boyd's shot hit Anteater.,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+b88,index,7,E082,0.6393,Boyd's shot hit Anteater.,Stench shared views on aiding the downtrodden with Boyd.
+b88,index,8,E140,0.6667,Boyd's shot hit Anteater.,Stench missed while trying to bash Odette with her left fist.
+b88,index,9,E132,0.6689,Boyd's shot hit Anteater.,Odette ineptly bashed Stench with her left fist.
+b88,index,10,E129,0.6689,Boyd's shot hit Anteater.,Stench missed Odette with a smash from her left fist.
+J19592,index,1,E071,0.0795,A(n) gazelle consuming grass.,A(n) gazelle consuming grass.
+J19592,index,2,E007,0.1864,A(n) gazelle consuming grass.,A(n) gazelle wandering.
+J19592,index,3,E008,0.1864,A(n) gazelle consuming grass.,A(n) gazelle standing.
+J19592,index,4,E158,0.5741,A(n) gazelle consuming grass.,A(n) doe consuming area.
+J19592,index,5,E094,0.6373,A(n) gazelle consuming grass.,A(n) buck consuming area.
+J19592,index,6,E005,0.6808,A(n) gazelle consuming grass.,A(n) buck wandering.
+J19592,index,7,E006,0.6808,A(n) gazelle consuming grass.,A(n) buck standing.
+J19592,index,8,E110,0.6825,A(n) gazelle consuming grass.,A(n) hare consuming tall grass.
+J19592,index,9,E072,0.6891,A(n) gazelle consuming grass.,A(n) hare consuming grass.
+J19592,index,10,E068,0.6939,A(n) gazelle consuming grass.,A(n) squirrel consuming grass.
+L5,index,1,E118,0.7937,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,"Odette is no longer on an insulting spree against Stench, Hunter."
+L5,index,2,E146,0.7945,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Stench and Odette are no longer social fighting.
+L5,index,3,E045,0.7957,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks
+L5,index,4,E149,0.8014,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Critical alert (UI notification): Colonist needs rescue
+L5,index,5,E117,0.8095,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Stench started a social fight with Odette.
+L5,index,6,E042,0.8121,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,Critical alert (UI notification): Major break risk
+L5,index,7,E111,0.8243,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,"Odette has fixated her rage on Stench. She will follow Stench around, hurling insults. This happened because of poor mood. The final straw was: Ravenously hungry"
+L5,index,8,E043,0.8269,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,"Stench, Hunter is fully healed."
+L5,index,9,E095,0.8341,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,"A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes."
+L5,index,10,E072,0.8556,Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources.,A(n) hare consuming grass.

@@ -1,0 +1,26 @@
+{
+  "pairs": [
+    {
+      "pair": 1,
+      "A": 0.5,
+      "B": 1.0
+    },
+    {
+      "pair": 2,
+      "A": 0.0,
+      "B": 0.5
+    },
+    {
+      "pair": 3,
+      "A": 1.0,
+      "B": 0.0
+    }
+  ],
+  "variant": "mmr",
+  "seed": 42,
+  "shuffle_seed": 7,
+  "questions": [
+    "Which connects more to what happened before?",
+    "Which is more surprising?"
+  ]
+}

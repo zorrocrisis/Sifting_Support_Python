@@ -1,0 +1,19 @@
+variant,event,dialogue_id,ncd,event_description,dialogue
+nearest,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.
+nearest,E090,J784,0.1169,Stench hauling silver x500 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+nearest,E080,J23595,0.1776,Stench cloudwatching.,Stench moving.
+cap,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.
+cap,E090,J784,0.1169,Stench hauling silver x500 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+cap,E080,J23595,0.1776,Stench cloudwatching.,Stench moving.
+mmr,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.
+mmr,E090,J784,0.1169,Stench hauling silver x500 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+mmr,E000,J11087,0.2024,Boyd watching for targets.,Boyd relaxing socially.
+cap+mmr,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.
+cap+mmr,E090,J784,0.1169,Stench hauling silver x500 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+cap+mmr,E000,J11087,0.2024,Boyd watching for targets.,Boyd relaxing socially.
+mmr_ix,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.
+mmr_ix,E090,J784,0.1169,Stench hauling silver x500 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+mmr_ix,E069,J197,0.2584,A(n) grizzly bear wandering.,A(n) grizzly bear standing.
+cap+mmr_ix,E049,J6248,0.0809,Papyrus following Stench.,Papyrus following Stench.
+cap+mmr_ix,E090,J784,0.1169,Stench hauling silver x500 to Stockpile zone 1.,Stench hauling steel x56 to Stockpile zone 1.
+cap+mmr_ix,E069,J197,0.2584,A(n) grizzly bear wandering.,A(n) grizzly bear standing.

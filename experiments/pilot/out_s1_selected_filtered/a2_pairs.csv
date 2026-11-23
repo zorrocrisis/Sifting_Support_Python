@@ -1,0 +1,25 @@
+ranking,rank,dialogue_id,event,ncd,in_unmasked_topk,dialogue,event_description,masked_dialogue,masked_event
+unmasked,1,J6248,E049,0.0909,,Papyrus following Stench.,Papyrus following Stench.,,
+unmasked,2,J11165,E000,0.2222,,Odette watching for targets.,Boyd watching for targets.,,
+unmasked,3,J197,E069,0.25,,A(n) grizzly bear standing.,A(n) grizzly bear wandering.,,
+unmasked,4,J784,E090,0.2545,,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling silver x500 to Stockpile zone 1.,,
+unmasked,5,J19592,E072,0.2973,,A(n) gazelle consuming grass.,A(n) hare consuming grass.,,
+unmasked,6,J23595,E157,0.3478,,Stench moving.,Stench resting.,,
+masked_per_colonist,1,J6248,E049,0.1034,True,Papyrus following Stench.,Papyrus following Stench.,Papyrus following C1.,Papyrus following C1.
+masked_per_colonist,2,J11165,E000,0.125,True,Odette watching for targets.,Boyd watching for targets.,C3 watching for targets.,C2 watching for targets.
+masked_per_colonist,3,J197,E069,0.25,True,A(n) grizzly bear standing.,A(n) grizzly bear wandering.,A(n) grizzly bear standing.,A(n) grizzly bear wandering.
+masked_per_colonist,4,J784,E090,0.2745,True,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling silver x500 to Stockpile zone 1.,C1 hauling steel x56 to Stockpile zone 1.,C1 hauling silver x500 to Stockpile zone 1.
+masked_per_colonist,5,J19592,E072,0.2973,True,A(n) gazelle consuming grass.,A(n) hare consuming grass.,A(n) gazelle consuming grass.,A(n) hare consuming grass.
+masked_per_colonist,6,J23595,E157,0.4211,True,Stench moving.,Stench resting.,C1 moving.,C1 resting.
+masked_single,1,J11165,E000,0.0968,True,Odette watching for targets.,Boyd watching for targets.,C watching for targets.,C watching for targets.
+masked_single,2,J6248,E049,0.1071,True,Papyrus following Stench.,Papyrus following Stench.,Papyrus following C.,Papyrus following C.
+masked_single,3,J197,E069,0.25,True,A(n) grizzly bear standing.,A(n) grizzly bear wandering.,A(n) grizzly bear standing.,A(n) grizzly bear wandering.
+masked_single,4,J784,E090,0.28,True,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling silver x500 to Stockpile zone 1.,C hauling steel x56 to Stockpile zone 1.,C hauling silver x500 to Stockpile zone 1.
+masked_single,5,J19592,E072,0.2973,True,A(n) gazelle consuming grass.,A(n) hare consuming grass.,A(n) gazelle consuming grass.,A(n) hare consuming grass.
+masked_single,6,J23595,E157,0.3889,True,Stench moving.,Stench resting.,C moving.,C resting.
+masked_removed,1,J11165,E000,0.1034,True,Odette watching for targets.,Boyd watching for targets.,watching for targets.,watching for targets.
+masked_removed,2,J6248,E049,0.1154,True,Papyrus following Stench.,Papyrus following Stench.,Papyrus following.,Papyrus following.
+masked_removed,3,J197,E069,0.25,True,A(n) grizzly bear standing.,A(n) grizzly bear wandering.,A(n) grizzly bear standing.,A(n) grizzly bear wandering.
+masked_removed,4,J784,E090,0.2917,True,Stench hauling steel x56 to Stockpile zone 1.,Stench hauling silver x500 to Stockpile zone 1.,hauling steel x56 to Stockpile zone 1.,hauling silver x500 to Stockpile zone 1.
+masked_removed,5,J19592,E072,0.2973,True,A(n) gazelle consuming grass.,A(n) hare consuming grass.,A(n) gazelle consuming grass.,A(n) hare consuming grass.
+masked_removed,6,J23595,E157,0.3125,True,Stench moving.,Stench resting.,moving.,resting.

@@ -1,0 +1,213 @@
+{
+  "test": "A3",
+  "cap": 2,
+  "lambda": 0.7,
+  "seed": 42,
+  "total": 12,
+  "share": 0.5,
+  "variants": {
+    "nearest": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 5,
+      "dialogue_lines": 1,
+      "redundancy": 0.29573241044743337,
+      "cc_redundancy": 0.4023995898159397,
+      "ac_cc_overlap": 2,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "S110"
+      ],
+      "requested_pairs_distinct_dialogue": 2,
+      "relevant_contributing": 1
+    },
+    "cap": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 4,
+      "dialogue_lines": 2,
+      "redundancy": 0.26842598913517424,
+      "cc_redundancy": 0.31469527378121526,
+      "ac_cc_overlap": 4,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "S107",
+        "S110"
+      ],
+      "requested_pairs_distinct_dialogue": 8,
+      "relevant_contributing": 2
+    },
+    "mmr": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 5,
+      "dialogue_lines": 1,
+      "redundancy": 0.2848417387296055,
+      "cc_redundancy": 0.35511143267911416,
+      "ac_cc_overlap": 3,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "S110"
+      ],
+      "requested_pairs_distinct_dialogue": 2,
+      "relevant_contributing": 1
+    },
+    "cap+mmr": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 4,
+      "dialogue_lines": 2,
+      "redundancy": 0.2627758335745073,
+      "cc_redundancy": 0.30530957902874406,
+      "ac_cc_overlap": 6,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "S107",
+        "S110"
+      ],
+      "requested_pairs_distinct_dialogue": 8,
+      "relevant_contributing": 2
+    },
+    "mmr_ix": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 4,
+      "dialogue_lines": 2,
+      "redundancy": 0.29387906820013127,
+      "cc_redundancy": 0.3868234466782494,
+      "ac_cc_overlap": 2,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "S107",
+        "S110"
+      ],
+      "requested_pairs_distinct_dialogue": 3,
+      "relevant_contributing": 2
+    },
+    "cap+mmr_ix": {
+      "pool_size": 12,
+      "n_cc": 6,
+      "n_ac": 6,
+      "n_cc_events": 4,
+      "dialogue_lines": 2,
+      "redundancy": 0.26806004245757326,
+      "cc_redundancy": 0.3146952737812152,
+      "ac_cc_overlap": 6,
+      "distinct_topics": null,
+      "distinct_topics_primary": null,
+      "untagged": null,
+      "contributing_dialogue_ids": [
+        "S107",
+        "S110"
+      ],
+      "requested_pairs_distinct_dialogue": 7,
+      "relevant_contributing": 2
+    }
+  },
+  "passes": {
+    "nearest": false,
+    "cap": false,
+    "mmr": false,
+    "cap+mmr": false,
+    "mmr_ix": false,
+    "cap+mmr_ix": false
+  },
+  "best_variant": "cap+mmr",
+  "relevant_dialogue_ids": [
+    "S104",
+    "S105",
+    "S106",
+    "S107",
+    "S108",
+    "S110",
+    "S111",
+    "S112"
+  ],
+  "lambda_sweep": {
+    "mmr": {
+      "0.7": {
+        "dialogue_lines": 1,
+        "cc_redundancy": 0.35511143267911416,
+        "relevant_contributing": 1
+      },
+      "0.5": {
+        "dialogue_lines": 1,
+        "cc_redundancy": 0.333809060564931,
+        "relevant_contributing": 1
+      },
+      "0.3": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.28440007439290077,
+        "relevant_contributing": 2
+      }
+    },
+    "cap+mmr": {
+      "0.7": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.30530957902874406,
+        "relevant_contributing": 2
+      },
+      "0.5": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.24377868731095456,
+        "relevant_contributing": 2
+      },
+      "0.3": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.24377868731095456,
+        "relevant_contributing": 2
+      }
+    },
+    "mmr_ix": {
+      "0.7": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.3868234466782494,
+        "relevant_contributing": 2
+      },
+      "0.5": {
+        "dialogue_lines": 3,
+        "cc_redundancy": 0.3540480708412397,
+        "relevant_contributing": 3
+      },
+      "0.3": {
+        "dialogue_lines": 3,
+        "cc_redundancy": 0.23474945533769065,
+        "relevant_contributing": 3
+      }
+    },
+    "cap+mmr_ix": {
+      "0.7": {
+        "dialogue_lines": 2,
+        "cc_redundancy": 0.3146952737812152,
+        "relevant_contributing": 2
+      },
+      "0.5": {
+        "dialogue_lines": 3,
+        "cc_redundancy": 0.3540480708412397,
+        "relevant_contributing": 3
+      },
+      "0.3": {
+        "dialogue_lines": 3,
+        "cc_redundancy": 0.23474945533769065,
+        "relevant_contributing": 3
+      }
+    }
+  },
+  "status": "fail",
+  "pass_rule": ">= 3 relevant dialogue lines contribute (relevant = lines with gold matches)"
+}

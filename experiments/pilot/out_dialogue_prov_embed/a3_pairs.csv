@@ -1,0 +1,13 @@
+variant,event,dialogue_id,ncd,event_description,dialogue
+nearest,E070,S104,-0.0,A(n) grizzly bear standing.,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+nearest,E049,S106,0.0,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+nearest,E088,S104,0.0487,Stench hauling steel x18 to Stockpile zone 1.,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+cap,E070,S104,-0.0,A(n) grizzly bear standing.,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+cap,E049,S106,0.0,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+cap,E071,S111,0.0,A(n) gazelle consuming grass.,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+mmr,E070,S104,-0.0,A(n) grizzly bear standing.,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+mmr,E049,S106,0.0,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+mmr,E071,S111,0.0,A(n) gazelle consuming grass.,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+cap+mmr,E070,S104,-0.0,A(n) grizzly bear standing.,"Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+cap+mmr,E049,S106,0.0,Papyrus following Stench.,"Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'"
+cap+mmr,E071,S111,0.0,A(n) gazelle consuming grass.,"Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"

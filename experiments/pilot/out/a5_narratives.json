@@ -1,0 +1,77 @@
+{
+  "0.0": {
+    "pool": [
+      "A(n) timber wolf wandering.[x145][NV]",
+      "Critical alert (UI notification): Major break risk[x3][V]",
+      "Stench, Hunter is fully healed.[x1][V]",
+      "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]",
+      "Stench leading Papyrus to wooden pen marker.[x1][V]",
+      "Stench missed the tortoise.[x1][V]",
+      "A(n) hare consuming grass.[x2][NV]",
+      "Stench hauling silver x500 to Stockpile zone 1.[x1][V]",
+      "A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes.[x1][NV]",
+      "Ackmann[x1][NV]",
+      "Ackmann downed.[x3][NV]",
+      "A(n) turkey downed, unconscious.[x5][NV]"
+    ],
+    "story": "Life in the frontier colony wore heavily on its inhabitants. As the wilderness teemed with wildlife, the grinding psychological strain reached a critical tipping point. Pushed to the brink by wretched living conditions, the weary civil servant Dillon Boyd succumbed to a psychotic break, wandering aimlessly through the settlement in a daze. \n\nMeanwhile, recovery and routine offered brief reprieves from the despair. The pyromaniac hunter Lidia Schmitt fully healed from her injuries, returning to her duties of herding livestock and hauling valuable silver. Yet, her aim proved fallible out in the wild. High above the struggling outpost, an ominous development unfolded in secret as an enemy transport pod plummeted from the sky, leaving a battered medieval farm oaf broken in the dirt.",
+    "model": "gemini-3.5-flash-lite",
+    "usage": {
+      "completion_tokens": 152,
+      "prompt_tokens": 937,
+      "total_tokens": 1089,
+      "model": "gemini-3.5-flash-lite"
+    },
+    "cached": true
+  },
+  "0.5": {
+    "pool": [
+      "Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'[x1][V]",
+      "Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'[x1][V]",
+      "Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'[x1][V]",
+      "Stench, Hunter is fully healed.[x1][V]",
+      "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]",
+      "Stench leading Papyrus to wooden pen marker.[x1][V]",
+      "Stench missed the tortoise.[x1][V]",
+      "Stench shared views on aiding the downtrodden with Boyd.[x1][V]",
+      "Stench hauling synthread pants (normal 97%) to Stockpile zone 1.[x1][V]",
+      "Stench hauling silver x500 to Stockpile zone 1.[x1][V]",
+      "A medieval farm oaf named Ackmann is crashing in a transport pod nearby. If he survives the impact, he will be badly wounded. Ackmann is from your enemy Alyona's Rockets. You can capture him for recruitment or slavery purposes.[x1][NV]",
+      "Odette attempted to hit Stench, but hesitated at the last second.[x1][V]"
+    ],
+    "story": "Life at the colony tested its inhabitants' resilience. While Lidia \"Stench\" Schmitt managed local wildlife—shepherding a wandering pet named Papyrus and occasionally missing her marks on tortoises—the psychological toll mounted. Discontent over abysmal living quarters plunged Dillon Boyd into a nervous, wandering psychotic state. \n\nAmidst the domestic strain, underlying tensions briefly surfaced when Odette O'Neill raised a hand toward Stench, only to hesitate at the final second. Meanwhile, the frontier continued its unpredictable churn: a transport pod carrying a wounded medieval farm oaf from a hostile faction crashed nearby, leaving the strained colonists to weigh their next move.",
+    "model": "gemini-3.5-flash-lite",
+    "usage": {
+      "completion_tokens": 131,
+      "prompt_tokens": 1017,
+      "total_tokens": 1148,
+      "model": "gemini-3.5-flash-lite"
+    },
+    "cached": true
+  },
+  "1.0": {
+    "pool": [
+      "Dillon 'Boyd' Boyd said 'Stench, my hands shook when the raiders struck without warning.'[x1][V]",
+      "Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'[x1][V]",
+      "Dillon 'Boyd' Boyd said 'Stench, I hit that walrus, then I stung the anteater.'[x1][V]",
+      "Lidia 'Stench' Schmitt said 'Boyd, Papyrus trailed me all the way to Stockpile One.'[x1][V]",
+      "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]",
+      "The turkey ducked aside at the last second, Stench's bolt-action rifle bullet blowing offcourse.[x1][V]",
+      "Stench shared views on aiding the downtrodden with Boyd.[x1][V]",
+      "Stench hauling synthread pants (normal 97%) to Stockpile zone 1.[x1][V]",
+      "Odette called Stench a salamander. This drove Stench into a rage and she began a fight![x1][V]",
+      "Odette is no longer on an insulting spree against Stench, Hunter.[x1][V]",
+      "Odette missed Stench with a beat from her left fist.[x1][V]",
+      "Odette attempted to hit Stench, but hesitated at the last second.[x1][V]"
+    ],
+    "story": "Following a sudden raider attack that left the nervous Dillon Boyd shaken, the colony's fragile stability began to fracture. Weary from poor living conditions in the awful barracks, Dillon succumbed to a psychotic wandering state. Meanwhile, tensions boiled over when Odette insulted Lidia \"Stench\" Schmitt, abruptly sparking a violent brawl between the two friends. Despite Odette throwing punches at Stench—who was already distracted by missed hunts and local wildlife encounters—the fight quickly dissolved as hesitation set in. Amidst the chaos, routine chores continued with Stench hauling supplies, while shared conversations about aiding the downtrodden offered brief glimmers of enduring camaraderie.",
+    "model": "gemini-3.5-flash-lite",
+    "usage": {
+      "completion_tokens": 131,
+      "prompt_tokens": 1025,
+      "total_tokens": 1156,
+      "model": "gemini-3.5-flash-lite"
+    },
+    "cached": true
+  }
+}
