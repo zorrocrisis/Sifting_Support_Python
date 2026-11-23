@@ -123,6 +123,68 @@ def plot_a1(data, metric="recall@5", threshold=0.5):
     return out
 
 
+SIM_COLORS = {"ncd": "#1baf7a", "embed": "#6250d6"}   # validated pair (aqua needs value labels: < 3:1)
+
+
+def plot_prov_ncd_vs_embed(data, threshold=0.5):
+    """
+    Provenance only: A1 Recall@5 and Recall@10 with NCD vs embeddings, grouped by candidate set.
+    """
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    from matplotlib.lines import Line2D
+    from matplotlib.patches import Patch
+
+    fig = plt.figure(figsize=(10.5, 5.4), facecolor=SURFACE)
+    gs = fig.add_gridspec(2, 2, height_ratios=[4.2, 1.0])
+    axes = [fig.add_subplot(gs[0, 0]), fig.add_subplot(gs[0, 1])]
+    ax_leg = fig.add_subplot(gs[1, :])
+    ax_leg.axis("off")
+
+    sims = [("ncd", "NCD (no language model)"), ("embed", "embeddings (all-MiniLM-L6-v2)")]
+    width, gap = 0.34, 0.04
+    for ax, (metric, mname) in zip(axes, (("recall@5", "A1 Recall@5"), ("recall@10", "A1 Recall@10"))):
+        for i, (sim, _) in enumerate(sims):
+            xs = [j + (i - 0.5) * (width + gap) for j in range(len(CANDS))]
+            vals = [a1m(data[("provenance", cand, sim)], metric) for cand, _ in CANDS]
+            ax.bar(xs, vals, width=width, color=SIM_COLORS[sim], zorder=3, edgecolor=SURFACE, linewidth=2)
+            for x, v in zip(xs, vals):
+                ax.text(x, v + 0.015, f"{v:.2f}", ha="center", va="bottom", fontsize=9.5, color=TEXT, zorder=4,
+                        bbox=dict(facecolor=SURFACE, edgecolor="none", pad=1.0))
+        if metric == "recall@5":
+            ax.axhline(threshold, color=MUTED, ls="--", lw=1.5, zorder=2)
+            ax.text(1.01, threshold, f"pass\n≥ {threshold}", transform=ax.get_yaxis_transform(),
+                    ha="left", va="center", fontsize=8.5, color=MUTED)
+        ax.set_xticks(range(len(CANDS)))
+        ax.set_xticklabels([("all 162 events" if c == "" else "43 filtered events") for c, _ in CANDS], color=TEXT)
+        ax.set_ylim(0, 1.0)
+        ax.set_ylabel(mname, color=MUTED)
+        ax.set_title(mname, fontsize=11, color=TEXT, loc="left")
+        ax.set_facecolor(SURFACE)
+        ax.grid(True, axis="y", color=GRID, lw=1)
+        ax.set_axisbelow(True)
+        for side in ("top", "right"):
+            ax.spines[side].set_visible(False)
+        for side in ("left", "bottom"):
+            ax.spines[side].set_color(GRID)
+        ax.tick_params(colors=MUTED)
+
+    ax_leg.legend(handles=[Patch(color=SIM_COLORS[k], label=lab) for k, lab in sims]
+                  + [Line2D([], [], color=MUTED, ls="--", lw=1.5, label="A1 pass threshold (Recall@5)")],
+                  title="Bars = how the RC scores a dialogue line through its source logs", loc="upper left",
+                  bbox_to_anchor=(0.0, 1.0), fontsize=8.5, title_fontsize=9, frameon=False, alignment="left",
+                  ncol=3, columnspacing=2.0)
+    ax_leg.text(0.0, 0.0, "Dialogue with provenance as the RC reference: share of the author's gold events in the "
+                          "RC's top 5 / top 10 per dialogue line, averaged over the 8 lines.",
+                transform=ax_leg.transAxes, fontsize=9, color=MUTED, ha="left", va="bottom")
+    fig.subplots_adjust(left=0.07, right=0.93, top=0.94, bottom=0.03, wspace=0.3, hspace=0.3)
+    out = OUT / "provenance_ncd_vs_embeddings_recall.png"
+    fig.savefig(out, dpi=140, facecolor=SURFACE, bbox_inches="tight", pad_inches=0.25)
+    plt.close(fig)
+    return out
+
+
 def run():
     OUT.mkdir(parents=True, exist_ok=True)
     data = {(lg, c, s): load(folder(base, c, sfx))
@@ -158,6 +220,9 @@ def run():
           f"({f2(a1m(data[('provenance', '', 'embed')]))} and {f2(a1m(data[('provenance', '_filtered', 'embed')]))}), "
           "about as much as event indexing does with filtered candidates "
           f"({f2(a1m(data[('provenance', '_filtered', 'index')]))}).", ""]
+
+    L += ["With provenance only, NCD vs embeddings on Recall@5 and Recall@10:", "",
+          "![provenance: NCD vs embeddings](provenance_ncd_vs_embeddings_recall.png)", ""]
 
     # --- per line ---------------------------------------------------------------------
     cols = [("original", "", "embed"), ("provenance", "", "ncd"), ("provenance", "", "index"), ("provenance", "", "embed")]
@@ -234,6 +299,7 @@ def run():
 
     (OUT / "PROVENANCE_VS_EMBEDDINGS.md").write_text("\n".join(L) + "\n", encoding="utf-8")
     plot_a1(data)
+    plot_prov_ncd_vs_embed(data)
     return OUT / "PROVENANCE_VS_EMBEDDINGS.md"
 
 

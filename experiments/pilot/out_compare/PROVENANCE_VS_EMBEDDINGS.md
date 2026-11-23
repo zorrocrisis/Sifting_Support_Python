@@ -27,6 +27,10 @@ Crossing them: {original dialogue, provenance} × {NCD, event indexing, embeddin
 
 **Provenance with plain NCD finds far more than embeddings on the original line** (Recall@5 0.57 vs 0.17 with all events; 0.65 vs 0.29 filtered). Embeddings on top of provenance add a little more (0.70 and 0.75), about as much as event indexing does with filtered candidates (0.74).
 
+With provenance only, NCD vs embeddings on Recall@5 and Recall@10:
+
+![provenance: NCD vs embeddings](provenance_ncd_vs_embeddings_recall.png)
+
 Rank of the best-ranked gold event per dialogue line (all 162 events; lower is better):
 
 | line | dialogue | original · embeddings | provenance · NCD | provenance · event indexing | provenance · embeddings |
