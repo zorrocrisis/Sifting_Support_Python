@@ -1,0 +1,12 @@
+{
+  "text": "Life on the frontier weighed heavily on Dillon Boyd, whose frayed nerves finally snapped beneath the bleak discomfort of the barracks, sending him wandering in a psychotic haze. While Boyd lost himself to despair, the colony pressed on. Lidia \"Stench\" Schmitt, fully recovered from her wounds, tended to daily survival. She guided a pack animal to its pen, hauled salvaged steel and a substantial cache of silver to safety, and took a clumsy shot at a tortoise, missing entirely. Beyond the camp's perimeter, the local wildlife—including the persistent grizzly bear and grazing gazelles—remained an ever-present fixture of the untamed wilderness.",
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 1110,
+    "total_tokens": 1239,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "60291b30fdee0dc58586"
+}

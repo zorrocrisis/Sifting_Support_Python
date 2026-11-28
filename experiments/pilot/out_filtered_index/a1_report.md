@@ -12,6 +12,12 @@
 |---|---|---|---|---|---|
 | index | 0.219 | 0.312 | 0.272 | 8 | 18 |
 
+**Strict scoring** (only the exact gold log counts; 10 of 30 gold events are candidates at all). Strict verdict: fail.
+
+| method | Recall@5 | Recall@10 | MRR |
+|---|---|---|---|
+| index | 0.164 | 0.164 | 0.253 |
+
 ## Rank of each expected event
 
 | dialogue | event | index rank | embedding rank | event description |

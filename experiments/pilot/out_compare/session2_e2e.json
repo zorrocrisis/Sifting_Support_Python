@@ -1,0 +1,500 @@
+{
+  "original": {
+    "pool": [
+      "Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'[x1][V]",
+      "Boyd watching for targets.[x1][V]",
+      "Stench, Hunter is fully healed.[x1][V]",
+      "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]",
+      "Stench leading Papyrus to wooden pen marker.[x1][V]",
+      "Stench missed the tortoise.[x1][V]",
+      "Stench hauling silver x500 to Stockpile zone 1.[x1][V]",
+      "Odette is no longer on an insulting spree against Stench, Hunter.[x1][V]",
+      "Odette missed Stench with a beat from her left fist.[x1][V]",
+      "Stench missed Odette with a smash from her left fist.[x1][V]",
+      "Odette attempted to hit Stench, but hesitated at the last second.[x1][V]",
+      "Stench flailed at Odette with her left fist, but stumbled at the last second.[x1][V]"
+    ],
+    "rows": [
+      [
+        "RC · dialogue line",
+        "S110",
+        "Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'"
+      ],
+      [
+        "AC",
+        "",
+        "Boyd watching for targets."
+      ],
+      [
+        "AC",
+        "",
+        "Stench, Hunter is fully healed."
+      ],
+      [
+        "AC",
+        "",
+        "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks"
+      ],
+      [
+        "AC",
+        "",
+        "Stench leading Papyrus to wooden pen marker."
+      ],
+      [
+        "AC",
+        "",
+        "Stench missed the tortoise."
+      ],
+      [
+        "AC",
+        "",
+        "Stench hauling silver x500 to Stockpile zone 1."
+      ],
+      [
+        "RC · event",
+        "linked to S110",
+        "Odette is no longer on an insulting spree against Stench, Hunter."
+      ],
+      [
+        "RC · event",
+        "linked to S110",
+        "Odette missed Stench with a beat from her left fist."
+      ],
+      [
+        "RC · event",
+        "linked to S110",
+        "Stench missed Odette with a smash from her left fist."
+      ],
+      [
+        "RC · event",
+        "linked to S110",
+        "Odette attempted to hit Stench, but hesitated at the last second."
+      ],
+      [
+        "RC · event",
+        "linked to S110",
+        "Stench flailed at Odette with her left fist, but stumbled at the last second."
+      ]
+    ],
+    "narrative": "Tensions frayed within the colony as the bitter realities of frontier life set in. Driven to a psychotic break by the squalid, awful conditions of the barracks, the aging civil servant Dillon Boyd began wandering in a daze. Meanwhile, the psychological strain bled into interpersonal conflicts; Odette O’Neill’s frayed nerves culminated in a verbal tirade against the young hunter Lidia 'Stench' Schmitt. \n\nThe heated exchange quickly escalated to physical blows. Odette lashed out at Lidia, sparking a chaotic and clumsy brawl between the two friends. Despite throwing punches, both combatants repeatedly stumbled and hesitated, missing their marks in the disorganized scuffle. Amidst the internal turmoil, routine survival persisted: Lidia secured livestock, hauled silver supplies, and finally returned to hunting once her wounds fully healed.",
+    "dialogue": "```json\n[\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], I swear Odette just lost her mind completely back there.\",\n    \"reported\": \"Stench said I swear Odette just lost her mind completely back there.\",\n    \"reply\": \"The stress of this place is getting to all of us.\"\n  },\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], at least the silver is hauled and the beasts are fed now.\",\n    \"reported\": \"Stench said At least the silver is hauled and the beasts are fed now.\",\n    \"reply\": \"Good work keeping up with chores despite everything.\"\n  },\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], I'm just glad my ribs healed up so I can get back to hunting.\",\n    \"reported\": \"Stench said I'm just glad my ribs healed up so I can get back to hunting.\",\n    \"reply\": \"Watch yourself out there in the wilderness alone.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], everything is just falling apart around us in these awful barracks.\",\n    \"reported\": \"Dillon said Everything is just falling apart around us in these awful barracks.\",\n    \"reply\": \"Try to get some rest, we can fix things up tomorrow.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], my head is still spinning from wandering around in a daze.\",\n    \"reported\": \"Dillon said My head is still spinning from wandering around in a daze.\",\n    \"reply\": \"Drink some water and sit down for a minute.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], I can't even look at anyone without getting nervous lately.\",\n    \"reported\": \"Dillon said I can't even look at anyone without getting nervous lately.\",\n    \"reply\": \"Just take a deep breath and ignore the others for now.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], I don't know why I snapped at Lidia like that.\",\n    \"reported\": \"Odette said I don't know why I snapped at Lidia like that.\",\n    \"reply\": \"Tempers flare when living in cramped quarters for too long.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], we looked ridiculous stumbling around throwing punches at each other.\",\n    \"reported\": \"Odette said We looked ridiculous stumbling around throwing punches at each other.\",\n    \"reply\": \"At least neither of you did any real damage.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], these dark walls are really starting to suffocate me.\",\n    \"reported\": \"Odette said These dark walls are really starting to suffocate me.\",\n    \"reply\": \"We can spend some time outside once the weather clears.\"\n  }\n]\n```",
+    "model": "gemini-3.5-flash-lite",
+    "format": "flat",
+    "llm_input": "Odette 'Odette' O'Neill said 'Stench, I watched the far treeline for more raiders.'[x1][V]\n\nBoyd watching for targets.[x1][V]\n\nStench, Hunter is fully healed.[x1][V]\n\nBoyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]\n\nStench leading Papyrus to wooden pen marker.[x1][V]\n\nStench missed the tortoise.[x1][V]\n\nStench hauling silver x500 to Stockpile zone 1.[x1][V]\n\nOdette is no longer on an insulting spree against Stench, Hunter.[x1][V]\n\nOdette missed Stench with a beat from her left fist.[x1][V]\n\nStench missed Odette with a smash from her left fist.[x1][V]\n\nOdette attempted to hit Stench, but hesitated at the last second.[x1][V]\n\nStench flailed at Odette with her left fist, but stumbled at the last second.[x1][V]"
+  },
+  "provenance": {
+    "pool": [
+      "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'[x1][V]",
+      "Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'[x1][V]",
+      "Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'[x1][V]",
+      "Boyd watching for targets.[x1][V]",
+      "Stench, Hunter is fully healed.[x1][V]",
+      "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]",
+      "Stench leading Papyrus to wooden pen marker.[x1][V]",
+      "Stench missed the tortoise.[x1][V]",
+      "A(n) grizzly bear standing.[x153][V]",
+      "A(n) gazelle consuming grass.[x1][NV]",
+      "Stench hauling steel x18 to Stockpile zone 1.[x1][V]",
+      "Stench hauling silver x500 to Stockpile zone 1.[x1][V]"
+    ],
+    "rows": [
+      [
+        "RC · dialogue line",
+        "S104",
+        "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+      ],
+      [
+        "RC · dialogue line",
+        "S111",
+        "Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+      ],
+      [
+        "RC · dialogue line",
+        "S112",
+        "Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'"
+      ],
+      [
+        "AC",
+        "",
+        "Boyd watching for targets."
+      ],
+      [
+        "AC",
+        "",
+        "Stench, Hunter is fully healed."
+      ],
+      [
+        "AC",
+        "",
+        "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks"
+      ],
+      [
+        "AC",
+        "",
+        "Stench leading Papyrus to wooden pen marker."
+      ],
+      [
+        "AC",
+        "",
+        "Stench missed the tortoise."
+      ],
+      [
+        "RC · event",
+        "linked to S104",
+        "A(n) grizzly bear standing."
+      ],
+      [
+        "RC · event",
+        "linked to S111",
+        "A(n) gazelle consuming grass."
+      ],
+      [
+        "RC · event",
+        "linked to S104",
+        "Stench hauling steel x18 to Stockpile zone 1."
+      ],
+      [
+        "AC",
+        "",
+        "Stench hauling silver x500 to Stockpile zone 1."
+      ]
+    ],
+    "narrative": "Life on the frontier tested the colonists' endurance. Amid salvaged spacecraft wreckage and grazing gazelles, the settlement bustled with resource management. Lidia \"Stench\" Schmitt secured vital steel beams and silver reserves before a dangerous grizzly bear established its territory near the camp's edge. \n\nThe harsh environment and dismal living conditions in the awful barracks took a severe toll on Dillon Boyd, whose nerves finally snapped, driving him into a psychotic wandering state. Meanwhile, Lidia busied herself tending to the local fauna, corralling an animal named Papyrus and hunting unsuccessfully, all while continuing to haul supplies and maintain the colony's fragile routine under the watchful shadow of the local wildlife.",
+    "dialogue": "```json\n[\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], that bear's getting way too close to the silver stash.\",\n    \"reported\": \"Stench said that bear's getting way too close to the silver stash.\",\n    \"reply\": \"I'll grab my rifle and keep an eye on it.\"\n  },\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], I spent all morning trying to corral Papyrus out in that heat.\",\n    \"reported\": \"Stench said she spent all morning trying to corral Papyrus out in that heat.\",\n    \"reply\": \"At least the beast finally went where you wanted.\"\n  },\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], my hunt didn't yield a thing out there today.\",\n    \"reported\": \"Stench said her hunt didn't yield a thing out there today.\",\n    \"reply\": \"Don't worry about it, we still have some rations left.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], these awful barracks are driving me completely insane.\",\n    \"reported\": \"Dillon said these awful barracks are driving him completely insane.\",\n    \"reply\": \"We are all struggling with the living conditions right now.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], my nerves just finally snapped out in the yard.\",\n    \"reported\": \"Dillon said his nerves just finally snapped out in the yard.\",\n    \"reply\": \"Just try to take a deep breath and rest for a bit.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], I don't know how much longer I can handle this frontier life.\",\n    \"reported\": \"Dillon said he doesn't know how much longer he can handle this frontier life.\",\n    \"reply\": \"Hang in there, we'll get through this together.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], Dillon's been wandering around in a daze since his breakdown.\",\n    \"reported\": \"Odette said Dillon's been wandering around in a daze since his breakdown.\",\n    \"reply\": \"Someone really needs to go make sure he doesn't hurt himself.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], those steel beams from the wreckage took forever to haul back.\",\n    \"reported\": \"Odette said those steel beams from the wreckage took forever to haul back.\",\n    \"reply\": \"They'll be useful once we finally start expanding the rooms.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], that grizzly bear is still lingering right by the camp edge.\",\n    \"reported\": \"Odette said that grizzly bear is still lingering right by the camp edge.\",\n    \"reply\": \"Stay inside and keep the doors bolted tight until it leaves.\"\n  }\n]\n```",
+    "model": "gemini-3.5-flash-lite",
+    "format": "flat",
+    "llm_input": "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'[x1][V]\n\nOdette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'[x1][V]\n\nOdette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'[x1][V]\n\nBoyd watching for targets.[x1][V]\n\nStench, Hunter is fully healed.[x1][V]\n\nBoyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]\n\nStench leading Papyrus to wooden pen marker.[x1][V]\n\nStench missed the tortoise.[x1][V]\n\nA(n) grizzly bear standing.[x153][V]\n\nA(n) gazelle consuming grass.[x1][NV]\n\nStench hauling steel x18 to Stockpile zone 1.[x1][V]\n\nStench hauling silver x500 to Stockpile zone 1.[x1][V]"
+  },
+  "provenance + memory block": {
+    "pool": [
+      "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'[x1][V]",
+      "Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'[x1][V]",
+      "Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'[x1][V]",
+      "Boyd watching for targets.[x1][V]",
+      "Stench, Hunter is fully healed.[x1][V]",
+      "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]",
+      "Stench leading Papyrus to wooden pen marker.[x1][V]",
+      "Stench missed the tortoise.[x1][V]",
+      "A(n) grizzly bear standing.[x153][V]",
+      "A(n) gazelle consuming grass.[x1][NV]",
+      "Stench hauling steel x18 to Stockpile zone 1.[x1][V]",
+      "Stench hauling silver x500 to Stockpile zone 1.[x1][V]"
+    ],
+    "rows": [
+      [
+        "RC · dialogue line",
+        "S104",
+        "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+      ],
+      [
+        "RC · dialogue line",
+        "S111",
+        "Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+      ],
+      [
+        "RC · dialogue line",
+        "S112",
+        "Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'"
+      ],
+      [
+        "AC",
+        "",
+        "Boyd watching for targets."
+      ],
+      [
+        "AC",
+        "",
+        "Stench, Hunter is fully healed."
+      ],
+      [
+        "AC",
+        "",
+        "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks"
+      ],
+      [
+        "AC",
+        "",
+        "Stench leading Papyrus to wooden pen marker."
+      ],
+      [
+        "AC",
+        "",
+        "Stench missed the tortoise."
+      ],
+      [
+        "RC · event",
+        "linked to S104",
+        "A(n) grizzly bear standing."
+      ],
+      [
+        "RC · event",
+        "linked to S111",
+        "A(n) gazelle consuming grass."
+      ],
+      [
+        "RC · event",
+        "linked to S104",
+        "Stench hauling steel x18 to Stockpile zone 1."
+      ],
+      [
+        "AC",
+        "",
+        "Stench hauling silver x500 to Stockpile zone 1."
+      ]
+    ],
+    "narrative": "Life in the frontier colony remained tense as local wildlife—including grazing gazelles and a persistent grizzly bear—wandered near the settlement. The strain finally broke Dillon Boyd, who slipped into a wandering psychotic state driven by the abysmal conditions of their shared barracks. \n\nAmid the psychological turmoil, daily survival continued. Lidia 'Stench' Schmitt successfully guided an animal to the wooden pen and secured valuable stockpiles, hauling eighteen steel beams and five hundred silver units to safety. While a recent hunting attempt on a tortoise missed its mark, Hunter made a full recovery, offering the beleaguered colonists a much-needed glimmer of stability.",
+    "dialogue": "```json\n[\n  {\n    \"colonist\": \"Lidia Schmitt\",\n    \"line\": \"[N], I got those steel beams and silver hauled inside before things got any worse.\",\n    \"reported\": \"Stench said I got those steel beams and silver hauled inside before things got any worse.\",\n    \"reply\": \"Thank goodness for that, we really needed the extra funds.\"\n  },\n  {\n    \"colonist\": \"Lidia Schmitt\",\n    \"line\": \"[N], that grizzly bear is getting way too close to the barracks for comfort.\",\n    \"reported\": \"Stench said that grizzly bear is getting way too close to the barracks for comfort.\",\n    \"reply\": \"Keep your weapon ready then, we don't need any more surprises.\"\n  },\n  {\n    \"colonist\": \"Lidia Schmitt\",\n    \"line\": \"[N], at least Hunter made a full recovery after missing that tortoise.\",\n    \"reported\": \"Stench said at least Hunter made a full recovery after missing that tortoise.\",\n    \"reply\": \"Animals healing up is the only good news we've had all week.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], living in these dreadful barracks finally pushed me over the edge.\",\n    \"reported\": \"Dillon said living in these dreadful barracks finally pushed me over the edge.\",\n    \"reply\": \"Take a breath, everyone's nerves are completely fried right now.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], I couldn't take the tension anymore with those gazelles and bears outside.\",\n    \"reported\": \"Dillon said I couldn't take the tension anymore with those gazelles and bears outside.\",\n    \"reply\": \"Just try to stay inside where it's safe until you feel better.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], my head is still spinning from wandering around in that psychotic state.\",\n    \"reported\": \"Dillon said my head is still spinning from wandering around in that psychotic state.\",\n    \"reply\": \"Drink some water and sit down for a while, you've had a rough time.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], I've been tending to the herbs while everyone else was losing their minds.\",\n    \"reported\": \"Odette said I've been tending to the herbs while everyone else was losing their minds.\",\n    \"reply\": \"Did you manage to grow anything that can calm our nerves?\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], Dillon needed a lot of space after the conditions in the barracks broke him.\",\n    \"reported\": \"Odette said Dillon needed a lot of space after the conditions in the barracks broke him.\",\n    \"reply\": \"It's hard not to crack when everything around us is so tense.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], at least Stench managed to secure that pen and the silver supplies.\",\n    \"reported\": \"Odette said at least Stench managed to secure that pen and the silver supplies.\",\n    \"reply\": \"That small win is the only thing keeping us afloat today.\"\n  }\n]\n```",
+    "model": "gemini-3.5-flash-lite",
+    "format": "memory",
+    "llm_input": "Earlier sessions (things the colonists said in a previous session; these are memories and background, not events happening now):\n\nLidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'[x1][V]\n\nOdette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'[x1][V]\n\nOdette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'[x1][V]\n\nThis session (events in temporal order):\n\nBoyd watching for targets.[x1][V]\n\nStench, Hunter is fully healed.[x1][V]\n\nBoyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]\n\nStench leading Papyrus to wooden pen marker.[x1][V]\n\nStench missed the tortoise.[x1][V]\n\nA(n) grizzly bear standing.[x153][V]\n\nA(n) gazelle consuming grass.[x1][NV]\n\nStench hauling steel x18 to Stockpile zone 1.[x1][V]\n\nStench hauling silver x500 to Stockpile zone 1.[x1][V]"
+  },
+  "provenance + memory block + memory prompt": {
+    "pool": [
+      "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'[x1][V]",
+      "Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'[x1][V]",
+      "Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'[x1][V]",
+      "Boyd watching for targets.[x1][V]",
+      "Stench, Hunter is fully healed.[x1][V]",
+      "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]",
+      "Stench leading Papyrus to wooden pen marker.[x1][V]",
+      "Stench missed the tortoise.[x1][V]",
+      "A(n) grizzly bear standing.[x153][V]",
+      "A(n) gazelle consuming grass.[x1][NV]",
+      "Stench hauling steel x18 to Stockpile zone 1.[x1][V]",
+      "Stench hauling silver x500 to Stockpile zone 1.[x1][V]"
+    ],
+    "rows": [
+      [
+        "RC · dialogue line",
+        "S104",
+        "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+      ],
+      [
+        "RC · dialogue line",
+        "S111",
+        "Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+      ],
+      [
+        "RC · dialogue line",
+        "S112",
+        "Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'"
+      ],
+      [
+        "AC",
+        "",
+        "Boyd watching for targets."
+      ],
+      [
+        "AC",
+        "",
+        "Stench, Hunter is fully healed."
+      ],
+      [
+        "AC",
+        "",
+        "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks"
+      ],
+      [
+        "AC",
+        "",
+        "Stench leading Papyrus to wooden pen marker."
+      ],
+      [
+        "AC",
+        "",
+        "Stench missed the tortoise."
+      ],
+      [
+        "RC · event",
+        "linked to S104",
+        "A(n) grizzly bear standing."
+      ],
+      [
+        "RC · event",
+        "linked to S111",
+        "A(n) gazelle consuming grass."
+      ],
+      [
+        "RC · event",
+        "linked to S104",
+        "Stench hauling steel x18 to Stockpile zone 1."
+      ],
+      [
+        "AC",
+        "",
+        "Stench hauling silver x500 to Stockpile zone 1."
+      ]
+    ],
+    "narrative": "Life on the frontier weighed heavily on Dillon Boyd, whose frayed nerves finally snapped beneath the bleak discomfort of the barracks, sending him wandering in a psychotic haze. While Boyd lost himself to despair, the colony pressed on. Lidia \"Stench\" Schmitt, fully recovered from her wounds, tended to daily survival. She guided a pack animal to its pen, hauled salvaged steel and a substantial cache of silver to safety, and took a clumsy shot at a tortoise, missing entirely. Beyond the camp's perimeter, the local wildlife—including the persistent grizzly bear and grazing gazelles—remained an ever-present fixture of the untamed wilderness.",
+    "dialogue": "```json\n[\n  {\n    \"colonist\": \"Lidia Schmitt\",\n    \"line\": \"[N], dad just wandered off muttering again, totally lost in his head.\",\n    \"reported\": \"Stench said that her dad just wandered off muttering again, totally lost in his head.\",\n    \"reply\": \"He'll come back when he clears his head, just leave him be.\"\n  },\n  {\n    \"colonist\": \"Lidia Schmitt\",\n    \"line\": \"[N], I swear I missed that slow tortoise right at our doorstep.\",\n    \"reported\": \"Stench said she swore she missed that slow tortoise right at their doorstep.\",\n    \"reply\": \"How do you even manage to miss a target that slow?\"\n  },\n  {\n    \"colonist\": \"Lidia Schmitt\",\n    \"line\": \"[N], got the silver and steel hauled inside before it started raining.\",\n    \"reported\": \"Stench said she got the silver and steel hauled inside before it started raining.\",\n    \"reply\": \"Good job securing the supplies, we really needed those stored safely.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], these barracks are driving me completely insane with the noise.\",\n    \"reported\": \"Dillon said those barracks were driving him completely insane with the noise.\",\n    \"reply\": \"Take a breath, everyone is dealing with the same cramped quarters.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], my head is pounding and I couldn't take another second inside.\",\n    \"reported\": \"Dillon said his head was pounding and he couldn't take another second inside.\",\n    \"reply\": \"Sit down for a minute and drink some water.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], I just needed to walk away from everyone for a while.\",\n    \"reported\": \"Dillon said he just needed to walk away from everyone for a while.\",\n    \"reply\": \"Just don't wander too far out near where the grizzly roams.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], Dillon needs to rest instead of pacing around out there.\",\n    \"reported\": \"Odette said Dillon needed to rest instead of pacing around out there.\",\n    \"reply\": \"I'll go check on him and see if I can convince him to come back.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], Lidia is keeping us all fed while the men lose their minds.\",\n    \"reported\": \"Odette said Lidia was keeping them all fed while the men lost their minds.\",\n    \"reply\": \"She's handling the workload surprisingly well despite everything.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], that bear is still prowling just outside the perimeter fence.\",\n    \"reported\": \"Odette said that bear was still prowling just outside the perimeter fence.\",\n    \"reply\": \"I saw it too, we need to keep the doors bolted tight tonight.\"\n  }\n]\n```",
+    "model": "gemini-3.5-flash-lite",
+    "format": "memory",
+    "llm_input": "Earlier sessions (things the colonists said in a previous session; these are memories and background, not events happening now):\n\nLidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'[x1][V]\n\nOdette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'[x1][V]\n\nOdette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'[x1][V]\n\nThis session (events in temporal order):\n\nBoyd watching for targets.[x1][V]\n\nStench, Hunter is fully healed.[x1][V]\n\nBoyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]\n\nStench leading Papyrus to wooden pen marker.[x1][V]\n\nStench missed the tortoise.[x1][V]\n\nA(n) grizzly bear standing.[x153][V]\n\nA(n) gazelle consuming grass.[x1][NV]\n\nStench hauling steel x18 to Stockpile zone 1.[x1][V]\n\nStench hauling silver x500 to Stockpile zone 1.[x1][V]"
+  },
+  "provenance + memory block + explicit-callback prompt": {
+    "pool": [
+      "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'[x1][V]",
+      "Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'[x1][V]",
+      "Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'[x1][V]",
+      "Boyd watching for targets.[x1][V]",
+      "Stench, Hunter is fully healed.[x1][V]",
+      "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]",
+      "Stench leading Papyrus to wooden pen marker.[x1][V]",
+      "Stench missed the tortoise.[x1][V]",
+      "A(n) grizzly bear standing.[x153][V]",
+      "A(n) gazelle consuming grass.[x1][NV]",
+      "Stench hauling steel x18 to Stockpile zone 1.[x1][V]",
+      "Stench hauling silver x500 to Stockpile zone 1.[x1][V]"
+    ],
+    "rows": [
+      [
+        "RC · dialogue line",
+        "S104",
+        "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+      ],
+      [
+        "RC · dialogue line",
+        "S111",
+        "Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+      ],
+      [
+        "RC · dialogue line",
+        "S112",
+        "Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'"
+      ],
+      [
+        "AC",
+        "",
+        "Boyd watching for targets."
+      ],
+      [
+        "AC",
+        "",
+        "Stench, Hunter is fully healed."
+      ],
+      [
+        "AC",
+        "",
+        "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks"
+      ],
+      [
+        "AC",
+        "",
+        "Stench leading Papyrus to wooden pen marker."
+      ],
+      [
+        "AC",
+        "",
+        "Stench missed the tortoise."
+      ],
+      [
+        "RC · event",
+        "linked to S104",
+        "A(n) grizzly bear standing."
+      ],
+      [
+        "RC · event",
+        "linked to S111",
+        "A(n) gazelle consuming grass."
+      ],
+      [
+        "RC · event",
+        "linked to S104",
+        "Stench hauling steel x18 to Stockpile zone 1."
+      ],
+      [
+        "AC",
+        "",
+        "Stench hauling silver x500 to Stockpile zone 1."
+      ]
+    ],
+    "narrative": "Life at the outpost remained shadowed by the presence of a lingering grizzly bear. Amidst the daily routines—Lidia tending to an animal pen and hauling stockpiles of steel and silver from the debris of a downed spacecraft—tensions frayed. Overwhelmed by the wretched conditions of their makeshift barracks, Dillon suffered a psychological break, wandering the camp in a daze while staring vacantly into the distance for targets. Meanwhile, Lidia had fully recovered from her wounds, though her focus on local wildlife proved imperfect after she missed a passing tortoise.",
+    "dialogue": "```json\n[\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], that bear is still prowling around out there and it's creeping me out.\",\n    \"reported\": \"Stench said that bear is still prowling around out there and it's creeping her out.\",\n    \"reply\": \"Just keep your distance from it and we'll be fine.\"\n  },\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], I swear that tortoise just moved faster than my aim today.\",\n    \"reported\": \"Stench said she swears that tortoise just moved faster than her aim today.\",\n    \"reply\": \"Maybe you need to practice your shooting on something bigger.\"\n  },\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], hauling all that steel and silver scrap is wearing my arms out.\",\n    \"reported\": \"Stench said hauling all that steel and silver scrap is wearing her arms out.\",\n    \"reply\": \"We need the materials to fix up the barracks anyway.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], these wretched barracks are driving me completely out of my mind.\",\n    \"reported\": \"Dillon said those wretched barracks were driving him completely out of his mind.\",\n    \"reply\": \"We are all dealing with the cramped conditions the best we can.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], I couldn't focus on anything at all earlier today, just walking in circles.\",\n    \"reported\": \"Dillon said he couldn't focus on anything at all earlier that day, just walking in circles.\",\n    \"reply\": \"You need to rest more instead of letting the stress get to you.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], having that grizzly lingering near the camp is the last thing we need right now.\",\n    \"reported\": \"Dillon said having that grizzly lingering near the camp was the last thing they needed right then.\",\n    \"reply\": \"Let the hunters handle the beast while you stay inside.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], Lidia is back on her feet, though missing that tortoise was pretty funny.\",\n    \"reported\": \"Odette said Lidia was back on her feet, though missing that tortoise was pretty funny.\",\n    \"reply\": \"At least she is healing up well after her injuries.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], Dillon looked completely lost earlier while wandering through the camp dazed.\",\n    \"reported\": \"Odette said Dillon looked completely lost earlier while wandering through the camp dazed.\",\n    \"reply\": \"The stress of this place is starting to break everyone down.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], we really need to clear out the debris from that downed spacecraft.\",\n    \"reported\": \"Odette said they really needed to clear out the debris from that downed spacecraft.\",\n    \"reply\": \"It's a huge eyesore right in the middle of our camp.\"\n  }\n]\n```",
+    "model": "gemini-3.5-flash-lite",
+    "format": "memory",
+    "llm_input": "Earlier sessions (things the colonists said in a previous session; these are memories and background, not events happening now):\n\nLidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'[x1][V]\n\nOdette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'[x1][V]\n\nOdette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'[x1][V]\n\nThis session (events in temporal order):\n\nBoyd watching for targets.[x1][V]\n\nStench, Hunter is fully healed.[x1][V]\n\nBoyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]\n\nStench leading Papyrus to wooden pen marker.[x1][V]\n\nStench missed the tortoise.[x1][V]\n\nA(n) grizzly bear standing.[x153][V]\n\nA(n) gazelle consuming grass.[x1][NV]\n\nStench hauling steel x18 to Stockpile zone 1.[x1][V]\n\nStench hauling silver x500 to Stockpile zone 1.[x1][V]"
+  },
+  "provenance + RC links + links prompt": {
+    "pool": [
+      "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'[x1][V]",
+      "Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'[x1][V]",
+      "Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'[x1][V]",
+      "Boyd watching for targets.[x1][V]",
+      "Stench, Hunter is fully healed.[x1][V]",
+      "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]",
+      "Stench leading Papyrus to wooden pen marker.[x1][V]",
+      "Stench missed the tortoise.[x1][V]",
+      "A(n) grizzly bear standing.[x153][V]",
+      "A(n) gazelle consuming grass.[x1][NV]",
+      "Stench hauling steel x18 to Stockpile zone 1.[x1][V]",
+      "Stench hauling silver x500 to Stockpile zone 1.[x1][V]"
+    ],
+    "rows": [
+      [
+        "RC · dialogue line",
+        "S104",
+        "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'"
+      ],
+      [
+        "RC · dialogue line",
+        "S111",
+        "Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'"
+      ],
+      [
+        "RC · dialogue line",
+        "S112",
+        "Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'"
+      ],
+      [
+        "AC",
+        "",
+        "Boyd watching for targets."
+      ],
+      [
+        "AC",
+        "",
+        "Stench, Hunter is fully healed."
+      ],
+      [
+        "AC",
+        "",
+        "Boyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks"
+      ],
+      [
+        "AC",
+        "",
+        "Stench leading Papyrus to wooden pen marker."
+      ],
+      [
+        "AC",
+        "",
+        "Stench missed the tortoise."
+      ],
+      [
+        "RC · event",
+        "linked to S104",
+        "A(n) grizzly bear standing."
+      ],
+      [
+        "RC · event",
+        "linked to S111",
+        "A(n) gazelle consuming grass."
+      ],
+      [
+        "RC · event",
+        "linked to S104",
+        "Stench hauling steel x18 to Stockpile zone 1."
+      ],
+      [
+        "AC",
+        "",
+        "Stench hauling silver x500 to Stockpile zone 1."
+      ]
+    ],
+    "narrative": "Life at the colony carried on beneath the ever-watchful gaze of the local wildlife. While a grizzly bear prowled near the perimeter and gazelles grazed among distant spacecraft debris, daily routines pressed forward. \n\nDillon Boyd scanned the horizons for potential threats, though the strain of poor living conditions in the awful barracks soon took its toll, driving him to wander the camp in a psychotic haze. Meanwhile, Lidia 'Stench' Schmitt focused on domestic and logistical duties. Fully healed from past injuries, she guided a pack animal to its pen, relocated a stash of silver, and hauled fifty-six steel beams back to the stockpile, securing resources previously left vulnerable to the roaming beasts.",
+    "dialogue": "```json\n[\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], those steel beams are finally safe from the wildlife.\",\n    \"reported\": \"Stench said those steel beams were finally safe from the wildlife.\",\n    \"reply\": \"Thank goodness, we really needed those in the stockpile.\"\n  },\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], I spent all morning dragging fifty-six heavy beams across camp.\",\n    \"reported\": \"Stench said she spent all morning dragging fifty-six heavy beams across camp.\",\n    \"reply\": \"You must be exhausted after all that heavy lifting.\"\n  },\n  {\n    \"colonist\": \"Lidia 'Stench' Schmitt\",\n    \"line\": \"[N], did you see that huge grizzly bear prowling near the perimeter?\",\n    \"reported\": \"Stench asked if I saw that huge grizzly bear prowling near the perimeter.\",\n    \"reply\": \"Yeah, I kept a very close eye on it from a distance.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], these awful barracks are driving me completely insane.\",\n    \"reported\": \"Dillon said those awful barracks were driving him completely insane.\",\n    \"reply\": \"We'll try to fix the rooms up soon, just hang in there.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], I couldn't stop wandering around in a haze earlier today.\",\n    \"reported\": \"Dillon said he couldn't stop wandering around in a haze earlier today.\",\n    \"reply\": \"The stress is getting to everyone lately, you need some rest.\"\n  },\n  {\n    \"colonist\": \"Dillon Boyd\",\n    \"line\": \"[N], I scanned the horizon for threats until my eyes ached.\",\n    \"reported\": \"Dillon said he scanned the horizon for threats until his eyes ached.\",\n    \"reply\": \"At least you caught sight of anything moving out there.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], gazelles were just grazing near the spacecraft debris like nothing was wrong.\",\n    \"reported\": \"Odette said gazelles were just grazing near the spacecraft debris like nothing was wrong.\",\n    \"reply\": \"Nature doesn't care about our crashed ships at all.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], wildlife is watching us every single second we're out here.\",\n    \"reported\": \"Odette said wildlife was watching them every single second they were out there.\",\n    \"reply\": \"It certainly feels like we're being hunted sometimes.\"\n  },\n  {\n    \"colonist\": \"Odette O'Neill\",\n    \"line\": \"[N], Dillon needs to take a break before he collapses from stress.\",\n    \"reported\": \"Odette said Dillon needed to take a break before he collapsed from stress.\",\n    \"reply\": \"I'll go check on him right now and see if he's calmer.\"\n  }\n]\n```",
+    "model": "gemini-3.5-flash-lite",
+    "format": "links",
+    "llm_input": "Earlier sessions (things the colonists said in a previous session; these are memories and background, not events happening now):\n\nM1: Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'[x1][V]\n\nM2: Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'[x1][V]\n\nM3: Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'[x1][V]\n\nThis session (events in temporal order):\n\nBoyd watching for targets.[x1][V]\n\nStench, Hunter is fully healed.[x1][V]\n\nBoyd is wandering around in a psychotic state. This happened because of poor mood. The final straw was: Awful barracks[x1][V]\n\nStench leading Papyrus to wooden pen marker.[x1][V]\n\nStench missed the tortoise.[x1][V]\n\nA(n) grizzly bear standing.[x153][V] (recalls M1, M3)\n\nA(n) gazelle consuming grass.[x1][NV] (recalls M2)\n\nStench hauling steel x18 to Stockpile zone 1.[x1][V] (recalls M1)\n\nStench hauling silver x500 to Stockpile zone 1.[x1][V]"
+  }
+}

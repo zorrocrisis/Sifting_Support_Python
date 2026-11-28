@@ -1,0 +1,12 @@
+{
+  "text": "Life in the frontier colony remained tense as local wildlife—including grazing gazelles and a persistent grizzly bear—wandered near the settlement. The strain finally broke Dillon Boyd, who slipped into a wandering psychotic state driven by the abysmal conditions of their shared barracks. \n\nAmid the psychological turmoil, daily survival continued. Lidia 'Stench' Schmitt successfully guided an animal to the wooden pen and secured valuable stockpiles, hauling eighteen steel beams and five hundred silver units to safety. While a recent hunting attempt on a tortoise missed its mark, Hunter made a full recovery, offering the beleaguered colonists a much-needed glimmer of stability.",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 1000,
+    "total_tokens": 1128,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "da3261d1c0eb3bc34178"
+}

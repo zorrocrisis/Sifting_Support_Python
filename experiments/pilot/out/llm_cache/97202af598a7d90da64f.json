@@ -1,0 +1,12 @@
+{
+  "text": "The lingering threat of the grizzly bear—which had settled at the camp's edge in the colony's early days—was still prowling nearby, casting a long shadow over daily survival. Stended by the local wildlife, Lidia 'Stench' Schmitt focused her efforts closer to home, her hunting wounds fully healed as she managed a livestock pen for a pack animal and secured valuable steel and silver reserves. \n\nBeneath the surface, however, the colony's grueling conditions took their toll. Overwhelmed by the squalid, awful barracks, an anxious Dillon Boyd cracked under the strain, slipping into a bewildered psychotic wandering state while staring blankly into the distance for targets that weren't there.",
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 1151,
+    "total_tokens": 1295,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "97202af598a7d90da64f"
+}

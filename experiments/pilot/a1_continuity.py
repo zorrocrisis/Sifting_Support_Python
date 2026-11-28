@@ -122,6 +122,15 @@ def run(use_embeddings=True, pass_recall=0.5):
                 for m in methods:
                     row[f"{m}_rank"] = per_method[m][d]["ranks"][r]
                 gold_rows.append(row)
+        if ctx.candidate_mode == "filtered":
+            # Strict scoring: only the exact gold log counts (the pass rule stays on lenient scoring,
+            # as in every earlier run; strict is reported alongside).
+            from experiments.common.gold import strict_retrieval_metrics
+            result["metrics_strict"] = {
+                m: strict_retrieval_metrics(orders, gold_original, ctx.candidate_mask)[1]
+                for m, orders in methods.items()}
+            result["status_strict"] = ("pass" if result["metrics_strict"][cc_name]["recall@5"] >= pass_recall
+                                       else "fail")
         r5 = result["metrics"][cc_name]["recall@5"]
         result["status"] = "pass" if r5 >= pass_recall else "fail"
         if "embedding" in result["metrics"]:
@@ -156,6 +165,14 @@ def write_report(ctx, result, methods, gold_rows):
         rows = [[m, v["recall@5"], v["recall@10"], v["mrr"], v["n_dialogue_with_gold"], v["n_gold_pairs"]]
                 for m, v in result["metrics"].items()]
         L += [md_table(["method", "Recall@5", "Recall@10", "MRR", "dialogue lines", "gold pairs"], rows), ""]
+        if result.get("metrics_strict"):
+            ms = result["metrics_strict"]
+            reach = next(iter(ms.values()))["n_gold_reachable"]
+            L += [f"**Strict scoring** (only the exact gold log counts; {reach} of "
+                  f"{next(iter(ms.values()))['n_gold_pairs']} gold events are candidates at all). "
+                  f"Strict verdict: {result['status_strict']}.", "",
+                  md_table(["method", "Recall@5", "Recall@10", "MRR"],
+                           [[m, v["recall@5"], v["recall@10"], v["mrr"]] for m, v in ms.items()]), ""]
         if result.get("metrics_without_exact_repeats"):
             L += [f"Without the {result['n_exact_repeat_gold_pairs']} gold pairs whose event is the reference "
                   "line's exact description repeated (sensitivity check, not the pass rule):", "",

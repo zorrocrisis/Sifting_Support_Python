@@ -12,6 +12,12 @@
 |---|---|---|---|---|---|
 | ncd | 0.646 | 0.781 | 0.745 | 8 | 18 |
 
+**Strict scoring** (only the exact gold log counts; 10 of 30 gold events are candidates at all). Strict verdict: fail.
+
+| method | Recall@5 | Recall@10 | MRR |
+|---|---|---|---|
+| ncd | 0.320 | 0.359 | 0.623 |
+
 ## Rank of each expected event
 
 | dialogue | event | ncd rank | embedding rank | event description |

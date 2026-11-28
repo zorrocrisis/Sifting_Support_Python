@@ -73,6 +73,34 @@ def ranks_of(order, targets):
     return {e: pos[e] for e in targets}
 
 
+def strict_retrieval_metrics(orders, gold_original, candidate_mask, ks=(5, 10)):
+    """
+    Strict scoring for filtered candidates: a gold event counts only if the RC can return that
+    exact log. Gold events that aren't candidates are misses (never in any top k); returning their
+    cluster's representative doesn't count. Ranks are positions among candidates only.
+    A dialogue line whose gold events are all non-candidates scores 0 recall and reciprocal rank 0.
+    """
+    per = {}
+    for d, targets in gold_original.items():
+        cand_order = [e for e in orders[d] if candidate_mask[e]]
+        pos = {e: r + 1 for r, e in enumerate(cand_order)}
+        r = {e: pos.get(e, float("inf")) for e in targets}
+        best = min(r.values())
+        row = {"ranks": r, "rr": 0.0 if best == float("inf") else 1.0 / best}
+        for k in ks:
+            row[f"recall@{k}"] = sum(1 for v in r.values() if v <= k) / len(targets)
+        per[d] = row
+    overall = {}
+    if per:
+        overall["mrr"] = float(np.mean([v["rr"] for v in per.values()]))
+        for k in ks:
+            overall[f"recall@{k}"] = float(np.mean([v[f"recall@{k}"] for v in per.values()]))
+        overall["n_dialogue_with_gold"] = len(per)
+        overall["n_gold_pairs"] = sum(len(t) for t in gold_original.values())
+        overall["n_gold_reachable"] = sum(bool(candidate_mask[e]) for t in gold_original.values() for e in t)
+    return per, overall
+
+
 def retrieval_metrics(orders, gold, ks=(5, 10)):
     """
     orders: {dialogue index: best-first event index list}

@@ -13,9 +13,16 @@
 | ncd | 0.000 | 0.323 | 0.090 | 8 | 18 |
 | embedding | 0.292 | 0.448 | 0.313 | 8 | 18 |
 
+**Strict scoring** (only the exact gold log counts; 10 of 30 gold events are candidates at all). Strict verdict: fail.
+
+| method | Recall@5 | Recall@10 | MRR |
+|---|---|---|---|
+| ncd | 0.000 | 0.185 | 0.073 |
+| embedding | 0.185 | 0.226 | 0.185 |
+
 ## Rank of each expected event
 
-| dialogue | event | NCD rank | embedding rank | event description |
+| dialogue | event | ncd rank | embedding rank | event description |
 |---|---|---|---|---|
 | S104 | E069 | 27 | 28 | A(n) grizzly bear wandering. |
 | S104 | E070 → E069 | 27 | 28 | A(n) grizzly bear standing. |

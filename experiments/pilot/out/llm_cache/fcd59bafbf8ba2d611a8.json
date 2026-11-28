@@ -1,0 +1,12 @@
+{
+  "text": "Life at the outpost remained shadowed by the presence of a lingering grizzly bear. Amidst the daily routines—Lidia tending to an animal pen and hauling stockpiles of steel and silver from the debris of a downed spacecraft—tensions frayed. Overwhelmed by the wretched conditions of their makeshift barracks, Dillon suffered a psychological break, wandering the camp in a daze while staring vacantly into the distance for targets. Meanwhile, Lidia had fully recovered from her wounds, though her focus on local wildlife proved imperfect after she missed a passing tortoise.",
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 1140,
+    "total_tokens": 1249,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "fcd59bafbf8ba2d611a8"
+}

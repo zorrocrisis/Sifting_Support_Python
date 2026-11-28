@@ -107,6 +107,19 @@ def test_mmr_index_variant_uses_its_own_redundancy():
     assert set(cc.INDEX_VARIANTS) <= set(cc.variants_for("index"))
 
 
+def test_strict_scoring_counts_only_exact_gold_logs():
+    from experiments.common.gold import retrieval_metrics, strict_retrieval_metrics
+    # events 0..3; candidates are 0 and 2 (2 represents 3); gold for line 0 is event 3
+    mask = np.array([True, False, True, False])
+    orders = {0: [2, 0, 1, 3]}
+    lenient = retrieval_metrics(orders, {0: {2}})[1]            # gold 3 mapped to its representative 2
+    strict = strict_retrieval_metrics(orders, {0: {3}}, mask)[1]
+    assert lenient["recall@5"] == 1.0 and lenient["mrr"] == 1.0
+    assert strict["recall@5"] == 0.0 and strict["mrr"] == 0.0 and strict["n_gold_reachable"] == 0
+    strict2 = strict_retrieval_metrics(orders, {0: {0, 3}}, mask)[1]   # 0 is a candidate, rank 2
+    assert strict2["recall@5"] == 0.5 and strict2["mrr"] == 0.5
+
+
 # --- pool composition (port of FinalPoolComposer) ---------------------------------
 
 def test_pipeline_targets_rounding():

@@ -1,0 +1,12 @@
+{
+  "text": "While the local wildlife—including the persistent grizzly bear and grazing gazelles—remained a familiar backdrop to the frontier, tension gripped the colony. Burdened by the wretched conditions of the awful barracks, Dillon Boyd succumbed to his nerves and began wandering in a psychotic state. Amidst the psychological strain, routine survival continued: Lidia 'Stench' Schmitt successfully recovered from her injuries, secured a pack animal in the wooden pen, hauled salvaged steel and silver to the stockpile, and even missed a passing tortoise during a hunt.",
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 1108,
+    "total_tokens": 1213,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "1e42dd4504cc83aa2887"
+}

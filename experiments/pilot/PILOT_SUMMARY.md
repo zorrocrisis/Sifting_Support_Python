@@ -5,11 +5,11 @@
 ## TL;DR
 
 - **The reference channel (RC, also called CC) only finds continuity when it matches on the right thing.** Matching the dialogue the player saw against session-2 event logs fails, whatever the measure. Matching the **session-1 logs each dialogue line was generated from** ("provenance") works: with the game's own NCD, the RC finds the author's continuity matches (Recall@5 0.10 → 0.57, 0.65 with filtered candidates).
-- **Provenance also fixes redundancy.** The RC no longer floods the pool with near-identical fight lines, and the share between the two channels behaves as a breadth/depth dial that doesn't depend on how topics are counted.
+- **Provenance also fixes redundancy.** The RC no longer floods the pool with near-identical fight lines. Its pools are no more redundant than random RC picks would make them. **A random-pick control shows the "dial" is mostly construction** (section 3.5): the share controls how much of the pool is continuity material, not how focused the RC makes it.
 - **Embeddings aren't needed.** On the original dialogue they fail too (0.17). With provenance, NCD or event indexing come within reach of them without any language model, which supports dropping embeddings for domain generalisation.
 - **Next, three implementation steps (detailed at the end):**
   1. implement dialogue provenance in the game and the Python pipeline;
-  2. let the RC pick only from the AC's 43 filtered cluster representatives, by default;
+  2. let the RC pick from **all** session-2 events by default (revised after strict scoring: filtering to the AC's 43 representatives only looked better under lenient scoring);
   3. a set of smaller fixes.
 
 ---
@@ -82,7 +82,7 @@ A1 Recall@5 on the original dialogue (pass ≥ 0.5):
 
 - **A1:** gold events jump from ranks 50–100 to the top 3 for most lines. The treeline line now finds "Boyd watching for targets" (rank 77 → 1), because its sources are "Odette watching for targets" and the tribal raid, not the fistfight.
 - **A3:** with the game's own `nearest` selector, the pool spreads over 3 dialogue lines with the lowest redundancy of any dialogue set-up. The flooding came from name matching only.
-- **A4:** breadth falls as the share rises under both ways of counting multi-topic tags. Original dialogue's dial depended on those tags (first label −0.53).
+- **A4:** breadth falls as the share rises under both ways of counting multi-topic tags (original dialogue's dial depended on those tags: first label −0.53). The random-pick control in section 3.5 shows this fall is mostly construction, though.
 - **Which measure:** NCD and event indexing complement each other. Event indexing finds the walrus and anteater burials (rank 1–4 instead of 27–36). NCD keeps the exact-wording matches that event indexing loses ("watching for targets": 1 vs 16).
 
 ### 3.3 Provenance vs embeddings
@@ -91,21 +91,36 @@ A1 Recall@5 on the original dialogue (pass ≥ 0.5):
 
 - **Provenance is the bigger lever.** It raises every measure (NCD 0.10 → 0.57, embeddings 0.17 → 0.70). Changing the measure on the original line peaks at 0.29.
 - **Embeddings alone don't understand the game.** They miss that "walrus" is a tribesperson (burial at rank 13) and that the dialogue's gazelles and grizzly are logged animals (ranks 50 and 22). They also give no dial (A4 ρ −0.61, first label +0.04).
-- **With provenance and filtered candidates,** event indexing is within 0.01 of embeddings (0.74 vs 0.75) without a language model.
+- **With provenance and filtered candidates,** event indexing is within 0.01 of embeddings (0.74 vs 0.75) without a language model, under lenient scoring. Under strict scoring all three measures fall to 0.32–0.36 (section 3.6).
 
 ### 3.4 Selected logs work, but by repetition
 
 With the 13 selected logs as the reference, NCD reaches 0.33 (0.16 without exact repeats) and event indexing 0.72. Half the share-0.5 pool is the same three logs written twice, though. Provenance keeps the advantage of event-like references while showing the player dialogue, and only the dialogue line enters the pool, so the duplicate problem goes away.
 
-### 3.5 The dial is gentle
+### 3.5 The dial is mostly construction (random-pick control)
 
-![dial, original vs provenance](out_compare/dial_original_vs_provenance.png)
+![random control](out_compare/random_control.png)
 
-- **Depth is the robust signal.** Redundancy rises with the share in every set-up (ρ ≈ 0.99), and provenance pools stay less redundant at every share (0.27 vs 0.41 at share 1).
-- **Breadth moves little.** One or two topics across the whole range.
-- **ρ overstates the evidence.** The 5 seeds barely change the AC, so most of the 25 pools behind each ρ are near-copies.
+A reviewer pointed out that redundancy may rise with the share just because of how the pool is built. To test it, the RC's slots were filled with **random** session-2 candidates (30 draws per share) and the pool composed exactly as the game does. Details are in `out_compare/RANDOM_CONTROL.md`.
 
-### 3.6 Smaller findings
+- **Random picks raise redundancy too** (0.21 → 0.28 at share 1). The AC picks rare, mutually different logs on purpose, so replacing any of its slots with ordinary events raises redundancy. That rise is construction.
+- **Original dialogue goes well beyond it** (0.41; breadth 0.62 distinct clusters per event vs 0.82 for random). That narrowing is the RC's doing, through the name-driven fight lines.
+- **Provenance stays at the random level** (0.27 vs 0.28; 0.26 vs 0.27 with filtered candidates). Breadth matches random up to share 0.75 and falls below it only at share 1, within the control's spread. Its topic-based A4 pass and the ρ ≈ 0.99 for redundancy therefore can't be credited to the RC.
+- **What can be claimed:** with provenance, the share controls how much of the pool is continuity material, and that material is relevant (A1) without adding redundancy beyond chance. A4 should be redefined as the effect relative to the random control.
+- The earlier caveat still applies: the 5 seeds barely change the AC, so most of the pools behind each ρ are near-copies.
+
+### 3.6 Strict scoring: filtering's A1 gain is a scoring artefact
+
+![strict vs lenient](out_compare/strict_scoring_a1.png)
+
+A second review point: with filtered candidates the pilot scored A1 **leniently**, crediting a returned cluster representative for every gold event in its cluster. **Strict** scoring counts only the exact gold log. Details are in `out_compare/STRICT_SCORING.md`.
+
+- **With all 162 events the two are identical**, and provenance passes (NCD 0.57, embeddings 0.70).
+- **With the 43 filtered events, strict scoring roughly halves recall:** provenance falls from 0.65–0.75 to 0.32–0.36 and fails.
+- **The threshold is out of reach there by construction.** Only 10 of the 30 gold events are representatives, so a perfect RC would reach at most 0.41. Provenance gets 78–87% of that ceiling, so it still ranks the reachable events well.
+- **So filtering doesn't improve A1;** strictly it lowers it (NCD 0.57 → 0.32). Its other benefit, lower redundancy, isn't needed with provenance (section 3.5).
+
+### 3.7 Smaller findings
 
 - **Concatenation order matters for NCD** with dialogue: only 68% top-5 overlap between event-first and dialogue-first. It barely matters for event-like references (82%).
 - **Actor match is weak evidence:** 41% of all dialogue × event pairs share a colonist by chance (mostly Stench).
@@ -127,10 +142,10 @@ With the 13 selected logs as the reference, NCD reaches 0.33 (0.16 without exact
 > - **Logging (C#, `DialogueManager.cs`, needs approval):** write provenance to a **sidecar file** (dialogue `_ID_` → source IDs + full source log text) rather than changing the log line format, which every parser depends on. Storing the text keeps session 2 self-contained.
 > - **Reference channel (Python, `reference_sifting_channel`):** score a dialogue line by the smallest distance from any of its sources to each event, falling back to the line itself without provenance. The pool still receives the dialogue line. **Keep NCD**: it passes with provenance and needs no entity vocabulary or weights; event indexing can be an option later.
 
-> ### Step 2 — RC candidates: the 43 filtered events by default
-> - **Why:** better A1 with provenance + NCD (0.65 vs 0.57) and lower redundancy. It reuses the AC's existing `unique_logs_after_filtering`, so there's no extra clustering, and it scales to real sessions with thousands of distinct logs.
-> - **Costs to report:** a slightly weaker dial (first label −0.68 vs −0.73), and the RC returns a cluster's representative, not the exact event.
-> - **Keep "all events" as a setting** for experiments. With provenance, "all logs vs selected" on the reference side is moot: the sources are by construction session-1 selected logs.
+> ### Step 2 — RC candidates: all events by default, filtering as an option *(revised)*
+> - **Why all events:** under strict scoring, provenance passes A1 with all 162 events (NCD 0.57) and fails with the 43 filtered ones (0.32, ceiling 0.41). The earlier advantage of filtering (0.65) only held under lenient scoring. Provenance already keeps redundancy at the random level with all events, so filtering isn't needed for that either.
+> - **Keep filtering as a setting** (the AC's existing `unique_logs_after_filtering`, so no extra clustering) for long sessions with thousands of distinct logs, where comparing every source against every log gets expensive. When it's used, score A1 strictly and report the ceiling.
+> - With provenance, "all logs vs selected" on the reference side is moot: the sources are by construction session-1 selected logs.
 
 > ### Step 3 — Other changes
 > 1. **A dedicated dialogue tag (`DLG_`)**, instead of detecting dialogue by the "said '…'" pattern in `SL_` lines.
@@ -146,7 +161,7 @@ With the 13 selected logs as the reference, NCD reaches 0.33 (0.16 without exact
 - Provenance was simulated by hand-mapping each line to its sources. In the game the LLM will produce it and can be wrong.
 - Event-indexing weights and the MMR λ were set by hand, not fitted.
 - Seeds barely vary the AC, so spreads over seeds understate real variability.
-- Filtered-candidate A1 credits a representative for its whole cluster; a stricter scoring would rate filtering lower.
+- Filtered-candidate A1 numbers in the comparison reports are lenient (a representative is credited for its whole cluster); strict scores are in `out_compare/STRICT_SCORING.md`.
 
 ## 7. Where everything is
 
@@ -160,4 +175,6 @@ With the 13 selected logs as the reference, NCD reaches 0.33 (0.16 without exact
 | `out_compare/DIALOGUE_LOGGING_COMPARISON.md` | original vs stripped vs provenance, dial plots |
 | `out_compare/PROVENANCE_VS_EMBEDDINGS.md` | provenance vs embeddings |
 | `out_compare/dialogue_pool_nearest_vs_mmr.md` | example pools with and without MMR |
+| `out_compare/RANDOM_CONTROL.md` | random-pick control for the breadth/depth dial |
+| `out_compare/STRICT_SCORING.md` | A1 under strict vs lenient scoring |
 | `gold_matches*.csv`, `topic_tags.csv`, `dialogue_provenance.csv`, `event_codes.csv` | author inputs (never regenerated) |

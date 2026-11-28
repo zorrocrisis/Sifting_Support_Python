@@ -1,0 +1,12 @@
+{
+  "text": "{\"colonist\": \"Odette O'Neill\", \"line\": \"[N], that gazelle is eating grass just like the ones you spotted near the spacecraft wreckage earlier.\", \"reported\": \"Odette O'Neill said that the gazelle was eating grass just like the ones Stench had spotted near the spacecraft wreckage earlier\", \"reply\": \"Yeah, at least this one isn't wandering into dangerous territory.\"}",
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 622,
+    "total_tokens": 707,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "5aa78e5f993cc6b800d6"
+}

@@ -29,5 +29,16 @@
     }
   },
   "n_exact_repeat_gold_pairs": 0,
+  "metrics_strict": {
+    "ncd": {
+      "mrr": 0.6232638888888888,
+      "recall@5": 0.31994047619047616,
+      "recall@10": 0.3586309523809524,
+      "n_dialogue_with_gold": 8,
+      "n_gold_pairs": 30,
+      "n_gold_reachable": 10
+    }
+  },
+  "status_strict": "fail",
   "status": "pass"
 }

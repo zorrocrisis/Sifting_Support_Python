@@ -12,6 +12,7 @@
     "global_pair_overlap": 0.7142857142857143,
     "max_abs_ncd_diff": 0.05813953488372092
   },
+  "cc_method": "ncd",
   "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
   "pass_rule": "NCD mean Recall@5 >= 0.5",
   "cc_candidates": "filtered",
@@ -35,6 +36,25 @@
     }
   },
   "n_exact_repeat_gold_pairs": 0,
+  "metrics_strict": {
+    "ncd": {
+      "mrr": 0.07255449160340464,
+      "recall@5": 0.0,
+      "recall@10": 0.18452380952380953,
+      "n_dialogue_with_gold": 8,
+      "n_gold_pairs": 30,
+      "n_gold_reachable": 10
+    },
+    "embedding": {
+      "mrr": 0.1848604891277305,
+      "recall@5": 0.18452380952380953,
+      "recall@10": 0.2261904761904762,
+      "n_dialogue_with_gold": 8,
+      "n_gold_pairs": 30,
+      "n_gold_reachable": 10
+    }
+  },
+  "status_strict": "fail",
   "status": "fail",
   "embedding_passes": false
 }

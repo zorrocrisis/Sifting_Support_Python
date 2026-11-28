@@ -1,0 +1,12 @@
+{
+  "text": "Life on the frontier tested the colonists' endurance. Amid salvaged spacecraft wreckage and grazing gazelles, the settlement bustled with resource management. Lidia \"Stench\" Schmitt secured vital steel beams and silver reserves before a dangerous grizzly bear established its territory near the camp's edge. \n\nThe harsh environment and dismal living conditions in the awful barracks took a severe toll on Dillon Boyd, whose nerves finally snapped, driving him into a psychotic wandering state. Meanwhile, Lidia busied herself tending to the local fauna, corralling an animal named Papyrus and hunting unsuccessfully, all while continuing to haul supplies and maintain the colony's fragile routine under the watchful shadow of the local wildlife.",
+  "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 967,
+    "total_tokens": 1104,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "f1e7e18e9ce427d814cb"
+}

@@ -1,0 +1,12 @@
+{
+  "text": "{\"colonist\": \"Lidia 'Stench' Schmitt\", \"line\": \"[N], I had those fifty-six steel beams stashed before the grizzly settled in, but now I'm hauling five hundred silver.\", \"reported\": \"Stench said that she had those fifty-six steel beams stashed before the grizzly settled in, but now she is hauling five hundred silver.\", \"reply\": \"Just make sure you don't drop it all in the dirt!\"}",
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 660,
+    "total_tokens": 757,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "edb72fa30357cd763856"
+}

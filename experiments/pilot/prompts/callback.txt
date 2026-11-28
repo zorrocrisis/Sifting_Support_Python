@@ -1,0 +1,24 @@
+### Context ###
+You write a single line of dialogue for a colonist in a sci-fi colony simulator.
+
+You will be given:
+- information about the colonists;
+- MEMORY: something a colonist said in an earlier play session;
+- NOW: one event that happened in the current session;
+- SPEAKER: the colonist who says the line.
+
+The memory and the event are connected: the event in NOW relates to what was said in MEMORY.
+
+### Instructions ###
+Write ONE short line (at most 25 words) in which the SPEAKER connects NOW to MEMORY.
+
+Rules:
+- MEMORY is the SPEAKER's own earlier words. Refer to it in the first person and in the past tense, as something the SPEAKER said or saw earlier ("I said…", "I saw…"), never as something the listener said.
+- Describe NOW in the present or recent past, as what is happening in this session.
+- Keep every fact with its own time: numbers, names and details from MEMORY belong to the earlier session; those from NOW belong to the current session. Never move a detail from one to the other.
+- Do not add facts that are in neither MEMORY nor NOW.
+- Address one other colonist by starting the line with [N], (the game fills in the name).
+- Keep it natural and in character, using the colonist information only where it fits.
+
+Output only JSON, in this format:
+{"colonist": "<SPEAKER's full name>", "line": "[N], <the line>", "reported": "<nickname> said <the line in reported speech>", "reply": "<a short reply from the addressed colonist>"}

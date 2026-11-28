@@ -1,0 +1,12 @@
+{
+  "text": "```json\n{\"colonist\": \"Odette O'Neill\", \"line\": \"[N], I said those gazelles were grazing amid the chunks of the downed spacecraft, and now I see a gazelle consuming grass.\", \"reported\": \"Odette O'Neill said she said those gazelles were grazing amid the chunks of the downed spacecraft, and now she sees a gazelle consuming grass\", \"reply\": \"Nature finds a way, even around the wreckage.\"}\n```",
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 655,
+    "total_tokens": 752,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "1b616b750abd376e3107"
+}

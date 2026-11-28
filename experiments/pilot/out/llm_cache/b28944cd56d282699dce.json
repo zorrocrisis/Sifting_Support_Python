@@ -1,0 +1,12 @@
+{
+  "text": "```json\n{\"colonist\": \"Lidia 'Stench' Schmitt\", \"line\": \"[N], I'm hauling these eighteen steel pieces to the stockpile now, unlike those fifty-six beams I had stashed before.\", \"reported\": \"Lidia 'Stench' Schmitt said that she was hauling those eighteen steel pieces to the stockpile now, unlike the fifty-six beams she had stashed before.\", \"reply\": \"Just make sure you don't burn them, Lidia.\"}\n```",
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 626,
+    "total_tokens": 730,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "b28944cd56d282699dce"
+}

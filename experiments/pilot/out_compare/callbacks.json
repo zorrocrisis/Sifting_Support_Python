@@ -1,0 +1,77 @@
+[
+  {
+    "memory_id": "S111",
+    "memory": "Odette 'Odette' O'Neill said 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'",
+    "event": "A(n) gazelle consuming grass.",
+    "speaker": "Odette 'Odette' O'Neill",
+    "input": "MEMORY (earlier session): Odette 'Odette' O'Neill said: 'Stench, those gazelles were grazing amid the chunks of the downed spacecraft.'\n\nNOW (current session): A(n) gazelle consuming grass.\n\nSPEAKER: Odette 'Odette' O'Neill",
+    "output": {
+      "colonist": "Odette O'Neill",
+      "line": "[N], I said those gazelles were grazing amid the chunks of the downed spacecraft, and now I see a gazelle consuming grass.",
+      "reported": "Odette O'Neill said she said those gazelles were grazing amid the chunks of the downed spacecraft, and now she sees a gazelle consuming grass",
+      "reply": "Nature finds a way, even around the wreckage."
+    },
+    "raw": "```json\n{\"colonist\": \"Odette O'Neill\", \"line\": \"[N], I said those gazelles were grazing amid the chunks of the downed spacecraft, and now I see a gazelle consuming grass.\", \"reported\": \"Odette O'Neill said she said those gazelles were grazing amid the chunks of the downed spacecraft, and now she sees a gazelle consuming grass\", \"reply\": \"Nature finds a way, even around the wreckage.\"}\n```",
+    "issues": []
+  },
+  {
+    "memory_id": "S104",
+    "memory": "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",
+    "event": "A(n) grizzly bear standing.",
+    "speaker": "Lidia 'Stench' Schmitt",
+    "input": "MEMORY (earlier session): Lidia 'Stench' Schmitt said: 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'\n\nNOW (current session): A(n) grizzly bear standing.\n\nSPEAKER: Lidia 'Stench' Schmitt",
+    "output": {
+      "colonist": "Lidia 'Stench' Schmitt",
+      "line": "[N], that grizzly I mentioned earlier is standing right by my fifty-six steel beams.",
+      "reported": "Lidia 'Stench' Schmitt said that the grizzly she mentioned earlier is standing right by her fifty-six steel beams.",
+      "reply": "Get away from it right now!"
+    },
+    "raw": "```json\n{\"colonist\": \"Lidia 'Stench' Schmitt\", \"line\": \"[N], that grizzly I mentioned earlier is standing right by my fifty-six steel beams.\", \"reported\": \"Lidia 'Stench' Schmitt said that the grizzly she mentioned earlier is standing right by her fifty-six steel beams.\", \"reply\": \"Get away from it right now!\"}\n```",
+    "issues": []
+  },
+  {
+    "memory_id": "S112",
+    "memory": "Odette 'Odette' O'Neill said 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'",
+    "event": "A(n) grizzly bear standing.",
+    "speaker": "Odette 'Odette' O'Neill",
+    "input": "MEMORY (earlier session): Odette 'Odette' O'Neill said: 'Boyd, a grizzly at camp's edge was trouble waiting to happen.'\n\nNOW (current session): A(n) grizzly bear standing.\n\nSPEAKER: Odette 'Odette' O'Neill",
+    "output": {
+      "colonist": "Odette O'Neill",
+      "line": "[N], I said a grizzly at camp's edge was trouble waiting to happen, and now there's one just standing right there.",
+      "reported": "Odette O'Neill said that she had said a grizzly at camp's edge was trouble waiting to happen, and now there was one just standing right there.",
+      "reply": "Grab your weapon before it decides to charge us!"
+    },
+    "raw": "```json\n{\"colonist\": \"Odette O'Neill\", \"line\": \"[N], I said a grizzly at camp's edge was trouble waiting to happen, and now there's one just standing right there.\", \"reported\": \"Odette O'Neill said that she had said a grizzly at camp's edge was trouble waiting to happen, and now there was one just standing right there.\", \"reply\": \"Grab your weapon before it decides to charge us!\"}\n```",
+    "issues": []
+  },
+  {
+    "memory_id": "S104",
+    "memory": "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",
+    "event": "Stench hauling steel x18 to Stockpile zone 1.",
+    "speaker": "Lidia 'Stench' Schmitt",
+    "input": "MEMORY (earlier session): Lidia 'Stench' Schmitt said: 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'\n\nNOW (current session): Stench hauling steel x18 to Stockpile zone 1.\n\nSPEAKER: Lidia 'Stench' Schmitt",
+    "output": {
+      "colonist": "Lidia 'Stench' Schmitt",
+      "line": "[N], I'm hauling these eighteen steel pieces to the stockpile just like I stashed my fifty-six beams before.",
+      "reported": "Stench said she was hauling those eighteen steel pieces to the stockpile just like she had stashed her fifty-six beams before.",
+      "reply": "Just make sure you don't burn anything this time, Lidia."
+    },
+    "raw": "{\"colonist\": \"Lidia 'Stench' Schmitt\", \"line\": \"[N], I'm hauling these eighteen steel pieces to the stockpile just like I stashed my fifty-six beams before.\", \"reported\": \"Stench said she was hauling those eighteen steel pieces to the stockpile just like she had stashed her fifty-six beams before.\", \"reply\": \"Just make sure you don't burn anything this time, Lidia.\"}",
+    "issues": []
+  },
+  {
+    "memory_id": "S104",
+    "memory": "Lidia 'Stench' Schmitt said 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'",
+    "event": "Stench hauling silver x500 to Stockpile zone 1.",
+    "speaker": "Lidia 'Stench' Schmitt",
+    "input": "MEMORY (earlier session): Lidia 'Stench' Schmitt said: 'Boyd, I had those fifty-six steel beams stashed before the grizzly settled in.'\n\nNOW (current session): Stench hauling silver x500 to Stockpile zone 1.\n\nSPEAKER: Lidia 'Stench' Schmitt",
+    "output": {
+      "colonist": "Lidia 'Stench' Schmitt",
+      "line": "[N], I had those fifty-six steel beams stashed before the grizzly settled in, but now I'm hauling five hundred silver.",
+      "reported": "Stench said that she had those fifty-six steel beams stashed before the grizzly settled in, but now she is hauling five hundred silver.",
+      "reply": "Just make sure you don't drop it all in the dirt!"
+    },
+    "raw": "{\"colonist\": \"Lidia 'Stench' Schmitt\", \"line\": \"[N], I had those fifty-six steel beams stashed before the grizzly settled in, but now I'm hauling five hundred silver.\", \"reported\": \"Stench said that she had those fifty-six steel beams stashed before the grizzly settled in, but now she is hauling five hundred silver.\", \"reply\": \"Just make sure you don't drop it all in the dirt!\"}",
+    "issues": []
+  }
+]

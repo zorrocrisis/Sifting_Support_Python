@@ -1,0 +1,12 @@
+{
+  "text": "```json\n{\"colonist\": \"Odette O'Neill\", \"line\": \"[N], I said a grizzly at camp's edge was trouble waiting to happen, and now there's one just standing right there.\", \"reported\": \"Odette O'Neill said that she had said a grizzly at camp's edge was trouble waiting to happen, and now there was one just standing right there.\", \"reply\": \"Grab your weapon before it decides to charge us!\"}\n```",
+  "usage": {
+    "completion_tokens": 100,
+    "prompt_tokens": 654,
+    "total_tokens": 754,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "39c2a11f7b80ee85cff1"
+}

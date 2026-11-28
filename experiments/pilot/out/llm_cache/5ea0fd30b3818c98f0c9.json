@@ -1,0 +1,12 @@
+{
+  "text": "```json\n{\"colonist\": \"Lidia 'Stench' Schmitt\", \"line\": \"[N], you said I had those steel beams stashed, but now I'm just hauling this silver to the stockpile.\", \"reported\": \"Lidia 'Stench' Schmitt said that I said she had those steel beams stashed, but now she's just hauling that silver to the stockpile\", \"reply\": \"Just get it moved safely!\"}\n```",
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 627,
+    "total_tokens": 721,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "5ea0fd30b3818c98f0c9"
+}

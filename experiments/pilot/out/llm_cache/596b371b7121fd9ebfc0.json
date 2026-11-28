@@ -1,0 +1,12 @@
+{
+  "text": "Life at the colony carried on beneath the ever-watchful gaze of the local wildlife. While a grizzly bear prowled near the perimeter and gazelles grazed among distant spacecraft debris, daily routines pressed forward. \n\nDillon Boyd scanned the horizons for potential threats, though the strain of poor living conditions in the awful barracks soon took its toll, driving him to wander the camp in a psychotic haze. Meanwhile, Lidia 'Stench' Schmitt focused on domestic and logistical duties. Fully healed from past injuries, she guided a pack animal to its pen, relocated a stash of silver, and hauled fifty-six steel beams back to the stockpile, securing resources previously left vulnerable to the roaming beasts.",
+  "usage": {
+    "completion_tokens": 139,
+    "prompt_tokens": 1189,
+    "total_tokens": 1328,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "596b371b7121fd9ebfc0"
+}

@@ -1,0 +1,12 @@
+{
+  "text": "```json\n{\"colonist\": \"Lidia 'Stench' Schmitt\", \"line\": \"[N], that grizzly I mentioned having the fifty-six steel beams stashed from is standing right outside now.\", \"reported\": \"Lidia 'Stench' Schmitt said that the grizzly she mentioned having the fifty-six steel beams stashed from is standing right outside now.\", \"reply\": \"Well, don't go trying to burn it, Lidia!\"}\n```",
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 620,
+    "total_tokens": 716,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "cabb494e9efcedf3c404"
+}

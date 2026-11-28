@@ -91,7 +91,20 @@ def variants_for(similarity_mode):
     return VARIANTS + (INDEX_VARIANTS if similarity_mode == "index" else ())
 
 
-def select_pairs(variant, M, n_pairs, S_ee=None, cap=2, lam=0.7, S_ee_index=None):
+def select_random(M, n_pairs, seed=42):
+    """
+    Control: n_pairs pairs of a random reference line and a random candidate event (each event
+    at most once; only events with a finite distance, i.e. candidates). Ignores similarity, so
+    it shows how much of a pool's redundancy comes from how the pool is built.
+    """
+    rng = np.random.default_rng(seed)
+    n_d = M.shape[0]
+    cand = np.flatnonzero(np.isfinite(M).any(axis=0))
+    events = rng.permutation(cand)[:n_pairs]
+    return [{"d": int(rng.integers(n_d)), "e": int(e), "ncd": float("nan")} for e in events]
+
+
+def select_pairs(variant, M, n_pairs, S_ee=None, cap=2, lam=0.7, S_ee_index=None, seed=42):
     if variant == "nearest":
         return select_nearest(M, n_pairs)
     if variant == "cap":
@@ -100,6 +113,8 @@ def select_pairs(variant, M, n_pairs, S_ee=None, cap=2, lam=0.7, S_ee_index=None
         return select_mmr(M, S_ee, n_pairs, lam=lam)
     if variant == "cap+mmr":
         return select_mmr(M, S_ee, n_pairs, lam=lam, cap=cap)
+    if variant == "random":
+        return select_random(M, n_pairs, seed=seed)
     if variant in INDEX_VARIANTS:
         if S_ee_index is None:
             raise ValueError(f"{variant} needs the event-indexing event x event similarity")

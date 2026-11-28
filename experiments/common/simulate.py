@@ -10,13 +10,17 @@ from experiments.common.pool import (cc_pair_request, compose_pool, merge_pool,
 
 
 def build_pool(ctx, share, total=12, variant="nearest", seed=42, masked=False,
-               cap=2, lam=0.7, ac_params=None):
+               cap=2, lam=0.7, ac_params=None, cc_seed=None):
+    """
+    cc_seed: random seed for the `random` CC variant (the control); defaults to `seed`.
+    """
     total, quota = pipeline_targets(total, share)
     n_pairs = cc_pair_request(quota)
     M = ctx.M_masked if masked else ctx.M
 
     S_ix = ctx.S_ee_index if variant in cc.INDEX_VARIANTS else None
-    pairs = cc.select_pairs(variant, M, n_pairs, S_ee=ctx.S_ee, cap=cap, lam=lam, S_ee_index=S_ix) if n_pairs else []
+    pairs = cc.select_pairs(variant, M, n_pairs, S_ee=ctx.S_ee, cap=cap, lam=lam, S_ee_index=S_ix,
+                            seed=seed if cc_seed is None else cc_seed) if n_pairs else []
     pair_lines = ctx.pair_lines(pairs)
 
     ac = run_ac(ctx.events, total, seed, ac_params)

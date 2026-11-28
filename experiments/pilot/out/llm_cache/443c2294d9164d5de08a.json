@@ -1,0 +1,12 @@
+{
+  "text": "Tensions frayed within the colony as the bitter realities of frontier life set in. Driven to a psychotic break by the squalid, awful conditions of the barracks, the aging civil servant Dillon Boyd began wandering in a daze. Meanwhile, the psychological strain bled into interpersonal conflicts; Odette O’Neill’s frayed nerves culminated in a verbal tirade against the young hunter Lidia 'Stench' Schmitt. \n\nThe heated exchange quickly escalated to physical blows. Odette lashed out at Lidia, sparking a chaotic and clumsy brawl between the two friends. Despite throwing punches, both combatants repeatedly stumbled and hesitated, missing their marks in the disorganized scuffle. Amidst the internal turmoil, routine survival persisted: Lidia secured livestock, hauled silver supplies, and finally returned to hunting once her wounds fully healed.",
+  "usage": {
+    "completion_tokens": 163,
+    "prompt_tokens": 950,
+    "total_tokens": 1113,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "443c2294d9164d5de08a"
+}

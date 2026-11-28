@@ -1,0 +1,12 @@
+{
+  "text": "```json\n{\"colonist\": \"Odette O'Neill\", \"line\": \"[N], remember when you said a grizzly at camp's edge was trouble? Well, there's a grizzly bear standing right out there now.\", \"reported\": \"Odette O'Neill reminded Boyd that she had said a grizzly at camp's edge was trouble, noting that a grizzly bear was standing there now.\", \"reply\": \"Get the weapons ready!\"}\n```",
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 621,
+    "total_tokens": 716,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "model": "gemini-3.5-flash-lite",
+  "mode": "narrative",
+  "key": "4393297051ad64dfa826"
+}
